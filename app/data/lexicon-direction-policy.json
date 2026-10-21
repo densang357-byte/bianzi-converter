@@ -1,0 +1,1800 @@
+{
+  "format_version": 1,
+  "reference_url": "https://ytenx.org/byohlyuk/KienxPyan",
+  "scope": "simplified_headword_to_traditional",
+  "characters": {
+    "画": {
+      "targets": [
+        "畫"
+      ],
+      "default": "畫",
+      "note": "來源字頭画只轉畫；繪畫動詞也用畫。"
+    },
+    "划": {
+      "targets": [
+        "劃",
+        "划"
+      ],
+      "default_by_pos": {
+        "v": "劃"
+      },
+      "note": "完整單字划/v按所在分句：有槳、船、湖、海、江、河任一字則划，其餘劃；不跨逗號、分號等分句讀取提示。",
+      "prefer_pos_over_phrases": true,
+      "clause_context": {
+        "v": {
+          "contains": [
+            "桨",
+            "槳",
+            "船",
+            "湖",
+            "海",
+            "江",
+            "河"
+          ],
+          "target": "划",
+          "otherwise": "劃",
+          "separators": "，,、；;：:。！？!?\n"
+        }
+      }
+    },
+    "系": {
+      "default": "係",
+      "default_by_pos": {
+        "v": "係",
+        "n": "系"
+      },
+      "note": "使用者指定：系/n未辨明時默認系，包含森林系等詞內未辨明字；關係等已明確整詞義仍用係。系/v等既有規則保留。",
+      "within_token_defaults_by_pos": {
+        "n": "系"
+      }
+    },
+    "采": {
+      "default_by_pos": {
+        "v": "採",
+        "n": "采"
+      },
+      "note": "動詞單字默認採；不改專名及固定詞。"
+    },
+    "考": {
+      "default": "攷",
+      "default_by_pos": {
+        "v": "攷",
+        "n": "攷",
+        "a": "攷"
+      },
+      "note": "除已核父親、高壽、延長、落成始祭、終等義保留考外，其餘默認攷；依 r9 更正政策，不再將皇考、考妣轉攷。",
+      "default_for_all_pos": "攷",
+      "exceptions": {
+        "壽考": "壽考",
+        "寿考": "壽考",
+        "考終": "考終",
+        "考终": "考終",
+        "考折": "考折",
+        "考旦": "考旦",
+        "先考": "先考",
+        "皇考": "皇考",
+        "顯考": "顯考",
+        "显考": "顯考",
+        "祖考": "祖考",
+        "考妣": "考妣",
+        "考亭": "考亭"
+      }
+    },
+    "铲": {
+      "default_by_pos": {
+        "n": "鏟",
+        "v": "剷"
+      },
+      "branch_pos": {
+        "鏟": [
+          "noun"
+        ],
+        "剷": [
+          "verb"
+        ]
+      },
+      "note": "本方案名詞器具用鏟；動詞用剷，原書兼用另存。"
+    },
+    "签": {
+      "default_by_pos": {
+        "v": "簽"
+      },
+      "note": "使用者指定：未辨明時默認簽；完整動詞內未獲整詞義證據的签亦用簽。抽籤、竹籤等已明確整詞義仍保留籤。",
+      "default": "簽",
+      "default_for_all_pos": "簽",
+      "within_token_defaults_by_pos": {
+        "v": "簽"
+      }
+    },
+    "斗": {
+      "default_by_pos": {
+        "v": "鬥",
+        "n": "斗",
+        "q": "斗"
+      },
+      "note": "使用者指定：動詞斗/v及合寫動詞內未判明的斗默認鬥；比鬥等競較事件的名詞用法亦作鬥。已明確的容量、器物、星名、術語及專名保留斗，原生 n 不一概當作容量義。",
+      "prefer_pos_over_phrases": true,
+      "strict_by_pos": {
+        "v": "鬥"
+      },
+      "within_token_defaults_by_pos": {
+        "v": "鬥",
+        "n": "斗"
+      }
+    },
+    "借": {
+      "targets": [
+        "借"
+      ],
+      "default": "借",
+      "s2t_identity": true,
+      "note": "使用者指定：簡轉繁的來源字借一律保留借，包含整詞及詞性詞庫；原有藉、像不受此規則改寫。"
+    },
+    "象": {
+      "targets": [
+        "象"
+      ],
+      "default": "象",
+      "s2t_identity": true,
+      "note": "使用者指定：簡轉繁的來源字象一律保留象，包含整詞及詞性詞庫；原有藉、像不受此規則改寫。"
+    },
+    "注": {
+      "targets": [
+        "注"
+      ],
+      "default": "注",
+      "default_for_all_pos": "注",
+      "note": "使用者指定：注／註在默認方案一律用注，包括整詞；註定不再是自動輸出或候選。"
+    },
+    "制": {
+      "default_by_pos": {
+        "v": "製",
+        "n": "制"
+      },
+      "prefer_pos_over_phrases": true,
+      "note": "使用者指定：動詞制/v默認製；普通名詞制/n默認制。已明確的控制、限制、禁制、制定等制義優先於動詞兜底；不把所有含制的動詞整詞逐字改爲製。"
+    },
+    "游": {
+      "default_by_pos": {
+        "v": "游",
+        "nh": "游"
+      },
+      "prefer_pos_over_phrases": true,
+      "note": "使用者指定：單字游/v默認游；實際nh人名中来源游保留游，如游振隆；旅遊等完整一般詞依詞義。",
+      "within_token_by_pos": {
+        "nh": "游"
+      }
+    },
+    "僵": {
+      "default": "僵",
+      "default_for_all_pos": "僵",
+      "prefer_pos_over_phrases": true,
+      "note": "使用者指定：完整單字僵所有實際詞性默認僵；不推廣爲殭屍等完整詞一律改寫。"
+    },
+    "径": {
+      "targets": [
+        "徑"
+      ],
+      "default": "徑",
+      "note": "使用者指定：本方案底層將逕／徑合併爲徑；不再保留重複自動候選或風險。"
+    },
+    "里": {
+      "default_by_pos": {
+        "m": "里",
+        "q": "里",
+        "nl": "裏",
+        "nd": "裏",
+        "nh": "里"
+      },
+      "prefer_pos_over_phrases": true,
+      "note": "里/q與距離數量詞用里；nh人名內的里保留里；nd、nl內部義用裏，已確認地名優先。",
+      "within_token_by_pos": {
+        "nl": "裏",
+        "nd": "裏",
+        "nh": "里"
+      }
+    },
+    "干": {
+      "default_by_pos": {
+        "v": "幹",
+        "n": "幹"
+      },
+      "note": "單字干/v、干/n默認幹；飲酒語境另用乾，已確認整詞乾燥義仍依整詞。"
+    },
+    "须": {
+      "default": "須",
+      "default_by_pos": {
+        "n": "鬚"
+      },
+      "prefer_pos_over_phrases": true,
+      "note": "使用者指定：完整單字须/n默認鬚；必須、須知等完整詞仍依詞義。",
+      "within_token_defaults_by_pos": {
+        "n": "鬚"
+      }
+    },
+    "松": {
+      "default": "松",
+      "default_by_pos": {
+        "n": "松",
+        "a": "鬆",
+        "z": "鬆"
+      },
+      "prefer_pos_over_phrases": true,
+      "within_token_defaults_by_pos": {
+        "a": "鬆",
+        "z": "鬆"
+      },
+      "note": "使用者指定：松/n默認松，a及z鬆軟狀態默認鬆；完整狀態詞內亦適用，已明確松樹詞義保留。"
+    },
+    "刮": {
+      "default": "刮",
+      "default_for_all_pos": "刮",
+      "prefer_pos_over_phrases": true,
+      "note": "使用者指定：完整單字刮未判明時默認刮，人工默認優先於單字詞頻；其他完整詞仍按詞義。"
+    },
+    "吁": {
+      "default": "吁",
+      "default_for_all_pos": "吁",
+      "prefer_pos_over_phrases": true,
+      "note": "使用者指定：完整單字吁未判明時默認吁，人工默認優先於單字詞頻；其他完整詞仍按詞義。"
+    },
+    "幸": {
+      "default": "幸",
+      "default_for_all_pos": "幸",
+      "prefer_pos_over_phrases": true,
+      "note": "使用者指定：完整單字幸未判明時默認幸，人工默認優先於單字詞頻；其他完整詞仍按詞義。"
+    },
+    "并": {
+      "default_by_pos": {
+        "c": "並"
+      },
+      "prefer_pos_over_phrases": true,
+      "note": "使用者指定：并/c連詞默認並，不能按合併動詞選併。"
+    },
+    "卷": {
+      "default_by_pos": {
+        "z": "捲"
+      },
+      "prefer_pos_over_phrases": true,
+      "within_token_by_pos": {
+        "z": "捲"
+      },
+      "note": "使用者指定：卷/z狀態詞用捲，包含捲捲的；書卷及量詞不因此改寫。"
+    },
+    "周": {
+      "default_by_pos": {
+        "v": "周"
+      },
+      "within_token_defaults_by_pos": {
+        "v": "周"
+      },
+      "note": "使用者指定：周/v及動詞內未辨明的周默認周；週末等已辨明週期詞義保留。"
+    },
+    "广": {
+      "targets": [
+        "廣"
+      ],
+      "default": "廣",
+      "fixed_s2t_target": "廣",
+      "note": "使用者指定：來源广一律轉廣，不再保留其他自動義項、詞性分支或風險。"
+    },
+    "余": {
+      "default_by_pos": {
+        "v": "餘",
+        "n": "餘",
+        "nh": "余"
+      },
+      "note": "余/v、余/n默認餘；完整單字余/nh保留姓氏余，余/r保留第一人稱。明確數量餘數及已核整詞另優先。",
+      "prefer_pos_over_phrases": true,
+      "within_token_defaults_by_pos": {
+        "v": "餘",
+        "n": "餘"
+      }
+    },
+    "复": {
+      "default_by_pos": {
+        "v": "復"
+      },
+      "note": "動詞复/v默認復；恢復原姓用復姓，名詞複姓另行分義。",
+      "prefer_pos_over_phrases": true,
+      "within_token_defaults_by_pos": {
+        "v": "復"
+      }
+    },
+    "后": {
+      "default_by_pos": {
+        "n": "后",
+        "nd": "後"
+      },
+      "note": "后/nd方位或時間義用後；后/n未辨明保留后，完整帝后稱謂及已核語境優先。"
+    },
+    "于": {
+      "default_by_pos": {
+        "nh": "于"
+      },
+      "note": "nh人名內的于保留于；介詞于/p另用於。",
+      "prefer_pos_over_phrases": true,
+      "within_token_by_pos": {
+        "nh": "于"
+      }
+    },
+    "发": {
+      "default_by_pos": {
+        "n": "髮",
+        "v": "發"
+      },
+      "note": "單字发/n用髮、发/v用發；完整詞按詞義，不以單字詞頻蓋過名詞分化。",
+      "prefer_pos_over_phrases": true
+    },
+    "冲": {
+      "default_by_pos": {
+        "a": "沖"
+      },
+      "note": "形容詞冲/a用沖，表示沖和淡泊；完整詞仍按詞義。",
+      "prefer_pos_over_phrases": true,
+      "within_token_defaults_by_pos": {
+        "a": "沖"
+      }
+    },
+    "只": {
+      "default_by_pos": {
+        "m": "只"
+      },
+      "note": "使用者指定单字只/m保留只；完整重疊量詞一只只/m用一隻隻。",
+      "prefer_pos_over_phrases": true
+    },
+    "几": {
+      "targets": [
+        "几",
+        "幾"
+      ],
+      "default_by_pos": {
+        "n": "几"
+      },
+      "note": "几/n作几案用几；幾/m等數量義及明確整詞分開。"
+    },
+    "钟": {
+      "targets": [
+        "鐘",
+        "鍾"
+      ],
+      "default_by_pos": {
+        "nh": "鍾",
+        "n": "鐘"
+      },
+      "note": "普通名詞钟/n及未由整詞確定的名詞內钟常規用鐘；姓名nh單字作姓用鍾。完整詞義、容量量詞及既有專名判斷優先，不為罕見同形姓名提高普通名詞選鍾的門檻。",
+      "prefer_pos_over_phrases_by_pos": {
+        "nh": true
+      },
+      "within_token_defaults_by_pos": {
+        "n": "鐘"
+      }
+    },
+    "哩": {
+      "targets": [
+        "哩"
+      ],
+      "s2t_identity": true,
+      "default": "哩",
+      "note": "不作自動簡繁轉換候選；來源已有這四字時原字保留，不刪正文。"
+    },
+    "覆": {
+      "targets": [
+        "覆"
+      ],
+      "s2t_identity": true,
+      "default": "覆",
+      "note": "不作自動簡繁轉換候選；來源已有這四字時原字保留，不刪正文。"
+    },
+    "榦": {
+      "targets": [
+        "榦"
+      ],
+      "s2t_identity": true,
+      "default": "榦",
+      "note": "不作自動簡繁轉換候選；來源已有這四字時原字保留，不刪正文。"
+    },
+    "澂": {
+      "targets": [
+        "澂"
+      ],
+      "s2t_identity": true,
+      "default": "澂",
+      "note": "不作自動簡繁轉換候選；來源已有這四字時原字保留，不刪正文。"
+    },
+    "抬": {
+      "default": "擡",
+      "note": "使用者指定：一般 tái 義用擡；明示 chī、同笞義保留抬。不是無條件字形合併。",
+      "semantic_policy": "tai-policy-20261018-v2"
+    },
+    "占": {
+      "default": "佔",
+      "targets": [
+        "佔",
+        "占"
+      ],
+      "semantic_policy": "zhan-policy-20261018-v4",
+      "note": "詞網局部語義關係優先：占卜、口占等占義選占；一般據有義用佔；無法裁決時默認佔並列待核風險。"
+    }
+  },
+  "words": {
+    "适才": {
+      "targets": [
+        "適纔"
+      ],
+      "note": "完整時間或副詞用例，按使用者分義取纔。",
+      "cai_policy": "cai-policy-20261018-v4"
+    },
+    "適才": {
+      "targets": [
+        "適纔"
+      ],
+      "note": "完整時間或副詞用例，按使用者分義取纔。",
+      "cai_policy": "cai-policy-20261018-v4"
+    },
+    "计划": {
+      "targets": [
+        "計劃",
+        "計畫"
+      ],
+      "default_by_pos": {
+        "v": "計劃",
+        "n": "計畫"
+      },
+      "branch_pos": {
+        "計劃": [
+          "verb"
+        ],
+        "計畫": [
+          "noun"
+        ]
+      },
+      "note": "完整詞计划依詞性分化；不得推廣成所有划名詞轉畫。"
+    },
+    "下面": {
+      "default_by_pos": {
+        "nd": "下面",
+        "v": "下麪"
+      },
+      "note": "人工按實際 LTP 詞性指定：方位詞 nd 用下面；烹煮麪食的動詞 v 用下麪。其他名詞等標籤不作一律裁決。"
+    },
+    "白面": {
+      "targets": [
+        "白面",
+        "白麪"
+      ],
+      "default_by_pos": {
+        "n": "白面"
+      },
+      "default_only": true,
+      "risk": true,
+      "note": "使用者指定：候選首項白面；同一名詞n仍可有麪食義，保留風險供校對。"
+    },
+    "面皮": {
+      "targets": [
+        "面皮",
+        "麪皮"
+      ],
+      "default_by_pos": {
+        "n": "面皮"
+      },
+      "default_only": true,
+      "risk": true,
+      "note": "使用者指定：候選首項面皮；同一名詞n仍可有麪食義，保留風險供校對。"
+    },
+    "余怒": {
+      "targets": [
+        "餘怒"
+      ],
+      "default_by_pos": {
+        "n": "餘怒"
+      },
+      "note": "使用者指定：余怒/n表示尚餘的怒氣，轉餘怒。"
+    },
+    "自制": {
+      "targets": [
+        "自製",
+        "自制"
+      ],
+      "default_by_pos": {
+        "v": "自製",
+        "n": "自製"
+      },
+      "default_only": true,
+      "risk": true,
+      "note": "使用者指定：同詞性候選自制／自製默認自製，仍保留自我約束義的校對風險。"
+    },
+    "余酒": {
+      "targets": [
+        "餘酒"
+      ],
+      "default_by_pos": {
+        "n": "餘酒"
+      },
+      "prefer_pos_over_phrases": true,
+      "note": "使用者確認完整詞餘酒；按實際原詞與詞性匹配，人工詞義優先，不改原模型標註。"
+    },
+    "须角": {
+      "targets": [
+        "鬚角"
+      ],
+      "default_by_pos": {
+        "n": "鬚角"
+      },
+      "prefer_pos_over_phrases": true,
+      "note": "使用者確認完整詞鬚角；按實際原詞與詞性匹配，人工詞義優先，不改原模型標註。"
+    },
+    "干缩": {
+      "targets": [
+        "乾縮"
+      ],
+      "default_by_pos": {
+        "v": "乾縮",
+        "n": "乾縮",
+        "a": "乾縮"
+      },
+      "prefer_pos_over_phrases": true,
+      "note": "使用者確認完整詞乾縮；按實際原詞與詞性匹配，人工詞義優先，不改原模型標註。"
+    },
+    "干凛": {
+      "targets": [
+        "乾凜"
+      ],
+      "default_by_pos": {
+        "z": "乾凜",
+        "a": "乾凜"
+      },
+      "prefer_pos_over_phrases": true,
+      "note": "使用者確認完整詞乾凜；按實際原詞與詞性匹配，人工詞義優先，不改原模型標註。"
+    },
+    "风台": {
+      "targets": [
+        "風颱"
+      ],
+      "default_by_pos": {
+        "n": "風颱"
+      },
+      "prefer_pos_over_phrases": true,
+      "note": "使用者確認完整詞風颱；按實際原詞與詞性匹配，人工詞義優先，不改原模型標註。"
+    },
+    "小卷毛": {
+      "targets": [
+        "小捲毛"
+      ],
+      "default_by_pos": {
+        "n": "小捲毛"
+      },
+      "prefer_pos_over_phrases": true,
+      "note": "使用者確認完整詞小捲毛；按實際原詞與詞性匹配，人工詞義優先，不改原模型標註。"
+    },
+    "面线": {
+      "targets": [
+        "麪線"
+      ],
+      "default_by_pos": {
+        "n": "麪線"
+      },
+      "prefer_pos_over_phrases": true,
+      "note": "使用者確認完整詞麪線；按實際原詞與詞性匹配，人工詞義優先，不改原模型標註。"
+    },
+    "水泥制": {
+      "targets": [
+        "水泥製"
+      ],
+      "default_by_pos": {
+        "n": "水泥製",
+        "b": "水泥製",
+        "a": "水泥製",
+        "v": "水泥製"
+      },
+      "prefer_pos_over_phrases": true,
+      "note": "使用者確認完整詞水泥製；按實際原詞與詞性匹配，人工詞義優先，不改原模型標註。"
+    },
+    "朱西宁": {
+      "targets": [
+        "朱西甯"
+      ],
+      "default_by_pos": {
+        "nh": "朱西甯"
+      },
+      "prefer_pos_over_phrases": true,
+      "note": "使用者确认作家專名朱西甯；完整朱西宁/nh匹配，不把所有宁人名改爲甯。"
+    },
+    "锁链": {
+      "targets": [
+        "鎖鍊"
+      ],
+      "default_by_pos": {
+        "n": "鎖鍊"
+      },
+      "prefer_pos_over_phrases": true,
+      "note": "使用者指定鎖鍊義用鍊；本詞是拘鎖或鐵鍊實物，不改一般修煉、冶煉義。"
+    },
+    "锁炼": {
+      "targets": [
+        "鎖鍊"
+      ],
+      "default_by_pos": {
+        "n": "鎖鍊"
+      },
+      "prefer_pos_over_phrases": true,
+      "note": "使用者指定鎖鍊義用鍊；本詞是拘鎖或鐵鍊實物，不改一般修煉、冶煉義。"
+    },
+    "铁链": {
+      "targets": [
+        "鐵鍊"
+      ],
+      "default_by_pos": {
+        "n": "鐵鍊"
+      },
+      "prefer_pos_over_phrases": true,
+      "note": "使用者指定鎖鍊義用鍊；本詞是拘鎖或鐵鍊實物，不改一般修煉、冶煉義。"
+    },
+    "铁炼": {
+      "targets": [
+        "鐵鍊"
+      ],
+      "default_by_pos": {
+        "n": "鐵鍊"
+      },
+      "prefer_pos_over_phrases": true,
+      "note": "使用者指定鎖鍊義用鍊；本詞是拘鎖或鐵鍊實物，不改一般修煉、冶煉義。"
+    },
+    "一只只": {
+      "targets": [
+        "一隻隻"
+      ],
+      "default_by_pos": {
+        "m": "一隻隻"
+      },
+      "note": "r17整詞分義；保留實際模型標籤，未人工改寫標註。"
+    },
+    "鱼干": {
+      "targets": [
+        "魚乾"
+      ],
+      "default_by_pos": {
+        "n": "魚乾"
+      },
+      "note": "r17整詞分義；保留實際模型標籤，未人工改寫標註。"
+    },
+    "鼠须": {
+      "targets": [
+        "鼠鬚"
+      ],
+      "default_by_pos": {
+        "n": "鼠鬚"
+      },
+      "note": "r17整詞分義；保留實際模型標籤，未人工改寫標註。"
+    },
+    "燕尾须": {
+      "targets": [
+        "燕尾鬚"
+      ],
+      "default_by_pos": {
+        "n": "燕尾鬚"
+      },
+      "note": "r17整詞分義；保留實際模型標籤，未人工改寫標註。"
+    },
+    "蓬头散发": {
+      "targets": [
+        "蓬頭散髮"
+      ],
+      "default_by_pos": {
+        "i": "蓬頭散髮",
+        "n": "蓬頭散髮",
+        "v": "蓬頭散髮"
+      },
+      "note": "r17整詞分義；保留實際模型標籤，未人工改寫標註。"
+    },
+    "复姓": {
+      "targets": [
+        "復姓",
+        "複姓"
+      ],
+      "default_by_pos": {
+        "v": "復姓",
+        "n": "複姓"
+      },
+      "note": "恢复原姓的动词复姓/v用復姓；多字姓氏名词复姓/n用複姓。"
+    },
+    "余人": {
+      "targets": [
+        "餘人"
+      ],
+      "default_by_pos": {
+        "n": "餘人"
+      },
+      "note": "r17整詞分義；保留實際模型標籤，未人工改寫標註。"
+    },
+    "余逆": {
+      "targets": [
+        "餘逆"
+      ],
+      "default_by_pos": {
+        "n": "餘逆"
+      },
+      "note": "r17整詞分義；保留實際模型標籤，未人工改寫標註。"
+    },
+    "余无几": {
+      "targets": [
+        "餘無幾"
+      ],
+      "default_by_pos": {
+        "v": "餘無幾"
+      },
+      "note": "r17整詞分義；保留實際模型標籤，未人工改寫標註。"
+    },
+    "达里麻": {
+      "targets": [
+        "達里麻"
+      ],
+      "default_by_pos": {
+        "nh": "達里麻",
+        "ns": "達里麻",
+        "n": "達里麻"
+      },
+      "note": "r17整詞分義；保留實際模型標籤，未人工改寫標註。"
+    },
+    "于八": {
+      "targets": [
+        "于八"
+      ],
+      "default_by_pos": {
+        "nh": "于八"
+      },
+      "note": "r17整詞分義；保留實際模型標籤，未人工改寫標註。"
+    },
+    "假须": {
+      "targets": [
+        "假鬚"
+      ],
+      "default_by_pos": {
+        "n": "假鬚",
+        "a": "假鬚"
+      },
+      "note": "r17整詞分義；保留實際模型標籤，未人工改寫標註。"
+    },
+    "將才": {
+      "targets": [
+        "將才",
+        "將纔"
+      ],
+      "default_by_pos": {
+        "n": "將才",
+        "d": "將纔",
+        "c": "將纔",
+        "nt": "將纔"
+      },
+      "targets_by_pos": {
+        "n": [
+          "將才"
+        ],
+        "d": [
+          "將纔"
+        ],
+        "c": [
+          "將纔"
+        ],
+        "nt": [
+          "將纔"
+        ]
+      },
+      "note": "整詞爲名詞或姓名時只取「將才」；副詞及副詞加動詞讀法取「將纔」。以實際詞性和局部句法分義，不跨詞界造候選。",
+      "cai_policy": "cai-policy-20261018-v4"
+    },
+    "将才": {
+      "targets": [
+        "將才",
+        "將纔"
+      ],
+      "default_by_pos": {
+        "n": "將才",
+        "d": "將纔",
+        "c": "將纔",
+        "nt": "將纔"
+      },
+      "targets_by_pos": {
+        "n": [
+          "將才"
+        ],
+        "d": [
+          "將纔"
+        ],
+        "c": [
+          "將纔"
+        ],
+        "nt": [
+          "將纔"
+        ]
+      },
+      "note": "整詞爲名詞或姓名時只取「將才」；副詞及副詞加動詞讀法取「將纔」。以實際詞性和局部句法分義，不跨詞界造候選。",
+      "cai_policy": "cai-policy-20261018-v4"
+    },
+    "才会": {
+      "targets": [
+        "才會"
+      ],
+      "default_for_all_pos": "才會",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "才會": {
+      "targets": [
+        "才會"
+      ],
+      "default_for_all_pos": "才會",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "才分": {
+      "targets": [
+        "才分"
+      ],
+      "default_for_all_pos": "才分",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "才学": {
+      "targets": [
+        "才學"
+      ],
+      "default_for_all_pos": "才學",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "才學": {
+      "targets": [
+        "才學"
+      ],
+      "default_for_all_pos": "才學",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "才守": {
+      "targets": [
+        "才守"
+      ],
+      "default_for_all_pos": "才守",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "才定": {
+      "targets": [
+        "才定"
+      ],
+      "default_for_all_pos": "才定",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "才干": {
+      "targets": [
+        "才幹"
+      ],
+      "default_for_all_pos": "才幹",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "才幹": {
+      "targets": [
+        "才幹"
+      ],
+      "default_for_all_pos": "才幹",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "才思": {
+      "targets": [
+        "才思"
+      ],
+      "default_for_all_pos": "才思",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "才悟": {
+      "targets": [
+        "才悟"
+      ],
+      "default_for_all_pos": "才悟",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "才望": {
+      "targets": [
+        "才望"
+      ],
+      "default_for_all_pos": "才望",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "才用": {
+      "targets": [
+        "才用"
+      ],
+      "default_for_all_pos": "才用",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "才略": {
+      "targets": [
+        "才略"
+      ],
+      "default_for_all_pos": "才略",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "才能": {
+      "targets": [
+        "才能"
+      ],
+      "default_for_all_pos": "才能",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "才行": {
+      "targets": [
+        "才行"
+      ],
+      "default_for_all_pos": "才行",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "才識": {
+      "targets": [
+        "才識"
+      ],
+      "default_for_all_pos": "才識",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "才识": {
+      "targets": [
+        "才識"
+      ],
+      "default_for_all_pos": "才識",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "才语": {
+      "targets": [
+        "才語"
+      ],
+      "default_for_all_pos": "才語",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "才語": {
+      "targets": [
+        "才語"
+      ],
+      "default_for_all_pos": "才語",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "才料": {
+      "targets": [
+        "才料"
+      ],
+      "default_for_all_pos": "才料",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "人才": {
+      "targets": [
+        "人才"
+      ],
+      "default_for_all_pos": "人才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "天才": {
+      "targets": [
+        "天才"
+      ],
+      "default_for_all_pos": "天才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "奇才": {
+      "targets": [
+        "奇才"
+      ],
+      "default_for_all_pos": "奇才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "鬼才": {
+      "targets": [
+        "鬼才"
+      ],
+      "default_for_all_pos": "鬼才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "不才": {
+      "targets": [
+        "不才"
+      ],
+      "default_for_all_pos": "不才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "有才": {
+      "targets": [
+        "有才"
+      ],
+      "default_for_all_pos": "有才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "多才": {
+      "targets": [
+        "多才"
+      ],
+      "default_for_all_pos": "多才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "大才": {
+      "targets": [
+        "大才"
+      ],
+      "default_for_all_pos": "大才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "高才": {
+      "targets": [
+        "高才"
+      ],
+      "default_for_all_pos": "高才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "下才": {
+      "targets": [
+        "下才"
+      ],
+      "default_for_all_pos": "下才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "中才": {
+      "targets": [
+        "中才"
+      ],
+      "default_for_all_pos": "中才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "身才": {
+      "targets": [
+        "身才"
+      ],
+      "default_for_all_pos": "身才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "长才": {
+      "targets": [
+        "長才"
+      ],
+      "default_for_all_pos": "長才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "長才": {
+      "targets": [
+        "長才"
+      ],
+      "default_for_all_pos": "長才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "口才": {
+      "targets": [
+        "口才"
+      ],
+      "default_for_all_pos": "口才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "識才": {
+      "targets": [
+        "識才"
+      ],
+      "default_for_all_pos": "識才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "识才": {
+      "targets": [
+        "識才"
+      ],
+      "default_for_all_pos": "識才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "实才": {
+      "targets": [
+        "實才"
+      ],
+      "default_for_all_pos": "實才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "實才": {
+      "targets": [
+        "實才"
+      ],
+      "default_for_all_pos": "實才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "外才": {
+      "targets": [
+        "外才"
+      ],
+      "default_for_all_pos": "外才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "仙才": {
+      "targets": [
+        "仙才"
+      ],
+      "default_for_all_pos": "仙才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "德才": {
+      "targets": [
+        "德才"
+      ],
+      "default_for_all_pos": "德才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "杀才": {
+      "targets": [
+        "殺才"
+      ],
+      "default_for_all_pos": "殺才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "殺才": {
+      "targets": [
+        "殺才"
+      ],
+      "default_for_all_pos": "殺才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "凡才": {
+      "targets": [
+        "凡才"
+      ],
+      "default_for_all_pos": "凡才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "絕才": {
+      "targets": [
+        "絕才"
+      ],
+      "default_for_all_pos": "絕才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "绝才": {
+      "targets": [
+        "絕才"
+      ],
+      "default_for_all_pos": "絕才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "非才": {
+      "targets": [
+        "非才"
+      ],
+      "default_for_all_pos": "非才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "比才": {
+      "targets": [
+        "比才"
+      ],
+      "default_for_all_pos": "比才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "负才": {
+      "targets": [
+        "負才"
+      ],
+      "default_for_all_pos": "負才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "負才": {
+      "targets": [
+        "負才"
+      ],
+      "default_for_all_pos": "負才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "取才": {
+      "targets": [
+        "取才"
+      ],
+      "default_for_all_pos": "取才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "妙才": {
+      "targets": [
+        "妙才"
+      ],
+      "default_for_all_pos": "妙才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "求才": {
+      "targets": [
+        "求才"
+      ],
+      "default_for_all_pos": "求才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "霸才": {
+      "targets": [
+        "霸才"
+      ],
+      "default_for_all_pos": "霸才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "狗才": {
+      "targets": [
+        "狗才"
+      ],
+      "default_for_all_pos": "狗才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "露才": {
+      "targets": [
+        "露才"
+      ],
+      "default_for_all_pos": "露才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "憐才": {
+      "targets": [
+        "憐才"
+      ],
+      "default_for_all_pos": "憐才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "怜才": {
+      "targets": [
+        "憐才"
+      ],
+      "default_for_all_pos": "憐才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "爱才": {
+      "targets": [
+        "愛才"
+      ],
+      "default_for_all_pos": "愛才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "愛才": {
+      "targets": [
+        "愛才"
+      ],
+      "default_for_all_pos": "愛才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    }
+  },
+  "excluded_phrases": {
+    "斗数": "取消會把斗/v＋數/m誤當整詞的保護規則；真正紫微斗數整詞仍按其分詞保留。",
+    "干的": "干/v＋的/u等可組合片段不能保護爲乾的；按原分詞、詞性選字。",
+    "周转": "移除會把動詞周轉誤保護爲週轉的普通詞組候選，改按詞內周/v默認。",
+    "干得很": "片段不能保護成乾，讓實際干/v及干/a優先選字。"
+  },
+  "context_rules": {
+    "regional_noodles": {
+      "enabled": true,
+      "previous_pos": "ns",
+      "source": "面",
+      "pos": "n",
+      "target": "麪",
+      "risk": true,
+      "note": "使用者指定：直接相鄰的ns地名＋單字面/n默認麪；保留面／麪風險，不跨標點或介詞。"
+    },
+    "one_character_exclamation": {
+      "source": "干",
+      "target": "幹",
+      "risk": true,
+      "note": "分句開頭只有單字干再接感嘆號時默認幹，保留原實際詞性並列風險。"
+    },
+    "manufactured_attribute": {
+      "enabled": true,
+      "pos": "v",
+      "suffix": "制",
+      "following": "的",
+      "target": "製",
+      "material_prefixes": [
+        "蜡",
+        "蠟",
+        "木",
+        "竹",
+        "纸",
+        "紙",
+        "水泥",
+        "石",
+        "铜",
+        "銅",
+        "铁",
+        "鐵",
+        "钢",
+        "鋼",
+        "塑料",
+        "塑膠",
+        "玻璃",
+        "金",
+        "银",
+        "銀",
+        "陶",
+        "瓷",
+        "布",
+        "皮",
+        "革",
+        "牛皮",
+        "羊皮",
+        "猪皮",
+        "豬皮",
+        "黄绸",
+        "黃綢",
+        "丝绸",
+        "絲綢"
+      ],
+      "note": "限定材料名詞n＋制/v＋的（或材料名詞＋所制/v）的製作語境用製；控制、限制等保留。"
+    },
+    "chained_restraint": {
+      "enabled": true,
+      "source": "炼",
+      "target": "鍊",
+      "pos": "v",
+      "left_frame": "像／如……狗……或明確鐵鍊、鎖鍊語境",
+      "following_actions": [
+        "起来",
+        "起來",
+        "住",
+        "上"
+      ],
+      "note": "使用者确认鎖鍊拘束義用鍊；動作煉起來／煉住／煉上有如狗被拘鎖或明確鍊條的語境時選鍊，保留原v標註。"
+    },
+    "drinking_gan": {
+      "enabled": true,
+      "pos": "v",
+      "source": "干",
+      "target": "乾",
+      "same_sentence_cues": [
+        "杯",
+        "酒",
+        "斟",
+        "饮",
+        "飲"
+      ],
+      "neighbor_sentence_pairs": [
+        "一饮而尽",
+        "一飲而盡",
+        "举杯",
+        "舉杯",
+        "端杯",
+        "斟酒",
+        "喝酒",
+        "饮酒",
+        "飲酒"
+      ],
+      "note": "只在舉杯、斟酒、一口飲盡等局部動作，或明確乾幾杯／相鄰飲酒動作時用乾；酒店、幹事、幹麼、辱罵不由酒字觸發。保留實際詞性。",
+      "qualified_actions": true
+    },
+    "reviewed_semantics": {
+      "enabled": true,
+      "revision": "r18",
+      "phrases": [
+        {
+          "source": "桃干仙",
+          "target": "桃幹仙",
+          "reason": "桃谷六仙人名，干取樹幹義。"
+        },
+        {
+          "source": "云殊",
+          "target": "雲殊",
+          "reason": "已核人物專名，非說話云。"
+        },
+        {
+          "source": "云万程",
+          "target": "雲萬程",
+          "reason": "已核人物專名。"
+        },
+        {
+          "source": "上官云",
+          "target": "上官雲",
+          "reason": "已核人物專名。"
+        },
+        {
+          "source": "范松",
+          "target": "范松",
+          "reason": "已核范姓人物。"
+        },
+        {
+          "source": "范中立",
+          "target": "范中立",
+          "reason": "已核范姓人物。"
+        },
+        {
+          "source": "于人豪",
+          "target": "于人豪",
+          "reason": "已核于姓人物，非介詞。"
+        },
+        {
+          "source": "于八",
+          "target": "于八",
+          "reason": "已核于姓人物。"
+        },
+        {
+          "source": "钟王",
+          "target": "鍾王",
+          "reason": "鍾姓書家與王姓書家並稱。"
+        },
+        {
+          "source": "人未余",
+          "target": "人未余",
+          "reason": "原文直接解說姓氏余字。"
+        },
+        {
+          "source": "余观主",
+          "target": "余觀主",
+          "reason": "余姓稱謂。"
+        },
+        {
+          "source": "余人彦",
+          "target": "余人彥",
+          "reason": "已核余姓人物。"
+        },
+        {
+          "source": "于嫂",
+          "target": "于嫂",
+          "reason": "已核于姓人物稱謂。"
+        },
+        {
+          "source": "高里津",
+          "target": "高里津",
+          "reason": "已核人物音譯，里非內部方位。"
+        },
+        {
+          "source": "呜里呜",
+          "target": "嗚里嗚",
+          "reason": "擬聲音譯，里非內部方位。"
+        },
+        {
+          "source": "希里呼噜",
+          "target": "希里呼嚕",
+          "reason": "固定擬聲詞。"
+        },
+        {
+          "source": "希里花拉",
+          "target": "希里花拉",
+          "reason": "固定擬聲詞。"
+        },
+        {
+          "source": "里许",
+          "target": "里許",
+          "reason": "里許是約略距離。",
+          "notAfter": [
+            "多"
+          ]
+        },
+        {
+          "source": "道里计",
+          "target": "道里計",
+          "reason": "以道里計的距離義。"
+        },
+        {
+          "source": "干笑",
+          "target": "乾笑",
+          "reason": "勉強發笑的乾笑。"
+        },
+        {
+          "source": "干搁",
+          "target": "乾擱",
+          "reason": "閒置的乾擱。"
+        },
+        {
+          "source": "干饷",
+          "target": "乾餉",
+          "reason": "沒有實職的乾餉。"
+        },
+        {
+          "source": "油尽灯干",
+          "target": "油盡燈乾",
+          "reason": "油、燈耗盡的乾義。"
+        },
+        {
+          "source": "输干",
+          "target": "輸乾",
+          "reason": "賭資輸盡。"
+        },
+        {
+          "source": "骗干",
+          "target": "騙乾",
+          "reason": "銀錢騙盡。"
+        },
+        {
+          "source": "干求",
+          "target": "干求",
+          "reason": "求取義，非做事或乾燥。"
+        },
+        {
+          "source": "制炼",
+          "target": "製煉",
+          "reason": "藥物製作。"
+        },
+        {
+          "source": "剥制",
+          "target": "剝製",
+          "reason": "獸皮等物的製作。",
+          "boundary": true
+        },
+        {
+          "source": "缝制",
+          "target": "縫製",
+          "reason": "衣物縫製。",
+          "boundary": true
+        },
+        {
+          "source": "自制之力",
+          "target": "自制之力",
+          "reason": "自我控制能力，非自我製作。",
+          "boundary": true
+        },
+        {
+          "source": "难以自制",
+          "target": "難以自制",
+          "reason": "難以自我約束的固定用法。",
+          "boundary": true
+        },
+        {
+          "source": "复姓令狐",
+          "target": "複姓令狐",
+          "reason": "自報令狐這個雙字姓，非恢復舊姓。"
+        },
+        {
+          "source": "生发还是有的",
+          "target": "生發還是有的",
+          "reason": "關外差遣的獲利義。"
+        },
+        {
+          "source": "生发热闹",
+          "target": "生發熱鬧",
+          "reason": "活動及獲利義，非長頭髮。"
+        },
+        {
+          "source": "发顶",
+          "target": "髮頂",
+          "reason": "頭髮頂部。",
+          "boundary": true
+        },
+        {
+          "source": "冷口冷面",
+          "target": "冷口冷面",
+          "reason": "冷淡神態，非麪食。"
+        },
+        {
+          "source": "背着日光",
+          "target": "背着日光",
+          "reason": "背向日光，非揹負。"
+        },
+        {
+          "source": "一床一几",
+          "target": "一牀一几",
+          "reason": "床與几案並列。"
+        },
+        {
+          "source": "几椅棋子",
+          "target": "几椅棋子",
+          "reason": "几案、椅及棋子並列。"
+        },
+        {
+          "source": "所有后招",
+          "target": "所有後招",
+          "reason": "招式的後續招數，非帝后。"
+        },
+        {
+          "source": "家后堂",
+          "target": "家后堂",
+          "reason": "本書堂口專名家后堂，后字保留；非時間方位。"
+        },
+        {
+          "source": "排骨大面",
+          "target": "排骨大麪",
+          "reason": "排骨麪食。"
+        },
+        {
+          "source": "饭面",
+          "target": "飯麪",
+          "reason": "飲食飯麪。",
+          "boundary": true
+        },
+        {
+          "source": "辟拍",
+          "target": "辟拍",
+          "reason": "擬聲，非開闢。"
+        },
+        {
+          "source": "熏冶",
+          "target": "熏冶",
+          "reason": "感染陶冶，非煙燻。"
+        },
+        {
+          "source": "子丑之交",
+          "target": "子丑之交",
+          "reason": "地支丑，非醜陋。"
+        },
+        {
+          "source": "铙钹钟铃",
+          "target": "鐃鈸鐘鈴",
+          "reason": "明確樂器鐘鈴。"
+        },
+        {
+          "source": "喝起采",
+          "target": "喝起采",
+          "reason": "喝采叫好，非採摘。"
+        },
+        {
+          "source": "斗上一斗",
+          "target": "鬥上一鬥",
+          "reason": "再較量一番的爭鬥義。"
+        },
+        {
+          "source": "斗酒猜拳",
+          "target": "鬥酒猜拳",
+          "reason": "比飲猜拳，非容量斗。"
+        },
+        {
+          "source": "斗变",
+          "target": "斗變",
+          "reason": "急遽改變的斗，非爭鬥。",
+          "boundary": true
+        },
+        {
+          "source": "端敬后",
+          "target": "端敬后",
+          "reason": "端敬皇后稱謂，非時間方位。"
+        },
+        {
+          "source": "顺治四后",
+          "target": "順治四后",
+          "reason": "順治的四位皇后。"
+        },
+        {
+          "source": "后则奢侈",
+          "target": "后則奢侈",
+          "reason": "上好簡樸與后則奢侈對舉，后是帝后稱謂。"
+        },
+        {
+          "source": "后又不当上旨",
+          "target": "后又不當上旨",
+          "reason": "清史引文以后指皇后，不是時間後。"
+        },
+        {
+          "source": "干冒",
+          "target": "干冒",
+          "reason": "冒犯義；不套入幹冒險等跨詞片段。",
+          "notAfter": [
+            "险",
+            "險"
+          ]
+        },
+        {
+          "source": "亲生母后",
+          "target": "親生母后",
+          "reason": "親生母后的母后稱謂。",
+          "notAfter": [
+            "悔",
+            "来",
+            "來"
+          ]
+        },
+        {
+          "source": "后招",
+          "target": "後招",
+          "reason": "招式的後續招數，非帝后。",
+          "wholeToken": true
+        }
+      ],
+      "note": "來自四書已確認錯例；保留原分詞、原詞性；限完整詞、專名或有明確條件的語境。"
+    }
+  },
+  "protected_names": [
+    "太麻里"
+  ],
+  "cai_policy_version": "cai-policy-20261018-v4"
+}

@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="zh-Hant">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>古籍引文庫 · 辨字</title>
+<style>
+:root{font-family:system-ui,sans-serif;color:#203b34;background:#f5f3ed;line-height:1.65}body{margin:0}main{max-width:1160px;margin:auto;padding:28px 24px 80px}a{color:#276d58}h1{font:500 36px/1.3 Georgia,"Songti TC",serif;margin:25px 0 12px}h2{font-size:20px;margin:32px 0 12px}.lead{max-width:850px;color:#53645d}.counts{display:flex;flex-wrap:wrap;gap:16px;margin:24px 0}.counts div{background:#fff;border:1px solid #deded3;padding:16px 22px;min-width:128px;border-radius:8px}.counts strong{display:block;font-size:28px;font-weight:500}.filters{display:flex;flex-wrap:wrap;gap:10px;margin:24px 0}input,select,button{font:inherit;padding:9px 12px;border:1px solid #b8c7bf;border-radius:5px;background:white;color:inherit}input{flex:1;min-width:200px}button{cursor:pointer;background:#27634f;color:white}button:disabled{opacity:.4;cursor:default}.table{overflow:auto}table{width:100%;border-collapse:collapse;background:#fff}td,th{text-align:left;border-bottom:1px solid #e1e4dc;padding:12px;vertical-align:top}th{font-size:13px;color:#5c6d62;white-space:nowrap}td:first-child{min-width:130px}.quote{font:20px/1.7 Georgia,"Songti TC",serif;min-width:260px;white-space:pre-wrap}.muted{font-size:13px;color:#67776d}.pages{display:flex;align-items:center;gap:16px;margin:20px 0}.error{color:#9c372c}details{font-size:13px}summary{cursor:pointer}code{font-size:11px;overflow-wrap:anywhere}#book-table td{font-size:14px}#recommendations li{margin-bottom:10px}@media(max-width:650px){main{padding:20px 14px}.counts{gap:8px}.counts div{min-width:110px;padding:12px}h1{font-size:29px}}
+</style>
+<main>
+<a id="home" href="/">← 回到簡繁轉換工具</a>
+<h1>古籍引文庫</h1>
+<p class="lead">從傳統字白文中，擷取含一簡多繁辨義字位的引文句段，例如盡／儘、發／髮、里／裏。符合條件即收錄；僅有國／国、學／学等單純字形轉換的句子不收。</p>
+<p class="lead">四字以上、不容易在其他語境誤命中的分句獨立成條，例如「亦悖而出」。不足四字或常見套語才補最少必要語境，不跨分號拼接；家國因果排比每組保留前後兩半。剝離「故曰」「子曰」等引述套語，來源原句與擷取位置另存，一、二字片段不獨立成條。</p>
+<p class="lead">使用時先完成整本書的普通轉換，再掃描全書是否出現這些引文；命中才按原句校正辨義用字。自訂用字仍優先，掃描完成後才產生成品。</p>
+<div id="counts" class="counts"></div>
+
+<form id="filters" class="filters">
+<input id="query" placeholder="搜尋原句、繁體或簡體檢索鍵" aria-label="搜尋引文">
+<select id="book" aria-label="選擇書籍"><option value="">全部書籍</option></select>
+<button>搜尋</button>
+</form>
+<p id="message" role="status" aria-live="polite">讀取引文與來源…</p>
+<div class="table"><table><thead><tr><th>出處</th><th>原稿引文</th><th>辨義字位與來源</th></tr></thead><tbody id="entries"></tbody></table></div>
+<div class="pages"><button id="previous" type="button">上一頁</button><span id="pagination"></span><button id="next" type="button">下一頁</button></div>
+<h2>書目與收錄數</h2>
+<p class="muted">完全相同的同書句段合併顯示，保留全部來源位置。頁數按實際來源計，重定向及轉引頁亦留存；不以「三百首」書名推定篇數。</p>
+<div class="table"><table id="book-table"><thead><tr><th>書籍</th><th>來源頁</th><th>來源白文句段</th><th>已收錄引文</th><th>來源出現</th></tr></thead><tbody></tbody></table></div>
+<h2>建議下一批書目</h2><ul id="recommendations"></ul>
+<p class="muted">來源已作白文分離及機器字形篩查，未經全量人工逐字校勘。原始修訂、SHA-256及篇章位置可追溯。脩身、脩道等通用字形不作辨義收錄理由；束脩等實際義項按局部語境判斷。古籍原作屬公版作品，維基文庫轉錄的歸屬與授權見各項固定修訂連結。</p>
+</main>
+<script>
+'use strict';
+const el=id=>document.getElementById(id),offline=location.protocol==='file:';let currentPage=1,requestSerial=0,initialized=false;
+function cell(parent,text,className){const node=document.createElement('td');node.textContent=text;if(className)node.className=className;parent.append(node);return node;}
+const localData=offline?new Promise((resolve,reject)=>{const script=document.createElement('script');script.src='./classical-quotes-data.js';script.onload=()=>resolve(window.CLASSICAL_QUOTES_SNAPSHOT);script.onerror=()=>reject(Error('無法讀取本機引文資料'));document.head.append(script);}):null;
+if(offline){el('home').href='./index.html';}
+async function readData(params){
+ if(!offline){const response=await fetch('/api/classical-quotes?'+params);if(!response.ok)throw Error('無法讀取引文庫');return response.json();}
+ const data=await localData,query=params.get('query'),book=params.get('book'),page=Number(params.get('page')),size=40;
+ // Original spelling and the simplified search key are both searchable offline.
+ const rows=data.rows.filter(r=>(!book||r[1]===book)&&(!query||r[2].includes(query)||r[3].includes(query)));
+ return {...data,total:rows.length,page,pageSize:size,entries:rows.slice((page-1)*size,page*size).map(r=>({id:r[0],book:r[1],bookTitle:data.books.find(b=>b.id===r[1]).title,
+  quote:r[2],source:r[3],semanticPositions:r[4],matchingLimit:r[6],selectionReason:r[7],evidence:r[5].map(e=>({page:e[0],revisionId:e[1],sourceSha256:e[2],url:e[3],section:e[4],block:e[5],sentence:e[6],rawLineStart:e[7],quoteStart:e[9],quoteEnd:e[10],original:e[11]}))}))};
+}
+async function load(){
+ const serial=++requestSerial,params=new URLSearchParams({query:el('query').value,book:el('book').value,page:currentPage});
+ el('message').className='';el('message').textContent='讀取引文與來源…';
+ try{
+  const data=await readData(params);if(serial!==requestSerial)return;
+  if(!initialized){
+   initialized=true;
+   for(const [label,n]of [['已收錄引文',data.summary.totals.quotes],['來源出現記錄',data.summary.totals.occurrences],['書目',data.summary.totals.books],['來源問題另列',data.summary.totals.sourceProblemRecords]]){
+    const d=document.createElement('div'),strong=document.createElement('strong');strong.textContent=n.toLocaleString();d.append(strong,document.createTextNode(label));el('counts').append(d);
+   }
+   for(const book of data.books){const option=document.createElement('option');option.value=book.id;option.textContent=book.title;el('book').append(option);}
+   for(const b of data.summary.books){const tr=document.createElement('tr');for(const v of [b.title,b.pages,b.admittedUnits||0,b.quotes,b.occurrences])cell(tr,Number.isInteger(v)?v.toLocaleString():v);el('book-table').tBodies[0].append(tr);}
+   for(const item of data.recommendations){const li=document.createElement('li');li.textContent=item.title+'：'+item.reason;el('recommendations').append(li);}
+  }
+  el('entries').replaceChildren();
+  for(const entry of data.entries){
+   const tr=document.createElement('tr');cell(tr,entry.bookTitle+'\n'+(entry.evidence[0].section||''));cell(tr,entry.quote,'quote');
+   const last=cell(tr,[...new Set(entry.semanticPositions.map(p=>p.character+'（'+p.targets.join('／')+(p.sense?'；'+p.sense:'')+'）'))].join('、')||(entry.selectionReason==='user-requested-source-span'?'使用者指定保留；本句無辨義字位':''));
+   const details=document.createElement('details'),summary=document.createElement('summary');summary.textContent='檢索鍵與來源（'+entry.evidence.length+'）';details.append(summary);
+   const scope=document.createElement('p');scope.textContent='簡體檢索鍵：'+entry.source;details.append(scope);
+   for(const source of entry.evidence){const p=document.createElement('p'),a=document.createElement('a');a.href=source.url;a.target='_blank';a.rel='noopener';a.textContent=source.page+' · 修訂 '+source.revisionId;
+    const code=document.createElement('code');code.textContent=source.sourceSha256;p.append(a,document.createElement('br'),document.createTextNode('白文段 '+source.block+'／句 '+source.sentence+' · 原始行 '+source.rawLineStart+' · SHA-256 '),code);if(source.original){const context=document.createElement('p');context.className='muted';context.textContent='來源原句：'+source.original;p.append(context);}details.append(p);}
+   last.append(details);el('entries').append(tr);
+  }
+  const pageCount=Math.max(1,Math.ceil(data.total/data.pageSize));el('message').textContent=data.total.toLocaleString()+' 條已收錄引文';
+  el('pagination').textContent=currentPage+' / '+pageCount;el('previous').disabled=currentPage<=1;el('next').disabled=currentPage>=pageCount;
+ }catch(error){if(serial!==requestSerial)return;el('message').className='error';el('message').textContent=error.message;}
+}
+el('filters').addEventListener('submit',e=>{e.preventDefault();currentPage=1;load();});el('book').addEventListener('change',()=>{currentPage=1;load();});
+el('previous').addEventListener('click',()=>{currentPage--;load();});el('next').addEventListener('click',()=>{currentPage++;load();});load();
+</script>
+</html>

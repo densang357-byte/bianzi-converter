@@ -1,0 +1,640 @@
+[
+  {
+    "source": "唯才是举",
+    "target": "唯才是舉",
+    "reason": "固定成語，才指才能。"
+  },
+  {
+    "source": "唯才是用",
+    "target": "唯才是用",
+    "reason": "固定用語，才指才能。"
+  },
+  {
+    "source": "任人唯才",
+    "target": "任人唯才",
+    "reason": "任用人才，才指才能。"
+  },
+  {
+    "source": "干系",
+    "target": "干係",
+    "reason": "牽涉、關係義，並非幹活。"
+  },
+  {
+    "source": "干冒",
+    "target": "干冒",
+    "reason": "干犯、冒犯義；不擅改原文為敢冒。",
+    "notAfter": [
+      "险",
+      "險"
+    ]
+  },
+  {
+    "source": "不干紧要",
+    "target": "不干緊要",
+    "reason": "干指牽涉、相關。"
+  },
+  {
+    "source": "挽须",
+    "target": "挽鬚",
+    "reason": "撫弄鬍鬚。"
+  },
+  {
+    "source": "拈须",
+    "target": "拈鬚",
+    "reason": "撫弄鬍鬚。"
+  },
+  {
+    "source": "捋须",
+    "target": "捋鬚",
+    "reason": "撫弄鬍鬚。"
+  },
+  {
+    "source": "抚须",
+    "target": "撫鬚",
+    "reason": "撫弄鬍鬚。"
+  },
+  {
+    "source": "出故障",
+    "target": "出故障",
+    "reason": "發生故障，出為動詞。"
+  },
+  {
+    "source": "喂下",
+    "target": "餵下",
+    "reason": "餵服、餵食義。",
+    "notAfter": [
+      "次",
+      "回",
+      "个",
+      "個",
+      "月",
+      "周",
+      "星期",
+      "年"
+    ]
+  },
+  {
+    "source": "郁郁不得志",
+    "target": "鬱鬱不得志",
+    "reason": "鬱悶不得志，與文采、香氣的郁郁分義。"
+  },
+  {
+    "source": "郁郁寡欢",
+    "target": "鬱鬱寡歡",
+    "reason": "鬱悶不樂。"
+  },
+  {
+    "source": "郁郁不乐",
+    "target": "鬱鬱不樂",
+    "reason": "鬱悶不樂。"
+  },
+  {
+    "source": "郁郁之色",
+    "target": "鬱鬱之色",
+    "reason": "表情鬱悶。"
+  },
+  {
+    "source": "一脸郁郁",
+    "target": "一臉鬱鬱",
+    "reason": "表情鬱悶。"
+  },
+  {
+    "source": "自我克制",
+    "target": "自我克制",
+    "reason": "克制自己的情緒、衝動。"
+  },
+  {
+    "source": "克制冲动",
+    "target": "克制衝動",
+    "reason": "克制自己的情緒、衝動。"
+  },
+  {
+    "source": "克制情绪",
+    "target": "克制情緒",
+    "reason": "克制自己的情緒、衝動。"
+  },
+  {
+    "source": "克制自己",
+    "target": "克制自己",
+    "reason": "克制自己的情緒、衝動。"
+  },
+  {
+    "source": "占山头",
+    "target": "佔山頭",
+    "reason": "佔據山頭，不以占的衝突預設覆蓋明確據有義。"
+  },
+  {
+    "source": "镇魂钟",
+    "target": "鎮魂鐘",
+    "reason": "器物或術法名稱的鐘；詞組本身明確指鐘鈴，不將裸字鐘一律套用到鍾姓。",
+    "domain": "文學／宗教器物"
+  },
+  {
+    "source": "世家",
+    "target": "世家",
+    "reason": "家族、世代傳承的世家；保留家，避免相鄰「俱」拼成傢俱。"
+  },
+  {
+    "source": "先考",
+    "target": "先考",
+    "wholeWord": true,
+    "reason": "r9 更正：保留父親、高壽、延長、始祭落成、終等考字義；其他義用攷。"
+  },
+  {
+    "source": "寿考",
+    "target": "壽考",
+    "wholeWord": true,
+    "reason": "r9 更正：保留父親、高壽、延長、始祭落成、終等考字義；其他義用攷。"
+  },
+  {
+    "source": "壽考",
+    "target": "壽考",
+    "wholeWord": true,
+    "reason": "r9 更正：保留父親、高壽、延長、始祭落成、終等考字義；其他義用攷。"
+  },
+  {
+    "source": "侥幸",
+    "target": "僥倖",
+    "reason": "默認詞彙分義：幸／倖、巨／鉅、鑑／鑒按完整詞選字。",
+    "wholeWord": true
+  },
+  {
+    "source": "僥幸",
+    "target": "僥倖",
+    "reason": "默認詞彙分義：幸／倖、巨／鉅、鑑／鑒按完整詞選字。",
+    "wholeWord": true
+  },
+  {
+    "source": "幸免",
+    "target": "倖免",
+    "reason": "默認詞彙分義：幸／倖、巨／鉅、鑑／鑒按完整詞選字。",
+    "wholeWord": true
+  },
+  {
+    "source": "幸存",
+    "target": "倖存",
+    "reason": "默認詞彙分義：幸／倖、巨／鉅、鑑／鑒按完整詞選字。",
+    "wholeWord": true
+  },
+  {
+    "source": "幸进",
+    "target": "倖進",
+    "reason": "默認詞彙分義：幸／倖、巨／鉅、鑑／鑒按完整詞選字。",
+    "wholeWord": true
+  },
+  {
+    "source": "幸臣",
+    "target": "倖臣",
+    "reason": "默認詞彙分義：幸／倖、巨／鉅、鑑／鑒按完整詞選字。",
+    "wholeWord": true
+  },
+  {
+    "source": "近幸",
+    "target": "近倖",
+    "reason": "默認詞彙分義：幸／倖、巨／鉅、鑑／鑒按完整詞選字。",
+    "wholeWord": true
+  },
+  {
+    "source": "宠幸",
+    "target": "寵倖",
+    "reason": "默認詞彙分義：幸／倖、巨／鉅、鑑／鑒按完整詞選字。",
+    "wholeWord": true
+  },
+  {
+    "source": "寵幸",
+    "target": "寵倖",
+    "reason": "默認詞彙分義：幸／倖、巨／鉅、鑑／鑒按完整詞選字。",
+    "wholeWord": true
+  },
+  {
+    "source": "幸福",
+    "target": "幸福",
+    "reason": "默認詞彙分義：幸／倖、巨／鉅、鑑／鑒按完整詞選字。",
+    "wholeWord": true
+  },
+  {
+    "source": "幸运",
+    "target": "幸運",
+    "reason": "默認詞彙分義：幸／倖、巨／鉅、鑑／鑒按完整詞選字。",
+    "wholeWord": true
+  },
+  {
+    "source": "幸亏",
+    "target": "幸虧",
+    "reason": "默認詞彙分義：幸／倖、巨／鉅、鑑／鑒按完整詞選字。",
+    "wholeWord": true
+  },
+  {
+    "source": "庆幸",
+    "target": "慶幸",
+    "reason": "默認詞彙分義：幸／倖、巨／鉅、鑑／鑒按完整詞選字。",
+    "wholeWord": true
+  },
+  {
+    "source": "荣幸",
+    "target": "榮幸",
+    "reason": "默認詞彙分義：幸／倖、巨／鉅、鑑／鑒按完整詞選字。",
+    "wholeWord": true
+  },
+  {
+    "source": "不幸",
+    "target": "不幸",
+    "reason": "默認詞彙分義：幸／倖、巨／鉅、鑑／鑒按完整詞選字。",
+    "wholeWord": true
+  },
+  {
+    "source": "巡幸",
+    "target": "巡幸",
+    "reason": "默認詞彙分義：幸／倖、巨／鉅、鑑／鑒按完整詞選字。",
+    "wholeWord": true
+  },
+  {
+    "source": "临幸",
+    "target": "臨幸",
+    "reason": "默認詞彙分義：幸／倖、巨／鉅、鑑／鑒按完整詞選字。",
+    "wholeWord": true
+  },
+  {
+    "source": "巨大",
+    "target": "巨大",
+    "reason": "默認詞彙分義：幸／倖、巨／鉅、鑑／鑒按完整詞選字。",
+    "wholeWord": true
+  },
+  {
+    "source": "巨人",
+    "target": "巨人",
+    "reason": "默認詞彙分義：幸／倖、巨／鉅、鑑／鑒按完整詞選字。",
+    "wholeWord": true
+  },
+  {
+    "source": "巨兽",
+    "target": "巨獸",
+    "reason": "默認詞彙分義：幸／倖、巨／鉅、鑑／鑒按完整詞選字。",
+    "wholeWord": true
+  },
+  {
+    "source": "巨石",
+    "target": "巨石",
+    "reason": "默認詞彙分義：幸／倖、巨／鉅、鑑／鑒按完整詞選字。",
+    "wholeWord": true
+  },
+  {
+    "source": "巨浪",
+    "target": "巨浪",
+    "reason": "默認詞彙分義：幸／倖、巨／鉅、鑑／鑒按完整詞選字。",
+    "wholeWord": true
+  },
+  {
+    "source": "巨型",
+    "target": "巨型",
+    "reason": "默認詞彙分義：幸／倖、巨／鉅、鑑／鑒按完整詞選字。",
+    "wholeWord": true
+  },
+  {
+    "source": "巨额",
+    "target": "鉅額",
+    "reason": "默認詞彙分義：幸／倖、巨／鉅、鑑／鑒按完整詞選字。",
+    "wholeWord": true
+  },
+  {
+    "source": "巨款",
+    "target": "鉅款",
+    "reason": "默認詞彙分義：幸／倖、巨／鉅、鑑／鑒按完整詞選字。",
+    "wholeWord": true
+  },
+  {
+    "source": "巨变",
+    "target": "鉅變",
+    "reason": "默認詞彙分義：幸／倖、巨／鉅、鑑／鑒按完整詞選字。",
+    "wholeWord": true
+  },
+  {
+    "source": "巨著",
+    "target": "鉅著",
+    "reason": "默認詞彙分義：幸／倖、巨／鉅、鑑／鑒按完整詞選字。",
+    "wholeWord": true
+  },
+  {
+    "source": "巨作",
+    "target": "鉅作",
+    "reason": "默認詞彙分義：幸／倖、巨／鉅、鑑／鑒按完整詞選字。",
+    "wholeWord": true
+  },
+  {
+    "source": "巨擘",
+    "target": "鉅擘",
+    "reason": "默認詞彙分義：幸／倖、巨／鉅、鑑／鑒按完整詞選字。",
+    "wholeWord": true
+  },
+  {
+    "source": "巨子",
+    "target": "鉅子",
+    "reason": "默認詞彙分義：幸／倖、巨／鉅、鑑／鑒按完整詞選字。",
+    "wholeWord": true
+  },
+  {
+    "source": "艰巨",
+    "target": "艱鉅",
+    "reason": "默認詞彙分義：幸／倖、巨／鉅、鑑／鑒按完整詞選字。",
+    "wholeWord": true
+  },
+  {
+    "source": "鉴定",
+    "target": "鑑定",
+    "reason": "默認詞彙分義：幸／倖、巨／鉅、鑑／鑒按完整詞選字。",
+    "wholeWord": true
+  },
+  {
+    "source": "鉴别",
+    "target": "鑑別",
+    "reason": "默認詞彙分義：幸／倖、巨／鉅、鑑／鑒按完整詞選字。",
+    "wholeWord": true
+  },
+  {
+    "source": "鉴赏",
+    "target": "鑑賞",
+    "reason": "默認詞彙分義：幸／倖、巨／鉅、鑑／鑒按完整詞選字。",
+    "wholeWord": true
+  },
+  {
+    "source": "评鉴",
+    "target": "評鑑",
+    "reason": "默認詞彙分義：幸／倖、巨／鉅、鑑／鑒按完整詞選字。",
+    "wholeWord": true
+  },
+  {
+    "source": "借鉴",
+    "target": "借鑑",
+    "reason": "默認詞彙分義：幸／倖、巨／鉅、鑑／鑒按完整詞選字。",
+    "wholeWord": true
+  },
+  {
+    "source": "印鉴",
+    "target": "印鑑",
+    "reason": "默認詞彙分義：幸／倖、巨／鉅、鑑／鑒按完整詞選字。",
+    "wholeWord": true
+  },
+  {
+    "source": "年鉴",
+    "target": "年鑑",
+    "reason": "默認詞彙分義：幸／倖、巨／鉅、鑑／鑒按完整詞選字。",
+    "wholeWord": true
+  },
+  {
+    "source": "图鉴",
+    "target": "圖鑑",
+    "reason": "默認詞彙分義：幸／倖、巨／鉅、鑑／鑒按完整詞選字。",
+    "wholeWord": true
+  },
+  {
+    "source": "前车之鉴",
+    "target": "前車之鑑",
+    "reason": "默認詞彙分義：幸／倖、巨／鉅、鑑／鑒按完整詞選字。",
+    "wholeWord": true
+  },
+  {
+    "source": "有鉴于",
+    "target": "有鑑於",
+    "reason": "默認詞彙分義：幸／倖、巨／鉅、鑑／鑒按完整詞選字。",
+    "wholeWord": true
+  },
+  {
+    "source": "鉴于",
+    "target": "鑑於",
+    "reason": "默認詞彙分義：幸／倖、巨／鉅、鑑／鑒按完整詞選字。",
+    "wholeWord": true
+  },
+  {
+    "source": "台鉴",
+    "target": "臺鑒",
+    "reason": "默認詞彙分義：幸／倖、巨／鉅、鑑／鑒按完整詞選字。",
+    "wholeWord": true
+  },
+  {
+    "source": "钧鉴",
+    "target": "鈞鑒",
+    "reason": "默認詞彙分義：幸／倖、巨／鉅、鑑／鑒按完整詞選字。",
+    "wholeWord": true
+  },
+  {
+    "source": "大鉴",
+    "target": "大鑒",
+    "reason": "默認詞彙分義：幸／倖、巨／鉅、鑑／鑒按完整詞選字。",
+    "wholeWord": true
+  },
+  {
+    "source": "尊鉴",
+    "target": "尊鑒",
+    "reason": "默認詞彙分義：幸／倖、巨／鉅、鑑／鑒按完整詞選字。",
+    "wholeWord": true
+  },
+  {
+    "source": "考終",
+    "target": "考終",
+    "wholeWord": true,
+    "reason": "r9 更正：保留父親、高壽、延長、始祭落成、終等考字義；其他義用攷。"
+  },
+  {
+    "source": "考终",
+    "target": "考終",
+    "wholeWord": true,
+    "reason": "r9 更正：保留父親、高壽、延長、始祭落成、終等考字義；其他義用攷。"
+  },
+  {
+    "source": "考折",
+    "target": "考折",
+    "wholeWord": true,
+    "reason": "r9 更正：保留父親、高壽、延長、始祭落成、終等考字義；其他義用攷。"
+  },
+  {
+    "source": "考旦",
+    "target": "考旦",
+    "wholeWord": true,
+    "reason": "r9 更正：保留父親、高壽、延長、始祭落成、終等考字義；其他義用攷。"
+  },
+  {
+    "source": "皇考",
+    "target": "皇考",
+    "wholeWord": true,
+    "reason": "r9 更正：保留父親、高壽、延長、始祭落成、終等考字義；其他義用攷。"
+  },
+  {
+    "source": "顯考",
+    "target": "顯考",
+    "wholeWord": true,
+    "reason": "r9 更正：保留父親、高壽、延長、始祭落成、終等考字義；其他義用攷。"
+  },
+  {
+    "source": "显考",
+    "target": "顯考",
+    "wholeWord": true,
+    "reason": "r9 更正：保留父親、高壽、延長、始祭落成、終等考字義；其他義用攷。"
+  },
+  {
+    "source": "祖考",
+    "target": "祖考",
+    "wholeWord": true,
+    "reason": "r9 更正：保留父親、高壽、延長、始祭落成、終等考字義；其他義用攷。"
+  },
+  {
+    "source": "考妣",
+    "target": "考妣",
+    "wholeWord": true,
+    "reason": "r9 更正：保留父親、高壽、延長、始祭落成、終等考字義；其他義用攷。"
+  },
+  {
+    "source": "考亭",
+    "target": "考亭",
+    "wholeWord": true,
+    "reason": "r9 更正：保留父親、高壽、延長、始祭落成、終等考字義；其他義用攷。"
+  },
+  {
+    "source": "歌后",
+    "target": "歌后",
+    "reason": "已確認歌后爲歌星身份，修正模型拆歌＋后/nd造成的後字；原標註保留。",
+    "independentWord": true,
+    "posPriority": true
+  },
+  {
+    "source": "蓬头散发",
+    "target": "蓬頭散髮",
+    "reason": "r17已核完整詞義；可修補模型詞界或誤標，但不改寫原標籤。",
+    "posPriority": true
+  },
+  {
+    "source": "带发修行",
+    "target": "帶髮修行",
+    "reason": "r17已核完整詞義；可修補模型詞界或誤標，但不改寫原標籤。",
+    "posPriority": true
+  },
+  {
+    "source": "间不容发",
+    "target": "間不容髮",
+    "reason": "r17已核完整詞義；可修補模型詞界或誤標，但不改寫原標籤。",
+    "posPriority": true
+  },
+  {
+    "source": "太后",
+    "target": "太后",
+    "reason": "r17已核完整詞義；可修補模型詞界或誤標，但不改寫原標籤。",
+    "posPriority": true
+  },
+  {
+    "source": "皇后",
+    "target": "皇后",
+    "reason": "r17已核完整詞義；可修補模型詞界或誤標，但不改寫原標籤。",
+    "posPriority": true
+  },
+  {
+    "source": "虎面霸王",
+    "target": "虎面霸王",
+    "reason": "r17已核完整詞義；可修補模型詞界或誤標，但不改寫原標籤。",
+    "posPriority": true
+  },
+  {
+    "source": "余人",
+    "target": "餘人",
+    "reason": "r17已核完整詞義；可修補模型詞界或誤標，但不改寫原標籤。",
+    "posPriority": true
+  },
+  {
+    "source": "鼠须",
+    "target": "鼠鬚",
+    "reason": "r17已核完整詞義；可修補模型詞界或誤標，但不改寫原標籤。",
+    "posPriority": true
+  },
+  {
+    "source": "假须",
+    "target": "假鬚",
+    "reason": "r17已核完整詞義；可修補模型詞界或誤標，但不改寫原標籤。",
+    "posPriority": true
+  },
+  {
+    "source": "撚须",
+    "target": "撚鬚",
+    "reason": "r17已核完整詞義；可修補模型詞界或誤標，但不改寫原標籤。",
+    "posPriority": true
+  },
+  {
+    "source": "捻须",
+    "target": "捻鬚",
+    "reason": "r17已核完整詞義；可修補模型詞界或誤標，但不改寫原標籤。",
+    "posPriority": true
+  },
+  {
+    "source": "燕尾须",
+    "target": "燕尾鬚",
+    "reason": "r17已核完整詞義；可修補模型詞界或誤標，但不改寫原標籤。",
+    "posPriority": true
+  },
+  {
+    "source": "于八",
+    "target": "于八",
+    "reason": "r17已核完整詞義；可修補模型詞界或誤標，但不改寫原標籤。",
+    "posPriority": true
+  },
+  {
+    "source": "达里麻",
+    "target": "達里麻",
+    "reason": "r17已核完整詞義；可修補模型詞界或誤標，但不改寫原標籤。",
+    "posPriority": true
+  },
+  {
+    "source": "鱼干",
+    "target": "魚乾",
+    "notAfter": [
+      "净",
+      "淨"
+    ],
+    "posPriority": true,
+    "reason": "使用者指定魚乾名詞；覆蓋工魚/n＋干/n等魚名末字被分開的情況；不跨入魚乾淨的乾淨詞。"
+  },
+  {
+    "source": "鬃发",
+    "target": "鬃髮",
+    "reason": "依有效詞界、局部句法及詞義處理；未決項另列風險。",
+    "posPriority": true
+  },
+  {
+    "source": "三绺长须",
+    "target": "三綹長鬚",
+    "reason": "依有效詞界、局部句法及詞義處理；未決項另列風險。",
+    "posPriority": true
+  },
+  {
+    "source": "生发万物",
+    "target": "生發萬物",
+    "reason": "依有效詞界、局部句法及詞義處理；未決項另列風險。",
+    "posPriority": true
+  },
+  {
+    "source": "千钧一发",
+    "target": "千鈞一髮",
+    "reason": "依有效詞界、局部句法及詞義處理；未決項另列風險。",
+    "posPriority": true
+  },
+  {
+    "source": "心细如发",
+    "target": "心細如髮",
+    "reason": "依有效詞界、局部句法及詞義處理；未決項另列風險。",
+    "posPriority": true
+  },
+  {
+    "source": "怒发冲冠",
+    "target": "怒髮衝冠",
+    "reason": "依有效詞界、局部句法及詞義處理；未決項另列風險。",
+    "posPriority": true
+  },
+  {
+    "source": "披头散发",
+    "target": "披頭散髮",
+    "reason": "依有效詞界、局部句法及詞義處理；未決項另列風險。",
+    "posPriority": true
+  },
+  {
+    "source": "令人发指",
+    "target": "令人髮指",
+    "reason": "依有效詞界、局部句法及詞義處理；未決項另列風險。",
+    "posPriority": true
+  }
+]

@@ -1,0 +1,969 @@
+{
+  "version": "network-semantic-relations-20261018-r5",
+  "admission": "語義與局部結構符合才啟用。關係等級先於背景分數，頻次只用來找例句，不決定詞義。",
+  "fluidForms": [
+    "唾沫",
+    "口水",
+    "唾液"
+  ],
+  "bodyForms": [
+    "嘴里",
+    "嘴裏",
+    "嘴",
+    "口中",
+    "嘴唇",
+    "喉咙",
+    "喉嚨",
+    "喉头",
+    "喉頭",
+    "喉",
+    "嗓子",
+    "嗓",
+    "舌"
+  ],
+  "branchForms": "子丑寅卯辰巳午未申酉戌亥",
+  "relations": [
+    {
+      "id": "saliva-dryness",
+      "source": "干",
+      "target": "乾",
+      "nodes": [
+        "唾沫",
+        "口水",
+        "唾液"
+      ],
+      "activation": "體液作乾燥主語、乾燥結果的受事，或口腔乾燥且唾液耗盡；單純共現不足以改選。",
+      "controls": [],
+      "evidence": {
+        "paragraphs": 0,
+        "documents": 0,
+        "domains": [],
+        "examples": []
+      }
+    },
+    {
+      "id": "calendar-stem-branch",
+      "source": "干",
+      "target": "干",
+      "nodes": [
+        "支",
+        "干支",
+        "天干",
+        "地支"
+      ],
+      "activation": "干與支形成完整詞、直接並列或數量相對的兩組；不是支援、支架，也不跨入人名或樹幹。",
+      "controls": [],
+      "evidence": {
+        "paragraphs": 0,
+        "documents": 0,
+        "domains": [],
+        "examples": []
+      }
+    },
+    {
+      "id": "calendar-earth-branch",
+      "source": "丑",
+      "target": "丑",
+      "nodes": [
+        "乙丑",
+        "丁丑",
+        "己丑",
+        "辛丑",
+        "癸丑",
+        "丑時",
+        "丑年",
+        "子",
+        "寅",
+        "卯",
+        "辰",
+        "巳",
+        "午",
+        "未",
+        "申",
+        "酉",
+        "戌",
+        "亥"
+      ],
+      "activation": "依實際干支成員：合法六十甲子組合、丑時／年月日及有序地支序列；不要求附近出現干或支兩字。不跨入人名、丑陋、九醜古咒。",
+      "controls": [
+        {
+          "id": "calendar-members",
+          "source": "丑",
+          "text": "地支中的子、丑、寅依次排列。",
+          "want": "丑",
+          "baseline": "地支中的子、丑、寅依次排列。"
+        },
+        {
+          "id": "calendar-pairs",
+          "source": "丑",
+          "text": "乙丑日之后是丙寅日。",
+          "want": "丑",
+          "baseline": "乙丑日之後是丙寅日。"
+        },
+        {
+          "id": "calendar-separated",
+          "source": "丑",
+          "text": "子、丑、寅、卯四支。",
+          "want": "丑",
+          "baseline": "子、丑、寅、卯四支。"
+        },
+        {
+          "id": "calendar-background",
+          "source": "丑",
+          "text": "子时他嫌我丑，寅时又笑我。",
+          "want": null,
+          "baseline": "子時他嫌我醜，寅時又笑我。"
+        },
+        {
+          "id": "calendar-ugly",
+          "source": "丑",
+          "text": "乙丑年，他相貌丑陋。",
+          "want": null,
+          "baseline": "乙丑年，他相貌醜陋。"
+        },
+        {
+          "id": "nine-ugly",
+          "source": "丑",
+          "text": "九丑古咒写在纸上，旁边注着甲子。",
+          "want": null,
+          "baseline": "九醜古咒寫在紙上，旁邊注着甲子。"
+        }
+      ],
+      "evidence": {
+        "paragraphs": 0,
+        "documents": 0,
+        "domains": [],
+        "examples": []
+      }
+    },
+    {
+      "id": "action-interrogative",
+      "source": "干",
+      "target": "幹",
+      "nodes": [
+        "什么",
+        "什麼",
+        "甚么",
+        "甚麼",
+        "啥"
+      ],
+      "activation": "干直接帶疑問受事什麼／甚麼／啥，局部動作關係優先於附近體液背景。",
+      "controls": [],
+      "evidence": {
+        "paragraphs": 0,
+        "documents": 0,
+        "domains": [],
+        "examples": []
+      }
+    },
+    {
+      "id": "back-hands",
+      "source": "背",
+      "target": "背",
+      "nodes": [
+        "手"
+      ],
+      "activation": "背與手爲獨立節點，按受事、把字句或帶身後位置的主語關係判斷；僅在附近出現手只作弱背景。雙手映射至手節點，手提箱不拆成手。",
+      "controls": [
+        {
+          "id": "back-noun",
+          "source": "背",
+          "text": "他的背上挂着一个包。",
+          "want": null,
+          "baseline": "他的背上掛着一個包。"
+        },
+        {
+          "id": "back-location",
+          "source": "背",
+          "text": "别在背后议论那个包。",
+          "want": null,
+          "baseline": "別在背後議論那個包。"
+        }
+      ],
+      "evidence": {
+        "paragraphs": 0,
+        "documents": 0,
+        "domains": [],
+        "examples": []
+      }
+    },
+    {
+      "id": "back-light",
+      "source": "背",
+      "target": "背",
+      "nodes": [
+        "光"
+      ],
+      "activation": "背與光爲獨立節點，光作朝向的對象；容許數量詞與修飾語，不限制爲固定背光詞。光學設備與人名不拆成光節點。",
+      "controls": [
+        {
+          "id": "back-noun",
+          "source": "背",
+          "text": "他的背上挂着一个包。",
+          "want": null,
+          "baseline": "他的背上掛着一個包。"
+        },
+        {
+          "id": "back-location",
+          "source": "背",
+          "text": "别在背后议论那个包。",
+          "want": null,
+          "baseline": "別在背後議論那個包。"
+        }
+      ],
+      "evidence": {
+        "paragraphs": 0,
+        "documents": 0,
+        "domains": [],
+        "examples": []
+      }
+    },
+    {
+      "id": "inside-go",
+      "source": "里",
+      "target": "裏",
+      "nodes": [
+        "去",
+        "走去",
+        "衝去",
+        "进",
+        "進"
+      ],
+      "activation": "里與趨向去組成有邊界的處所短語；向裏去、往裏走去或寺裏去等，不把三里去、千里去的距離改成裏。",
+      "controls": [],
+      "evidence": {
+        "paragraphs": 0,
+        "documents": 0,
+        "domains": [],
+        "examples": []
+      }
+    },
+    {
+      "id": "back-title-recitation",
+      "source": "背",
+      "target": "背",
+      "nodes": [
+        "《》"
+      ],
+      "activation": "書名號僅為弱關聯；另有朗聲、逐句、背誦等口述／記憶結構才採背，不將背一箱《書》判為背誦。",
+      "controls": [
+        {
+          "id": "back-noun",
+          "source": "背",
+          "text": "他的背上挂着一个包。",
+          "want": null,
+          "baseline": "他的背上掛着一個包。"
+        },
+        {
+          "id": "back-location",
+          "source": "背",
+          "text": "别在背后议论那个包。",
+          "want": null,
+          "baseline": "別在背後議論那個包。"
+        }
+      ],
+      "evidence": {
+        "paragraphs": 0,
+        "documents": 0,
+        "domains": [],
+        "examples": []
+      }
+    },
+    {
+      "id": "back-content-recitation",
+      "source": "背",
+      "target": "背",
+      "nodes": [
+        "詩",
+        "詩句",
+        "經文",
+        "咒語",
+        "歌詞",
+        "課文"
+      ],
+      "activation": "內容受事加口述、逐句、按首篇句計數或明示背誦結構；書冊／箱袋搬運或單純同段共現不啟用。",
+      "controls": [
+        {
+          "id": "back-noun",
+          "source": "背",
+          "text": "他的背上挂着一个包。",
+          "want": null,
+          "baseline": "他的背上掛着一個包。"
+        },
+        {
+          "id": "back-location",
+          "source": "背",
+          "text": "别在背后议论那个包。",
+          "want": null,
+          "baseline": "別在背後議論那個包。"
+        }
+      ],
+      "evidence": {
+        "paragraphs": 0,
+        "documents": 0,
+        "domains": [],
+        "examples": []
+      }
+    },
+    {
+      "id": "back-load",
+      "source": "背",
+      "target": "揹",
+      "nodes": [
+        "箱",
+        "包",
+        "斤",
+        "沉",
+        "重",
+        "行李"
+      ],
+      "activation": "具體負重受事或重量補語依附揹；斤、沉、重描述該負載。名詞背部、背手姿態、書名內的包／重不啟用。",
+      "priority": "direct-semantic",
+      "basis": "使用者指定的語義關聯及助手明列的正反例；非語料頻次推估",
+      "controls": [
+        {
+          "id": "carry-box",
+          "source": "背",
+          "text": "他背着一只木箱走来。",
+          "want": "揹",
+          "baseline": "他揹着一隻木箱走來。"
+        },
+        {
+          "id": "carry-jin",
+          "source": "背",
+          "text": "他背着二十斤粮食走来。",
+          "want": "揹",
+          "baseline": "他揹着二十斤糧食走來。"
+        },
+        {
+          "id": "carry-heavy",
+          "source": "背",
+          "text": "他背着沉重的行李赶路。",
+          "want": "揹",
+          "baseline": "他揹着沉重的行李趕路。"
+        },
+        {
+          "id": "back-noun",
+          "source": "背",
+          "text": "他的背上挂着一个包。",
+          "want": null,
+          "baseline": "他的背上掛着一個包。"
+        },
+        {
+          "id": "back-location",
+          "source": "背",
+          "text": "别在背后议论那个包。",
+          "want": null,
+          "baseline": "別在背後議論那個包。"
+        }
+      ],
+      "evidence": {
+        "paragraphs": 0,
+        "documents": 0,
+        "domains": [],
+        "examples": []
+      }
+    },
+    {
+      "id": "calendar-context",
+      "source": "丑",
+      "target": "丑",
+      "nodes": [
+        "甲",
+        "乙",
+        "丙",
+        "丁",
+        "戊",
+        "己",
+        "庚",
+        "辛",
+        "壬",
+        "癸",
+        "子",
+        "寅",
+        "卯",
+        "辰",
+        "巳",
+        "午",
+        "未",
+        "申",
+        "酉",
+        "戌",
+        "亥"
+      ],
+      "activation": "丑作曆法成員，附近實際天干地支形成局部序列、定義或時序；不把干支背景強加於丑陋、自己醜、九醜或人名。",
+      "priority": "direct-semantic",
+      "basis": "使用者指定的語義關聯及助手明列的正反例；非語料頻次推估",
+      "controls": [
+        {
+          "id": "calendar-near",
+          "source": "丑",
+          "text": "子时已过，丑后便是寅时。",
+          "want": "丑",
+          "baseline": "子時已過，醜後便是寅時。"
+        },
+        {
+          "id": "calendar-definition",
+          "source": "丑",
+          "text": "丑是十二地支之一。",
+          "want": "丑",
+          "baseline": "醜是十二地支之一。"
+        },
+        {
+          "id": "calendar-background",
+          "source": "丑",
+          "text": "子时他嫌我丑，寅时又笑我。",
+          "want": null,
+          "baseline": "子時他嫌我醜，寅時又笑我。"
+        },
+        {
+          "id": "calendar-ugly",
+          "source": "丑",
+          "text": "乙丑年，他相貌丑陋。",
+          "want": null,
+          "baseline": "乙丑年，他相貌醜陋。"
+        },
+        {
+          "id": "nine-ugly",
+          "source": "丑",
+          "text": "九丑古咒写在纸上，旁边注着甲子。",
+          "want": null,
+          "baseline": "九醜古咒寫在紙上，旁邊注着甲子。"
+        }
+      ],
+      "evidence": {
+        "paragraphs": 0,
+        "documents": 0,
+        "domains": [],
+        "examples": []
+      }
+    },
+    {
+      "id": "physical-chain",
+      "source": "链",
+      "target": "鍊",
+      "nodes": [
+        "狗",
+        "鐵",
+        "拴",
+        "頸",
+        "鎖"
+      ],
+      "activation": "狗與鍊有拴繫、頸部佩繫關係，或鐵作鍊的材質；區塊鏈、產業鏈及同段狗叫不啟用。依本專案實物鍊字形。",
+      "priority": "direct-semantic",
+      "basis": "使用者指定的語義關聯及助手明列的正反例；非語料頻次推估",
+      "controls": [
+        {
+          "id": "chain-dog",
+          "source": "链",
+          "text": "他用一条链子把狗拴住。",
+          "want": "鍊",
+          "baseline": "他用一條鏈子把狗拴住。"
+        },
+        {
+          "id": "chain-iron",
+          "source": "链",
+          "text": "他拖着一根铁链。",
+          "want": "鍊",
+          "baseline": "他拖着一根鐵鍊。"
+        },
+        {
+          "id": "chain-material",
+          "source": "链",
+          "text": "这条链是铁制的。",
+          "want": "鍊",
+          "baseline": "這條鏈是鐵製的。"
+        },
+        {
+          "id": "chain-abstract",
+          "source": "链",
+          "text": "产业链正在恢复，门外的狗在叫。",
+          "want": null,
+          "baseline": "產業鏈正在恢復，門外的狗在叫。"
+        },
+        {
+          "id": "chain-software",
+          "source": "链",
+          "text": "区块链会议结束，他去喂狗。",
+          "want": null,
+          "baseline": "區塊鏈會議結束，他去餵狗。"
+        }
+      ],
+      "evidence": {
+        "paragraphs": 0,
+        "documents": 0,
+        "domains": [],
+        "examples": []
+      }
+    },
+    {
+      "id": "physical-chain-typo",
+      "source": "炼",
+      "target": "鍊",
+      "nodes": [
+        "狗",
+        "鐵",
+        "拴",
+        "鎖"
+      ],
+      "activation": "僅鐵煉／鎖煉的實物鍊用法；煉鐵、修煉、冶煉及狗的背景共現不啟用。",
+      "priority": "direct-semantic",
+      "basis": "使用者指定的語義關聯及助手明列的正反例；非語料頻次推估",
+      "controls": [
+        {
+          "id": "chain-typo",
+          "source": "炼",
+          "text": "他用铁炼拴住了狗。",
+          "want": "鍊",
+          "baseline": "他用鐵鍊拴住了狗。"
+        },
+        {
+          "id": "refine-iron",
+          "source": "炼",
+          "text": "铁匠正在炼铁，狗守在炉边。",
+          "want": null,
+          "baseline": "鐵匠正在煉鐵，狗守在爐邊。"
+        },
+        {
+          "id": "refine-practice",
+          "source": "炼",
+          "text": "他修炼时，门外的狗叫了。",
+          "want": null,
+          "baseline": "他修煉時，門外的狗叫了。"
+        }
+      ],
+      "evidence": {
+        "paragraphs": 0,
+        "documents": 0,
+        "domains": [],
+        "examples": []
+      }
+    },
+    {
+      "id": "rowing-argument",
+      "source": "划",
+      "target": "划",
+      "nodes": [
+        "船",
+        "舟",
+        "筏",
+        "槳",
+        "舟子",
+        "船夫"
+      ],
+      "activation": "船筏作移動受事／主語、舟子船夫作划行施事或槳作工具；單有河海水景不啟用。",
+      "priority": "direct-semantic",
+      "basis": "使用者指定的語義關聯及助手明列的正反例；非語料頻次推估",
+      "controls": [
+        {
+          "id": "row-boat",
+          "source": "划",
+          "text": "他把小船划到岸边，收起船桨。",
+          "want": "划",
+          "baseline": "他把小船划到岸邊，收起船槳。"
+        },
+        {
+          "id": "row-boatman",
+          "source": "划",
+          "text": "那舟子划往江心。",
+          "want": "划",
+          "baseline": "那舟子划往江心。"
+        },
+        {
+          "id": "row-time-background",
+          "source": "划",
+          "text": "过了许多时间，船夫划着小船。",
+          "want": "划",
+          "baseline": "過了許多時間，船夫划着小船。"
+        },
+        {
+          "id": "water-vague",
+          "source": "划",
+          "text": "他在河边划了一下。",
+          "want": null,
+          "baseline": "他在河邊划了一下。"
+        }
+      ],
+      "evidence": {
+        "paragraphs": 0,
+        "documents": 0,
+        "domains": [],
+        "examples": []
+      }
+    },
+    {
+      "id": "surface-mark-argument",
+      "source": "划",
+      "target": "劃",
+      "nodes": [
+        "指",
+        "刀",
+        "劍",
+        "痕",
+        "字",
+        "線"
+      ],
+      "activation": "直接工具、書寫／切割結果支持劃；伸指在水中劃道是寫畫，水不是划船的充分證據。",
+      "priority": "direct-semantic",
+      "basis": "使用者指定的語義關聯及助手明列的正反例；非語料頻次推估",
+      "controls": [
+        {
+          "id": "write-water",
+          "source": "划",
+          "text": "只见骆寒已收了剑，伸一指在水中划道：“这么比，咱们不知要比到哪年哪月？”",
+          "want": "劃",
+          "baseline": "只見駱寒已收了劍，伸一指在水中划道：“這麼比，咱們不知要比到哪年哪月？”"
+        },
+        {
+          "id": "cut-near-water",
+          "source": "划",
+          "text": "他用刀在船板上划出一道口子。",
+          "want": "劃",
+          "baseline": "他用刀在船板上劃出一道口子。"
+        },
+        {
+          "id": "water-vague",
+          "source": "划",
+          "text": "他在河边划了一下。",
+          "want": null,
+          "baseline": "他在河邊划了一下。"
+        }
+      ],
+      "evidence": {
+        "paragraphs": 0,
+        "documents": 0,
+        "domains": [],
+        "examples": []
+      }
+    },
+    {
+      "id": "figurative-trajectory",
+      "source": "划",
+      "target": "劃",
+      "nodes": [
+        "時間",
+        "歲月",
+        "光陰"
+      ],
+      "activation": "時間、歲月或光陰為劃過的直接主語；船夫划船時附近提及時間不啟用。",
+      "priority": "direct-semantic",
+      "basis": "使用者指定的語義關聯及助手明列的正反例；非語料頻次推估",
+      "controls": [
+        {
+          "id": "time-trajectory",
+          "source": "划",
+          "text": "时间就那么一劫一劫地划过，划过远远的精灵星弯着腰在沙滩上洗着痕迹的身影。",
+          "want": "劃",
+          "baseline": "時間就那麼一劫一劫地划過，劃過遠遠的精靈星彎着腰在沙灘上洗着痕跡的身影。"
+        },
+        {
+          "id": "water-vague",
+          "source": "划",
+          "text": "他在河边划了一下。",
+          "want": null,
+          "baseline": "他在河邊划了一下。"
+        }
+      ],
+      "evidence": {
+        "paragraphs": 0,
+        "documents": 0,
+        "domains": [],
+        "examples": []
+      }
+    },
+    {
+      "id": "zhan-divination",
+      "source": "占",
+      "target": "占",
+      "nodes": [
+        "卦",
+        "卦象",
+        "筮",
+        "吉凶",
+        "休咎",
+        "蓍草",
+        "龜甲"
+      ],
+      "activation": "占的直接受事爲卦、吉凶等預測結果，或直接工具爲蓍草、龜甲等且無佔有受事；同句背景提到卦不啟用。",
+      "priority": "direct-semantic",
+      "basis": "使用者字形分義及辭書義項；局部詞界與句法；助手正反例非人工金標",
+      "controls": [
+        {
+          "text": "他占了一卦。",
+          "expected": "占",
+          "relation": "zhan-divination"
+        },
+        {
+          "text": "他占吉凶。",
+          "expected": "占",
+          "relation": "zhan-divination"
+        },
+        {
+          "text": "他用蓍草占之。",
+          "expected": "占",
+          "relation": "zhan-divination"
+        }
+      ],
+      "authorities": [
+        {
+          "title": "教育部異體字字典：占",
+          "url": "https://dict.variants.moe.edu.tw/dictView.jsp?educode=A00446",
+          "scope": "占卜、觀候及口授；非規定本專案佔字偏好"
+        },
+        {
+          "title": "教育部國語辭典簡編本：口占",
+          "url": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=46050&la=0&powerMode=0",
+          "scope": "隨口作成詩文"
+        },
+        {
+          "title": "教育部重編國語辭典：佔",
+          "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=7819&la=1&powerMode=0",
+          "scope": "據有義；本專案取佔爲使用者偏好"
+        }
+      ],
+      "evidence": {
+        "paragraphs": 0,
+        "documents": 0,
+        "domains": [],
+        "examples": []
+      }
+    },
+    {
+      "id": "zhan-oral",
+      "source": "占",
+      "target": "占",
+      "nodes": [
+        "口",
+        "隨口",
+        "詩",
+        "詞",
+        "句"
+      ],
+      "activation": "完整詞口占，或口／隨口作直接修飾且詩詞爲口授成果；門口／占桌、窗口／占地不屬口占。",
+      "priority": "direct-semantic",
+      "basis": "使用者字形分義及辭書義項；局部詞界與句法；助手正反例非人工金標",
+      "controls": [
+        {
+          "text": "他口占一首诗。",
+          "expected": "占",
+          "relation": "zhan-oral"
+        }
+      ],
+      "authorities": [
+        {
+          "title": "教育部異體字字典：占",
+          "url": "https://dict.variants.moe.edu.tw/dictView.jsp?educode=A00446",
+          "scope": "占卜、觀候及口授；非規定本專案佔字偏好"
+        },
+        {
+          "title": "教育部國語辭典簡編本：口占",
+          "url": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=46050&la=0&powerMode=0",
+          "scope": "隨口作成詩文"
+        },
+        {
+          "title": "教育部重編國語辭典：佔",
+          "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=7819&la=1&powerMode=0",
+          "scope": "據有義；本專案取佔爲使用者偏好"
+        }
+      ],
+      "evidence": {
+        "paragraphs": 0,
+        "documents": 0,
+        "domains": [],
+        "examples": []
+      }
+    },
+    {
+      "id": "zhan-occupation",
+      "source": "占",
+      "target": "佔",
+      "nodes": [
+        "土地",
+        "席位",
+        "份額",
+        "資源",
+        "優勢"
+      ],
+      "activation": "據有、佔領、佔用與比例義用佔；需有佔有受事、比例或詞內證據；有效詞網關聯先選字；無法裁決時默認佔並列風險。",
+      "priority": "direct-semantic",
+      "basis": "使用者字形分義及辭書義項；局部詞界與句法；助手正反例非人工金標",
+      "controls": [
+        {
+          "text": "他看了卦象，却占住座位。",
+          "expected": "佔",
+          "relation": "zhan-occupation"
+        },
+        {
+          "text": "他占了放卦签的桌子。",
+          "expected": "佔",
+          "relation": "zhan-occupation"
+        },
+        {
+          "text": "他在门口占了一张桌子。",
+          "expected": "佔",
+          "relation": "zhan-occupation"
+        },
+        {
+          "text": "这首诗占了半页。",
+          "expected": "佔",
+          "relation": "zhan-occupation"
+        },
+        {
+          "text": "他抢占了占卜师的座位。",
+          "expected": "佔占",
+          "relation": "zhan-occupation"
+        }
+      ],
+      "authorities": [
+        {
+          "title": "教育部異體字字典：占",
+          "url": "https://dict.variants.moe.edu.tw/dictView.jsp?educode=A00446",
+          "scope": "占卜、觀候及口授；非規定本專案佔字偏好"
+        },
+        {
+          "title": "教育部國語辭典簡編本：口占",
+          "url": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=46050&la=0&powerMode=0",
+          "scope": "隨口作成詩文"
+        },
+        {
+          "title": "教育部重編國語辭典：佔",
+          "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=7819&la=1&powerMode=0",
+          "scope": "據有義；本專案取佔爲使用者偏好"
+        }
+      ],
+      "evidence": {
+        "paragraphs": 0,
+        "documents": 0,
+        "domains": [],
+        "examples": []
+      }
+    }
+  ],
+  "weights": {
+    "actionInterrogative": 4.0,
+    "calendarRelation": 4.0,
+    "fluidRelation": 3.0,
+    "fluidBackground": 0.35,
+    "currentPrior": 0,
+    "minimumMargin": 0.8,
+    "policy": "人工設定的關係等級；以最高有效局部關係比較，背景不計票，多條弱線索不累加。不是頻次、機率或模型學得的權重。",
+    "postureRelation": 4.0,
+    "insideDirection": 4.0,
+    "bodyBackground": 0.25,
+    "recitationRelation": 4.0,
+    "titleBackground": 0.25,
+    "directSemantic": 4.0
+  },
+  "stemForms": "甲乙丙丁戊己庚辛壬癸",
+  "sexagenaryPairs": [
+    "甲子",
+    "乙丑",
+    "丙寅",
+    "丁卯",
+    "戊辰",
+    "己巳",
+    "庚午",
+    "辛未",
+    "壬申",
+    "癸酉",
+    "甲戌",
+    "乙亥",
+    "丙子",
+    "丁丑",
+    "戊寅",
+    "己卯",
+    "庚辰",
+    "辛巳",
+    "壬午",
+    "癸未",
+    "甲申",
+    "乙酉",
+    "丙戌",
+    "丁亥",
+    "戊子",
+    "己丑",
+    "庚寅",
+    "辛卯",
+    "壬辰",
+    "癸巳",
+    "甲午",
+    "乙未",
+    "丙申",
+    "丁酉",
+    "戊戌",
+    "己亥",
+    "庚子",
+    "辛丑",
+    "壬寅",
+    "癸卯",
+    "甲辰",
+    "乙巳",
+    "丙午",
+    "丁未",
+    "戊申",
+    "己酉",
+    "庚戌",
+    "辛亥",
+    "壬子",
+    "癸丑",
+    "甲寅",
+    "乙卯",
+    "丙辰",
+    "丁巳",
+    "戊午",
+    "己未",
+    "庚申",
+    "辛酉",
+    "壬戌",
+    "癸亥"
+  ],
+  "handForms": [
+    "手",
+    "双手",
+    "雙手"
+  ],
+  "lightForms": [
+    "光",
+    "灯光",
+    "燈光",
+    "阳光",
+    "陽光",
+    "光线",
+    "光線"
+  ],
+  "carryingForms": [
+    "箱",
+    "箱子",
+    "木箱",
+    "皮箱",
+    "包",
+    "包裹",
+    "背包",
+    "书包",
+    "書包",
+    "行李",
+    "粮食",
+    "糧食",
+    "货物",
+    "貨物",
+    "米",
+    "柴",
+    "麻袋",
+    "袋子",
+    "孩子",
+    "小孩",
+    "老人",
+    "伤员",
+    "傷員"
+  ],
+  "loadAttributes": [
+    "斤",
+    "公斤",
+    "千克",
+    "沉",
+    "重",
+    "沉重",
+    "沉甸甸"
+  ],
+  "selectionPolicy": "最高局部關係等級決定候選；同級相反關係衝突則待核。附近背景不參與選字，不累加多個弱線索。"
+}

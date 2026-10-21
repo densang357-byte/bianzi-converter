@@ -1,0 +1,985 @@
+{
+  "version": "review-risk-public-v1",
+  "reviewOnly": true,
+  "characters": {},
+  "existingWords": {},
+  "watchWords": [
+    {
+      "source": "白雕",
+      "activeTargets": [
+        "白鵰"
+      ],
+      "matchForms": [
+        "白雕",
+        "白鵰"
+      ],
+      "pos": [
+        "n",
+        "nh"
+      ],
+      "reason": "雕／鵰按作品用字政策核對；合法鳥名字形不直接算語義或詞性錯誤，雕塑義另按上下文辨別。",
+      "reviewOnly": true,
+      "riskKind": "glyph-preference"
+    },
+    {
+      "source": "郁郁",
+      "activeTargets": [
+        "郁郁",
+        "鬱郁",
+        "鬱鬱"
+      ],
+      "matchForms": [
+        "郁郁",
+        "鬱郁",
+        "鬱鬱"
+      ],
+      "pos": [
+        "n",
+        "z"
+      ],
+      "reason": "鬱悶、繁盛與姓名字形分開；名詞標註不能直接判錯。",
+      "reviewOnly": true
+    },
+    {
+      "source": "汇集",
+      "activeTargets": [
+        "彙集",
+        "匯集"
+      ],
+      "matchForms": [
+        "汇集",
+        "彙集",
+        "匯集"
+      ],
+      "pos": [
+        "v"
+      ],
+      "reason": "彙集／匯集按既有語義政策與上下文核對。",
+      "reviewOnly": true
+    },
+    {
+      "source": "脚炼",
+      "activeTargets": [
+        "腳鍊"
+      ],
+      "matchForms": [
+        "脚炼",
+        "腳鍊",
+        "腳煉"
+      ],
+      "pos": [
+        "n+v"
+      ],
+      "reason": "底本寫作腳煉，可能涉及鏈／鍊用字；只提示核對底本，不建立自動改字。",
+      "reviewOnly": true
+    },
+    {
+      "source": "雕儿",
+      "activeTargets": [
+        "鵰兒"
+      ],
+      "matchForms": [
+        "雕儿",
+        "鵰兒",
+        "雕兒"
+      ],
+      "pos": [
+        "n"
+      ],
+      "reason": "雕／鵰按作品用字政策核對；合法鳥名字形不直接算語義或詞性錯誤，雕塑義另按上下文辨別。",
+      "reviewOnly": true,
+      "riskKind": "glyph-preference"
+    },
+    {
+      "source": "雕背",
+      "activeTargets": [
+        "鵰背"
+      ],
+      "matchForms": [
+        "雕背",
+        "鵰背"
+      ],
+      "pos": [
+        "n+n"
+      ],
+      "reason": "雕／鵰按作品用字政策核對；合法鳥名字形不直接算語義或詞性錯誤，雕塑義另按上下文辨別。",
+      "reviewOnly": true,
+      "riskKind": "glyph-preference"
+    },
+    {
+      "source": "只可",
+      "activeTargets": [
+        "只可"
+      ],
+      "matchForms": [
+        "只可",
+        "隻可"
+      ],
+      "pos": [
+        "d+v",
+        "q+v",
+        "d+a"
+      ],
+      "reason": "限制副詞只與量詞隻分開。",
+      "reviewOnly": true
+    },
+    {
+      "source": "褐发",
+      "activeTargets": [
+        "褐髮"
+      ],
+      "matchForms": [
+        "褐发",
+        "褐髮",
+        "褐發"
+      ],
+      "pos": [
+        "n+n",
+        "n"
+      ],
+      "reason": "色澤修飾頭髮時為髮義；只提示校對。",
+      "reviewOnly": true
+    },
+    {
+      "source": "木干",
+      "activeTargets": [
+        "木幹"
+      ],
+      "matchForms": [
+        "木干",
+        "木幹",
+        "木乾"
+      ],
+      "pos": [
+        "n",
+        "n+a"
+      ],
+      "reason": "木幹實體與乾燥義分開。",
+      "reviewOnly": true
+    },
+    {
+      "source": "自制",
+      "activeTargets": [
+        "自制",
+        "自製"
+      ],
+      "matchForms": [
+        "自制",
+        "自製"
+      ],
+      "pos": [
+        "v",
+        "n"
+      ],
+      "reason": "自我控制與自行製造分開。",
+      "reviewOnly": true
+    },
+    {
+      "source": "丑寅",
+      "activeTargets": [
+        "丑寅"
+      ],
+      "matchForms": [
+        "丑寅",
+        "醜寅"
+      ],
+      "pos": [
+        "nt"
+      ],
+      "reason": "地支時間丑與醜陋義分開；目前僅一例。",
+      "reviewOnly": true
+    },
+    {
+      "source": "千斗",
+      "activeTargets": [
+        "千斗"
+      ],
+      "matchForms": [
+        "千斗",
+        "千鬥"
+      ],
+      "pos": [
+        "m"
+      ],
+      "reason": "數量短語與鬥爭義分開；目前僅一例。",
+      "reviewOnly": true
+    },
+    {
+      "source": "卷尾",
+      "activeTargets": [
+        "捲尾"
+      ],
+      "matchForms": [
+        "卷尾",
+        "捲尾"
+      ],
+      "pos": [
+        "v"
+      ],
+      "reason": "捲動尾部與卷冊尾部等詞義分開。",
+      "reviewOnly": true
+    },
+    {
+      "source": "干柴",
+      "activeTargets": [
+        "乾柴"
+      ],
+      "matchForms": [
+        "干柴",
+        "乾柴",
+        "幹柴"
+      ],
+      "pos": [
+        "nh"
+      ],
+      "reason": "乾燥柴木與幹義分開；注意模型可能誤合入前一個人名。",
+      "reviewOnly": true
+    },
+    {
+      "source": "干脯",
+      "activeTargets": [
+        "乾脯"
+      ],
+      "matchForms": [
+        "干脯",
+        "乾脯",
+        "幹脯"
+      ],
+      "pos": [
+        "n"
+      ],
+      "reason": "乾燥食物語境需核對乾義。",
+      "reviewOnly": true
+    },
+    {
+      "source": "征敛",
+      "activeTargets": [
+        "征斂",
+        "徵斂"
+      ],
+      "matchForms": [
+        "征敛",
+        "征斂",
+        "徵斂"
+      ],
+      "pos": [
+        "v"
+      ],
+      "reason": "賦稅徵收語境核對徵義。",
+      "reviewOnly": true
+    },
+    {
+      "source": "斗酒",
+      "activeTargets": [
+        "斗酒",
+        "鬥酒"
+      ],
+      "matchForms": [
+        "斗酒",
+        "鬥酒"
+      ],
+      "pos": [
+        "n"
+      ],
+      "reason": "鬥酒競飲與酒量一斗等數量義分開。",
+      "reviewOnly": true
+    },
+    {
+      "source": "斗酒令",
+      "activeTargets": [
+        "鬥酒令"
+      ],
+      "matchForms": [
+        "斗酒令",
+        "鬥酒令"
+      ],
+      "pos": [
+        "n"
+      ],
+      "reason": "整詞為名詞仍可含鬥爭義，不強改為動詞。",
+      "reviewOnly": true
+    },
+    {
+      "source": "游刃有余",
+      "activeTargets": [
+        "遊刃有餘",
+        "游刃有餘"
+      ],
+      "matchForms": [
+        "游刃有余",
+        "遊刃有餘",
+        "游刃有餘"
+      ],
+      "pos": [
+        "i"
+      ],
+      "reason": "沿用目前游／遊語義政策，不將所有游動一律改遊。",
+      "reviewOnly": true
+    },
+    {
+      "source": "系于一发",
+      "activeTargets": [
+        "繫於一髮"
+      ],
+      "matchForms": [
+        "系于一发",
+        "繫於一髮",
+        "繫於一發"
+      ],
+      "pos": [
+        "v+p+m+v"
+      ],
+      "reason": "以頭髮比喻危急的固定語義需核對，不以整詞 v 強改單字詞性。",
+      "reviewOnly": true
+    },
+    {
+      "source": "髻发",
+      "activeTargets": [
+        "髻髮"
+      ],
+      "matchForms": [
+        "髻发",
+        "髻髮",
+        "髻發"
+      ],
+      "pos": [
+        "n"
+      ],
+      "reason": "髮髻相關名詞需核對髮義。",
+      "reviewOnly": true
+    },
+    {
+      "source": "一干",
+      "activeTargets": [
+        "一干",
+        "一幹",
+        "一乾"
+      ],
+      "matchForms": [
+        "一干",
+        "一幹",
+        "一乾"
+      ],
+      "pos": [],
+      "riskKind": "conversion-ambiguity",
+      "matchBoundary": "literal",
+      "reason": "一干人等、弟子等群體保留干；做事用幹，乾瘦及一乾二淨用乾；一幹挺擎的幹義只按本句核對，不壓過常見群體義。",
+      "reviewOnly": true
+    },
+    {
+      "source": "生发",
+      "activeTargets": [
+        "生發",
+        "生髮"
+      ],
+      "matchForms": [
+        "生发",
+        "生發",
+        "生髮"
+      ],
+      "pos": [],
+      "riskKind": "conversion-ambiguity",
+      "matchBoundary": "literal",
+      "reason": "孳生、興起、情緒或氣息生發用發；促進頭髮生長的生髮用髮，不把頭髮生長等跨詞片段反改。",
+      "reviewOnly": true
+    },
+    {
+      "source": "鬃发",
+      "activeTargets": [
+        "鬃髮"
+      ],
+      "matchForms": [
+        "鬃发",
+        "鬃發",
+        "鬃髮"
+      ],
+      "pos": [],
+      "riskKind": "conversion-ambiguity",
+      "matchBoundary": "literal",
+      "reason": "動物鬃毛爲髮義；不因附近節奏生發或發出而改成發。",
+      "reviewOnly": true
+    },
+    {
+      "source": "背着",
+      "activeTargets": [
+        "背着",
+        "揹着"
+      ],
+      "matchForms": [
+        "背着",
+        "揹着"
+      ],
+      "pos": [],
+      "riskKind": "conversion-ambiguity",
+      "matchBoundary": "literal",
+      "reason": "承載人、武器或容器取揹；朝向、背對與瞞着取背，依直接受事，不靠附近手或光共現選字。",
+      "reviewOnly": true
+    },
+    {
+      "source": "背向",
+      "activeTargets": [
+        "背向",
+        "揹向"
+      ],
+      "matchForms": [
+        "背向",
+        "揹向"
+      ],
+      "pos": [],
+      "riskKind": "conversion-ambiguity",
+      "matchBoundary": "literal",
+      "reason": "面向相反方向通常爲背向；承載動作接向某處需看局部句法，不作全域取代。",
+      "reviewOnly": true
+    },
+    {
+      "source": "背对",
+      "activeTargets": [
+        "背對",
+        "揹對"
+      ],
+      "matchForms": [
+        "背对",
+        "背對",
+        "揹對"
+      ],
+      "pos": [],
+      "riskKind": "conversion-ambiguity",
+      "matchBoundary": "literal",
+      "reason": "身體朝向的背對用背；仍保留承載動詞與後句對字偶然相接的反例。",
+      "reviewOnly": true
+    },
+    {
+      "source": "划算",
+      "activeTargets": [
+        "划算"
+      ],
+      "matchForms": [
+        "划算",
+        "劃算"
+      ],
+      "pos": [],
+      "riskKind": "conversion-ambiguity",
+      "matchBoundary": "literal",
+      "reason": "盤算、合算的划算用划；不可把附近刀劃或計劃義套進來。",
+      "reviewOnly": true
+    },
+    {
+      "source": "千钧一发",
+      "activeTargets": [
+        "千鈞一髮"
+      ],
+      "matchForms": [
+        "千钧一发",
+        "千鈞一發",
+        "千鈞一髮"
+      ],
+      "pos": [],
+      "riskKind": "conversion-ambiguity",
+      "matchBoundary": "literal",
+      "reason": "固定成語以一根頭髮承千鈞比喻危急，用髮；槍發射語境不能改變成語內部義。",
+      "reviewOnly": true
+    },
+    {
+      "source": "发号司令",
+      "activeTargets": [
+        "發號施令"
+      ],
+      "matchForms": [
+        "发号司令",
+        "發號司令",
+        "發號施令",
+        "发号施令"
+      ],
+      "pos": [],
+      "riskKind": "source-typo",
+      "matchBoundary": "literal",
+      "reason": "發布命令的固定詞爲發號施令；源文司令誤嵌入成語與真正職稱司令分開，不歸咎於簡繁模型。",
+      "reviewOnly": true
+    },
+    {
+      "source": "出奇不意",
+      "activeTargets": [
+        "出其不意"
+      ],
+      "matchForms": [
+        "出奇不意",
+        "出其不意"
+      ],
+      "pos": [],
+      "riskKind": "source-typo",
+      "matchBoundary": "literal",
+      "reason": "趁對方未料到爲出其不意；出奇另有合法語義，不把單字奇全域替換。",
+      "reviewOnly": true
+    },
+    {
+      "source": "谈笑风声",
+      "activeTargets": [
+        "談笑風生"
+      ],
+      "matchForms": [
+        "谈笑风声",
+        "談笑風聲",
+        "談笑風生",
+        "谈笑风生"
+      ],
+      "pos": [],
+      "riskKind": "source-typo",
+      "matchBoundary": "literal",
+      "reason": "興致勃勃地談笑爲談笑風生；風聲本身是合法普通詞。",
+      "reviewOnly": true
+    },
+    {
+      "source": "修想",
+      "activeTargets": [
+        "休想"
+      ],
+      "matchForms": [
+        "修想",
+        "休想"
+      ],
+      "pos": [],
+      "riskKind": "source-typo",
+      "matchBoundary": "literal",
+      "reason": "禁止或斷言不可能的休想需按整句核對；妖修／想出了等跨詞界保留，不把修行者的修改掉。模型若把你修誤合爲人名，仍列待核，不覆寫標籤。",
+      "reviewOnly": true,
+      "excludeBeforePattern": "[妖魔劍剑散儒佛體体靈灵真武苦]$"
+    },
+    {
+      "source": "按耐不住",
+      "activeTargets": [
+        "按捺不住"
+      ],
+      "matchForms": [
+        "按耐不住",
+        "按捺不住"
+      ],
+      "pos": [],
+      "riskKind": "source-typo",
+      "matchBoundary": "literal",
+      "reason": "壓抑不住情緒的固定詞爲按捺不住，與耐心、忍耐等合法用字分開。",
+      "reviewOnly": true
+    },
+    {
+      "source": "拨地而起",
+      "activeTargets": [
+        "拔地而起"
+      ],
+      "matchForms": [
+        "拨地而起",
+        "撥地而起",
+        "拔地而起"
+      ],
+      "pos": [],
+      "riskKind": "source-typo",
+      "matchBoundary": "literal",
+      "reason": "由地面躍起或突立爲拔地而起；撥動、撥開等動作仍保留撥。",
+      "reviewOnly": true
+    },
+    {
+      "source": "狂燥",
+      "activeTargets": [
+        "狂躁"
+      ],
+      "matchForms": [
+        "狂燥",
+        "狂躁"
+      ],
+      "pos": [],
+      "riskKind": "source-typo",
+      "matchBoundary": "literal",
+      "reason": "情緒或節奏的躁動與乾燥的燥分開；僅提示按語境核對，不改原生詞性。",
+      "reviewOnly": true
+    },
+    {
+      "source": "低档住",
+      "activeTargets": [
+        "抵擋住"
+      ],
+      "matchForms": [
+        "低档住",
+        "低檔住",
+        "抵挡住",
+        "抵擋住"
+      ],
+      "pos": [],
+      "riskKind": "source-typo",
+      "matchBoundary": "literal",
+      "reason": "阻擋攻勢爲抵擋住；低檔車速及低檔商品是合法詞，不新增低檔的廣泛錯字警報。",
+      "reviewOnly": true
+    },
+    {
+      "source": "卿胜于无",
+      "activeTargets": [
+        "聊勝於無"
+      ],
+      "matchForms": [
+        "卿胜于无",
+        "卿勝於無",
+        "聊胜于无",
+        "聊勝於無"
+      ],
+      "pos": [],
+      "riskKind": "source-typo",
+      "matchBoundary": "literal",
+      "reason": "略勝全無的固定語詞爲聊勝於無；卿相、人名稱謂不全域替換。",
+      "reviewOnly": true
+    },
+    {
+      "source": "一幅笑脸",
+      "activeTargets": [
+        "一副笑臉",
+        "一幅笑臉"
+      ],
+      "matchForms": [
+        "一幅笑脸",
+        "一幅笑臉",
+        "一副笑脸",
+        "一副笑臉"
+      ],
+      "pos": [],
+      "riskKind": "source-typo",
+      "matchBoundary": "literal",
+      "reason": "人物面容的量詞通常爲副；若明指畫中笑臉可爲幅，讀整段再裁決。",
+      "reviewOnly": true
+    },
+    {
+      "source": "一幅笑容",
+      "activeTargets": [
+        "一副笑容",
+        "一幅笑容"
+      ],
+      "matchForms": [
+        "一幅笑容",
+        "一副笑容"
+      ],
+      "pos": [],
+      "riskKind": "source-typo",
+      "matchBoundary": "literal",
+      "reason": "人物露出的表情量詞爲副；畫幅描繪笑容須保留畫作反例，並與模型選字分開統計。",
+      "reviewOnly": true
+    },
+    {
+      "source": "呼来换去",
+      "activeTargets": [
+        "呼來喚去"
+      ],
+      "matchForms": [
+        "呼来换去",
+        "呼來換去",
+        "呼来唤去",
+        "呼來喚去"
+      ],
+      "pos": [],
+      "riskKind": "source-typo",
+      "matchBoundary": "literal",
+      "reason": "使喚人的固定語詞用喚，交換與換人保留換。",
+      "reviewOnly": true
+    },
+    {
+      "source": "三流长须",
+      "activeTargets": [
+        "三綹長鬚"
+      ],
+      "matchForms": [
+        "三流长须",
+        "三流長鬚",
+        "三绺长须",
+        "三綹長鬚"
+      ],
+      "pos": [],
+      "riskKind": "source-typo",
+      "matchBoundary": "literal",
+      "reason": "鬍鬚束數的量詞爲綹，與三流等第分開；只收完整詞組，不強制修正專名。",
+      "reviewOnly": true
+    },
+    {
+      "source": "不详",
+      "activeTargets": [
+        "不詳",
+        "不祥"
+      ],
+      "matchForms": [
+        "不详",
+        "不詳",
+        "不祥"
+      ],
+      "pos": [],
+      "riskKind": "unresolved-meaning",
+      "matchBoundary": "literal",
+      "reason": "不清楚用不詳，不吉利用不祥；原文不詳可能正確，不因陰暗氣氛或共現直接判錯。",
+      "reviewOnly": true
+    },
+    {
+      "source": "故计重施",
+      "activeTargets": [
+        "故計重施",
+        "故技重施"
+      ],
+      "matchForms": [
+        "故计重施",
+        "故計重施",
+        "故技重施"
+      ],
+      "pos": [],
+      "riskKind": "unresolved-meaning",
+      "matchBoundary": "literal",
+      "reason": "舊計謀再用可作故計重施，舊手法再用可作故技重施；已核保留反例，不能把計一律改技。",
+      "reviewOnly": true
+    },
+    {
+      "source": "不息耗费",
+      "activeTargets": [
+        "不息耗費",
+        "不惜耗費"
+      ],
+      "matchForms": [
+        "不息耗费",
+        "不息耗費",
+        "不惜耗费",
+        "不惜耗費"
+      ],
+      "pos": [],
+      "riskKind": "unresolved-meaning",
+      "matchBoundary": "literal",
+      "reason": "不停止耗費與不顧代價不惜耗費都可能成立；保留未定裁決，只提示讀整段。",
+      "reviewOnly": true
+    },
+    {
+      "source": "千金坠",
+      "activeTargets": [
+        "千斤墜"
+      ],
+      "matchForms": [
+        "千金坠",
+        "千金墜",
+        "千斤坠",
+        "千斤墜"
+      ],
+      "pos": [],
+      "riskKind": "source-typo",
+      "matchBoundary": "literal",
+      "reason": "通用武功千斤墜的斤指重量；作品若明確另定同音招名則按本來源核對，不能直接改專名。",
+      "reviewOnly": true
+    },
+    {
+      "source": "印入眼帘",
+      "activeTargets": [
+        "映入眼簾"
+      ],
+      "matchForms": [
+        "印入眼帘",
+        "印入眼簾",
+        "映入眼帘",
+        "映入眼簾"
+      ],
+      "pos": [],
+      "riskKind": "source-typo",
+      "matchBoundary": "literal",
+      "reason": "進入視線的固定詞通常爲映入眼簾，與印刷、印象中的印分開；來源錯字不算模型選字錯誤。",
+      "reviewOnly": true
+    },
+    {
+      "source": "甚至散乱",
+      "activeTargets": [
+        "神志散亂"
+      ],
+      "matchForms": [
+        "甚至散乱",
+        "甚至散亂",
+        "神志散乱",
+        "神志散亂"
+      ],
+      "pos": [],
+      "riskKind": "source-typo",
+      "matchBoundary": "literal",
+      "reason": "描述精神狀態散亂時核對神志，甚至爲遞進副詞；只收完整搭配，保留有意省略主語的修辭反例。",
+      "reviewOnly": true
+    },
+    {
+      "source": "一干二尽",
+      "activeTargets": [
+        "一乾二淨"
+      ],
+      "matchForms": [
+        "一干二尽",
+        "一幹二盡",
+        "一乾二盡",
+        "一干二净",
+        "一乾二淨"
+      ],
+      "pos": [],
+      "riskKind": "source-typo",
+      "matchBoundary": "literal",
+      "reason": "用盡、消失殆盡的完整短語核對一乾二淨；盡若爲作者有意變式仍可保留，不能影響一干人等。",
+      "reviewOnly": true
+    },
+    {
+      "source": "冲",
+      "activeTargets": [
+        "沖",
+        "衝"
+      ],
+      "matchForms": [
+        "冲",
+        "沖",
+        "衝"
+      ],
+      "pos": [],
+      "riskKind": "proper-name-ambiguity",
+      "matchBoundary": "person-name",
+      "reason": "人名中的冲一般取沖，特殊說明優先；原生人名標籤也可能誤吞後接衝動詞，只列待核，不憑標籤自動改字。",
+      "reviewOnly": true
+    },
+    {
+      "source": "冷面",
+      "activeTargets": [
+        "冷面",
+        "冷麪"
+      ],
+      "matchForms": [
+        "冷面",
+        "冷麪",
+        "冷麵"
+      ],
+      "pos": [],
+      "riskKind": "conversion-ambiguity",
+      "matchBoundary": "literal",
+      "reason": "冷峻面容取冷面；冷食麪條取冷麪／冷麵，按語境辨義。",
+      "reviewOnly": true
+    },
+    {
+      "source": "合并",
+      "activeTargets": [
+        "合併",
+        "合并"
+      ],
+      "matchForms": [
+        "合并",
+        "合併",
+        "合並"
+      ],
+      "pos": [],
+      "riskKind": "conversion-ambiguity",
+      "matchBoundary": "literal",
+      "reason": "合併表示歸併、融合；名詞性事件也可取併，不將名詞標註直接當錯誤。",
+      "reviewOnly": true
+    },
+    {
+      "source": "划江",
+      "activeTargets": [
+        "劃江",
+        "划江"
+      ],
+      "matchForms": [
+        "划江",
+        "劃江"
+      ],
+      "pos": [],
+      "riskKind": "conversion-ambiguity",
+      "matchBoundary": "literal",
+      "reason": "分界、割據取劃江；划船過江須有撥水推進語境，章題與重複目錄一併核對。",
+      "reviewOnly": true
+    },
+    {
+      "source": "划动",
+      "activeTargets": [
+        "劃動",
+        "划動"
+      ],
+      "matchForms": [
+        "划动",
+        "划動",
+        "劃動"
+      ],
+      "pos": [],
+      "riskKind": "conversion-ambiguity",
+      "matchBoundary": "literal",
+      "reason": "筆畫線或刻畫取劃動；槳、船及撥水推進取划動，局部受事優先。",
+      "reviewOnly": true
+    },
+    {
+      "source": "了然",
+      "activeTargets": [
+        "了然",
+        "瞭然"
+      ],
+      "matchForms": [
+        "了然",
+        "瞭然"
+      ],
+      "pos": [],
+      "riskKind": "word-boundary-ambiguity",
+      "matchBoundary": "literal",
+      "reason": "了然爲明白；前接人名尾字明時，不將人名的明與了誤併成明瞭。專名須綁來源核對。",
+      "reviewOnly": true
+    },
+    {
+      "source": "明了",
+      "activeTargets": [
+        "明了",
+        "明瞭"
+      ],
+      "matchForms": [
+        "明了",
+        "明瞭"
+      ],
+      "pos": [],
+      "riskKind": "word-boundary-ambiguity",
+      "matchBoundary": "literal",
+      "reason": "明瞭爲了解；道明加句末了、天明加了須保留明了，先辨詞界及句法。",
+      "reviewOnly": true
+    },
+    {
+      "source": "不干",
+      "activeTargets": [
+        "不乾",
+        "不幹",
+        "不干"
+      ],
+      "matchForms": [
+        "不干",
+        "不乾",
+        "不幹"
+      ],
+      "pos": [],
+      "riskKind": "conversion-ambiguity",
+      "matchBoundary": "literal",
+      "reason": "不會乾涸、不乾燥取不乾；拒絕做事取不幹；不相干取干。不能只以動詞標註決定。",
+      "reviewOnly": true
+    },
+    {
+      "source": "散发",
+      "activeTargets": [
+        "散發",
+        "散髮"
+      ],
+      "matchForms": [
+        "散发",
+        "散發",
+        "散髮"
+      ],
+      "pos": [],
+      "riskKind": "conversion-ambiguity",
+      "matchBoundary": "literal",
+      "reason": "披散的頭髮取散髮，發散氣息取散發；以披肩、披頭及發散的直接受事辨別。",
+      "reviewOnly": true
+    },
+    {
+      "source": "复合",
+      "activeTargets": [
+        "復合",
+        "複合"
+      ],
+      "matchForms": [
+        "复合",
+        "復合",
+        "複合"
+      ],
+      "pos": [],
+      "riskKind": "conversion-ambiguity",
+      "matchBoundary": "literal",
+      "reason": "分離後重新合一取復合；多種成分組合取複合。動詞或名詞標註均須核對局部語義。",
+      "reviewOnly": true
+    }
+  ]
+}

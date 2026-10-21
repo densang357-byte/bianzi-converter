@@ -1,0 +1,20 @@
+{
+  "repository": "https://github.com/forfudan/GujiCC",
+  "commit": "bd47701e901ce72b4e8863a39207f6095999f0b8",
+  "retrieved": "2026-10-11",
+  "license": "Apache-2.0",
+  "modifications": "Unmodified upstream dictionaries and configuration files.",
+  "files": {
+    "GSCharacters.txt": "d693eb117bfe86c796c0c65c78353f3ce4ca55fdcff51c8d1f2f9ea33d1efb60",
+    "GSPhrases.txt": "09f20681c166383cf566651312700966e203f49989f28b43ca49a8d6094aca5d",
+    "LICENSE.txt": "98570310d48e27b48712d22d5456ab67366569bb9d630c8abba7bbc9dfb6fd72",
+    "SCCharacters.txt": "d9133a43b5c36647fb82baa44aea429321b0fc9b1a862f5ae9a6585578f53875",
+    "SCPhrases.txt": "f963dfa3005fefccbfdfcb60882414f0d1ba72a44c698334de4a9ecc983dda56",
+    "SGCharacters.txt": "361a3bc300bf2f5679ddb30cbf9a7f5f466cef7c9723383d8762363a14cf41bf",
+    "SGPhrases.txt": "9c143a3d3116d9c47ecd523d947cfca42260505275b916718eca48055c9b1d4b",
+    "TSCharacters.txt": "49d67a58f46f9f1116c337c63febc2e0d356a38fbf181373c70915fbf82db182",
+    "g2s.json": "d509c8475111f9877a51c858fc6fc84dc4b007ab81ed3d3b4e434afc1927f90e",
+    "s2c.json": "29adf669bb545270059c411fa943f1b9bc1d7a43f054ebe1e227cea07444b082",
+    "s2g.json": "702445e07795e6378a813a939a8aafa53225f6455571921bc52a838b2d8e9ab8"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "ltp": "4.2.14",
+  "ltp-core": "0.1.4",
+  "ltp-extension": "0.1.13",
+  "torch": "2.14.1",
+  "transformers": "4.57.6",
+  "checkedAt": "2026-10-16",
+  "releaseSource": "https://pypi.org/project/ltp/",
+  "model": "LTP/base",
+  "snapshot": "97d6e77d2d7e93c435ec0fb297800f54964323be"
+}

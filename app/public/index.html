@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#244f43">
+  <title>辨字 · 簡繁轉換工具</title>
+  <link rel="stylesheet" href="/style.css">
+  <script src="/diff.js" defer></script>
+  <script src="/corrections.js" defer></script>
+  <script src="/fflate.js" defer></script>
+  <script src="/encoding-data.js" defer></script>
+  <script src="/documents.js" defer></script>
+  <script src="/replacements.js" defer></script>
+  <script src="/editor-diff.js" defer></script>
+  <script src="/app.js" defer></script>
+  <script src="/settings.js" defer></script>
+  <script src="/proofreading.js" defer></script>
+  <script src="/classical-quote-pass.js" defer></script>
+  <script src="/files.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <a href="/" class="brand"><span class="seal">辨</span><span>辨字 <small>簡繁之間，讀懂字義。</small></span></a>
+    <span class="local-label"><i></i> 本機運行</span>
+  </header>
+  <main>
+    <div class="intro"><div><p class="eyebrow">依義辨字 · 多標準轉換</p><h1>每一個字，都有它的語境。</h1><p class="subtitle">轉換文字，辨別一簡多繁，保留你的用字選擇。</p></div><div class="standard"><span>轉換標準</span><strong id="profile-title">現代漢語</strong><small id="profile-source">默認標準</small></div></div>
+    <p class="form-note">每次轉換均會分類保存原生標註與問題。<a href="/diagnostics/" target="_blank" rel="noopener">開啟問題收集庫 ↗</a> · <a href="/classical-quotes.html" target="_blank" rel="noopener">古籍引文庫 ↗</a></p>
+    <nav class="tabs" aria-label="功能選單"><button class="active" data-tab="convert">文字轉換</button><button data-tab="files">檔案／校對模式</button><button data-tab="characters">一簡多繁字庫 <span id="ambiguous-count">—</span></button><button data-tab="custom">自訂詞庫 <span id="custom-count">0</span></button><button data-tab="corrections">修正詞庫 <span id="correction-count">0</span></button></nav>
+    <div id="message" role="status" aria-live="polite" hidden></div>
+    <section id="convert-panel" class="panel">
+      <div class="toolbar"><div class="switch" aria-label="轉換方向"><button class="active" data-direction="s2t">簡體 → 繁體</button><button data-direction="t2s">繁體 → 簡體</button></div><label class="mode-label">轉換方式 <select id="mode"><option value="fast">快速模式（HanLP）</option><option value="slow" selected>慢速模式（LTP）</option></select></label></div>
+      <div class="profile-controls"><label><input type="checkbox" id="use-pos-lexicon"> 使用詞性詞庫（試用）</label><span class="muted">先分詞、標註詞性，再按完整詞與詞性查詞庫。人工指定優先；等義選偏古字形，取消詞頻自動選字；多義未判明時沿用已有判斷並列風險詞。</span></div>
+      <div class="profile-controls"><label for="profile">轉換標準</label><select id="profile" aria-label="轉換標準"><option value="modern">默認標準</option></select><label class="zhe-choice"><input type="checkbox" id="preserve-zhe" checked> 保留着／著區別</label></div>
+      <p id="profile-description" class="muted"></p>
+      <p class="form-note"><a href="/student-standard.html" target="_blank" rel="noopener">學生字典用字說明與待核清單 ↗</a></p>
+      <details class="profile-comparison" id="profile-comparison">
+        <summary>各方案用字對照</summary>
+        <p class="muted">簡 → 繁 · 慢速模式（LTP）· 預設字形</p>
+        <div class="table-wrap" tabindex="0" role="region" aria-label="各方案用字對照表，可左右捲動">
+          <table>
+            <caption class="sr-only">九種方案的分義與字形用字對照</caption>
+            <thead><tr><th scope="col">用字</th><th scope="col">默認</th><th scope="col">OpenCC</th><th scope="col">臺灣</th><th scope="col">香港</th><th scope="col">香港舊<small>1960年代</small></th><th scope="col">臺灣舊<small>1960年代</small></th><th scope="col">大陸標準<small>古籍繁體</small></th><th scope="col">大陸微調<small>調和繁體</small></th><th scope="col">學生字典<small>試用</small></th></tr></thead>
+            <tbody>
+              <tr><th scope="row">才／纔</th><td>才華<br>纔來</td><td>才華<br>才來</td><td>才華<br>才來</td><td>才華<br>才來</td><td>才華<br>纔來</td><td>才華<br>纔來</td><td>才華<br>才來</td><td>才華<br>才來</td><td>才華<br>纔來</td></tr>
+              <tr><th scope="row">喫／吃</th><td>喫飯<br>口吃</td><td>喫飯<br>口吃</td><td>吃飯<br>口吃</td><td>吃飯<br>口吃</td><td>喫飯<br>口吃</td><td>喫飯<br>口吃</td><td>喫飯<br>口吃</td><td>喫飯<br>口吃</td><td>喫飯<br>口吃</td></tr>
+              <tr><th scope="row">諮／咨</th><td>諮詢<br>咨文</td><td>諮詢<br>咨文</td><td>諮詢<br>咨文</td><td>諮詢<br>咨文</td><td>諮詢<br>咨文</td><td>諮詢<br>咨文</td><td>諮詢<br>咨文</td><td>諮詢<br>咨文</td><td>諮詢<br>咨文</td></tr>
+              <tr><th scope="row">劃／畫<small>動詞／名詞</small></th><td>計劃<br>計畫</td><td>計劃<br>計畫</td><td>計劃<br>計畫</td><td>計劃<br>計畫</td><td>計劃<br>計畫</td><td>計劃<br>計畫</td><td>計劃<br>計畫</td><td>計劃<br>計畫</td><td>計劃<br>計畫</td></tr>
+              <tr><th scope="row">鏟／剷</th><td>鐵鏟<br>剷土</td><td>鐵鏟<br>剷土</td><td>鐵鏟<br>剷土</td><td>鐵鏟<br>剷土</td><td>鐵鏟<br>剷土</td><td>鐵鏟<br>剷土</td><td>鐵鏟<br>剷土</td><td>鐵鏟<br>剷土</td><td>鐵鏟<br>剷土</td></tr>
+              <tr><th scope="row">考／攷</th><td>考試<br>壽考</td><td>考試<br>壽考</td><td>考試<br>壽考</td><td>考試<br>壽考</td><td>攷試<br>壽考</td><td>攷試<br>壽考</td><td>考試<br>壽考</td><td>考試<br>壽考</td><td>攷試<br>壽考</td></tr>
+              <tr><th scope="row">乾／幹／干</th><td>乾燥<br>幹活<br>干涉</td><td>乾燥<br>幹活<br>干涉</td><td>乾燥<br>幹活<br>干涉</td><td>乾燥<br>幹活<br>干涉</td><td>乾燥<br>幹活<br>干涉</td><td>乾燥<br>幹活<br>干涉</td><td>乾燥<br>幹活<br>干涉</td><td>乾燥<br>幹活<br>干涉</td><td>乾燥<br>幹活<br>干涉</td></tr>
+              <tr><th scope="row">床／牀</th><td>牀鋪</td><td>牀鋪</td><td>床鋪</td><td>牀鋪</td><td>牀鋪</td><td>牀鋪</td><td>牀鋪</td><td>床鋪</td><td>牀鋪</td></tr>
+              <tr><th scope="row">群／羣</th><td>人羣</td><td>人羣</td><td>人群</td><td>人羣</td><td>人羣</td><td>人群</td><td>人群</td><td>人群</td><td>人羣</td></tr>
+              <tr><th scope="row">峰／峯</th><td>山峯</td><td>山峯</td><td>山峰</td><td>山峯</td><td>山峯</td><td>山峰</td><td>山峰</td><td>山峰</td><td>山峯</td></tr>
+              <tr><th scope="row">線／綫</th><td>電綫</td><td>電線</td><td>電線</td><td>電線</td><td>電綫</td><td>電線</td><td>電線</td><td>電線</td><td>電線</td></tr>
+              <tr><th scope="row">煙／烟／菸</th><td>煙霧<br>抽煙</td><td>煙霧<br>抽菸</td><td>煙霧<br>抽菸</td><td>煙霧<br>抽煙</td><td>烟霧<br>抽菸</td><td>煙霧<br>抽菸</td><td>煙霧<br>抽菸</td><td>煙霧<br>抽菸</td><td>煙霧<br>抽菸</td></tr>
+              <tr><th scope="row">衛／衞</th><td>衞生</td><td>衛生</td><td>衛生</td><td>衞生</td><td>衞生</td><td>衛生</td><td>衛生</td><td>衛生</td><td>衞生</td></tr>
+              <tr><th scope="row">朵／朶</th><td>花朵</td><td>花朵</td><td>花朵</td><td>花朵</td><td>花朵</td><td>花朶</td><td>花朶</td><td>花朵</td><td>花朵</td></tr>
+              <tr><th scope="row">裏／裡</th><td>裡面</td><td>裏面</td><td>裡面</td><td>裏面</td><td>裏面</td><td>裏面</td><td>裏面</td><td>裏面</td><td>裏面</td></tr>
+              <tr><th scope="row">麪／麵</th><td>麪條</td><td>麪條</td><td>麵條</td><td>麪條</td><td>麪條</td><td>麪條</td><td>麵條</td><td>麵條</td><td>麪條 <small>待核</small></td></tr>
+              <tr><th scope="row">溫／温</th><td>溫暖</td><td>溫暖</td><td>溫暖</td><td>温暖</td><td>溫暖</td><td>溫暖</td><td>溫暖</td><td>温暖</td><td>溫暖</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </details>
+      <p class="form-note">各標準的簡轉繁均按本專案要求保留「象」原字；原文「像」保留。</p><p class="form-note">「着／著」開啟時保留原文兩字，不合併為同字；這是獨立保留選項，也適用臺灣標準。自訂詞條及前後取代仍可明確覆寫。</p>
+      <details class="standard-settings" id="standard-settings"><summary>字形與異體設定 <span id="variant-summary">異體轉換已關閉</span></summary><p class="muted">人工詞性指定及已核詞義優先，例如計劃 v／計畫 n；鏟 n／剷 v。默認標準統一用考，底層保留攷／考的區分。專門語詞庫默認啓用（古文固定語、典故）。白面、面皮首項保留面並列風險；揹着列風險。逕／徑合併爲徑。簡轉繁的「借、象」保留原字；注／註一律默認注；广一律轉廣。「复」僅用復／複，「烟」只轉煙，「弦」只用弦。幸／倖、巨／鉅、鑑／鑒依完整詞分義。</p><p class="muted">已確認完全等義者統一選偏古字形，例如牀、羣、峯、勛；綫、衞、裡依指定字形。不把局部同義的整組字合併。啟用詞性詞庫後，詞頻不再參與候選選字；未判明的候選沿用既有詞義及詞性判斷。這些多義詞仍在校對時標為風險詞。</p><p class="muted">以下各組預設關閉，只阻止產生新異體，保留原文已有異體。開啟後依詞庫與詞性選用，並非逐字強制替換。僅適用簡 → 繁。</p><label class="all-variants"><input type="checkbox" id="all-variants"> 開啟全部異體組別</label><div id="variant-options" class="variant-grid"></div></details>
+      <p class="muted">兩欄同步捲動；原文差異以淡紅標示，結果差異以淡綠標示。修改成品後會更新對比。</p><div class="editors">
+        <div class="editor"><div class="editor-heading"><h2>原文 <small id="input-label">簡體中文</small></h2><button class="text-button" id="sample">試用範例 ↗</button></div><label class="sr-only" for="input">輸入待轉換文字</label><textarea id="input" placeholder="貼上文字，讓每個字找到合適的繁體。&#10;&#10;例如：这只是一只猫，头发干燥了。" spellcheck="false"></textarea><div class="editor-bottom"><span id="input-count">0 字</span><button class="text-button" id="clear">清空</button></div></div>
+        <div class="editor output-editor"><div class="editor-heading"><h2>轉換結果 <small id="output-label">可直接修改成品</small></h2><button class="text-button" id="copy" disabled>複製結果</button></div><textarea id="output" aria-label="轉換結果（可直接修改）" class="output empty" placeholder="轉換後可在這裏直接修改文字。" spellcheck="false" readonly></textarea><div class="editor-bottom"><span id="output-count">—</span><button class="text-button" id="download-text" disabled>下載 .txt ↓</button></div></div>
+      </div>
+      <div class="correction-status"><span id="correction-status" role="status">成品修改後會自動另存修正詞庫，不參與後續轉換。</span><button class="secondary" id="proof-output">校對轉換結果</button><button class="text-button" id="restore-output" disabled>還原本次成品</button></div>
+      <div class="action-row"><p id="mode-hint">快速模式使用 HanLP，慢速模式使用 LTP；兩種模式均分析分詞與詞性並保存診斷。</p><button class="primary" id="convert">開始轉換 <span>→</span></button></div>
+      <section id="text-proof" class="proof-panel" hidden></section><section class="review"><div class="section-heading"><div><p class="eyebrow">逐句檢視</p><h2>看見一簡多繁的選擇 <span id="review-count"></span></h2></div><div class="review-actions"><label><input id="only-ambiguous" type="checkbox" checked> 只顯示含一簡多繁字的句子</label><button class="text-button" id="download-report" disabled>下載差異報告 ↓</button></div></div><div class="legend"><span><i class="old"></i> 原文字形</span><span><i class="new"></i> 轉換字形</span><span><i class="candidate"></i> 一簡多繁候選</span></div><div id="review-list" class="review-list"><div class="blank-state"><span>字</span><p>轉換後，這裏會逐句顯示原文與結果。</p><small>即使字形沒有改變，含一簡多繁字的句子也會列出。</small></div></div></section>
+    </section>
+    <section id="files-panel" class="panel" hidden>
+      <div class="section-heading"><div><p class="eyebrow">整份匯入 · 分批轉換</p><h2>檔案轉換與選字校對</h2><p class="muted">依上傳書籍原字顯示，不預先統一字形。TXT 全篇連續校對，EPUB 整章連續校對；點字即可選擇候選，無須逐段切換。</p><p class="muted">TXT 保留換行；EPUB 保留章節、目錄、圖片、樣式與連結。所有處理都在本機完成。</p></div></div>
+      <div class="file-drop" id="file-drop"><div><strong>選擇或拖入 TXT、EPUB 檔案</strong><p class="muted">TXT 最多 10 MB · EPUB 最多 50 MB · 一次處理一份</p></div><button class="secondary" id="choose-document">選擇檔案</button><input id="document-file" type="file" accept=".txt,.epub,text/plain,application/epub+zip" hidden></div>
+      <div class="file-controls"><label>TXT 編碼<select id="file-encoding"><option value="auto">自動識別（UTF／GB18030／Big5）</option><option value="utf-8">UTF-8</option><option value="utf-16le">UTF-16 LE</option><option value="utf-16be">UTF-16 BE</option><option value="gb18030">GB18030／GBK</option><option value="big5">Big5</option></select></label><label>方向<select id="file-direction"><option value="s2t">簡體 → 繁體</option><option value="t2s">繁體 → 簡體</option></select></label><label>轉換方式<select id="file-mode"><option value="fast">快速模式（HanLP）</option><option value="slow" selected>慢速模式（LTP）</option></select></label></div>
+      <div class="profile-controls"><label><input type="checkbox" id="file-use-pos-lexicon"> 使用詞性詞庫（與文字轉換同步）</label></div>
+      <div class="profile-controls"><label for="file-profile">檔案轉換標準</label><select id="file-profile" aria-label="檔案轉換標準"><option value="modern">默認標準</option></select><span class="muted">與文字轉換同步；着／著選項同樣生效。</span></div>
+      <p id="file-settings-note" class="muted">沿用「文字轉換」的轉換標準、着／著與異體設定，以及已啟用的自訂詞庫。修正詞庫不參與轉換。TXT 成品統一輸出 UTF-8。</p>
+      <div class="file-job"><p id="file-info" class="muted">尚未匯入檔案。匯入後可先查看原文，再開始轉換。</p><div class="file-buttons"><button class="secondary" id="proof-file" disabled>直接校對原文</button><button class="primary" id="convert-file" disabled>轉換整份檔案 →</button><button class="secondary" id="cancel-file" hidden>取消轉換</button><button class="secondary" id="download-file" disabled>下載轉換成品 ↓</button></div><progress id="file-progress" value="0" max="1" hidden></progress><p id="file-status" role="status" aria-live="polite" class="muted"></p></div>
+      <div id="file-preview" hidden><div class="file-controls"><label class="file-part-label">章節／內容<select id="file-part" aria-label="檔案章節"></select></label></div><section id="file-proof" class="proof-panel" hidden></section><details class="proof-details"><summary>展開局部原文對照與自由編輯</summary><div class="file-controls"><label class="file-unit-label">段落／文字區塊<select id="file-unit" aria-label="檔案段落"></select></label><button id="file-prev" class="secondary">← 上一段</button><button id="file-next" class="secondary">下一段 →</button></div>
+      <p class="muted">兩欄同步捲動；原文差異以淡紅標示，結果差異以淡綠標示。修改成品後會更新對比。</p><div class="editors"><div class="editor"><div class="editor-heading"><h2>原文</h2></div><textarea id="file-before" aria-label="檔案原文" readonly></textarea></div><div class="editor output-editor"><div class="editor-heading"><h2>轉換結果 <small>可逐段校對</small></h2><button id="file-restore" class="text-button" disabled>還原本段</button></div><textarea id="file-after" aria-label="檔案轉換結果（可修改）" readonly placeholder="完成轉換後可在這裏校對。"></textarea></div></div>
+      <p id="file-correction-status" class="muted">修改會另存修正詞庫，不參與轉換。EPUB 以純文字檢視，原始排版保留在下載檔中。</p><div id="file-diff" class="file-diff" aria-label="檔案段落差異"></div></details></div>
+    </section>
+    <section id="characters-panel" class="panel" hidden><div class="section-heading"><div><p class="eyebrow">依所選標準與異體設定提取</p><h2>一簡多繁字庫</h2><p class="muted">僅列所選標準與異體設定下仍有多個候選的字，不另列參考詞庫的官方候選。依分化類別列示；本標準用「喫飯」之喫、「口吃」之吃。字形偏好先保留本可作繁體的原字；否則選近形常用字，極少見者除外。字頻並非各義項的使用頻率，未收錄也不代表零次。着／著依原文保留。<a href="/standard-review.html" target="_blank" rel="noopener">查看完整字形與歷史核驗報告 ↗</a> · <a href="/historical-review.html" target="_blank" rel="noopener">新舊港臺62組參攷與字頻取捨 ↗</a></p></div><button class="secondary" id="export-ambiguous">匯出完整字庫 ↓</button></div><div class="search-row"><label class="search"><span>⌕</span><input id="character-search" placeholder="搜尋簡體字或繁體候選，例如：干、髮" aria-label="搜尋一簡多繁字"></label><select id="character-priority" aria-label="字庫分類"><option value="">全部分類</option><option value="1">必要區分</option><option value="2">專名與專業語境</option><option value="3">低頻待核</option><option value="4">字形與可選分化</option></select><select id="character-subcategory" aria-label="字形分化細類"><option value="">全部細類</option><option>必要分義</option><option>詞義分化（可選習慣）</option><option>字形偏好／異體</option><option>指定可選異體</option><option>衝突預設／保留特殊義項</option><option>固定字形</option><option>專名／專門義</option><option>低頻分支／待逐義核對</option></select><span id="character-result-count" class="muted"></span></div><div class="table-wrap"><table><thead><tr><th>簡體字</th><th>目前可用候選（首字為默認選字）</th><th>分化用例與各表頻次</th></tr></thead><tbody id="character-table"></tbody></table></div><div class="pagination"><button class="secondary" id="previous-page">← 上一頁</button><span id="page-count"></span><button class="secondary" id="next-page">下一頁 →</button></div><div class="lookup-box"><h3>查詢單字與詞庫對應</h3><p class="muted">查閱默認方案的有效單字、整詞與專門語對應。已合併字形不再列重複候選。</p><form id="lookup-form" class="search-row"><label class="search"><input id="lookup-input" required placeholder="輸入字詞，例如：头发" aria-label="查詢字詞"></label><button class="secondary">查詢</button></form><div id="lookup-results"></div></div></section>
+    <section id="custom-panel" class="panel" hidden><div class="section-heading"><div><p class="eyebrow">你的用字習慣</p><h2>自訂詞庫</h2><p class="muted">自訂詞條優先於所選標準；較長詞條優先。詞庫會保存在這個瀏覽器，可匯入或匯出備份。</p></div><div class="custom-actions"><button class="secondary" id="import-custom">匯入 JSON</button><button class="secondary" id="export-custom">匯出 JSON ↓</button><input type="file" id="import-file" accept=".json,application/json" hidden></div></div><div class="replacement-workflow"><h3>保護字詞與前後取代</h3><p class="muted">流程：保護字詞 → 轉換前取代 → 所選標準與自訂詞條 → 轉換後取代 → 還原保護字詞。</p><label><input id="replacements-enabled" type="checkbox" checked> 啟用自訂取代流程</label><div class="replacement-grid">
+      <label for="replace-protect">保護字詞<textarea id="replace-protect" rows="6" spellcheck="false" placeholder="每行一個詞，例如：&#10;乾隆&#10;OpenCC"></textarea><small>保留原文，隔離於轉換與前後取代之外。重疊時較長詞優先。</small></label>
+      <label for="replace-pre">轉換前取代<textarea id="replace-pre" rows="6" spellcheck="false" placeholder="每行 原文=結果，例如：&#10;软件=程序"></textarea><small>先取代再轉換。結果可留空表示刪除。</small></label>
+      <label for="replace-post">轉換後取代<textarea id="replace-post" rows="6" spellcheck="false" placeholder="每行 原文=結果，例如：&#10;軟件=軟體"></textarea><small>成品最後取代，可固定譯名或用字。</small></label>
+      </div><p class="form-note">純文字精確匹配，不使用正規表示式；按行依序取代，第一個「=」分隔原文和結果。空行略過，空格保留。文字可跨句匹配；檔案以各文字區塊為界。保護字詞可能切斷周邊語境。</p><p id="replacement-status" role="status" class="muted">設定自動儲存，適用文字、TXT 與 EPUB；不讀取修正詞庫。</p><button type="button" class="secondary" id="export-replacements">匯出三段取代設定 ↓</button><button type="button" class="secondary" id="import-replacements">匯入三段取代設定</button><input type="file" id="replacement-file" accept=".json,application/json" hidden></div><h3>指定詞條（支援詞性）</h3><form id="custom-form" class="custom-form"><input type="hidden" id="edit-id"><label>原文<input id="custom-source" required maxlength="500" placeholder="例如：干杯"></label><span class="rule-arrow">→</span><label>轉換結果<input id="custom-target" required maxlength="500" placeholder="例如：乾杯"></label><label>方向<select id="custom-direction"><option value="s2t">簡 → 繁</option><option value="t2s">繁 → 簡</option></select></label><label>詞性（選填）<input id="custom-pos" placeholder="例如 n / v / a" pattern="[a-z]*"></label><button class="primary" id="save-rule">新增詞條</button><button type="button" class="text-button" id="cancel-edit" hidden>取消編輯</button></form><p class="form-note">詞性使用 LTP 標籤：n 名詞、v 動詞、a 形容詞、q 量詞。指定詞性時，須使用詞性輔助模式，且詞條需符合一個完整分詞。</p><div class="table-wrap"><table><thead><tr><th>啟用</th><th>原文</th><th>轉換結果</th><th>方向</th><th>詞性</th><th>操作</th></tr></thead><tbody id="custom-table"></tbody></table></div><div class="custom-empty" id="custom-empty">尚未新增詞條。可以為人名、專有名詞或特定用字設定轉換。</div></section>
+    <section id="corrections-panel" class="panel" hidden><div class="section-heading"><div><p class="eyebrow">人工校對紀錄</p><h2>修正詞庫 <span>僅保存 · 不參與轉換</span></h2><p class="muted">在成品中修改文字後自動建立。記錄「機器結果 → 人工修正」及上下文，與自訂轉換詞庫分開保存於此瀏覽器。新增與刪除文字也會記錄。</p></div><button class="secondary" id="export-corrections">匯出修正詞庫 JSON ↓</button></div><div class="table-wrap"><table><thead><tr><th>機器結果</th><th>人工修正</th><th>方向</th><th>原結果上下文</th><th>操作</th></tr></thead><tbody id="correction-table"></tbody></table></div><div id="correction-empty" class="custom-empty">尚無修正。在轉換結果中直接修改文字，即會自動收錄。</div><button id="more-corrections" class="secondary" hidden>載入更多修正</button></section>
+    <footer><span>辨字 · 只在本機處理文字</span><span id="source-info">正在載入詞庫…</span></footer>
+  </main>
+</body>
+</html>

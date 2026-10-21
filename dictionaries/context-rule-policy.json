@@ -1,0 +1,10 @@
+{
+  "version": "r20",
+  "enabled_reasons": [
+    "r20：翻／飛／狂／席＋捲是動態旋轉或裹挾，修正單字卷/n；卷冊和紙卷不改。",
+    "r20：蒙的直接對象為口鼻、頭面等覆蓋實體，非矇騙義。",
+    "r20：撞鐘及一口鐘風氅取鐘形器物義；喝一鍾茶不匹配。",
+    "r20：酒罈邊緣、舉罈注酒或飲酒後的空罈是容器；壇場、論壇不匹配。"
+  ],
+  "policy": "Only enabled lexical rules participate in conversion."
+}

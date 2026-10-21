@@ -1,0 +1,5366 @@
+{
+  "version": "word-boundary-policy-20261018-v5",
+  "automaticConversion": false,
+  "words": [
+    {
+      "source": "一出",
+      "activeTargets": [
+        "一出",
+        "一齣"
+      ],
+      "matchForms": [
+        "一出",
+        "一齣"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "一只",
+      "activeTargets": [
+        "一隻"
+      ],
+      "matchForms": [
+        "一只",
+        "一隻"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "一斗",
+      "activeTargets": [
+        "一斗"
+      ],
+      "matchForms": [
+        "一斗"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "不干",
+      "activeTargets": [
+        "不乾",
+        "不幹"
+      ],
+      "matchForms": [
+        "不乾",
+        "不干",
+        "不幹"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "你才子发昏",
+      "activeTargets": [
+        "你纔子發昏"
+      ],
+      "matchForms": [
+        "你才子发昏",
+        "你纔子發昏"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "出戏",
+      "activeTargets": [
+        "出戏",
+        "出戲",
+        "齣戲"
+      ],
+      "matchForms": [
+        "出戏",
+        "出戲",
+        "齣戲"
+      ],
+      "lexicalTargets": [
+        "出戲"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "刚才一载",
+      "activeTargets": [
+        "剛纔一載"
+      ],
+      "matchForms": [
+        "刚才一载",
+        "剛纔一載"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "刚才在",
+      "activeTargets": [
+        "剛纔在"
+      ],
+      "matchForms": [
+        "刚才在",
+        "剛纔在"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "刚才是",
+      "activeTargets": [
+        "剛纔是"
+      ],
+      "matchForms": [
+        "刚才是",
+        "剛纔是"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "别日南鸿才北去",
+      "activeTargets": [
+        "別日南鴻纔北去",
+        "别日南鴻纔北去"
+      ],
+      "matchForms": [
+        "別日南鴻纔北去",
+        "别日南鴻纔北去",
+        "别日南鸿才北去"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "卷起来",
+      "activeTargets": [
+        "捲起來"
+      ],
+      "matchForms": [
+        "卷起来",
+        "捲起來"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "只来",
+      "activeTargets": [
+        "只來"
+      ],
+      "matchForms": [
+        "只來",
+        "只来"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "四周",
+      "activeTargets": [
+        "四周",
+        "四週"
+      ],
+      "matchForms": [
+        "四周",
+        "四週"
+      ],
+      "lexicalTargets": [
+        "四周"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。",
+      "legacyDictionaryPosGroups": {
+        "nd": [
+          "四周",
+          "四週"
+        ]
+      }
+    },
+    {
+      "source": "天后",
+      "activeTargets": [
+        "天后",
+        "天後"
+      ],
+      "matchForms": [
+        "天后",
+        "天後"
+      ],
+      "lexicalTargets": [
+        "天后"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。",
+      "legacyDictionaryPosGroups": {
+        "nh": [
+          "天后",
+          "天後"
+        ]
+      }
+    },
+    {
+      "source": "好不容易才",
+      "activeTargets": [
+        "好不容易纔"
+      ],
+      "matchForms": [
+        "好不容易才",
+        "好不容易纔"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "学历",
+      "activeTargets": [
+        "學曆",
+        "學歷"
+      ],
+      "matchForms": [
+        "学历",
+        "學曆",
+        "學歷"
+      ],
+      "lexicalTargets": [
+        "學歷"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。",
+      "legacyDictionaryPosGroups": {
+        "n": [
+          "學曆",
+          "學歷"
+        ]
+      }
+    },
+    {
+      "source": "干了",
+      "activeTargets": [
+        "乾了",
+        "幹了"
+      ],
+      "matchForms": [
+        "乾了",
+        "干了",
+        "幹了"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "干他",
+      "activeTargets": [
+        "干他",
+        "幹他"
+      ],
+      "matchForms": [
+        "干他",
+        "幹他"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "干你",
+      "activeTargets": [
+        "干你",
+        "幹你"
+      ],
+      "matchForms": [
+        "干你",
+        "幹你"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "干她",
+      "activeTargets": [
+        "干她",
+        "幹她"
+      ],
+      "matchForms": [
+        "干她",
+        "幹她"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "干我",
+      "activeTargets": [
+        "干我",
+        "幹我"
+      ],
+      "matchForms": [
+        "干我",
+        "幹我"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "干点",
+      "activeTargets": [
+        "乾點",
+        "幹點"
+      ],
+      "matchForms": [
+        "乾點",
+        "干点",
+        "幹點"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "干着",
+      "activeTargets": [
+        "乾着",
+        "幹着"
+      ],
+      "matchForms": [
+        "乾着",
+        "干着",
+        "幹着"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "当家才知柴米价",
+      "activeTargets": [
+        "當家纔知柴米價"
+      ],
+      "matchForms": [
+        "当家才知柴米价",
+        "當家纔知柴米價"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "很松",
+      "activeTargets": [
+        "很鬆"
+      ],
+      "matchForms": [
+        "很松",
+        "很鬆"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "患难之交才是真正的朋友",
+      "activeTargets": [
+        "患難之交纔是真正的朋友"
+      ],
+      "matchForms": [
+        "患难之交才是真正的朋友",
+        "患難之交纔是真正的朋友"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才上到",
+      "activeTargets": [
+        "纔上到"
+      ],
+      "matchForms": [
+        "才上到",
+        "纔上到"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才上去",
+      "activeTargets": [
+        "纔上去"
+      ],
+      "matchForms": [
+        "才上去",
+        "纔上去"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才上来",
+      "activeTargets": [
+        "纔上來"
+      ],
+      "matchForms": [
+        "才上来",
+        "纔上來"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才下去",
+      "activeTargets": [
+        "纔下去"
+      ],
+      "matchForms": [
+        "才下去",
+        "纔下去"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才下来",
+      "activeTargets": [
+        "纔下來"
+      ],
+      "matchForms": [
+        "才下来",
+        "纔下來"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才不",
+      "activeTargets": [
+        "纔不"
+      ],
+      "matchForms": [
+        "才不",
+        "纔不"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才不会",
+      "activeTargets": [
+        "纔不會"
+      ],
+      "matchForms": [
+        "才不会",
+        "纔不會"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才不是",
+      "activeTargets": [
+        "纔不是"
+      ],
+      "matchForms": [
+        "才不是",
+        "纔不是"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才不能",
+      "activeTargets": [
+        "纔不能"
+      ],
+      "matchForms": [
+        "才不能",
+        "纔不能"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才为",
+      "activeTargets": [
+        "纔爲"
+      ],
+      "matchForms": [
+        "才为",
+        "纔爲"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才买",
+      "activeTargets": [
+        "纔買"
+      ],
+      "matchForms": [
+        "才买",
+        "纔買"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才会",
+      "activeTargets": [
+        "才會",
+        "纔會"
+      ],
+      "matchForms": [
+        "才会",
+        "才會",
+        "纔會"
+      ],
+      "lexicalTargets": [
+        "才會"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才会到",
+      "activeTargets": [
+        "纔會到"
+      ],
+      "matchForms": [
+        "才会到",
+        "纔會到"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才会在",
+      "activeTargets": [
+        "纔會在"
+      ],
+      "matchForms": [
+        "才会在",
+        "纔會在"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才会有",
+      "activeTargets": [
+        "纔會有"
+      ],
+      "matchForms": [
+        "才会有",
+        "纔會有"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才信",
+      "activeTargets": [
+        "纔信"
+      ],
+      "matchForms": [
+        "才信",
+        "纔信"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才像",
+      "activeTargets": [
+        "纔像"
+      ],
+      "matchForms": [
+        "才像",
+        "纔像"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才像是",
+      "activeTargets": [
+        "纔像是"
+      ],
+      "matchForms": [
+        "才像是",
+        "纔像是"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才再",
+      "activeTargets": [
+        "纔再"
+      ],
+      "matchForms": [
+        "才再",
+        "纔再"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才出",
+      "activeTargets": [
+        "纔出"
+      ],
+      "matchForms": [
+        "才出",
+        "纔出"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才出去",
+      "activeTargets": [
+        "纔出去"
+      ],
+      "matchForms": [
+        "才出去",
+        "纔出去"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才出来",
+      "activeTargets": [
+        "纔出來"
+      ],
+      "matchForms": [
+        "才出来",
+        "纔出來"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才分",
+      "activeTargets": [
+        "才分",
+        "纔分"
+      ],
+      "matchForms": [
+        "才分",
+        "纔分"
+      ],
+      "lexicalTargets": [
+        "才分"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才到",
+      "activeTargets": [
+        "纔到"
+      ],
+      "matchForms": [
+        "才到",
+        "纔到"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才去",
+      "activeTargets": [
+        "纔去"
+      ],
+      "matchForms": [
+        "才去",
+        "纔去"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才可",
+      "activeTargets": [
+        "纔可"
+      ],
+      "matchForms": [
+        "才可",
+        "纔可"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才可以",
+      "activeTargets": [
+        "纔可以"
+      ],
+      "matchForms": [
+        "才可以",
+        "纔可以"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才可容颜十五余",
+      "activeTargets": [
+        "纔可容顏十五餘",
+        "纔可容顔十五餘"
+      ],
+      "matchForms": [
+        "才可容颜十五余",
+        "纔可容顏十五餘",
+        "纔可容顔十五餘"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才回",
+      "activeTargets": [
+        "纔回"
+      ],
+      "matchForms": [
+        "才回",
+        "纔回"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才回到",
+      "activeTargets": [
+        "纔回到"
+      ],
+      "matchForms": [
+        "才回到",
+        "纔回到"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才回去",
+      "activeTargets": [
+        "纔回去"
+      ],
+      "matchForms": [
+        "才回去",
+        "纔回去"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才回来",
+      "activeTargets": [
+        "纔回來"
+      ],
+      "matchForms": [
+        "才回来",
+        "纔回來"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才在",
+      "activeTargets": [
+        "纔在"
+      ],
+      "matchForms": [
+        "才在",
+        "纔在"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才多",
+      "activeTargets": [
+        "纔多"
+      ],
+      "matchForms": [
+        "才多",
+        "纔多"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才多出",
+      "activeTargets": [
+        "纔多出"
+      ],
+      "matchForms": [
+        "才多出",
+        "纔多出"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才够",
+      "activeTargets": [
+        "纔够",
+        "纔夠"
+      ],
+      "matchForms": [
+        "才够",
+        "纔够",
+        "纔夠"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才好",
+      "activeTargets": [
+        "纔好"
+      ],
+      "matchForms": [
+        "才好",
+        "纔好"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才学",
+      "activeTargets": [
+        "才學",
+        "纔學"
+      ],
+      "matchForms": [
+        "才学",
+        "才學",
+        "纔學"
+      ],
+      "lexicalTargets": [
+        "才學"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才守",
+      "activeTargets": [
+        "才守",
+        "纔守"
+      ],
+      "matchForms": [
+        "才守",
+        "纔守"
+      ],
+      "lexicalTargets": [
+        "才守"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才定",
+      "activeTargets": [
+        "才定",
+        "纔定"
+      ],
+      "matchForms": [
+        "才定",
+        "纔定"
+      ],
+      "lexicalTargets": [
+        "才定"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才对",
+      "activeTargets": [
+        "纔對"
+      ],
+      "matchForms": [
+        "才对",
+        "纔對"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才将",
+      "activeTargets": [
+        "纔將"
+      ],
+      "matchForms": [
+        "才将",
+        "纔將"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才干",
+      "activeTargets": [
+        "才幹",
+        "纔幹"
+      ],
+      "matchForms": [
+        "才干",
+        "才幹",
+        "纔幹"
+      ],
+      "lexicalTargets": [
+        "才幹"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才干净",
+      "activeTargets": [
+        "纔乾淨"
+      ],
+      "matchForms": [
+        "才干净",
+        "纔乾淨"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才干旱",
+      "activeTargets": [
+        "纔乾旱"
+      ],
+      "matchForms": [
+        "才干旱",
+        "纔乾旱"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才干杯",
+      "activeTargets": [
+        "纔乾杯"
+      ],
+      "matchForms": [
+        "才干杯",
+        "纔乾杯"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才干透",
+      "activeTargets": [
+        "纔乾透"
+      ],
+      "matchForms": [
+        "才干透",
+        "纔乾透"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才开",
+      "activeTargets": [
+        "纔開"
+      ],
+      "matchForms": [
+        "才开",
+        "纔開"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才开出",
+      "activeTargets": [
+        "纔開出"
+      ],
+      "matchForms": [
+        "才开出",
+        "纔開出"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才开到",
+      "activeTargets": [
+        "纔開到"
+      ],
+      "matchForms": [
+        "才开到",
+        "纔開到"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才得两年",
+      "activeTargets": [
+        "纔得兩年"
+      ],
+      "matchForms": [
+        "才得两年",
+        "纔得兩年"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才得到",
+      "activeTargets": [
+        "纔得到"
+      ],
+      "matchForms": [
+        "才得到",
+        "纔得到"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才思",
+      "activeTargets": [
+        "才思",
+        "纔思"
+      ],
+      "matchForms": [
+        "才思",
+        "纔思"
+      ],
+      "lexicalTargets": [
+        "才思"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才悟",
+      "activeTargets": [
+        "才悟",
+        "纔悟"
+      ],
+      "matchForms": [
+        "才悟",
+        "纔悟"
+      ],
+      "lexicalTargets": [
+        "才悟"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才想",
+      "activeTargets": [
+        "纔想"
+      ],
+      "matchForms": [
+        "才想",
+        "纔想"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才打",
+      "activeTargets": [
+        "纔打"
+      ],
+      "matchForms": [
+        "才打",
+        "纔打"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才打出",
+      "activeTargets": [
+        "纔打出"
+      ],
+      "matchForms": [
+        "才打出",
+        "纔打出"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才打到",
+      "activeTargets": [
+        "纔打到"
+      ],
+      "matchForms": [
+        "才打到",
+        "纔打到"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才拿",
+      "activeTargets": [
+        "纔拏",
+        "纔拿"
+      ],
+      "matchForms": [
+        "才拿",
+        "纔拏",
+        "纔拿"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才拿出",
+      "activeTargets": [
+        "纔拏出",
+        "纔拿出"
+      ],
+      "matchForms": [
+        "才拿出",
+        "纔拏出",
+        "纔拿出"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才拿到",
+      "activeTargets": [
+        "纔拏到",
+        "纔拿到"
+      ],
+      "matchForms": [
+        "才拿到",
+        "纔拏到",
+        "纔拿到"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才敢",
+      "activeTargets": [
+        "纔敢"
+      ],
+      "matchForms": [
+        "才敢",
+        "纔敢"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才料",
+      "activeTargets": [
+        "才料",
+        "纔料"
+      ],
+      "matchForms": [
+        "才料",
+        "纔料"
+      ],
+      "lexicalTargets": [
+        "才料"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才是",
+      "activeTargets": [
+        "纔是"
+      ],
+      "matchForms": [
+        "才是",
+        "纔是"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才有",
+      "activeTargets": [
+        "纔有"
+      ],
+      "matchForms": [
+        "才有",
+        "纔有"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才望",
+      "activeTargets": [
+        "才望",
+        "纔望"
+      ],
+      "matchForms": [
+        "才望",
+        "纔望"
+      ],
+      "lexicalTargets": [
+        "才望"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才来",
+      "activeTargets": [
+        "纔來"
+      ],
+      "matchForms": [
+        "才来",
+        "纔來"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才来到",
+      "activeTargets": [
+        "纔來到"
+      ],
+      "matchForms": [
+        "才来到",
+        "纔來到"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才松下",
+      "activeTargets": [
+        "纔鬆下"
+      ],
+      "matchForms": [
+        "才松下",
+        "纔鬆下"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才此",
+      "activeTargets": [
+        "纔此"
+      ],
+      "matchForms": [
+        "才此",
+        "纔此"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才没",
+      "activeTargets": [
+        "纔沒",
+        "纔没"
+      ],
+      "matchForms": [
+        "才没",
+        "纔沒",
+        "纔没"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才没有",
+      "activeTargets": [
+        "纔沒有",
+        "纔没有"
+      ],
+      "matchForms": [
+        "才没有",
+        "纔沒有",
+        "纔没有"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才没能",
+      "activeTargets": [
+        "纔沒能",
+        "纔没能"
+      ],
+      "matchForms": [
+        "才没能",
+        "纔沒能",
+        "纔没能"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才派",
+      "activeTargets": [
+        "纔派"
+      ],
+      "matchForms": [
+        "才派",
+        "纔派"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才派人",
+      "activeTargets": [
+        "纔派人"
+      ],
+      "matchForms": [
+        "才派人",
+        "纔派人"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才用",
+      "activeTargets": [
+        "才用",
+        "纔用"
+      ],
+      "matchForms": [
+        "才用",
+        "纔用"
+      ],
+      "lexicalTargets": [
+        "才用"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才用到",
+      "activeTargets": [
+        "纔用到"
+      ],
+      "matchForms": [
+        "才用到",
+        "纔用到"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才略",
+      "activeTargets": [
+        "才略",
+        "纔略"
+      ],
+      "matchForms": [
+        "才略",
+        "纔略"
+      ],
+      "lexicalTargets": [
+        "才略"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才看",
+      "activeTargets": [
+        "纔看"
+      ],
+      "matchForms": [
+        "才看",
+        "纔看"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才看出",
+      "activeTargets": [
+        "纔看出"
+      ],
+      "matchForms": [
+        "才看出",
+        "纔看出"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才看到",
+      "activeTargets": [
+        "纔看到"
+      ],
+      "matchForms": [
+        "才看到",
+        "纔看到"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才等",
+      "activeTargets": [
+        "纔等"
+      ],
+      "matchForms": [
+        "才等",
+        "纔等"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才等到",
+      "activeTargets": [
+        "纔等到"
+      ],
+      "matchForms": [
+        "才等到",
+        "纔等到"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才算",
+      "activeTargets": [
+        "纔算"
+      ],
+      "matchForms": [
+        "才算",
+        "纔算"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才算是",
+      "activeTargets": [
+        "纔算是"
+      ],
+      "matchForms": [
+        "才算是",
+        "纔算是"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才给",
+      "activeTargets": [
+        "纔給"
+      ],
+      "matchForms": [
+        "才给",
+        "纔給"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才能",
+      "activeTargets": [
+        "才能",
+        "纔能"
+      ],
+      "matchForms": [
+        "才能",
+        "纔能"
+      ],
+      "lexicalTargets": [
+        "才能"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才能勇敢追",
+      "activeTargets": [
+        "纔能勇敢追"
+      ],
+      "matchForms": [
+        "才能勇敢追",
+        "纔能勇敢追"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才能够",
+      "activeTargets": [
+        "纔能够",
+        "纔能夠"
+      ],
+      "matchForms": [
+        "才能够",
+        "纔能够",
+        "纔能夠"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才能有",
+      "activeTargets": [
+        "纔能有"
+      ],
+      "matchForms": [
+        "才能有",
+        "纔能有"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才行",
+      "activeTargets": [
+        "才行",
+        "纔行"
+      ],
+      "matchForms": [
+        "才行",
+        "纔行"
+      ],
+      "lexicalTargets": [
+        "才行"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才要",
+      "activeTargets": [
+        "纔要"
+      ],
+      "matchForms": [
+        "才要",
+        "纔要"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才讲",
+      "activeTargets": [
+        "纔講"
+      ],
+      "matchForms": [
+        "才讲",
+        "纔講"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才识",
+      "activeTargets": [
+        "才識",
+        "纔識"
+      ],
+      "matchForms": [
+        "才識",
+        "才识",
+        "纔識"
+      ],
+      "lexicalTargets": [
+        "才識"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才语",
+      "activeTargets": [
+        "才語",
+        "纔語"
+      ],
+      "matchForms": [
+        "才語",
+        "才语",
+        "纔語"
+      ],
+      "lexicalTargets": [
+        "才語"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才读",
+      "activeTargets": [
+        "纔讀"
+      ],
+      "matchForms": [
+        "才读",
+        "纔讀"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才读到",
+      "activeTargets": [
+        "纔讀到"
+      ],
+      "matchForms": [
+        "才读到",
+        "纔讀到"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才起来",
+      "activeTargets": [
+        "纔起來"
+      ],
+      "matchForms": [
+        "才起来",
+        "纔起來"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才跟",
+      "activeTargets": [
+        "纔跟"
+      ],
+      "matchForms": [
+        "才跟",
+        "纔跟"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才过去",
+      "activeTargets": [
+        "纔過去"
+      ],
+      "matchForms": [
+        "才过去",
+        "纔過去"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才过来",
+      "activeTargets": [
+        "纔過來"
+      ],
+      "matchForms": [
+        "才过来",
+        "纔過來"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "把方才",
+      "activeTargets": [
+        "把方纔"
+      ],
+      "matchForms": [
+        "把方才",
+        "把方纔"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "文丑",
+      "activeTargets": [
+        "文丑",
+        "文醜"
+      ],
+      "matchForms": [
+        "文丑",
+        "文醜"
+      ],
+      "lexicalTargets": [
+        "文丑"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。",
+      "legacyDictionaryPosGroups": {
+        "nh": [
+          "文丑",
+          "文醜"
+        ]
+      }
+    },
+    {
+      "source": "春天里",
+      "activeTargets": [
+        "春天裏",
+        "春天里"
+      ],
+      "matchForms": [
+        "春天裏",
+        "春天里"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "本系",
+      "activeTargets": [
+        "本係",
+        "本系"
+      ],
+      "matchForms": [
+        "本係",
+        "本系"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "水才干",
+      "activeTargets": [
+        "水纔乾"
+      ],
+      "matchForms": [
+        "水才干",
+        "水纔乾"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "海里",
+      "activeTargets": [
+        "海裏",
+        "海里"
+      ],
+      "matchForms": [
+        "海裏",
+        "海里"
+      ],
+      "lexicalTargets": [
+        "海里"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。",
+      "legacyDictionaryPosGroups": {
+        "ns": [
+          "海里",
+          "海裏"
+        ]
+      }
+    },
+    {
+      "source": "然身死才数月耳",
+      "activeTargets": [
+        "然身死纔數月耳"
+      ],
+      "matchForms": [
+        "然身死才数月耳",
+        "然身死纔數月耳"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "签了",
+      "activeTargets": [
+        "簽了"
+      ],
+      "matchForms": [
+        "签了",
+        "簽了"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "背出来",
+      "activeTargets": [
+        "揹出來",
+        "背出來"
+      ],
+      "matchForms": [
+        "揹出來",
+        "背出來",
+        "背出来"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "背向",
+      "activeTargets": [
+        "揹向",
+        "背向"
+      ],
+      "matchForms": [
+        "揹向",
+        "背向"
+      ],
+      "lexicalTargets": [
+        "背向"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "血才干",
+      "activeTargets": [
+        "血纔乾"
+      ],
+      "matchForms": [
+        "血才干",
+        "血纔乾"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "远县才至",
+      "activeTargets": [
+        "遠縣纔至"
+      ],
+      "matchForms": [
+        "远县才至",
+        "遠縣纔至"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "骨头里挣出来的钱才做得肉",
+      "activeTargets": [
+        "骨頭裏掙出來的錢纔做得肉"
+      ],
+      "matchForms": [
+        "骨头里挣出来的钱才做得肉",
+        "骨頭裏掙出來的錢纔做得肉"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才會",
+      "activeTargets": [
+        "才會",
+        "纔會"
+      ],
+      "matchForms": [
+        "才會",
+        "纔會"
+      ],
+      "lexicalTargets": [
+        "才會"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才學",
+      "activeTargets": [
+        "才學",
+        "纔學"
+      ],
+      "matchForms": [
+        "才學",
+        "纔學"
+      ],
+      "lexicalTargets": [
+        "才學"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才幹",
+      "activeTargets": [
+        "才幹",
+        "纔幹"
+      ],
+      "matchForms": [
+        "才幹",
+        "纔幹"
+      ],
+      "lexicalTargets": [
+        "才幹"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才識",
+      "activeTargets": [
+        "才識",
+        "纔識"
+      ],
+      "matchForms": [
+        "才識",
+        "纔識"
+      ],
+      "lexicalTargets": [
+        "才識"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才語",
+      "activeTargets": [
+        "才語",
+        "纔語"
+      ],
+      "matchForms": [
+        "才語",
+        "纔語"
+      ],
+      "lexicalTargets": [
+        "才語"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才能夠",
+      "activeTargets": [
+        "纔能够",
+        "纔能夠"
+      ],
+      "matchForms": [
+        "才能夠",
+        "纔能够",
+        "纔能夠"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才爲",
+      "activeTargets": [
+        "纔爲"
+      ],
+      "matchForms": [
+        "才爲",
+        "纔爲"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "才干淨",
+      "activeTargets": [
+        "纔乾淨"
+      ],
+      "matchForms": [
+        "才干淨",
+        "纔乾淨"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "此字串可能跨詞界；候選僅供覆核。依實際分詞、詞性轉換，不把字串候選寫回整詞詞庫。"
+    },
+    {
+      "source": "干后",
+      "activeTargets": [
+        "乾後"
+      ],
+      "matchForms": [
+        "干后",
+        "乾後"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "先前組合片段，僅作風險記錄，不恢復整詞轉換。"
+    },
+    {
+      "source": "长随才",
+      "activeTargets": [
+        "長隨纔"
+      ],
+      "matchForms": [
+        "长随才",
+        "長隨纔"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "先前組合片段，僅作風險記錄，不恢復整詞轉換。"
+    },
+    {
+      "source": "口吃",
+      "activeTargets": [
+        "口吃",
+        "口喫"
+      ],
+      "matchForms": [
+        "口吃",
+        "口吃",
+        "口喫"
+      ],
+      "lexicalTargets": [
+        "口吃"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "分詞及局部句法待核",
+      "reason": "對照原生分詞、依存關係及局部語境；只供覆核，不輸入轉換候選。"
+    },
+    {
+      "source": "下面条",
+      "activeTargets": [
+        "下面條",
+        "下麪條"
+      ],
+      "matchForms": [
+        "下面条",
+        "下面條",
+        "下麪條"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "分詞及局部句法待核",
+      "reason": "對照原生分詞、依存關係及局部語境；只供覆核，不輸入轉換候選。"
+    },
+    {
+      "source": "抬出",
+      "activeTargets": [],
+      "matchForms": [
+        "抬出",
+        "擡出"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "抬／擡覆核：動詞加方向補語或動賓片段，不新增爲整詞選字候選；依實際詞界與抬字讀音處理。"
+    },
+    {
+      "source": "抬出去",
+      "activeTargets": [],
+      "matchForms": [
+        "抬出去",
+        "擡出去"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "抬／擡覆核：動詞加方向補語或動賓片段，不新增爲整詞選字候選；依實際詞界與抬字讀音處理。"
+    },
+    {
+      "source": "抬出来",
+      "activeTargets": [],
+      "matchForms": [
+        "抬出來",
+        "抬出来",
+        "擡出來",
+        "擡出来"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "抬／擡覆核：動詞加方向補語或動賓片段，不新增爲整詞選字候選；依實際詞界與抬字讀音處理。"
+    },
+    {
+      "source": "抬回",
+      "activeTargets": [],
+      "matchForms": [
+        "抬回",
+        "擡回"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "抬／擡覆核：動詞加方向補語或動賓片段，不新增爲整詞選字候選；依實際詞界與抬字讀音處理。"
+    },
+    {
+      "source": "抬回去",
+      "activeTargets": [],
+      "matchForms": [
+        "抬回去",
+        "擡回去"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "抬／擡覆核：動詞加方向補語或動賓片段，不新增爲整詞選字候選；依實際詞界與抬字讀音處理。"
+    },
+    {
+      "source": "抬回来",
+      "activeTargets": [],
+      "matchForms": [
+        "抬回來",
+        "抬回来",
+        "擡回來",
+        "擡回来"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "抬／擡覆核：動詞加方向補語或動賓片段，不新增爲整詞選字候選；依實際詞界與抬字讀音處理。"
+    },
+    {
+      "source": "抬高身价",
+      "activeTargets": [],
+      "matchForms": [
+        "抬高身价",
+        "抬高身價",
+        "擡高身价",
+        "擡高身價"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "抬／擡覆核：動詞加方向補語或動賓片段，不新增爲整詞選字候選；依實際詞界與抬字讀音處理。"
+    },
+    {
+      "source": "高抬身价",
+      "activeTargets": [],
+      "matchForms": [
+        "高抬身价",
+        "高抬身價",
+        "高擡身价",
+        "高擡身價"
+      ],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "抬／擡覆核：動詞加方向補語或動賓片段，不新增爲整詞選字候選；依實際詞界與抬字讀音處理。"
+    },
+    {
+      "source": "哄抬物价",
+      "activeTargets": [],
+      "lexicalTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "動賓片段，不作整詞選字候選；依實際詞界與抬字讀音處理。",
+      "matchForms": [
+        "哄抬物价",
+        "哄抬物價",
+        "哄擡物价",
+        "哄擡物價"
+      ]
+    },
+    {
+      "source": "不占",
+      "matchForms": [
+        "不占",
+        "不佔"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v1",
+      "lexicalTargets": [],
+      "activeTargets": []
+    },
+    {
+      "source": "仅占",
+      "matchForms": [
+        "仅占",
+        "仅佔"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v1",
+      "lexicalTargets": [],
+      "activeTargets": []
+    },
+    {
+      "source": "会占",
+      "matchForms": [
+        "会占",
+        "会佔"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v1",
+      "lexicalTargets": [],
+      "activeTargets": []
+    },
+    {
+      "source": "只占",
+      "matchForms": [
+        "只占",
+        "只佔"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v1",
+      "lexicalTargets": [],
+      "activeTargets": []
+    },
+    {
+      "source": "只占到",
+      "matchForms": [
+        "只占到",
+        "只佔到"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v1",
+      "lexicalTargets": [],
+      "activeTargets": []
+    },
+    {
+      "source": "将占",
+      "matchForms": [
+        "将占",
+        "将佔"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v1",
+      "lexicalTargets": [],
+      "activeTargets": []
+    },
+    {
+      "source": "已占",
+      "matchForms": [
+        "已占",
+        "已佔"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v1",
+      "lexicalTargets": [],
+      "activeTargets": []
+    },
+    {
+      "source": "所占",
+      "matchForms": [
+        "所占",
+        "所佔"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v1",
+      "lexicalTargets": [],
+      "activeTargets": []
+    },
+    {
+      "source": "要占",
+      "matchForms": [
+        "要占",
+        "要佔"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v1",
+      "lexicalTargets": [],
+      "activeTargets": []
+    },
+    {
+      "source": "还占",
+      "matchForms": [
+        "还占",
+        "还佔"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v1",
+      "lexicalTargets": [],
+      "activeTargets": []
+    },
+    {
+      "source": "非占不可",
+      "matchForms": [
+        "非占不可",
+        "非佔不可"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v1",
+      "lexicalTargets": [],
+      "activeTargets": []
+    },
+    {
+      "source": "占〇",
+      "matchForms": [
+        "占〇",
+        "佔〇"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v1",
+      "lexicalTargets": [],
+      "activeTargets": []
+    },
+    {
+      "source": "占一",
+      "matchForms": [
+        "占一",
+        "佔一"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v1",
+      "lexicalTargets": [],
+      "activeTargets": []
+    },
+    {
+      "source": "占七",
+      "matchForms": [
+        "占七",
+        "佔七"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v1",
+      "lexicalTargets": [],
+      "activeTargets": []
+    },
+    {
+      "source": "占万",
+      "matchForms": [
+        "占万",
+        "佔万"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v1",
+      "lexicalTargets": [],
+      "activeTargets": []
+    },
+    {
+      "source": "占三",
+      "matchForms": [
+        "占三",
+        "佔三"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v1",
+      "lexicalTargets": [],
+      "activeTargets": []
+    },
+    {
+      "source": "占两",
+      "matchForms": [
+        "占两",
+        "佔两"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v1",
+      "lexicalTargets": [],
+      "activeTargets": []
+    },
+    {
+      "source": "占个",
+      "matchForms": [
+        "占个",
+        "佔个"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v1",
+      "lexicalTargets": [],
+      "activeTargets": []
+    },
+    {
+      "source": "占个位",
+      "matchForms": [
+        "占个位",
+        "佔个位"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v1",
+      "lexicalTargets": [],
+      "activeTargets": []
+    },
+    {
+      "source": "占九",
+      "matchForms": [
+        "占九",
+        "佔九"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v1",
+      "lexicalTargets": [],
+      "activeTargets": []
+    },
+    {
+      "source": "占了",
+      "matchForms": [
+        "占了",
+        "佔了"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v1",
+      "lexicalTargets": [],
+      "activeTargets": []
+    },
+    {
+      "source": "占二",
+      "matchForms": [
+        "占二",
+        "佔二"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v1",
+      "lexicalTargets": [],
+      "activeTargets": []
+    },
+    {
+      "source": "占五",
+      "matchForms": [
+        "占五",
+        "佔五"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v1",
+      "lexicalTargets": [],
+      "activeTargets": []
+    },
+    {
+      "source": "占亿",
+      "matchForms": [
+        "占亿",
+        "佔亿"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v1",
+      "lexicalTargets": [],
+      "activeTargets": []
+    },
+    {
+      "source": "占全",
+      "matchForms": [
+        "占全",
+        "佔全"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v1",
+      "lexicalTargets": [],
+      "activeTargets": []
+    },
+    {
+      "source": "占八",
+      "matchForms": [
+        "占八",
+        "佔八"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v1",
+      "lexicalTargets": [],
+      "activeTargets": []
+    },
+    {
+      "source": "占六",
+      "matchForms": [
+        "占六",
+        "佔六"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v1",
+      "lexicalTargets": [],
+      "activeTargets": []
+    },
+    {
+      "source": "占到",
+      "matchForms": [
+        "占到",
+        "佔到"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v1",
+      "lexicalTargets": [],
+      "activeTargets": []
+    },
+    {
+      "source": "占十",
+      "matchForms": [
+        "占十",
+        "佔十"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v1",
+      "lexicalTargets": [],
+      "activeTargets": []
+    },
+    {
+      "source": "占千",
+      "matchForms": [
+        "占千",
+        "佔千"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v1",
+      "lexicalTargets": [],
+      "activeTargets": []
+    },
+    {
+      "source": "占半",
+      "matchForms": [
+        "占半",
+        "佔半"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v1",
+      "lexicalTargets": [],
+      "activeTargets": []
+    },
+    {
+      "source": "占去",
+      "matchForms": [
+        "占去",
+        "佔去"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v1",
+      "lexicalTargets": [],
+      "activeTargets": []
+    },
+    {
+      "source": "占后",
+      "matchForms": [
+        "占后",
+        "佔后"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v1",
+      "lexicalTargets": [],
+      "activeTargets": []
+    },
+    {
+      "source": "占在",
+      "matchForms": [
+        "占在",
+        "佔在"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v1",
+      "lexicalTargets": [],
+      "activeTargets": []
+    },
+    {
+      "source": "占多",
+      "matchForms": [
+        "占多",
+        "佔多"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v1",
+      "lexicalTargets": [],
+      "activeTargets": []
+    },
+    {
+      "source": "占大",
+      "matchForms": [
+        "占大",
+        "佔大"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v1",
+      "lexicalTargets": [],
+      "activeTargets": []
+    },
+    {
+      "source": "占头",
+      "matchForms": [
+        "占头",
+        "佔头"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v1",
+      "lexicalTargets": [],
+      "activeTargets": []
+    },
+    {
+      "source": "占小",
+      "matchForms": [
+        "占小",
+        "佔小"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v1",
+      "lexicalTargets": [],
+      "activeTargets": []
+    },
+    {
+      "source": "占少",
+      "matchForms": [
+        "占少",
+        "佔少"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v1",
+      "lexicalTargets": [],
+      "activeTargets": []
+    },
+    {
+      "source": "占尽",
+      "matchForms": [
+        "占尽",
+        "佔尽"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v1",
+      "lexicalTargets": [],
+      "activeTargets": []
+    },
+    {
+      "source": "占总",
+      "matchForms": [
+        "占总",
+        "佔总"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v1",
+      "lexicalTargets": [],
+      "activeTargets": []
+    },
+    {
+      "source": "占掉",
+      "matchForms": [
+        "占掉",
+        "佔掉"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v1",
+      "lexicalTargets": [],
+      "activeTargets": []
+    },
+    {
+      "source": "占新",
+      "matchForms": [
+        "占新",
+        "佔新"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v1",
+      "lexicalTargets": [],
+      "activeTargets": []
+    },
+    {
+      "source": "占次",
+      "matchForms": [
+        "占次",
+        "佔次"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v1",
+      "lexicalTargets": [],
+      "activeTargets": []
+    },
+    {
+      "source": "占百",
+      "matchForms": [
+        "占百",
+        "佔百"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v1",
+      "lexicalTargets": [],
+      "activeTargets": []
+    },
+    {
+      "source": "占着",
+      "matchForms": [
+        "占着",
+        "佔着"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v1",
+      "lexicalTargets": [],
+      "activeTargets": []
+    },
+    {
+      "source": "占至多",
+      "matchForms": [
+        "占至多",
+        "佔至多"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v1",
+      "lexicalTargets": [],
+      "activeTargets": []
+    },
+    {
+      "source": "占至少",
+      "matchForms": [
+        "占至少",
+        "佔至少"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v1",
+      "lexicalTargets": [],
+      "activeTargets": []
+    },
+    {
+      "source": "占起",
+      "matchForms": [
+        "占起",
+        "佔起"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v1",
+      "lexicalTargets": [],
+      "activeTargets": []
+    },
+    {
+      "source": "占起来",
+      "matchForms": [
+        "占起来",
+        "佔起来"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v1",
+      "lexicalTargets": [],
+      "activeTargets": []
+    },
+    {
+      "source": "占超过",
+      "matchForms": [
+        "占超过",
+        "佔超过"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v1",
+      "lexicalTargets": [],
+      "activeTargets": []
+    },
+    {
+      "source": "占过",
+      "matchForms": [
+        "占过",
+        "佔过"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v1",
+      "lexicalTargets": [],
+      "activeTargets": []
+    },
+    {
+      "source": "占过去",
+      "matchForms": [
+        "占过去",
+        "佔过去"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v1",
+      "lexicalTargets": [],
+      "activeTargets": []
+    },
+    {
+      "source": "占过来",
+      "matchForms": [
+        "占过来",
+        "佔过来"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v1",
+      "lexicalTargets": [],
+      "activeTargets": []
+    },
+    {
+      "source": "占零",
+      "matchForms": [
+        "占零",
+        "佔零"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v1",
+      "lexicalTargets": [],
+      "activeTargets": []
+    },
+    {
+      "source": "占世界",
+      "matchForms": [
+        "占世界",
+        "佔世界"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v1",
+      "lexicalTargets": [],
+      "activeTargets": []
+    },
+    {
+      "source": "占主导地位",
+      "matchForms": [
+        "占主导地位",
+        "佔主导地位"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v1",
+      "lexicalTargets": [],
+      "activeTargets": []
+    },
+    {
+      "source": "占人便宜",
+      "matchForms": [
+        "占人便宜",
+        "佔人便宜"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v1",
+      "lexicalTargets": [],
+      "activeTargets": []
+    },
+    {
+      "source": "占停车",
+      "matchForms": [
+        "占停车",
+        "佔停车"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v1",
+      "lexicalTargets": [],
+      "activeTargets": []
+    },
+    {
+      "source": "占哺乳",
+      "matchForms": [
+        "占哺乳",
+        "佔哺乳"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v1",
+      "lexicalTargets": [],
+      "activeTargets": []
+    },
+    {
+      "source": "占国内",
+      "matchForms": [
+        "占国内",
+        "佔国内"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v1",
+      "lexicalTargets": [],
+      "activeTargets": []
+    },
+    {
+      "source": "占整体",
+      "matchForms": [
+        "占整体",
+        "佔整体"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v1",
+      "lexicalTargets": [],
+      "activeTargets": []
+    },
+    {
+      "source": "占局部",
+      "matchForms": [
+        "占局部",
+        "佔局部"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v1",
+      "lexicalTargets": [],
+      "activeTargets": []
+    },
+    {
+      "source": "占平均",
+      "matchForms": [
+        "占平均",
+        "佔平均"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v1",
+      "lexicalTargets": [],
+      "activeTargets": []
+    },
+    {
+      "source": "占市场",
+      "matchForms": [
+        "占市场",
+        "佔市场"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v1",
+      "lexicalTargets": [],
+      "activeTargets": []
+    },
+    {
+      "source": "占不足",
+      "matchForms": [
+        "占不足",
+        "佔不足"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v1",
+      "lexicalTargets": [],
+      "activeTargets": []
+    },
+    {
+      "source": "占不占",
+      "matchForms": [
+        "占不占",
+        "佔不佔"
+      ],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v1",
+      "lexicalTargets": [],
+      "activeTargets": []
+    },
+    {
+      "source": "不占凶吉",
+      "matchForms": [
+        "不占凶吉",
+        "不佔凶吉"
+      ],
+      "lexicalTargets": [],
+      "activeTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v2"
+    },
+    {
+      "source": "不占卜",
+      "matchForms": [
+        "不占卜",
+        "不佔卜"
+      ],
+      "lexicalTargets": [],
+      "activeTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v2"
+    },
+    {
+      "source": "不占吉凶",
+      "matchForms": [
+        "不占吉凶",
+        "不佔吉凶"
+      ],
+      "lexicalTargets": [],
+      "activeTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v2"
+    },
+    {
+      "source": "不占算",
+      "matchForms": [
+        "不占算",
+        "不佔算"
+      ],
+      "lexicalTargets": [],
+      "activeTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v2"
+    },
+    {
+      "source": "会占卜",
+      "matchForms": [
+        "会占卜",
+        "会佔卜"
+      ],
+      "lexicalTargets": [],
+      "activeTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v2"
+    },
+    {
+      "source": "占上",
+      "matchForms": [
+        "占上",
+        "佔上"
+      ],
+      "lexicalTargets": [],
+      "activeTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v2"
+    },
+    {
+      "source": "占了卜",
+      "matchForms": [
+        "占了卜",
+        "佔了卜"
+      ],
+      "lexicalTargets": [],
+      "activeTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v2"
+    },
+    {
+      "source": "占占卜",
+      "matchForms": [
+        "占占卜",
+        "佔佔卜"
+      ],
+      "lexicalTargets": [],
+      "activeTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v2"
+    },
+    {
+      "source": "占占卦",
+      "matchForms": [
+        "占占卦",
+        "佔佔卦"
+      ],
+      "lexicalTargets": [],
+      "activeTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v2"
+    },
+    {
+      "source": "占有五不验",
+      "matchForms": [
+        "占有五不验",
+        "佔有五不验"
+      ],
+      "lexicalTargets": [],
+      "activeTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v2"
+    },
+    {
+      "source": "只占卜",
+      "matchForms": [
+        "只占卜",
+        "只佔卜"
+      ],
+      "lexicalTargets": [],
+      "activeTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v2"
+    },
+    {
+      "source": "只占吉",
+      "matchForms": [
+        "只占吉",
+        "只佔吉"
+      ],
+      "lexicalTargets": [],
+      "activeTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v2"
+    },
+    {
+      "source": "只占神问卜",
+      "matchForms": [
+        "只占神问卜",
+        "只佔神问卜"
+      ],
+      "lexicalTargets": [],
+      "activeTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v2"
+    },
+    {
+      "source": "只占算",
+      "matchForms": [
+        "只占算",
+        "只佔算"
+      ],
+      "lexicalTargets": [],
+      "activeTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v2"
+    },
+    {
+      "source": "将占卜",
+      "matchForms": [
+        "将占卜",
+        "将佔卜"
+      ],
+      "lexicalTargets": [],
+      "activeTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v2"
+    },
+    {
+      "source": "已占卜",
+      "matchForms": [
+        "已占卜",
+        "已佔卜"
+      ],
+      "lexicalTargets": [],
+      "activeTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v2"
+    },
+    {
+      "source": "已占算",
+      "matchForms": [
+        "已占算",
+        "已佔算"
+      ],
+      "lexicalTargets": [],
+      "activeTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v2"
+    },
+    {
+      "source": "应占",
+      "matchForms": [
+        "应占",
+        "应佔"
+      ],
+      "lexicalTargets": [],
+      "activeTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v2"
+    },
+    {
+      "source": "早占勿药",
+      "matchForms": [
+        "早占勿药",
+        "早佔勿药"
+      ],
+      "lexicalTargets": [],
+      "activeTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v2"
+    },
+    {
+      "source": "梦有五不占",
+      "matchForms": [
+        "梦有五不占",
+        "梦有五不佔"
+      ],
+      "lexicalTargets": [],
+      "activeTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v2"
+    },
+    {
+      "source": "稍占上风",
+      "matchForms": [
+        "稍占上风",
+        "稍佔上风"
+      ],
+      "lexicalTargets": [],
+      "activeTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v2"
+    },
+    {
+      "source": "要占卜",
+      "matchForms": [
+        "要占卜",
+        "要佔卜"
+      ],
+      "lexicalTargets": [],
+      "activeTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v2"
+    },
+    {
+      "source": "返还占有",
+      "matchForms": [
+        "返还占有",
+        "返还佔有"
+      ],
+      "lexicalTargets": [],
+      "activeTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v2"
+    },
+    {
+      "source": "鬼门上占卦",
+      "matchForms": [
+        "鬼门上占卦",
+        "鬼门上佔卦"
+      ],
+      "lexicalTargets": [],
+      "activeTargets": [],
+      "byPos": {},
+      "defaultsByPos": {},
+      "type": "risk-word",
+      "reviewClass": "risk",
+      "risk": true,
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "matchBoundary": "token",
+      "riskKind": "詞界待核",
+      "reason": "占字與否定、數量、補語或受事的組合，不作整詞轉換候選；按實際詞界與占佔語義政策選字。",
+      "policy": "zhan-policy-20261018-v2"
+    }
+  ],
+  "ltpTagReference": "https://ltp.readthedocs.io/zh-cn/latest/appendix.html"
+}

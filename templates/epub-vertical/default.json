@@ -1,0 +1,73 @@
+{
+  "schema": "epub-vertical-template/v1",
+  "id": "zh-hant-vertical-default",
+  "name": "中文 EPUB 默認豎排模版",
+  "version": "1.1.1",
+  "stylesheet": "default.css",
+  "stylesheetSHA256": "fc5c80bd710ea8c53fd63dd4dece1ee6cdb8345435547f8ac2171477e0b64103",
+  "approvedDate": "2026-10-18",
+  "layout": {
+    "epubVersion": "3.0",
+    "language": "zh-Hant",
+    "writingMode": "vertical-rl",
+    "pageProgressionDirection": "rtl",
+    "bodyFont": "serif",
+    "bodySizeEm": 1,
+    "lineHeight": 1.7,
+    "firstLineIndentEm": 2,
+    "preserveExistingIndent": true,
+    "chapterFont": "sans-serif",
+    "chapterSizeEm": 1.3,
+    "poetryFont": "cursive",
+    "poetryColor": "#00008b",
+    "shortNumeralsCombine": true,
+    "notes": {
+      "fontSizeEm": 0.8,
+      "preserveVerbatimSourceText": true,
+      "preserveBacklinks": true
+    },
+    "images": {
+      "noteMarkerSizeEm": 0.8,
+      "noteMarkerSizing": "relative-to-surrounding-text",
+      "noteMarkerDetection": "sup/a、註釋語義屬性、noteref／footnote 類與錨點；不憑原圖像素大小把插圖當圖標",
+      "keepIllustrationsAndCovers": true,
+      "imageOnlyPages": "horizontal-tb"
+    }
+  },
+  "punctuation": {
+    "rulesVersion": "vertical-layout-v1",
+    "quotes": "「」『』",
+    "chineseParentheses": "（）",
+    "chineseEllipsis": "……",
+    "preserveEnglishApostropheURLsAndCode": true,
+    "normalizeChineseContextHalfwidthPunctuation": true,
+    "normalizeOnlyUnambiguousSentenceFinalDots": true,
+    "keepAndFlagIntraChineseDots": true,
+    "verbatimSourceNotes": "保留原字，以呈現層顯示直排標點",
+    "stableVerticalGlyphs": {
+      "…": "︙",
+      "—": "︱"
+    },
+    "sourceTextPreservedInPresentation": true,
+    "baselineAlignment": "central (middle minus half an ex)"
+  },
+  "integrity": {
+    "separateOutput": true,
+    "preserveOriginalFiles": true,
+    "preserveArchivePathsAndAssets": true,
+    "preserveSpineOrderAndLinks": true,
+    "transformEachPartOnceDespiteManifestAliases": true,
+    "recordPunctuationOffsetsAndHashes": true,
+    "compareAllBodyTextAfterRecordedEdits": true,
+    "validateZipXmlManifestSpineResourcesAndLinks": true,
+    "reportHumanReviewScope": true
+  },
+  "diagnostics": {
+    "stage": "layout",
+    "directory": "轉換問題收集/layout",
+    "uniqueRunIdPerBook": true,
+    "recordTemplateVersionAndHashes": true,
+    "doNotRerunConversionForLayoutOnly": true,
+    "doNotOverwriteNativeAnnotations": true
+  }
+}

@@ -1,0 +1,69 @@
+@charset "UTF-8";
+/* Proportions adapted from the user's 中國民間故事全集 EPUB. */
+html,body{writing-mode:vertical-rl;-webkit-writing-mode:vertical-rl;-epub-writing-mode:vertical-rl;}
+html{line-break:strict;-epub-line-break:strict;}
+/* Let writing-mode choose vertical alternates; do not force them on rotated Latin. */
+body{font-feature-settings:normal;}
+.verbatim-vertical-punctuation{display:inline-block;position:relative;block-size:1em;vertical-align:baseline;}
+.verbatim-source-punctuation{opacity:0;}
+.verbatim-vertical-punctuation::after{content:attr(data-glyph);position:absolute;inset:0;line-height:1;font-feature-settings:normal;text-orientation:upright;-webkit-text-orientation:upright;-epub-text-orientation:upright;}
+/* … and — can follow a horizontal font baseline to the left of the column.
+   Their underlying characters stay in the DOM; only upright presentation changes. */
+.vertical-stable-punctuation{display:inline-block;position:relative;inline-size:1em;block-size:1em;line-height:1;vertical-align:baseline;text-indent:0;text-orientation:upright;-webkit-text-orientation:upright;-epub-text-orientation:upright;}
+/* middle includes half an x-height; remove it to align the central baseline. */
+.vertical-stable-punctuation,.verbatim-vertical-punctuation{vertical-align:middle;transform:translateX(-.5ex);}
+.vertical-source-punctuation{opacity:0;}
+.vertical-stable-punctuation::after{content:attr(data-glyph);position:absolute;inset:0;line-height:1;text-indent:0;text-align:start;text-orientation:upright;-webkit-text-orientation:upright;-epub-text-orientation:upright;font-feature-settings:normal;}
+body{margin:1em 1.25em;padding:0;font-family:serif;font-size:1em;font-weight:300;line-height:1.7;text-align:justify;text-orientation:mixed;}
+p,div,blockquote,h1,h2,h3,h4,h5,h6{padding:0;border:0;}
+p{margin:0;text-indent:2em;line-height:1.7;text-align:justify;text-align-last:start;orphans:2;widows:2;}
+h1,h2,h3,h4,h5,h6{font-family:sans-serif;font-weight:normal;color:inherit;text-shadow:none;text-indent:0;text-align:start;break-after:avoid;page-break-after:avoid;}
+h1,h2{font-size:1.3em;line-height:1.5;margin:0 0 0 1.5em;}
+h3,h4{font-size:1.1em;line-height:1.5;margin:0 0 0 .8em;}
+.chapter-title{font-size:1.3em;line-height:1.5;margin:0 0 0 1.8em;color:inherit;}
+.chapter-sequence-number{font-family:sans-serif;font-size:.8em;color:inherit;}
+.volume-sequence-number,.volume-title,.volume-extra-title{width:auto;float:none;font-family:sans-serif;font-size:1.3em;line-height:1.7;color:inherit;border:0;margin:0 0 0 1em;text-indent:0;text-align:start;}
+.volume-vertical-box{width:auto;margin:0;}
+.volume-vertical-text{width:auto;float:none;display:inline;font-family:sans-serif;color:inherit;text-indent:0;}
+
+.poetry-quote,blockquote,.kt,.ktl,.ktr{font-family:cursive;line-height:1.7;color:#00008b;}
+blockquote{margin:0 1em;text-indent:0;}
+a{color:inherit;text-decoration:none;}
+.tcy{-epub-text-combine:horizontal;-webkit-text-combine:horizontal;text-combine-upright:all;text-orientation:mixed;}
+img,svg{max-width:100%;max-height:100%;object-fit:contain;}
+img.custom-font,img.pw{width:1em;height:1em;vertical-align:baseline;}
+.editorial-poetry-notes{font-size:.8em!important;line-height:1.5!important;margin:0 1.8em 0 0!important;padding:0 1em 0 0!important;border-top:0!important;border-right:1px solid #888!important;break-before:page;page-break-before:always;}
+.editorial-poetry-notes>h3{font-size:1.15em;margin-left:1em;}
+.editorial-poetry-notes h4{font-size:1em;margin:0 1.2em 0 .5em;}
+.editorial-poetry-notes p{font-family:serif;font-size:1em;line-height:1.5;text-align:start;text-indent:0;margin-left:.8em;}
+.editorial-poetry-notes p[style]{white-space:pre-wrap;}
+.editorial-poetry-notes a{font-family:sans-serif;font-size:.85em;}
+a.editorial-note-reference{font-family:serif;font-size:.7em!important;vertical-align:super;text-indent:0;}
+nav ol{list-style:none;margin:0;padding:0;}nav ol ol{margin-right:1.2em;}nav li{margin:0 .3em;}nav a{color:inherit;}
+html.vertical-cover,html.vertical-cover body{writing-mode:horizontal-tb;-webkit-writing-mode:horizontal-tb;-epub-writing-mode:horizontal-tb;margin:0;padding:0;text-align:center;}
+.vertical-cover img,.vertical-cover svg{max-height:100%;max-width:100%;}
+
+/* The batch keeps illustrations; image-only pages use their original orientation. */
+h3.sect3,h2.head,.Title-center{font-family:sans-serif;font-size:1.3em;font-weight:normal;line-height:1.5;margin:0 0 0 1.5em;text-indent:0;}
+.Title-num,.num{font-size:.8em;}
+p.source-indent{text-indent:0;}
+.kaiti,.kt,.ktl,.ktr,.quote-2{font-family:cursive;}
+.Header-image-dk,.logo,.top-img-box{margin:0 0 0 .8em;text-align:start;}
+.Header-image-dk img,.logo img,h1 img,h2 img,h3 img{max-inline-size:8em;max-block-size:3em;object-fit:contain;}
+.Header-image-dk img,.logo img{display:block;}
+table{border-collapse:collapse;margin:0 0 0 1.5em;}td{padding:.5em;}
+table.head,td.head,td.xhead{font-family:sans-serif;font-size:1.3em;line-height:1.7;text-align:start;}
+[role="doc-footnote"],.footnote,.footnote-content,.duokan-footnote-item{font-size:.8em;line-height:1.5;}
+sup{font-size:.7em;vertical-align:super;}
+pre,code{writing-mode:horizontal-tb;-webkit-writing-mode:horizontal-tb;white-space:pre-wrap;}
+
+/* Inline note markers scale with text, independent of source raster dimensions. */
+sup a img,a.duokan-footnote img,a.noteref img,a.footnote-ref img,
+a[role="doc-noteref"] img,a[*|type~="noteref"] img,
+a[id^="noteref_"] img,a[href*="#note_"] img,a[href*="#footnote"] img,a[href*="#fn"] img{
+  display:inline-block!important;width:.8em!important;height:.8em!important;
+  inline-size:.8em!important;block-size:.8em!important;
+  min-width:0!important;min-height:0!important;min-inline-size:0!important;min-block-size:0!important;
+  max-width:.8em!important;max-height:.8em!important;max-inline-size:.8em!important;max-block-size:.8em!important;
+  margin:0!important;padding:0!important;object-fit:contain;vertical-align:baseline;text-indent:0;
+}

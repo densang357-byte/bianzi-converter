@@ -1,0 +1,2747 @@
+{
+  "version": "network-evidence-20261016-scoped",
+  "policy": "逐字義放行：僅有完整引擎實測收益的方向有限試用；完整詞、原字反例及現有語義／句法保護仍須全部通過。其他字、條件語境網及原字等義折疊均不自動採用。另以划作有限的加權兜底試點；明確規則不受共現覆蓋。",
+  "admitted_pairs": [
+    [
+      "只",
+      "只"
+    ]
+  ],
+  "index": {
+    "佈": "布",
+    "來": "来",
+    "傢": "家",
+    "傳": "传",
+    "傷": "伤",
+    "僅": "仅",
+    "優": "优",
+    "兒": "儿",
+    "兩": "两",
+    "別": "别",
+    "劍": "剑",
+    "動": "动",
+    "區": "区",
+    "厤": "历",
+    "噹": "当",
+    "嚥": "咽",
+    "嚮": "向",
+    "國": "国",
+    "圍": "围",
+    "圓": "圆",
+    "場": "场",
+    "壞": "坏",
+    "夠": "够",
+    "夥": "伙",
+    "婦": "妇",
+    "學": "学",
+    "實": "实",
+    "寫": "写",
+    "寶": "宝",
+    "將": "将",
+    "對": "对",
+    "島": "岛",
+    "帶": "带",
+    "幾": "几",
+    "強": "强",
+    "彆": "别",
+    "應": "应",
+    "戰": "战",
+    "搖": "摇",
+    "據": "据",
+    "敎": "教",
+    "敗": "败",
+    "敵": "敌",
+    "時": "时",
+    "曆": "历",
+    "曏": "向",
+    "會": "会",
+    "條": "条",
+    "標": "标",
+    "機": "机",
+    "歷": "历",
+    "氣": "气",
+    "準": "准",
+    "漁": "渔",
+    "漸": "渐",
+    "灘": "滩",
+    "營": "营",
+    "爍": "烁",
+    "獨": "独",
+    "現": "现",
+    "畢": "毕",
+    "當": "当",
+    "發": "发",
+    "盞": "盏",
+    "碼": "码",
+    "筆": "笔",
+    "節": "节",
+    "範": "范",
+    "終": "终",
+    "組": "组",
+    "給": "给",
+    "經": "经",
+    "緊": "紧",
+    "織": "织",
+    "纔": "才",
+    "聲": "声",
+    "聽": "听",
+    "腦": "脑",
+    "腳": "脚",
+    "與": "与",
+    "葦": "苇",
+    "蘆": "芦",
+    "處": "处",
+    "見": "见",
+    "覺": "觉",
+    "計": "计",
+    "設": "设",
+    "許": "许",
+    "謀": "谋",
+    "護": "护",
+    "買": "买",
+    "賣": "卖",
+    "賽": "赛",
+    "趕": "赶",
+    "跡": "迹",
+    "蹟": "迹",
+    "軌": "轨",
+    "輕": "轻",
+    "迴": "回",
+    "這": "这",
+    "週": "周",
+    "進": "进",
+    "遊": "游",
+    "過": "过",
+    "遞": "递",
+    "邊": "边",
+    "醫": "医",
+    "針": "针",
+    "銳": "锐",
+    "鋒": "锋",
+    "鋭": "锐",
+    "鍼": "针",
+    "長": "长",
+    "閃": "闪",
+    "開": "开",
+    "間": "间",
+    "闇": "暗",
+    "陰": "阴",
+    "際": "际",
+    "險": "险",
+    "隻": "只",
+    "雙": "双",
+    "電": "电",
+    "頭": "头",
+    "顆": "颗",
+    "顧": "顾",
+    "顯": "显",
+    "飛": "飞",
+    "髮": "发",
+    "魚": "鱼",
+    "鮮": "鲜",
+    "麪": "面",
+    "麫": "面",
+    "麵": "面",
+    "齣": "出"
+  },
+  "words": [
+    [
+      "只见",
+      "只",
+      0,
+      "只",
+      3721,
+      1475,
+      [
+        "group-1",
+        "group-2",
+        "group-3",
+        "group-4",
+        "group-5"
+      ],
+      []
+    ],
+    [
+      "只顾",
+      "只",
+      0,
+      "只",
+      278,
+      151,
+      [
+        "group-1",
+        "group-2",
+        "group-3",
+        "group-4",
+        "group-5"
+      ],
+      []
+    ],
+    [
+      "只许",
+      "只",
+      0,
+      "只",
+      36,
+      30,
+      [
+        "group-1",
+        "group-2",
+        "group-3",
+        "group-4",
+        "group-5"
+      ],
+      []
+    ],
+    [
+      "只要",
+      "只",
+      0,
+      "只",
+      3163,
+      1110,
+      [
+        "group-1",
+        "group-2",
+        "group-3",
+        "group-4",
+        "group-5"
+      ],
+      []
+    ],
+    [
+      "只不过",
+      "只",
+      0,
+      "只",
+      343,
+      83,
+      [
+        "group-1",
+        "group-2",
+        "group-3",
+        "group-4",
+        "group-5"
+      ],
+      []
+    ],
+    [
+      "只因",
+      "只",
+      0,
+      "只",
+      395,
+      131,
+      [
+        "group-1",
+        "group-2",
+        "group-3",
+        "group-4",
+        "group-5"
+      ],
+      []
+    ],
+    [
+      "只怕",
+      "只",
+      0,
+      "只",
+      427,
+      111,
+      [
+        "group-1",
+        "group-2",
+        "group-3",
+        "group-4"
+      ],
+      []
+    ],
+    [
+      "只求",
+      "只",
+      0,
+      "只",
+      92,
+      52,
+      [
+        "group-1",
+        "group-2",
+        "group-3",
+        "group-4",
+        "group-5"
+      ],
+      []
+    ],
+    [
+      "只能靠",
+      "只",
+      0,
+      "只",
+      20,
+      11,
+      [
+        "group-1",
+        "group-2",
+        "group-3",
+        "group-4",
+        "group-5"
+      ],
+      []
+    ],
+    [
+      "只管",
+      "只",
+      0,
+      "只",
+      307,
+      162,
+      [
+        "group-1",
+        "group-2",
+        "group-3",
+        "group-4"
+      ],
+      []
+    ],
+    [
+      "只当",
+      "只",
+      0,
+      "只",
+      106,
+      55,
+      [
+        "group-1",
+        "group-2",
+        "group-3",
+        "group-4",
+        "group-5"
+      ],
+      []
+    ],
+    [
+      "只限",
+      "只",
+      0,
+      "只",
+      13,
+      10,
+      [
+        "group-1",
+        "group-2",
+        "group-3",
+        "group-4"
+      ],
+      []
+    ],
+    [
+      "仅只",
+      "只",
+      1,
+      "只",
+      30,
+      14,
+      [
+        "group-1",
+        "group-2",
+        "group-3",
+        "group-4",
+        "group-5"
+      ],
+      []
+    ],
+    [
+      "仅仅只是",
+      "只",
+      2,
+      "只",
+      13,
+      4,
+      [
+        "group-1",
+        "group-2",
+        "group-3",
+        "group-4"
+      ],
+      []
+    ],
+    [
+      "只敢",
+      "只",
+      0,
+      "只",
+      9,
+      7,
+      [
+        "group-1",
+        "group-2",
+        "group-3"
+      ],
+      []
+    ],
+    [
+      "只够",
+      "只",
+      0,
+      "只",
+      12,
+      11,
+      [
+        "group-1",
+        "group-2",
+        "group-3"
+      ],
+      []
+    ]
+  ],
+  "fallbacks": [
+    {
+      "source": "划",
+      "targets": [
+        "劃",
+        "划"
+      ],
+      "scope": "same-sentence-near40",
+      "prior": 1.0,
+      "weight": 0.8,
+      "margin": 0.1,
+      "max_clues": 3,
+      "distance_scale": 80.0,
+      "status": "experimental; exposed data",
+      "activation": "僅既有分句規則未找到提示而走otherwise的動詞；不放寬明確詞義、專名、人工詞條及句法保護。",
+      "scoring": "候選分數=既有兜底先驗1＋0.8×最強3個同句40字內線索的距離折減支持和/sqrt(線索數)；分差至少0.1才改選。這不是機率。",
+      "clues": [
+        {
+          "key": "一刀",
+          "original": "一刀",
+          "target": "劃",
+          "own": 11,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 1.9479,
+          "support": 1.48213
+        },
+        {
+          "key": "一切",
+          "original": "一切",
+          "target": "劃",
+          "own": 27,
+          "rival": 1,
+          "domains": 4,
+          "log_odds": 1.73053,
+          "support": 1.51994
+        },
+        {
+          "key": "一剑",
+          "original": "一劍",
+          "target": "劃",
+          "own": 22,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 2.62717,
+          "support": 2.24978
+        },
+        {
+          "key": "一枚",
+          "original": "一枚",
+          "target": "劃",
+          "own": 8,
+          "rival": 0,
+          "domains": 4,
+          "log_odds": 1.64342,
+          "support": 1.16207
+        },
+        {
+          "key": "一道",
+          "original": "一道",
+          "target": "劃",
+          "own": 110,
+          "rival": 3,
+          "domains": 3,
+          "log_odds": 2.33285,
+          "support": 2.25238
+        },
+        {
+          "key": "一颗",
+          "original": "一顆",
+          "target": "劃",
+          "own": 7,
+          "rival": 0,
+          "domains": 4,
+          "log_odds": 1.51752,
+          "support": 1.03667
+        },
+        {
+          "key": "世界",
+          "original": "世界",
+          "target": "劃",
+          "own": 15,
+          "rival": 0,
+          "domains": 5,
+          "log_odds": 2.24933,
+          "support": 1.8165
+        },
+        {
+          "key": "中央",
+          "original": "中央",
+          "target": "劃",
+          "own": 8,
+          "rival": 0,
+          "domains": 3,
+          "log_odds": 1.64342,
+          "support": 1.16207
+        },
+        {
+          "key": "交通",
+          "original": "交通",
+          "target": "劃",
+          "own": 9,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 1.75538,
+          "support": 1.27723
+        },
+        {
+          "key": "使用",
+          "original": "使用",
+          "target": "劃",
+          "own": 8,
+          "rival": 0,
+          "domains": 3,
+          "log_odds": 1.64342,
+          "support": 1.16207
+        },
+        {
+          "key": "依照",
+          "original": "依照",
+          "target": "劃",
+          "own": 8,
+          "rival": 0,
+          "domains": 3,
+          "log_odds": 1.64342,
+          "support": 1.16207
+        },
+        {
+          "key": "保护",
+          "original": "保護",
+          "target": "劃",
+          "own": 8,
+          "rival": 0,
+          "domains": 3,
+          "log_odds": 1.64342,
+          "support": 1.16207
+        },
+        {
+          "key": "传到",
+          "original": "傳到",
+          "target": "劃",
+          "own": 7,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 1.51752,
+          "support": 1.03667
+        },
+        {
+          "key": "伤口",
+          "original": "傷口",
+          "target": "劃",
+          "own": 13,
+          "rival": 0,
+          "domains": 4,
+          "log_odds": 2.10971,
+          "support": 1.65991
+        },
+        {
+          "key": "优雅",
+          "original": "優雅",
+          "target": "劃",
+          "own": 9,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 1.75538,
+          "support": 1.27723
+        },
+        {
+          "key": "先生",
+          "original": "先生",
+          "target": "劃",
+          "own": 9,
+          "rival": 0,
+          "domains": 4,
+          "log_odds": 1.75538,
+          "support": 1.27723
+        },
+        {
+          "key": "光芒",
+          "original": "光芒",
+          "target": "劃",
+          "own": 22,
+          "rival": 0,
+          "domains": 3,
+          "log_odds": 2.62717,
+          "support": 2.24978
+        },
+        {
+          "key": "两条",
+          "original": "兩條",
+          "target": "劃",
+          "own": 9,
+          "rival": 0,
+          "domains": 3,
+          "log_odds": 1.75538,
+          "support": 1.27723
+        },
+        {
+          "key": "两道",
+          "original": "兩道",
+          "target": "劃",
+          "own": 16,
+          "rival": 0,
+          "domains": 3,
+          "log_odds": 2.31259,
+          "support": 1.88822
+        },
+        {
+          "key": "公司",
+          "original": "公司",
+          "target": "劃",
+          "own": 9,
+          "rival": 0,
+          "domains": 3,
+          "log_odds": 1.75538,
+          "support": 1.27723
+        },
+        {
+          "key": "公尺",
+          "original": "公尺",
+          "target": "劃",
+          "own": 10,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 1.85619,
+          "support": 1.38353
+        },
+        {
+          "key": "兵刃",
+          "original": "兵刃",
+          "target": "劃",
+          "own": 7,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 1.51752,
+          "support": 1.03667
+        },
+        {
+          "key": "再次",
+          "original": "再次",
+          "target": "劃",
+          "own": 9,
+          "rival": 0,
+          "domains": 5,
+          "log_odds": 1.75538,
+          "support": 1.27723
+        },
+        {
+          "key": "出现",
+          "original": "出現",
+          "target": "劃",
+          "own": 15,
+          "rival": 0,
+          "domains": 4,
+          "log_odds": 2.24933,
+          "support": 1.8165
+        },
+        {
+          "key": "刀尖",
+          "original": "刀尖",
+          "target": "劃",
+          "own": 7,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 1.51752,
+          "support": 1.03667
+        },
+        {
+          "key": "利刃",
+          "original": "利刃",
+          "target": "劃",
+          "own": 11,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 1.9479,
+          "support": 1.48213
+        },
+        {
+          "key": "利用",
+          "original": "利用",
+          "target": "劃",
+          "own": 7,
+          "rival": 0,
+          "domains": 3,
+          "log_odds": 1.51752,
+          "support": 1.03667
+        },
+        {
+          "key": "刺耳",
+          "original": "刺耳",
+          "target": "劃",
+          "own": 10,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 1.85619,
+          "support": 1.38353
+        },
+        {
+          "key": "剑光",
+          "original": "劍光",
+          "target": "劃",
+          "own": 14,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 2.18191,
+          "support": 1.74056
+        },
+        {
+          "key": "剑尖",
+          "original": "劍尖",
+          "target": "劃",
+          "own": 21,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 2.58097,
+          "support": 2.19631
+        },
+        {
+          "key": "剑气",
+          "original": "劍氣",
+          "target": "劃",
+          "own": 9,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 1.75538,
+          "support": 1.27723
+        },
+        {
+          "key": "加强",
+          "original": "加強",
+          "target": "劃",
+          "own": 7,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 1.51752,
+          "support": 1.03667
+        },
+        {
+          "key": "动作",
+          "original": "動作",
+          "target": "劃",
+          "own": 11,
+          "rival": 0,
+          "domains": 4,
+          "log_odds": 1.9479,
+          "support": 1.48213
+        },
+        {
+          "key": "区域",
+          "original": "區域",
+          "target": "劃",
+          "own": 7,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 1.51752,
+          "support": 1.03667
+        },
+        {
+          "key": "半空中",
+          "original": "半空中",
+          "target": "劃",
+          "own": 20,
+          "rival": 0,
+          "domains": 3,
+          "log_odds": 2.53261,
+          "support": 2.14044
+        },
+        {
+          "key": "口子",
+          "original": "口子",
+          "target": "劃",
+          "own": 29,
+          "rival": 0,
+          "domains": 3,
+          "log_odds": 2.90324,
+          "support": 2.57029
+        },
+        {
+          "key": "和尚",
+          "original": "和尚",
+          "target": "劃",
+          "own": 7,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 1.51752,
+          "support": 1.03667
+        },
+        {
+          "key": "咽喉",
+          "original": "咽喉",
+          "target": "劃",
+          "own": 7,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 1.51752,
+          "support": 1.03667
+        },
+        {
+          "key": "唯一",
+          "original": "唯一",
+          "target": "劃",
+          "own": 8,
+          "rival": 0,
+          "domains": 3,
+          "log_odds": 1.64342,
+          "support": 1.16207
+        },
+        {
+          "key": "国家",
+          "original": "國家",
+          "target": "劃",
+          "own": 10,
+          "rival": 0,
+          "domains": 3,
+          "log_odds": 1.85619,
+          "support": 1.38353
+        },
+        {
+          "key": "圆圈",
+          "original": "圓圈",
+          "target": "劃",
+          "own": 10,
+          "rival": 0,
+          "domains": 3,
+          "log_odds": 1.85619,
+          "support": 1.38353
+        },
+        {
+          "key": "土地",
+          "original": "土地",
+          "target": "劃",
+          "own": 8,
+          "rival": 0,
+          "domains": 3,
+          "log_odds": 1.64342,
+          "support": 1.16207
+        },
+        {
+          "key": "地上",
+          "original": "地上",
+          "target": "劃",
+          "own": 42,
+          "rival": 2,
+          "domains": 3,
+          "log_odds": 1.66381,
+          "support": 1.52491
+        },
+        {
+          "key": "地下",
+          "original": "地下",
+          "target": "劃",
+          "own": 11,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 1.9479,
+          "support": 1.48213
+        },
+        {
+          "key": "夜空",
+          "original": "夜空",
+          "target": "劃",
+          "own": 8,
+          "rival": 0,
+          "domains": 3,
+          "log_odds": 1.64342,
+          "support": 1.16207
+        },
+        {
+          "key": "天际",
+          "original": "天際",
+          "target": "劃",
+          "own": 10,
+          "rival": 0,
+          "domains": 3,
+          "log_odds": 1.85619,
+          "support": 1.38353
+        },
+        {
+          "key": "失败",
+          "original": "失敗",
+          "target": "劃",
+          "own": 8,
+          "rival": 0,
+          "domains": 3,
+          "log_odds": 1.64342,
+          "support": 1.16207
+        },
+        {
+          "key": "存在",
+          "original": "存在",
+          "target": "劃",
+          "own": 8,
+          "rival": 0,
+          "domains": 3,
+          "log_odds": 1.64342,
+          "support": 1.16207
+        },
+        {
+          "key": "学校",
+          "original": "學校",
+          "target": "劃",
+          "own": 8,
+          "rival": 0,
+          "domains": 3,
+          "log_odds": 1.64342,
+          "support": 1.16207
+        },
+        {
+          "key": "学生",
+          "original": "學生",
+          "target": "劃",
+          "own": 8,
+          "rival": 0,
+          "domains": 4,
+          "log_odds": 1.64342,
+          "support": 1.16207
+        },
+        {
+          "key": "安全",
+          "original": "安全",
+          "target": "劃",
+          "own": 12,
+          "rival": 0,
+          "domains": 3,
+          "log_odds": 2.03202,
+          "support": 1.57399
+        },
+        {
+          "key": "完成",
+          "original": "完成",
+          "target": "劃",
+          "own": 16,
+          "rival": 0,
+          "domains": 5,
+          "log_odds": 2.31259,
+          "support": 1.88822
+        },
+        {
+          "key": "完美",
+          "original": "完美",
+          "target": "劃",
+          "own": 11,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 1.9479,
+          "support": 1.48213
+        },
+        {
+          "key": "宛如",
+          "original": "宛如",
+          "target": "劃",
+          "own": 14,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 2.18191,
+          "support": 1.74056
+        },
+        {
+          "key": "宣布",
+          "original": "宣布",
+          "target": "劃",
+          "own": 7,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 1.51752,
+          "support": 1.03667
+        },
+        {
+          "key": "容易",
+          "original": "容易",
+          "target": "劃",
+          "own": 15,
+          "rival": 0,
+          "domains": 5,
+          "log_odds": 2.24933,
+          "support": 1.8165
+        },
+        {
+          "key": "写字",
+          "original": "寫字",
+          "target": "劃",
+          "own": 8,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 1.64342,
+          "support": 1.16207
+        },
+        {
+          "key": "宝剑",
+          "original": "寶劍",
+          "target": "劃",
+          "own": 13,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 2.10971,
+          "support": 1.65991
+        },
+        {
+          "key": "将来",
+          "original": "將來",
+          "target": "劃",
+          "own": 7,
+          "rival": 0,
+          "domains": 3,
+          "log_odds": 1.51752,
+          "support": 1.03667
+        },
+        {
+          "key": "对方",
+          "original": "對方",
+          "target": "劃",
+          "own": 14,
+          "rival": 0,
+          "domains": 4,
+          "log_odds": 2.18191,
+          "support": 1.74056
+        },
+        {
+          "key": "尖锐",
+          "original": "尖銳",
+          "target": "劃",
+          "own": 8,
+          "rival": 0,
+          "domains": 4,
+          "log_odds": 1.64342,
+          "support": 1.16207
+        },
+        {
+          "key": "展开",
+          "original": "展開",
+          "target": "劃",
+          "own": 8,
+          "rival": 0,
+          "domains": 3,
+          "log_odds": 1.64342,
+          "support": 1.16207
+        },
+        {
+          "key": "工作",
+          "original": "工作",
+          "target": "劃",
+          "own": 17,
+          "rival": 0,
+          "domains": 5,
+          "log_odds": 2.37217,
+          "support": 1.95614
+        },
+        {
+          "key": "已然",
+          "original": "已然",
+          "target": "劃",
+          "own": 7,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 1.51752,
+          "support": 1.03667
+        },
+        {
+          "key": "得意",
+          "original": "得意",
+          "target": "劃",
+          "own": 7,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 1.51752,
+          "support": 1.03667
+        },
+        {
+          "key": "必要",
+          "original": "必要",
+          "target": "劃",
+          "own": 7,
+          "rival": 0,
+          "domains": 4,
+          "log_odds": 1.51752,
+          "support": 1.03667
+        },
+        {
+          "key": "或者",
+          "original": "或者",
+          "target": "劃",
+          "own": 7,
+          "rival": 0,
+          "domains": 4,
+          "log_odds": 1.51752,
+          "support": 1.03667
+        },
+        {
+          "key": "战略",
+          "original": "戰略",
+          "target": "劃",
+          "own": 8,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 1.64342,
+          "support": 1.16207
+        },
+        {
+          "key": "手掌",
+          "original": "手掌",
+          "target": "劃",
+          "own": 7,
+          "rival": 0,
+          "domains": 3,
+          "log_odds": 1.51752,
+          "support": 1.03667
+        },
+        {
+          "key": "手臂",
+          "original": "手臂",
+          "target": "劃",
+          "own": 11,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 1.9479,
+          "support": 1.48213
+        },
+        {
+          "key": "才能",
+          "original": "才能",
+          "target": "劃",
+          "own": 9,
+          "rival": 0,
+          "domains": 4,
+          "log_odds": 1.75538,
+          "support": 1.27723
+        },
+        {
+          "key": "指尖",
+          "original": "指尖",
+          "target": "劃",
+          "own": 8,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 1.64342,
+          "support": 1.16207
+        },
+        {
+          "key": "提供",
+          "original": "提供",
+          "target": "劃",
+          "own": 7,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 1.51752,
+          "support": 1.03667
+        },
+        {
+          "key": "提出",
+          "original": "提出",
+          "target": "劃",
+          "own": 10,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 1.85619,
+          "support": 1.38353
+        },
+        {
+          "key": "政府",
+          "original": "政府",
+          "target": "劃",
+          "own": 12,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 2.03202,
+          "support": 1.57399
+        },
+        {
+          "key": "教会",
+          "original": "教會",
+          "target": "劃",
+          "own": 7,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 1.51752,
+          "support": 1.03667
+        },
+        {
+          "key": "敌人",
+          "original": "敵人",
+          "target": "劃",
+          "own": 10,
+          "rival": 0,
+          "domains": 3,
+          "log_odds": 1.85619,
+          "support": 1.38353
+        },
+        {
+          "key": "文化",
+          "original": "文化",
+          "target": "劃",
+          "own": 8,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 1.64342,
+          "support": 1.16207
+        },
+        {
+          "key": "方面",
+          "original": "方面",
+          "target": "劃",
+          "own": 8,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 1.64342,
+          "support": 1.16207
+        },
+        {
+          "key": "暗中",
+          "original": "暗中",
+          "target": "劃",
+          "own": 11,
+          "rival": 0,
+          "domains": 3,
+          "log_odds": 1.9479,
+          "support": 1.48213
+        },
+        {
+          "key": "最终",
+          "original": "最終",
+          "target": "劃",
+          "own": 9,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 1.75538,
+          "support": 1.27723
+        },
+        {
+          "key": "未曾",
+          "original": "未曾",
+          "target": "劃",
+          "own": 7,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 1.51752,
+          "support": 1.03667
+        },
+        {
+          "key": "根据",
+          "original": "根據",
+          "target": "劃",
+          "own": 7,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 1.51752,
+          "support": 1.03667
+        },
+        {
+          "key": "根本",
+          "original": "根本",
+          "target": "劃",
+          "own": 16,
+          "rival": 0,
+          "domains": 4,
+          "log_odds": 2.31259,
+          "support": 1.88822
+        },
+        {
+          "key": "历史",
+          "original": "歷史",
+          "target": "劃",
+          "own": 8,
+          "rival": 0,
+          "domains": 3,
+          "log_odds": 1.64342,
+          "support": 1.16207
+        },
+        {
+          "key": "死亡",
+          "original": "死亡",
+          "target": "劃",
+          "own": 9,
+          "rival": 0,
+          "domains": 4,
+          "log_odds": 1.75538,
+          "support": 1.27723
+        },
+        {
+          "key": "流星",
+          "original": "流星",
+          "target": "劃",
+          "own": 11,
+          "rival": 0,
+          "domains": 3,
+          "log_odds": 1.9479,
+          "support": 1.48213
+        },
+        {
+          "key": "毕竟",
+          "original": "畢竟",
+          "target": "劃",
+          "own": 7,
+          "rival": 0,
+          "domains": 3,
+          "log_odds": 1.51752,
+          "support": 1.03667
+        },
+        {
+          "key": "当年",
+          "original": "當年",
+          "target": "劃",
+          "own": 9,
+          "rival": 0,
+          "domains": 3,
+          "log_odds": 1.75538,
+          "support": 1.27723
+        },
+        {
+          "key": "发展",
+          "original": "發展",
+          "target": "劃",
+          "own": 9,
+          "rival": 0,
+          "domains": 5,
+          "log_odds": 1.75538,
+          "support": 1.27723
+        },
+        {
+          "key": "白光",
+          "original": "白光",
+          "target": "劃",
+          "own": 7,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 1.51752,
+          "support": 1.03667
+        },
+        {
+          "key": "皇子",
+          "original": "皇子",
+          "target": "劃",
+          "own": 7,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 1.51752,
+          "support": 1.03667
+        },
+        {
+          "key": "皮肉",
+          "original": "皮肉",
+          "target": "劃",
+          "own": 7,
+          "rival": 0,
+          "domains": 3,
+          "log_odds": 1.51752,
+          "support": 1.03667
+        },
+        {
+          "key": "目光",
+          "original": "目光",
+          "target": "劃",
+          "own": 7,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 1.51752,
+          "support": 1.03667
+        },
+        {
+          "key": "目标",
+          "original": "目標",
+          "target": "劃",
+          "own": 7,
+          "rival": 0,
+          "domains": 3,
+          "log_odds": 1.51752,
+          "support": 1.03667
+        },
+        {
+          "key": "直接",
+          "original": "直接",
+          "target": "劃",
+          "own": 12,
+          "rival": 0,
+          "domains": 3,
+          "log_odds": 2.03202,
+          "support": 1.57399
+        },
+        {
+          "key": "短剑",
+          "original": "短劍",
+          "target": "劃",
+          "own": 8,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 1.64342,
+          "support": 1.16207
+        },
+        {
+          "key": "破坏",
+          "original": "破壞",
+          "target": "劃",
+          "own": 8,
+          "rival": 0,
+          "domains": 3,
+          "log_odds": 1.64342,
+          "support": 1.16207
+        },
+        {
+          "key": "秩序",
+          "original": "秩序",
+          "target": "劃",
+          "own": 7,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 1.51752,
+          "support": 1.03667
+        },
+        {
+          "key": "空气",
+          "original": "空氣",
+          "target": "劃",
+          "own": 13,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 2.10971,
+          "support": 1.65991
+        },
+        {
+          "key": "空间",
+          "original": "空間",
+          "target": "劃",
+          "own": 12,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 2.03202,
+          "support": 1.57399
+        },
+        {
+          "key": "笔直",
+          "original": "筆直",
+          "target": "劃",
+          "own": 9,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 1.75538,
+          "support": 1.27723
+        },
+        {
+          "key": "范围",
+          "original": "範圍",
+          "target": "劃",
+          "own": 7,
+          "rival": 0,
+          "domains": 3,
+          "log_odds": 1.51752,
+          "support": 1.03667
+        },
+        {
+          "key": "精准",
+          "original": "精準",
+          "target": "劃",
+          "own": 13,
+          "rival": 0,
+          "domains": 3,
+          "log_odds": 2.10971,
+          "support": 1.65991
+        },
+        {
+          "key": "组织",
+          "original": "組織",
+          "target": "劃",
+          "own": 7,
+          "rival": 0,
+          "domains": 3,
+          "log_odds": 1.51752,
+          "support": 1.03667
+        },
+        {
+          "key": "经营",
+          "original": "經營",
+          "target": "劃",
+          "own": 7,
+          "rival": 0,
+          "domains": 4,
+          "log_odds": 1.51752,
+          "support": 1.03667
+        },
+        {
+          "key": "紧接著",
+          "original": "緊接著",
+          "target": "劃",
+          "own": 10,
+          "rival": 0,
+          "domains": 3,
+          "log_odds": 1.85619,
+          "support": 1.38353
+        },
+        {
+          "key": "胸前",
+          "original": "胸前",
+          "target": "劃",
+          "own": 17,
+          "rival": 0,
+          "domains": 3,
+          "log_odds": 2.37217,
+          "support": 1.95614
+        },
+        {
+          "key": "胸口",
+          "original": "胸口",
+          "target": "劃",
+          "own": 7,
+          "rival": 0,
+          "domains": 3,
+          "log_odds": 1.51752,
+          "support": 1.03667
+        },
+        {
+          "key": "脑袋",
+          "original": "腦袋",
+          "target": "劃",
+          "own": 10,
+          "rival": 0,
+          "domains": 3,
+          "log_odds": 1.85619,
+          "support": 1.38353
+        },
+        {
+          "key": "般的",
+          "original": "般的",
+          "target": "劃",
+          "own": 12,
+          "rival": 0,
+          "domains": 3,
+          "log_odds": 2.03202,
+          "support": 1.57399
+        },
+        {
+          "key": "血痕",
+          "original": "血痕",
+          "target": "劃",
+          "own": 8,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 1.64342,
+          "support": 1.16207
+        },
+        {
+          "key": "行事",
+          "original": "行事",
+          "target": "劃",
+          "own": 8,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 1.64342,
+          "support": 1.16207
+        },
+        {
+          "key": "行动",
+          "original": "行動",
+          "target": "劃",
+          "own": 10,
+          "rival": 0,
+          "domains": 4,
+          "log_odds": 1.85619,
+          "support": 1.38353
+        },
+        {
+          "key": "设计",
+          "original": "設計",
+          "target": "劃",
+          "own": 8,
+          "rival": 0,
+          "domains": 3,
+          "log_odds": 1.64342,
+          "support": 1.16207
+        },
+        {
+          "key": "足以",
+          "original": "足以",
+          "target": "劃",
+          "own": 7,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 1.51752,
+          "support": 1.03667
+        },
+        {
+          "key": "轨迹",
+          "original": "軌跡",
+          "target": "劃",
+          "own": 7,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 1.51752,
+          "support": 1.03667
+        },
+        {
+          "key": "迅速",
+          "original": "迅速",
+          "target": "劃",
+          "own": 7,
+          "rival": 0,
+          "domains": 3,
+          "log_odds": 1.51752,
+          "support": 1.03667
+        },
+        {
+          "key": "透过",
+          "original": "透過",
+          "target": "劃",
+          "own": 10,
+          "rival": 0,
+          "domains": 4,
+          "log_odds": 1.85619,
+          "support": 1.38353
+        },
+        {
+          "key": "逐渐",
+          "original": "逐漸",
+          "target": "劃",
+          "own": 7,
+          "rival": 0,
+          "domains": 3,
+          "log_odds": 1.51752,
+          "support": 1.03667
+        },
+        {
+          "key": "这场",
+          "original": "這場",
+          "target": "劃",
+          "own": 10,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 1.85619,
+          "support": 1.38353
+        },
+        {
+          "key": "进行",
+          "original": "進行",
+          "target": "劃",
+          "own": 28,
+          "rival": 1,
+          "domains": 5,
+          "log_odds": 1.76699,
+          "support": 1.55834
+        },
+        {
+          "key": "递给",
+          "original": "遞給",
+          "target": "劃",
+          "own": 7,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 1.51752,
+          "support": 1.03667
+        },
+        {
+          "key": "医院",
+          "original": "醫院",
+          "target": "劃",
+          "own": 7,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 1.51752,
+          "support": 1.03667
+        },
+        {
+          "key": "针对",
+          "original": "針對",
+          "target": "劃",
+          "own": 14,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 2.18191,
+          "support": 1.74056
+        },
+        {
+          "key": "锋利",
+          "original": "鋒利",
+          "target": "劃",
+          "own": 16,
+          "rival": 0,
+          "domains": 3,
+          "log_odds": 2.31259,
+          "support": 1.88822
+        },
+        {
+          "key": "长剑",
+          "original": "長劍",
+          "target": "劃",
+          "own": 33,
+          "rival": 1,
+          "domains": 2,
+          "log_odds": 1.93236,
+          "support": 1.73361
+        },
+        {
+          "key": "闪烁",
+          "original": "閃爍",
+          "target": "劃",
+          "own": 8,
+          "rival": 0,
+          "domains": 3,
+          "log_odds": 1.64342,
+          "support": 1.16207
+        },
+        {
+          "key": "闪电",
+          "original": "閃電",
+          "target": "劃",
+          "own": 15,
+          "rival": 0,
+          "domains": 3,
+          "log_odds": 2.24933,
+          "support": 1.8165
+        },
+        {
+          "key": "阴谋",
+          "original": "陰謀",
+          "target": "劃",
+          "own": 14,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 2.18191,
+          "support": 1.74056
+        },
+        {
+          "key": "需求",
+          "original": "需求",
+          "target": "劃",
+          "own": 11,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 1.9479,
+          "support": 1.48213
+        },
+        {
+          "key": "青年",
+          "original": "青年",
+          "target": "劃",
+          "own": 9,
+          "rival": 0,
+          "domains": 3,
+          "log_odds": 1.75538,
+          "support": 1.27723
+        },
+        {
+          "key": "显然",
+          "original": "顯然",
+          "target": "劃",
+          "own": 7,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 1.51752,
+          "support": 1.03667
+        },
+        {
+          "key": "鲜血",
+          "original": "鮮血",
+          "target": "劃",
+          "own": 27,
+          "rival": 1,
+          "domains": 3,
+          "log_odds": 1.73053,
+          "support": 1.51994
+        },
+        {
+          "key": "黑暗",
+          "original": "黑暗",
+          "target": "劃",
+          "own": 16,
+          "rival": 0,
+          "domains": 3,
+          "log_odds": 2.31259,
+          "support": 1.88822
+        },
+        {
+          "key": "一天",
+          "original": "一天",
+          "target": "划",
+          "own": 22,
+          "rival": 14,
+          "domains": 4,
+          "log_odds": 1.67916,
+          "support": 1.43794
+        },
+        {
+          "key": "一带",
+          "original": "一帶",
+          "target": "划",
+          "own": 4,
+          "rival": 1,
+          "domains": 2,
+          "log_odds": 2.30319,
+          "support": 1.32975
+        },
+        {
+          "key": "一盏",
+          "original": "一盞",
+          "target": "划",
+          "own": 3,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 3.14879,
+          "support": 1.6444
+        },
+        {
+          "key": "一艘",
+          "original": "一艘",
+          "target": "划",
+          "own": 4,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 3.40253,
+          "support": 1.96445
+        },
+        {
+          "key": "一只",
+          "original": "一隻",
+          "target": "划",
+          "own": 33,
+          "rival": 17,
+          "domains": 3,
+          "log_odds": 1.91528,
+          "support": 1.71829
+        },
+        {
+          "key": "上去",
+          "original": "上去",
+          "target": "划",
+          "own": 8,
+          "rival": 5,
+          "domains": 3,
+          "log_odds": 1.64675,
+          "support": 1.16443
+        },
+        {
+          "key": "上岸",
+          "original": "上岸",
+          "target": "划",
+          "own": 6,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 3.77513,
+          "support": 2.4714
+        },
+        {
+          "key": "上游",
+          "original": "上游",
+          "target": "划",
+          "own": 8,
+          "rival": 1,
+          "domains": 3,
+          "log_odds": 2.94895,
+          "support": 2.08522
+        },
+        {
+          "key": "上船",
+          "original": "上船",
+          "target": "划",
+          "own": 8,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 4.04829,
+          "support": 2.86257
+        },
+        {
+          "key": "下水",
+          "original": "下水",
+          "target": "划",
+          "own": 5,
+          "rival": 1,
+          "domains": 3,
+          "log_odds": 2.5063,
+          "support": 1.55434
+        },
+        {
+          "key": "不知不觉",
+          "original": "不知不覺",
+          "target": "划",
+          "own": 3,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 3.14879,
+          "support": 1.6444
+        },
+        {
+          "key": "代替",
+          "original": "代替",
+          "target": "划",
+          "own": 3,
+          "rival": 2,
+          "domains": 2,
+          "log_odds": 1.5379,
+          "support": 0.80314
+        },
+        {
+          "key": "来看",
+          "original": "來看",
+          "target": "划",
+          "own": 4,
+          "rival": 1,
+          "domains": 4,
+          "log_odds": 2.30319,
+          "support": 1.32975
+        },
+        {
+          "key": "停住",
+          "original": "停住",
+          "target": "划",
+          "own": 3,
+          "rival": 2,
+          "domains": 2,
+          "log_odds": 1.5379,
+          "support": 0.80314
+        },
+        {
+          "key": "两位",
+          "original": "兩位",
+          "target": "划",
+          "own": 4,
+          "rival": 2,
+          "domains": 2,
+          "log_odds": 1.79164,
+          "support": 1.0344
+        },
+        {
+          "key": "出声",
+          "original": "出聲",
+          "target": "划",
+          "own": 3,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 3.14879,
+          "support": 1.6444
+        },
+        {
+          "key": "别人",
+          "original": "別人",
+          "target": "划",
+          "own": 5,
+          "rival": 3,
+          "domains": 3,
+          "log_odds": 1.65754,
+          "support": 1.02796
+        },
+        {
+          "key": "别的",
+          "original": "別的",
+          "target": "划",
+          "own": 5,
+          "rival": 2,
+          "domains": 3,
+          "log_odds": 1.99474,
+          "support": 1.23709
+        },
+        {
+          "key": "前进",
+          "original": "前進",
+          "target": "划",
+          "own": 7,
+          "rival": 2,
+          "domains": 2,
+          "log_odds": 2.30978,
+          "support": 1.57788
+        },
+        {
+          "key": "功夫",
+          "original": "功夫",
+          "target": "划",
+          "own": 5,
+          "rival": 2,
+          "domains": 2,
+          "log_odds": 1.99474,
+          "support": 1.23709
+        },
+        {
+          "key": "危险",
+          "original": "危險",
+          "target": "划",
+          "own": 5,
+          "rival": 2,
+          "domains": 2,
+          "log_odds": 1.99474,
+          "support": 1.23709
+        },
+        {
+          "key": "向前",
+          "original": "向前",
+          "target": "划",
+          "own": 12,
+          "rival": 8,
+          "domains": 3,
+          "log_odds": 1.60476,
+          "support": 1.24304
+        },
+        {
+          "key": "命令",
+          "original": "命令",
+          "target": "划",
+          "own": 4,
+          "rival": 2,
+          "domains": 2,
+          "log_odds": 1.79164,
+          "support": 1.0344
+        },
+        {
+          "key": "唱歌",
+          "original": "唱歌",
+          "target": "划",
+          "own": 4,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 3.40253,
+          "support": 1.96445
+        },
+        {
+          "key": "四周",
+          "original": "四周",
+          "target": "划",
+          "own": 4,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 3.40253,
+          "support": 1.96445
+        },
+        {
+          "key": "四只",
+          "original": "四隻",
+          "target": "划",
+          "own": 5,
+          "rival": 1,
+          "domains": 3,
+          "log_odds": 2.5063,
+          "support": 1.55434
+        },
+        {
+          "key": "回家",
+          "original": "回家",
+          "target": "划",
+          "own": 16,
+          "rival": 6,
+          "domains": 2,
+          "log_odds": 2.16208,
+          "support": 1.76533
+        },
+        {
+          "key": "天气",
+          "original": "天氣",
+          "target": "划",
+          "own": 5,
+          "rival": 0,
+          "domains": 3,
+          "log_odds": 3.60564,
+          "support": 2.23612
+        },
+        {
+          "key": "夫妇",
+          "original": "夫婦",
+          "target": "划",
+          "own": 5,
+          "rival": 1,
+          "domains": 2,
+          "log_odds": 2.5063,
+          "support": 1.55434
+        },
+        {
+          "key": "女儿",
+          "original": "女兒",
+          "target": "划",
+          "own": 6,
+          "rival": 2,
+          "domains": 2,
+          "log_odds": 2.16423,
+          "support": 1.41682
+        },
+        {
+          "key": "实在太",
+          "original": "實在太",
+          "target": "划",
+          "own": 3,
+          "rival": 1,
+          "domains": 2,
+          "log_odds": 2.04945,
+          "support": 1.07029
+        },
+        {
+          "key": "对岸",
+          "original": "對岸",
+          "target": "划",
+          "own": 14,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 4.59721,
+          "support": 3.6673
+        },
+        {
+          "key": "小伙子",
+          "original": "小伙子",
+          "target": "划",
+          "own": 5,
+          "rival": 3,
+          "domains": 2,
+          "log_odds": 1.65754,
+          "support": 1.02796
+        },
+        {
+          "key": "小孩",
+          "original": "小孩",
+          "target": "划",
+          "own": 7,
+          "rival": 4,
+          "domains": 2,
+          "log_odds": 1.72053,
+          "support": 1.17535
+        },
+        {
+          "key": "小河",
+          "original": "小河",
+          "target": "划",
+          "own": 3,
+          "rival": 2,
+          "domains": 2,
+          "log_odds": 1.5379,
+          "support": 0.80314
+        },
+        {
+          "key": "小舟",
+          "original": "小舟",
+          "target": "划",
+          "own": 4,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 3.40253,
+          "support": 1.96445
+        },
+        {
+          "key": "小船",
+          "original": "小船",
+          "target": "划",
+          "own": 73,
+          "rival": 1,
+          "domains": 3,
+          "log_odds": 5.27994,
+          "support": 5.01242
+        },
+        {
+          "key": "山下",
+          "original": "山下",
+          "target": "划",
+          "own": 4,
+          "rival": 2,
+          "domains": 2,
+          "log_odds": 1.79164,
+          "support": 1.0344
+        },
+        {
+          "key": "岸上",
+          "original": "岸上",
+          "target": "划",
+          "own": 10,
+          "rival": 1,
+          "domains": 3,
+          "log_odds": 3.16518,
+          "support": 2.35918
+        },
+        {
+          "key": "岸边",
+          "original": "岸邊",
+          "target": "划",
+          "own": 12,
+          "rival": 1,
+          "domains": 3,
+          "log_odds": 3.34448,
+          "support": 2.59062
+        },
+        {
+          "key": "岛上",
+          "original": "島上",
+          "target": "划",
+          "own": 4,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 3.40253,
+          "support": 1.96445
+        },
+        {
+          "key": "工夫",
+          "original": "工夫",
+          "target": "划",
+          "own": 10,
+          "rival": 2,
+          "domains": 2,
+          "log_odds": 2.65362,
+          "support": 1.97789
+        },
+        {
+          "key": "年轻",
+          "original": "年輕",
+          "target": "划",
+          "own": 5,
+          "rival": 3,
+          "domains": 2,
+          "log_odds": 1.65754,
+          "support": 1.02796
+        },
+        {
+          "key": "几声",
+          "original": "幾聲",
+          "target": "划",
+          "own": 3,
+          "rival": 2,
+          "domains": 2,
+          "log_odds": 1.5379,
+          "support": 0.80314
+        },
+        {
+          "key": "几只",
+          "original": "幾隻",
+          "target": "划",
+          "own": 3,
+          "rival": 0,
+          "domains": 3,
+          "log_odds": 3.14879,
+          "support": 1.6444
+        },
+        {
+          "key": "往前",
+          "original": "往前",
+          "target": "划",
+          "own": 6,
+          "rival": 3,
+          "domains": 3,
+          "log_odds": 1.82703,
+          "support": 1.19607
+        },
+        {
+          "key": "徐徐",
+          "original": "徐徐",
+          "target": "划",
+          "own": 3,
+          "rival": 1,
+          "domains": 2,
+          "log_odds": 2.04945,
+          "support": 1.07029
+        },
+        {
+          "key": "快快",
+          "original": "快快",
+          "target": "划",
+          "own": 3,
+          "rival": 2,
+          "domains": 2,
+          "log_odds": 1.5379,
+          "support": 0.80314
+        },
+        {
+          "key": "性命",
+          "original": "性命",
+          "target": "划",
+          "own": 4,
+          "rival": 2,
+          "domains": 2,
+          "log_odds": 1.79164,
+          "support": 1.0344
+        },
+        {
+          "key": "打听",
+          "original": "打聽",
+          "target": "划",
+          "own": 4,
+          "rival": 1,
+          "domains": 2,
+          "log_odds": 2.30319,
+          "support": 1.32975
+        },
+        {
+          "key": "打鱼",
+          "original": "打魚",
+          "target": "划",
+          "own": 7,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 3.92068,
+          "support": 2.67833
+        },
+        {
+          "key": "招呼",
+          "original": "招呼",
+          "target": "划",
+          "own": 3,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 3.14879,
+          "support": 1.6444
+        },
+        {
+          "key": "摇动",
+          "original": "搖動",
+          "target": "划",
+          "own": 5,
+          "rival": 0,
+          "domains": 3,
+          "log_odds": 3.60564,
+          "support": 2.23612
+        },
+        {
+          "key": "日子",
+          "original": "日子",
+          "target": "划",
+          "own": 5,
+          "rival": 1,
+          "domains": 2,
+          "log_odds": 2.5063,
+          "support": 1.55434
+        },
+        {
+          "key": "时节",
+          "original": "時節",
+          "target": "划",
+          "own": 3,
+          "rival": 0,
+          "domains": 3,
+          "log_odds": 3.14879,
+          "support": 1.6444
+        },
+        {
+          "key": "有人",
+          "original": "有人",
+          "target": "划",
+          "own": 16,
+          "rival": 9,
+          "domains": 2,
+          "log_odds": 1.7804,
+          "support": 1.45369
+        },
+        {
+          "key": "机会",
+          "original": "機會",
+          "target": "划",
+          "own": 3,
+          "rival": 1,
+          "domains": 3,
+          "log_odds": 2.04945,
+          "support": 1.07029
+        },
+        {
+          "key": "比赛",
+          "original": "比賽",
+          "target": "划",
+          "own": 3,
+          "rival": 1,
+          "domains": 2,
+          "log_odds": 2.04945,
+          "support": 1.07029
+        },
+        {
+          "key": "水上",
+          "original": "水上",
+          "target": "划",
+          "own": 4,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 3.40253,
+          "support": 1.96445
+        },
+        {
+          "key": "水中",
+          "original": "水中",
+          "target": "划",
+          "own": 10,
+          "rival": 1,
+          "domains": 2,
+          "log_odds": 3.16518,
+          "support": 2.35918
+        },
+        {
+          "key": "水面",
+          "original": "水面",
+          "target": "划",
+          "own": 16,
+          "rival": 1,
+          "domains": 3,
+          "log_odds": 3.63207,
+          "support": 2.96557
+        },
+        {
+          "key": "江中",
+          "original": "江中",
+          "target": "划",
+          "own": 5,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 3.60564,
+          "support": 2.23612
+        },
+        {
+          "key": "江水",
+          "original": "江水",
+          "target": "划",
+          "own": 3,
+          "rival": 1,
+          "domains": 2,
+          "log_odds": 2.04945,
+          "support": 1.07029
+        },
+        {
+          "key": "沙滩",
+          "original": "沙灘",
+          "target": "划",
+          "own": 3,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 3.14879,
+          "support": 1.6444
+        },
+        {
+          "key": "河边",
+          "original": "河邊",
+          "target": "划",
+          "own": 9,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 4.16197,
+          "support": 3.02828
+        },
+        {
+          "key": "深处",
+          "original": "深處",
+          "target": "划",
+          "own": 4,
+          "rival": 2,
+          "domains": 2,
+          "log_odds": 1.79164,
+          "support": 1.0344
+        },
+        {
+          "key": "渡船",
+          "original": "渡船",
+          "target": "划",
+          "own": 5,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 3.60564,
+          "support": 2.23612
+        },
+        {
+          "key": "游到",
+          "original": "游到",
+          "target": "划",
+          "own": 3,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 3.14879,
+          "support": 1.6444
+        },
+        {
+          "key": "湖中",
+          "original": "湖中",
+          "target": "划",
+          "own": 9,
+          "rival": 1,
+          "domains": 2,
+          "log_odds": 3.06263,
+          "support": 2.22839
+        },
+        {
+          "key": "湖水",
+          "original": "湖水",
+          "target": "划",
+          "own": 4,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 3.40253,
+          "support": 1.96445
+        },
+        {
+          "key": "湖面",
+          "original": "湖面",
+          "target": "划",
+          "own": 5,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 3.60564,
+          "support": 2.23612
+        },
+        {
+          "key": "渔夫",
+          "original": "漁夫",
+          "target": "划",
+          "own": 3,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 3.14879,
+          "support": 1.6444
+        },
+        {
+          "key": "渔船",
+          "original": "漁船",
+          "target": "划",
+          "own": 10,
+          "rival": 2,
+          "domains": 2,
+          "log_odds": 2.65362,
+          "support": 1.97789
+        },
+        {
+          "key": "独自",
+          "original": "獨自",
+          "target": "划",
+          "own": 3,
+          "rival": 2,
+          "domains": 2,
+          "log_odds": 1.5379,
+          "support": 0.80314
+        },
+        {
+          "key": "发觉",
+          "original": "發覺",
+          "target": "划",
+          "own": 4,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 3.40253,
+          "support": 1.96445
+        },
+        {
+          "key": "看清",
+          "original": "看清",
+          "target": "划",
+          "own": 3,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 3.14879,
+          "support": 1.6444
+        },
+        {
+          "key": "碰到",
+          "original": "碰到",
+          "target": "划",
+          "own": 5,
+          "rival": 3,
+          "domains": 2,
+          "log_odds": 1.65754,
+          "support": 1.02796
+        },
+        {
+          "key": "码头",
+          "original": "碼頭",
+          "target": "划",
+          "own": 4,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 3.40253,
+          "support": 1.96445
+        },
+        {
+          "key": "答应",
+          "original": "答應",
+          "target": "划",
+          "own": 5,
+          "rival": 2,
+          "domains": 2,
+          "log_odds": 1.99474,
+          "support": 1.23709
+        },
+        {
+          "key": "与其",
+          "original": "與其",
+          "target": "划",
+          "own": 3,
+          "rival": 1,
+          "domains": 3,
+          "log_odds": 2.04945,
+          "support": 1.07029
+        },
+        {
+          "key": "船上",
+          "original": "船上",
+          "target": "划",
+          "own": 27,
+          "rival": 1,
+          "domains": 3,
+          "log_odds": 4.17082,
+          "support": 3.66327
+        },
+        {
+          "key": "船尾",
+          "original": "船尾",
+          "target": "划",
+          "own": 4,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 3.40253,
+          "support": 1.96445
+        },
+        {
+          "key": "船只",
+          "original": "船隻",
+          "target": "划",
+          "own": 6,
+          "rival": 1,
+          "domains": 2,
+          "log_odds": 2.67579,
+          "support": 1.75172
+        },
+        {
+          "key": "船头",
+          "original": "船頭",
+          "target": "划",
+          "own": 22,
+          "rival": 1,
+          "domains": 3,
+          "log_odds": 3.95736,
+          "support": 3.38888
+        },
+        {
+          "key": "芦苇",
+          "original": "蘆葦",
+          "target": "划",
+          "own": 7,
+          "rival": 1,
+          "domains": 3,
+          "log_odds": 2.82134,
+          "support": 1.92734
+        },
+        {
+          "key": "街上",
+          "original": "街上",
+          "target": "划",
+          "own": 4,
+          "rival": 1,
+          "domains": 2,
+          "log_odds": 2.30319,
+          "support": 1.32975
+        },
+        {
+          "key": "买卖",
+          "original": "買賣",
+          "target": "划",
+          "own": 4,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 3.40253,
+          "support": 1.96445
+        },
+        {
+          "key": "赶快",
+          "original": "趕快",
+          "target": "划",
+          "own": 5,
+          "rival": 3,
+          "domains": 2,
+          "log_odds": 1.65754,
+          "support": 1.02796
+        },
+        {
+          "key": "赶紧",
+          "original": "趕緊",
+          "target": "划",
+          "own": 9,
+          "rival": 4,
+          "domains": 2,
+          "log_odds": 1.96183,
+          "support": 1.42744
+        },
+        {
+          "key": "跳进",
+          "original": "跳進",
+          "target": "划",
+          "own": 3,
+          "rival": 1,
+          "domains": 2,
+          "log_odds": 2.04945,
+          "support": 1.07029
+        },
+        {
+          "key": "这回",
+          "original": "這回",
+          "target": "划",
+          "own": 3,
+          "rival": 2,
+          "domains": 3,
+          "log_odds": 1.5379,
+          "support": 0.80314
+        },
+        {
+          "key": "这时",
+          "original": "這時",
+          "target": "划",
+          "own": 25,
+          "rival": 18,
+          "domains": 3,
+          "log_odds": 1.56541,
+          "support": 1.36251
+        },
+        {
+          "key": "这条",
+          "original": "這條",
+          "target": "划",
+          "own": 6,
+          "rival": 4,
+          "domains": 3,
+          "log_odds": 1.57499,
+          "support": 1.03107
+        },
+        {
+          "key": "这笔",
+          "original": "這筆",
+          "target": "划",
+          "own": 3,
+          "rival": 1,
+          "domains": 2,
+          "log_odds": 2.04945,
+          "support": 1.07029
+        },
+        {
+          "key": "那天",
+          "original": "那天",
+          "target": "划",
+          "own": 4,
+          "rival": 1,
+          "domains": 2,
+          "log_odds": 2.30319,
+          "support": 1.32975
+        },
+        {
+          "key": "双脚",
+          "original": "雙腳",
+          "target": "划",
+          "own": 3,
+          "rival": 2,
+          "domains": 2,
+          "log_odds": 1.5379,
+          "support": 0.80314
+        },
+        {
+          "key": "飞到",
+          "original": "飛到",
+          "target": "划",
+          "own": 3,
+          "rival": 1,
+          "domains": 2,
+          "log_odds": 2.04945,
+          "support": 1.07029
+        },
+        {
+          "key": "飞快",
+          "original": "飛快",
+          "target": "划",
+          "own": 7,
+          "rival": 0,
+          "domains": 2,
+          "log_odds": 3.92068,
+          "support": 2.67833
+        }
+      ]
+    }
+  ]
+}

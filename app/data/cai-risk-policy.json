@@ -1,0 +1,1025 @@
+{
+  "version": "cai-risk-policy-20261018-v2",
+  "automaticConversion": false,
+  "policy": "只供覆核；不得輸入轉換候選、分詞、詞性修正或選字流程。",
+  "boundaryWords": [
+    "人才",
+    "天才",
+    "奇才",
+    "鬼才",
+    "不才",
+    "有才",
+    "多才",
+    "大才",
+    "高才",
+    "下才",
+    "中才",
+    "身才",
+    "長才",
+    "口才",
+    "識才",
+    "實才",
+    "外才",
+    "仙才",
+    "德才",
+    "殺才",
+    "凡才",
+    "絕才",
+    "非才",
+    "比才",
+    "負才",
+    "取才",
+    "妙才",
+    "求才",
+    "霸才",
+    "狗才",
+    "露才",
+    "憐才",
+    "愛才",
+    "才能",
+    "才行",
+    "才分",
+    "才用",
+    "才学",
+    "才思",
+    "才守",
+    "才定",
+    "才悟",
+    "才望",
+    "才识",
+    "才略",
+    "才语",
+    "才会",
+    "才干",
+    "才料"
+  ],
+  "lexicalWords": [
+    "将才"
+  ],
+  "words": [
+    {
+      "source": "人才",
+      "matchForms": [
+        "人才"
+      ],
+      "activeTargets": [
+        "人才",
+        "人纔"
+      ],
+      "nounTargets": [
+        "人才"
+      ],
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "riskKind": "詞界或詞性待核",
+      "matchBoundary": "token",
+      "suppressNounPos": true,
+      "reason": "整詞本身只取「人才」；另一字串僅提示可能誤併的「前詞／纔」。已分開的詞不重新合併；名詞標註不產生多字形歧義。"
+    },
+    {
+      "source": "天才",
+      "matchForms": [
+        "天才"
+      ],
+      "activeTargets": [
+        "天才",
+        "天纔"
+      ],
+      "nounTargets": [
+        "天才"
+      ],
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "riskKind": "詞界或詞性待核",
+      "matchBoundary": "token",
+      "suppressNounPos": true,
+      "reason": "整詞本身只取「天才」；另一字串僅提示可能誤併的「前詞／纔」。已分開的詞不重新合併；名詞標註不產生多字形歧義。"
+    },
+    {
+      "source": "奇才",
+      "matchForms": [
+        "奇才"
+      ],
+      "activeTargets": [
+        "奇才",
+        "奇纔"
+      ],
+      "nounTargets": [
+        "奇才"
+      ],
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "riskKind": "詞界或詞性待核",
+      "matchBoundary": "token",
+      "suppressNounPos": true,
+      "reason": "整詞本身只取「奇才」；另一字串僅提示可能誤併的「前詞／纔」。已分開的詞不重新合併；名詞標註不產生多字形歧義。"
+    },
+    {
+      "source": "鬼才",
+      "matchForms": [
+        "鬼才"
+      ],
+      "activeTargets": [
+        "鬼才",
+        "鬼纔"
+      ],
+      "nounTargets": [
+        "鬼才"
+      ],
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "riskKind": "詞界或詞性待核",
+      "matchBoundary": "token",
+      "suppressNounPos": true,
+      "reason": "整詞本身只取「鬼才」；另一字串僅提示可能誤併的「前詞／纔」。已分開的詞不重新合併；名詞標註不產生多字形歧義。"
+    },
+    {
+      "source": "不才",
+      "matchForms": [
+        "不才"
+      ],
+      "activeTargets": [
+        "不才",
+        "不纔"
+      ],
+      "nounTargets": [
+        "不才"
+      ],
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "riskKind": "詞界或詞性待核",
+      "matchBoundary": "token",
+      "suppressNounPos": true,
+      "reason": "整詞本身只取「不才」；另一字串僅提示可能誤併的「前詞／纔」。已分開的詞不重新合併；名詞標註不產生多字形歧義。"
+    },
+    {
+      "source": "有才",
+      "matchForms": [
+        "有才"
+      ],
+      "activeTargets": [
+        "有才",
+        "有纔"
+      ],
+      "nounTargets": [
+        "有才"
+      ],
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "riskKind": "詞界或詞性待核",
+      "matchBoundary": "token",
+      "suppressNounPos": true,
+      "reason": "整詞本身只取「有才」；另一字串僅提示可能誤併的「前詞／纔」。已分開的詞不重新合併；名詞標註不產生多字形歧義。"
+    },
+    {
+      "source": "多才",
+      "matchForms": [
+        "多才"
+      ],
+      "activeTargets": [
+        "多才",
+        "多纔"
+      ],
+      "nounTargets": [
+        "多才"
+      ],
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "riskKind": "詞界或詞性待核",
+      "matchBoundary": "token",
+      "suppressNounPos": true,
+      "reason": "整詞本身只取「多才」；另一字串僅提示可能誤併的「前詞／纔」。已分開的詞不重新合併；名詞標註不產生多字形歧義。"
+    },
+    {
+      "source": "大才",
+      "matchForms": [
+        "大才"
+      ],
+      "activeTargets": [
+        "大才",
+        "大纔"
+      ],
+      "nounTargets": [
+        "大才"
+      ],
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "riskKind": "詞界或詞性待核",
+      "matchBoundary": "token",
+      "suppressNounPos": true,
+      "reason": "整詞本身只取「大才」；另一字串僅提示可能誤併的「前詞／纔」。已分開的詞不重新合併；名詞標註不產生多字形歧義。"
+    },
+    {
+      "source": "高才",
+      "matchForms": [
+        "高才"
+      ],
+      "activeTargets": [
+        "高才",
+        "高纔"
+      ],
+      "nounTargets": [
+        "高才"
+      ],
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "riskKind": "詞界或詞性待核",
+      "matchBoundary": "token",
+      "suppressNounPos": true,
+      "reason": "整詞本身只取「高才」；另一字串僅提示可能誤併的「前詞／纔」。已分開的詞不重新合併；名詞標註不產生多字形歧義。"
+    },
+    {
+      "source": "下才",
+      "matchForms": [
+        "下才"
+      ],
+      "activeTargets": [
+        "下才",
+        "下纔"
+      ],
+      "nounTargets": [
+        "下才"
+      ],
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "riskKind": "詞界或詞性待核",
+      "matchBoundary": "token",
+      "suppressNounPos": true,
+      "reason": "整詞本身只取「下才」；另一字串僅提示可能誤併的「前詞／纔」。已分開的詞不重新合併；名詞標註不產生多字形歧義。"
+    },
+    {
+      "source": "中才",
+      "matchForms": [
+        "中才"
+      ],
+      "activeTargets": [
+        "中才",
+        "中纔"
+      ],
+      "nounTargets": [
+        "中才"
+      ],
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "riskKind": "詞界或詞性待核",
+      "matchBoundary": "token",
+      "suppressNounPos": true,
+      "reason": "整詞本身只取「中才」；另一字串僅提示可能誤併的「前詞／纔」。已分開的詞不重新合併；名詞標註不產生多字形歧義。"
+    },
+    {
+      "source": "身才",
+      "matchForms": [
+        "身才"
+      ],
+      "activeTargets": [
+        "身才",
+        "身纔"
+      ],
+      "nounTargets": [
+        "身才"
+      ],
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "riskKind": "詞界或詞性待核",
+      "matchBoundary": "token",
+      "suppressNounPos": true,
+      "reason": "整詞本身只取「身才」；另一字串僅提示可能誤併的「前詞／纔」。已分開的詞不重新合併；名詞標註不產生多字形歧義。"
+    },
+    {
+      "source": "長才",
+      "matchForms": [
+        "長才",
+        "长才"
+      ],
+      "activeTargets": [
+        "長才",
+        "長纔"
+      ],
+      "nounTargets": [
+        "長才"
+      ],
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "riskKind": "詞界或詞性待核",
+      "matchBoundary": "token",
+      "suppressNounPos": true,
+      "reason": "整詞本身只取「長才」；另一字串僅提示可能誤併的「前詞／纔」。已分開的詞不重新合併；名詞標註不產生多字形歧義。"
+    },
+    {
+      "source": "口才",
+      "matchForms": [
+        "口才"
+      ],
+      "activeTargets": [
+        "口才",
+        "口纔"
+      ],
+      "nounTargets": [
+        "口才"
+      ],
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "riskKind": "詞界或詞性待核",
+      "matchBoundary": "token",
+      "suppressNounPos": true,
+      "reason": "整詞本身只取「口才」；另一字串僅提示可能誤併的「前詞／纔」。已分開的詞不重新合併；名詞標註不產生多字形歧義。"
+    },
+    {
+      "source": "識才",
+      "matchForms": [
+        "識才",
+        "识才"
+      ],
+      "activeTargets": [
+        "識才",
+        "識纔"
+      ],
+      "nounTargets": [
+        "識才"
+      ],
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "riskKind": "詞界或詞性待核",
+      "matchBoundary": "token",
+      "suppressNounPos": true,
+      "reason": "整詞本身只取「識才」；另一字串僅提示可能誤併的「前詞／纔」。已分開的詞不重新合併；名詞標註不產生多字形歧義。"
+    },
+    {
+      "source": "實才",
+      "matchForms": [
+        "实才",
+        "實才"
+      ],
+      "activeTargets": [
+        "實才",
+        "實纔"
+      ],
+      "nounTargets": [
+        "實才"
+      ],
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "riskKind": "詞界或詞性待核",
+      "matchBoundary": "token",
+      "suppressNounPos": true,
+      "reason": "整詞本身只取「實才」；另一字串僅提示可能誤併的「前詞／纔」。已分開的詞不重新合併；名詞標註不產生多字形歧義。"
+    },
+    {
+      "source": "外才",
+      "matchForms": [
+        "外才"
+      ],
+      "activeTargets": [
+        "外才",
+        "外纔"
+      ],
+      "nounTargets": [
+        "外才"
+      ],
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "riskKind": "詞界或詞性待核",
+      "matchBoundary": "token",
+      "suppressNounPos": true,
+      "reason": "整詞本身只取「外才」；另一字串僅提示可能誤併的「前詞／纔」。已分開的詞不重新合併；名詞標註不產生多字形歧義。"
+    },
+    {
+      "source": "仙才",
+      "matchForms": [
+        "仙才"
+      ],
+      "activeTargets": [
+        "仙才",
+        "仙纔"
+      ],
+      "nounTargets": [
+        "仙才"
+      ],
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "riskKind": "詞界或詞性待核",
+      "matchBoundary": "token",
+      "suppressNounPos": true,
+      "reason": "整詞本身只取「仙才」；另一字串僅提示可能誤併的「前詞／纔」。已分開的詞不重新合併；名詞標註不產生多字形歧義。"
+    },
+    {
+      "source": "德才",
+      "matchForms": [
+        "德才"
+      ],
+      "activeTargets": [
+        "德才",
+        "德纔"
+      ],
+      "nounTargets": [
+        "德才"
+      ],
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "riskKind": "詞界或詞性待核",
+      "matchBoundary": "token",
+      "suppressNounPos": true,
+      "reason": "整詞本身只取「德才」；另一字串僅提示可能誤併的「前詞／纔」。已分開的詞不重新合併；名詞標註不產生多字形歧義。"
+    },
+    {
+      "source": "殺才",
+      "matchForms": [
+        "杀才",
+        "殺才"
+      ],
+      "activeTargets": [
+        "殺才",
+        "殺纔"
+      ],
+      "nounTargets": [
+        "殺才"
+      ],
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "riskKind": "詞界或詞性待核",
+      "matchBoundary": "token",
+      "suppressNounPos": true,
+      "reason": "整詞本身只取「殺才」；另一字串僅提示可能誤併的「前詞／纔」。已分開的詞不重新合併；名詞標註不產生多字形歧義。"
+    },
+    {
+      "source": "凡才",
+      "matchForms": [
+        "凡才"
+      ],
+      "activeTargets": [
+        "凡才",
+        "凡纔"
+      ],
+      "nounTargets": [
+        "凡才"
+      ],
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "riskKind": "詞界或詞性待核",
+      "matchBoundary": "token",
+      "suppressNounPos": true,
+      "reason": "整詞本身只取「凡才」；另一字串僅提示可能誤併的「前詞／纔」。已分開的詞不重新合併；名詞標註不產生多字形歧義。"
+    },
+    {
+      "source": "絕才",
+      "matchForms": [
+        "絕才",
+        "绝才"
+      ],
+      "activeTargets": [
+        "絕才",
+        "絕纔"
+      ],
+      "nounTargets": [
+        "絕才"
+      ],
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "riskKind": "詞界或詞性待核",
+      "matchBoundary": "token",
+      "suppressNounPos": true,
+      "reason": "整詞本身只取「絕才」；另一字串僅提示可能誤併的「前詞／纔」。已分開的詞不重新合併；名詞標註不產生多字形歧義。"
+    },
+    {
+      "source": "非才",
+      "matchForms": [
+        "非才"
+      ],
+      "activeTargets": [
+        "非才",
+        "非纔"
+      ],
+      "nounTargets": [
+        "非才"
+      ],
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "riskKind": "詞界或詞性待核",
+      "matchBoundary": "token",
+      "suppressNounPos": true,
+      "reason": "整詞本身只取「非才」；另一字串僅提示可能誤併的「前詞／纔」。已分開的詞不重新合併；名詞標註不產生多字形歧義。"
+    },
+    {
+      "source": "比才",
+      "matchForms": [
+        "比才"
+      ],
+      "activeTargets": [
+        "比才",
+        "比纔"
+      ],
+      "nounTargets": [
+        "比才"
+      ],
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "riskKind": "詞界或詞性待核",
+      "matchBoundary": "token",
+      "suppressNounPos": true,
+      "reason": "整詞本身只取「比才」；另一字串僅提示可能誤併的「前詞／纔」。已分開的詞不重新合併；名詞標註不產生多字形歧義。"
+    },
+    {
+      "source": "負才",
+      "matchForms": [
+        "負才",
+        "负才"
+      ],
+      "activeTargets": [
+        "負才",
+        "負纔"
+      ],
+      "nounTargets": [
+        "負才"
+      ],
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "riskKind": "詞界或詞性待核",
+      "matchBoundary": "token",
+      "suppressNounPos": true,
+      "reason": "整詞本身只取「負才」；另一字串僅提示可能誤併的「前詞／纔」。已分開的詞不重新合併；名詞標註不產生多字形歧義。"
+    },
+    {
+      "source": "取才",
+      "matchForms": [
+        "取才"
+      ],
+      "activeTargets": [
+        "取才",
+        "取纔"
+      ],
+      "nounTargets": [
+        "取才"
+      ],
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "riskKind": "詞界或詞性待核",
+      "matchBoundary": "token",
+      "suppressNounPos": true,
+      "reason": "整詞本身只取「取才」；另一字串僅提示可能誤併的「前詞／纔」。已分開的詞不重新合併；名詞標註不產生多字形歧義。"
+    },
+    {
+      "source": "妙才",
+      "matchForms": [
+        "妙才"
+      ],
+      "activeTargets": [
+        "妙才",
+        "妙纔"
+      ],
+      "nounTargets": [
+        "妙才"
+      ],
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "riskKind": "詞界或詞性待核",
+      "matchBoundary": "token",
+      "suppressNounPos": true,
+      "reason": "整詞本身只取「妙才」；另一字串僅提示可能誤併的「前詞／纔」。已分開的詞不重新合併；名詞標註不產生多字形歧義。"
+    },
+    {
+      "source": "求才",
+      "matchForms": [
+        "求才"
+      ],
+      "activeTargets": [
+        "求才",
+        "求纔"
+      ],
+      "nounTargets": [
+        "求才"
+      ],
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "riskKind": "詞界或詞性待核",
+      "matchBoundary": "token",
+      "suppressNounPos": true,
+      "reason": "整詞本身只取「求才」；另一字串僅提示可能誤併的「前詞／纔」。已分開的詞不重新合併；名詞標註不產生多字形歧義。"
+    },
+    {
+      "source": "霸才",
+      "matchForms": [
+        "霸才"
+      ],
+      "activeTargets": [
+        "霸才",
+        "霸纔"
+      ],
+      "nounTargets": [
+        "霸才"
+      ],
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "riskKind": "詞界或詞性待核",
+      "matchBoundary": "token",
+      "suppressNounPos": true,
+      "reason": "整詞本身只取「霸才」；另一字串僅提示可能誤併的「前詞／纔」。已分開的詞不重新合併；名詞標註不產生多字形歧義。"
+    },
+    {
+      "source": "狗才",
+      "matchForms": [
+        "狗才"
+      ],
+      "activeTargets": [
+        "狗才",
+        "狗纔"
+      ],
+      "nounTargets": [
+        "狗才"
+      ],
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "riskKind": "詞界或詞性待核",
+      "matchBoundary": "token",
+      "suppressNounPos": true,
+      "reason": "整詞本身只取「狗才」；另一字串僅提示可能誤併的「前詞／纔」。已分開的詞不重新合併；名詞標註不產生多字形歧義。"
+    },
+    {
+      "source": "露才",
+      "matchForms": [
+        "露才"
+      ],
+      "activeTargets": [
+        "露才",
+        "露纔"
+      ],
+      "nounTargets": [
+        "露才"
+      ],
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "riskKind": "詞界或詞性待核",
+      "matchBoundary": "token",
+      "suppressNounPos": true,
+      "reason": "整詞本身只取「露才」；另一字串僅提示可能誤併的「前詞／纔」。已分開的詞不重新合併；名詞標註不產生多字形歧義。"
+    },
+    {
+      "source": "憐才",
+      "matchForms": [
+        "怜才",
+        "憐才"
+      ],
+      "activeTargets": [
+        "憐才",
+        "憐纔"
+      ],
+      "nounTargets": [
+        "憐才"
+      ],
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "riskKind": "詞界或詞性待核",
+      "matchBoundary": "token",
+      "suppressNounPos": true,
+      "reason": "整詞本身只取「憐才」；另一字串僅提示可能誤併的「前詞／纔」。已分開的詞不重新合併；名詞標註不產生多字形歧義。"
+    },
+    {
+      "source": "愛才",
+      "matchForms": [
+        "愛才",
+        "爱才"
+      ],
+      "activeTargets": [
+        "愛才",
+        "愛纔"
+      ],
+      "nounTargets": [
+        "愛才"
+      ],
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "riskKind": "詞界或詞性待核",
+      "matchBoundary": "token",
+      "suppressNounPos": true,
+      "reason": "整詞本身只取「愛才」；另一字串僅提示可能誤併的「前詞／纔」。已分開的詞不重新合併；名詞標註不產生多字形歧義。"
+    },
+    {
+      "source": "才能",
+      "matchForms": [
+        "才能"
+      ],
+      "activeTargets": [
+        "才能",
+        "纔能"
+      ],
+      "nounTargets": [
+        "才能"
+      ],
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "riskKind": "詞界或詞性待核",
+      "matchBoundary": "token",
+      "suppressNounPos": true,
+      "reason": "整詞本身只取「才能」；另一字串僅提示可能誤併的「前詞／纔」。已分開的詞不重新合併；名詞標註不產生多字形歧義。"
+    },
+    {
+      "source": "才行",
+      "matchForms": [
+        "才行"
+      ],
+      "activeTargets": [
+        "才行",
+        "纔行"
+      ],
+      "nounTargets": [
+        "才行"
+      ],
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "riskKind": "詞界或詞性待核",
+      "matchBoundary": "token",
+      "suppressNounPos": true,
+      "reason": "整詞本身只取「才行」；另一字串僅提示可能誤併的「前詞／纔」。已分開的詞不重新合併；名詞標註不產生多字形歧義。"
+    },
+    {
+      "source": "才分",
+      "matchForms": [
+        "才分"
+      ],
+      "activeTargets": [
+        "才分",
+        "纔分"
+      ],
+      "nounTargets": [
+        "才分"
+      ],
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "riskKind": "詞界或詞性待核",
+      "matchBoundary": "token",
+      "suppressNounPos": true,
+      "reason": "整詞本身只取「才分」；另一字串僅提示可能誤併的「前詞／纔」。已分開的詞不重新合併；名詞標註不產生多字形歧義。"
+    },
+    {
+      "source": "才用",
+      "matchForms": [
+        "才用"
+      ],
+      "activeTargets": [
+        "才用",
+        "纔用"
+      ],
+      "nounTargets": [
+        "才用"
+      ],
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "riskKind": "詞界或詞性待核",
+      "matchBoundary": "token",
+      "suppressNounPos": true,
+      "reason": "整詞本身只取「才用」；另一字串僅提示可能誤併的「前詞／纔」。已分開的詞不重新合併；名詞標註不產生多字形歧義。"
+    },
+    {
+      "source": "才學",
+      "matchForms": [
+        "才学",
+        "才學"
+      ],
+      "activeTargets": [
+        "才學",
+        "纔學"
+      ],
+      "nounTargets": [
+        "才學"
+      ],
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "riskKind": "詞界或詞性待核",
+      "matchBoundary": "token",
+      "suppressNounPos": true,
+      "reason": "整詞本身只取「才學」；另一字串僅提示可能誤併的「前詞／纔」。已分開的詞不重新合併；名詞標註不產生多字形歧義。"
+    },
+    {
+      "source": "才思",
+      "matchForms": [
+        "才思"
+      ],
+      "activeTargets": [
+        "才思",
+        "纔思"
+      ],
+      "nounTargets": [
+        "才思"
+      ],
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "riskKind": "詞界或詞性待核",
+      "matchBoundary": "token",
+      "suppressNounPos": true,
+      "reason": "整詞本身只取「才思」；另一字串僅提示可能誤併的「前詞／纔」。已分開的詞不重新合併；名詞標註不產生多字形歧義。"
+    },
+    {
+      "source": "才守",
+      "matchForms": [
+        "才守"
+      ],
+      "activeTargets": [
+        "才守",
+        "纔守"
+      ],
+      "nounTargets": [
+        "才守"
+      ],
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "riskKind": "詞界或詞性待核",
+      "matchBoundary": "token",
+      "suppressNounPos": true,
+      "reason": "整詞本身只取「才守」；另一字串僅提示可能誤併的「前詞／纔」。已分開的詞不重新合併；名詞標註不產生多字形歧義。"
+    },
+    {
+      "source": "才定",
+      "matchForms": [
+        "才定"
+      ],
+      "activeTargets": [
+        "才定",
+        "纔定"
+      ],
+      "nounTargets": [
+        "才定"
+      ],
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "riskKind": "詞界或詞性待核",
+      "matchBoundary": "token",
+      "suppressNounPos": true,
+      "reason": "整詞本身只取「才定」；另一字串僅提示可能誤併的「前詞／纔」。已分開的詞不重新合併；名詞標註不產生多字形歧義。"
+    },
+    {
+      "source": "才悟",
+      "matchForms": [
+        "才悟"
+      ],
+      "activeTargets": [
+        "才悟",
+        "纔悟"
+      ],
+      "nounTargets": [
+        "才悟"
+      ],
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "riskKind": "詞界或詞性待核",
+      "matchBoundary": "token",
+      "suppressNounPos": true,
+      "reason": "整詞本身只取「才悟」；另一字串僅提示可能誤併的「前詞／纔」。已分開的詞不重新合併；名詞標註不產生多字形歧義。"
+    },
+    {
+      "source": "才望",
+      "matchForms": [
+        "才望"
+      ],
+      "activeTargets": [
+        "才望",
+        "纔望"
+      ],
+      "nounTargets": [
+        "才望"
+      ],
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "riskKind": "詞界或詞性待核",
+      "matchBoundary": "token",
+      "suppressNounPos": true,
+      "reason": "整詞本身只取「才望」；另一字串僅提示可能誤併的「前詞／纔」。已分開的詞不重新合併；名詞標註不產生多字形歧義。"
+    },
+    {
+      "source": "才識",
+      "matchForms": [
+        "才識",
+        "才识"
+      ],
+      "activeTargets": [
+        "才識",
+        "纔識"
+      ],
+      "nounTargets": [
+        "才識"
+      ],
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "riskKind": "詞界或詞性待核",
+      "matchBoundary": "token",
+      "suppressNounPos": true,
+      "reason": "整詞本身只取「才識」；另一字串僅提示可能誤併的「前詞／纔」。已分開的詞不重新合併；名詞標註不產生多字形歧義。"
+    },
+    {
+      "source": "才略",
+      "matchForms": [
+        "才略"
+      ],
+      "activeTargets": [
+        "才略",
+        "纔略"
+      ],
+      "nounTargets": [
+        "才略"
+      ],
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "riskKind": "詞界或詞性待核",
+      "matchBoundary": "token",
+      "suppressNounPos": true,
+      "reason": "整詞本身只取「才略」；另一字串僅提示可能誤併的「前詞／纔」。已分開的詞不重新合併；名詞標註不產生多字形歧義。"
+    },
+    {
+      "source": "才語",
+      "matchForms": [
+        "才語",
+        "才语"
+      ],
+      "activeTargets": [
+        "才語",
+        "纔語"
+      ],
+      "nounTargets": [
+        "才語"
+      ],
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "riskKind": "詞界或詞性待核",
+      "matchBoundary": "token",
+      "suppressNounPos": true,
+      "reason": "整詞本身只取「才語」；另一字串僅提示可能誤併的「前詞／纔」。已分開的詞不重新合併；名詞標註不產生多字形歧義。"
+    },
+    {
+      "source": "才會",
+      "matchForms": [
+        "才会",
+        "才會"
+      ],
+      "activeTargets": [
+        "才會",
+        "纔會"
+      ],
+      "nounTargets": [
+        "才會"
+      ],
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "riskKind": "詞界或詞性待核",
+      "matchBoundary": "token",
+      "suppressNounPos": true,
+      "reason": "整詞本身只取「才會」；另一字串僅提示可能誤併的「前詞／纔」。已分開的詞不重新合併；名詞標註不產生多字形歧義。"
+    },
+    {
+      "source": "才幹",
+      "matchForms": [
+        "才干",
+        "才幹"
+      ],
+      "activeTargets": [
+        "才幹",
+        "纔幹"
+      ],
+      "nounTargets": [
+        "才幹"
+      ],
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "riskKind": "詞界或詞性待核",
+      "matchBoundary": "token",
+      "suppressNounPos": true,
+      "reason": "整詞本身只取「才幹」；另一字串僅提示可能誤併的「前詞／纔」。已分開的詞不重新合併；名詞標註不產生多字形歧義。"
+    },
+    {
+      "source": "才料",
+      "matchForms": [
+        "才料"
+      ],
+      "activeTargets": [
+        "才料",
+        "纔料"
+      ],
+      "nounTargets": [
+        "才料"
+      ],
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "riskKind": "詞界或詞性待核",
+      "matchBoundary": "token",
+      "suppressNounPos": true,
+      "reason": "整詞本身只取「才料」；另一字串僅提示可能誤併的「前詞／纔」。已分開的詞不重新合併；名詞標註不產生多字形歧義。"
+    },
+    {
+      "source": "將才",
+      "matchForms": [
+        "将才",
+        "將才"
+      ],
+      "activeTargets": [
+        "將才",
+        "將纔"
+      ],
+      "nounTargets": [
+        "將才"
+      ],
+      "reviewOnly": true,
+      "automaticConversion": false,
+      "riskKind": "詞性未明待核",
+      "matchBoundary": "token",
+      "suppressNounPos": true,
+      "reason": "名詞義只取「將才」；僅詞性及局部語義未明時列待核，不能把名詞改作副詞。"
+    }
+  ]
+}

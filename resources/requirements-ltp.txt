@@ -1,0 +1,7 @@
+ltp-core @ git+https:
+ltp==4.2.14
+ltp-extension==0.1.13
+torch>=2.8,<3
+transformers>=4.57,<5
+huggingface-hub>=0.34,<1
+tornado>=6.4,<7

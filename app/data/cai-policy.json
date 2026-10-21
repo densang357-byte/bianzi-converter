@@ -1,0 +1,752 @@
+{
+  "version": "cai-policy-20261018-v4",
+  "approvedBy": "user-20261018-名詞只取才-跨詞界疑點獨立風險庫",
+  "scope": "modern default s2t semantic spelling; upstream source dictionaries retained",
+  "adverbMeanings": [
+    "僅僅",
+    "方纔",
+    "方始",
+    "到某條件纔",
+    "語氣強調"
+  ],
+  "nounMeanings": [
+    "才能",
+    "才性",
+    "有才之人",
+    "稱謂",
+    "姓氏人名",
+    "計量單位"
+  ],
+  "ambiguousWords": [
+    "将才"
+  ],
+  "references": [
+    {
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=9756&la=1&powerMode=0",
+      "use": "區分名詞、計量、姓氏與副詞義；字形分化按使用者要求"
+    },
+    {
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=95191&la=0&powerMode=0",
+      "use": "將才兼有將領才能與剛纔義"
+    },
+    {
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=141061&la=0&powerMode=0",
+      "use": "才守有才華操守義"
+    },
+    {
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=141082&la=1&powerMode=0",
+      "use": "才語有文飾言語義"
+    },
+    {
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=141078&la=0&powerMode=0",
+      "use": "才悟可指才思領悟力，不能一律改纔悟"
+    }
+  ],
+  "overrides": {
+    "适才": {
+      "targets": [
+        "適纔"
+      ],
+      "note": "完整時間或副詞用例，按使用者分義取纔。",
+      "cai_policy": "cai-policy-20261018-v4"
+    },
+    "適才": {
+      "targets": [
+        "適纔"
+      ],
+      "note": "完整時間或副詞用例，按使用者分義取纔。",
+      "cai_policy": "cai-policy-20261018-v4"
+    },
+    "將才": {
+      "targets": [
+        "將才",
+        "將纔"
+      ],
+      "default_by_pos": {
+        "n": "將才",
+        "d": "將纔",
+        "c": "將纔",
+        "nt": "將纔"
+      },
+      "targets_by_pos": {
+        "n": [
+          "將才"
+        ],
+        "d": [
+          "將纔"
+        ],
+        "c": [
+          "將纔"
+        ],
+        "nt": [
+          "將纔"
+        ]
+      },
+      "note": "整詞爲名詞或姓名時只取「將才」；副詞及副詞加動詞讀法取「將纔」。以實際詞性和局部句法分義，不跨詞界造候選。",
+      "cai_policy": "cai-policy-20261018-v4"
+    },
+    "将才": {
+      "targets": [
+        "將才",
+        "將纔"
+      ],
+      "default_by_pos": {
+        "n": "將才",
+        "d": "將纔",
+        "c": "將纔",
+        "nt": "將纔"
+      },
+      "targets_by_pos": {
+        "n": [
+          "將才"
+        ],
+        "d": [
+          "將纔"
+        ],
+        "c": [
+          "將纔"
+        ],
+        "nt": [
+          "將纔"
+        ]
+      },
+      "note": "整詞爲名詞或姓名時只取「將才」；副詞及副詞加動詞讀法取「將纔」。以實際詞性和局部句法分義，不跨詞界造候選。",
+      "cai_policy": "cai-policy-20261018-v4"
+    },
+    "才会": {
+      "targets": [
+        "才會"
+      ],
+      "default_for_all_pos": "才會",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "才會": {
+      "targets": [
+        "才會"
+      ],
+      "default_for_all_pos": "才會",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "才分": {
+      "targets": [
+        "才分"
+      ],
+      "default_for_all_pos": "才分",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "才学": {
+      "targets": [
+        "才學"
+      ],
+      "default_for_all_pos": "才學",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "才學": {
+      "targets": [
+        "才學"
+      ],
+      "default_for_all_pos": "才學",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "才守": {
+      "targets": [
+        "才守"
+      ],
+      "default_for_all_pos": "才守",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "才定": {
+      "targets": [
+        "才定"
+      ],
+      "default_for_all_pos": "才定",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "才干": {
+      "targets": [
+        "才幹"
+      ],
+      "default_for_all_pos": "才幹",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "才幹": {
+      "targets": [
+        "才幹"
+      ],
+      "default_for_all_pos": "才幹",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "才思": {
+      "targets": [
+        "才思"
+      ],
+      "default_for_all_pos": "才思",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "才悟": {
+      "targets": [
+        "才悟"
+      ],
+      "default_for_all_pos": "才悟",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "才望": {
+      "targets": [
+        "才望"
+      ],
+      "default_for_all_pos": "才望",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "才用": {
+      "targets": [
+        "才用"
+      ],
+      "default_for_all_pos": "才用",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "才略": {
+      "targets": [
+        "才略"
+      ],
+      "default_for_all_pos": "才略",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "才能": {
+      "targets": [
+        "才能"
+      ],
+      "default_for_all_pos": "才能",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "才行": {
+      "targets": [
+        "才行"
+      ],
+      "default_for_all_pos": "才行",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "才識": {
+      "targets": [
+        "才識"
+      ],
+      "default_for_all_pos": "才識",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "才识": {
+      "targets": [
+        "才識"
+      ],
+      "default_for_all_pos": "才識",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "才语": {
+      "targets": [
+        "才語"
+      ],
+      "default_for_all_pos": "才語",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "才語": {
+      "targets": [
+        "才語"
+      ],
+      "default_for_all_pos": "才語",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "才料": {
+      "targets": [
+        "才料"
+      ],
+      "default_for_all_pos": "才料",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "人才": {
+      "targets": [
+        "人才"
+      ],
+      "default_for_all_pos": "人才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "天才": {
+      "targets": [
+        "天才"
+      ],
+      "default_for_all_pos": "天才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "奇才": {
+      "targets": [
+        "奇才"
+      ],
+      "default_for_all_pos": "奇才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "鬼才": {
+      "targets": [
+        "鬼才"
+      ],
+      "default_for_all_pos": "鬼才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "不才": {
+      "targets": [
+        "不才"
+      ],
+      "default_for_all_pos": "不才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "有才": {
+      "targets": [
+        "有才"
+      ],
+      "default_for_all_pos": "有才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "多才": {
+      "targets": [
+        "多才"
+      ],
+      "default_for_all_pos": "多才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "大才": {
+      "targets": [
+        "大才"
+      ],
+      "default_for_all_pos": "大才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "高才": {
+      "targets": [
+        "高才"
+      ],
+      "default_for_all_pos": "高才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "下才": {
+      "targets": [
+        "下才"
+      ],
+      "default_for_all_pos": "下才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "中才": {
+      "targets": [
+        "中才"
+      ],
+      "default_for_all_pos": "中才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "身才": {
+      "targets": [
+        "身才"
+      ],
+      "default_for_all_pos": "身才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "长才": {
+      "targets": [
+        "長才"
+      ],
+      "default_for_all_pos": "長才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "長才": {
+      "targets": [
+        "長才"
+      ],
+      "default_for_all_pos": "長才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "口才": {
+      "targets": [
+        "口才"
+      ],
+      "default_for_all_pos": "口才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "識才": {
+      "targets": [
+        "識才"
+      ],
+      "default_for_all_pos": "識才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "识才": {
+      "targets": [
+        "識才"
+      ],
+      "default_for_all_pos": "識才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "实才": {
+      "targets": [
+        "實才"
+      ],
+      "default_for_all_pos": "實才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "實才": {
+      "targets": [
+        "實才"
+      ],
+      "default_for_all_pos": "實才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "外才": {
+      "targets": [
+        "外才"
+      ],
+      "default_for_all_pos": "外才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "仙才": {
+      "targets": [
+        "仙才"
+      ],
+      "default_for_all_pos": "仙才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "德才": {
+      "targets": [
+        "德才"
+      ],
+      "default_for_all_pos": "德才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "杀才": {
+      "targets": [
+        "殺才"
+      ],
+      "default_for_all_pos": "殺才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "殺才": {
+      "targets": [
+        "殺才"
+      ],
+      "default_for_all_pos": "殺才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "凡才": {
+      "targets": [
+        "凡才"
+      ],
+      "default_for_all_pos": "凡才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "絕才": {
+      "targets": [
+        "絕才"
+      ],
+      "default_for_all_pos": "絕才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "绝才": {
+      "targets": [
+        "絕才"
+      ],
+      "default_for_all_pos": "絕才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "非才": {
+      "targets": [
+        "非才"
+      ],
+      "default_for_all_pos": "非才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "比才": {
+      "targets": [
+        "比才"
+      ],
+      "default_for_all_pos": "比才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "负才": {
+      "targets": [
+        "負才"
+      ],
+      "default_for_all_pos": "負才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "負才": {
+      "targets": [
+        "負才"
+      ],
+      "default_for_all_pos": "負才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "取才": {
+      "targets": [
+        "取才"
+      ],
+      "default_for_all_pos": "取才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "妙才": {
+      "targets": [
+        "妙才"
+      ],
+      "default_for_all_pos": "妙才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "求才": {
+      "targets": [
+        "求才"
+      ],
+      "default_for_all_pos": "求才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "霸才": {
+      "targets": [
+        "霸才"
+      ],
+      "default_for_all_pos": "霸才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "狗才": {
+      "targets": [
+        "狗才"
+      ],
+      "default_for_all_pos": "狗才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "露才": {
+      "targets": [
+        "露才"
+      ],
+      "default_for_all_pos": "露才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "憐才": {
+      "targets": [
+        "憐才"
+      ],
+      "default_for_all_pos": "憐才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "怜才": {
+      "targets": [
+        "憐才"
+      ],
+      "default_for_all_pos": "憐才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "爱才": {
+      "targets": [
+        "愛才"
+      ],
+      "default_for_all_pos": "愛才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    },
+    "愛才": {
+      "targets": [
+        "愛才"
+      ],
+      "default_for_all_pos": "愛才",
+      "note": "完整詞保留詞內才；跨詞界相鄰字串不屬此詞的轉換候選。疑似分詞或詞性問題另見獨立風險詞庫。",
+      "cai_policy": "cai-policy-20261018-v4",
+      "cai_noun_spelling": true
+    }
+  },
+  "fullHumanReview": false,
+  "boundaryAmbiguousWords": [],
+  "gujiAdditionalSourceForms": [
+    "才能夠",
+    "才爲",
+    "才干淨"
+  ],
+  "boundaryRiskWords": [
+    "人才",
+    "天才",
+    "奇才",
+    "鬼才",
+    "不才",
+    "有才",
+    "多才",
+    "大才",
+    "高才",
+    "下才",
+    "中才",
+    "身才",
+    "長才",
+    "口才",
+    "識才",
+    "實才",
+    "外才",
+    "仙才",
+    "德才",
+    "殺才",
+    "凡才",
+    "絕才",
+    "非才",
+    "比才",
+    "負才",
+    "取才",
+    "妙才",
+    "求才",
+    "霸才",
+    "狗才",
+    "露才",
+    "憐才",
+    "愛才",
+    "才能",
+    "才行",
+    "才分",
+    "才用",
+    "才学",
+    "才思",
+    "才守",
+    "才定",
+    "才悟",
+    "才望",
+    "才识",
+    "才略",
+    "才语",
+    "才会",
+    "才干",
+    "才料"
+  ],
+  "riskPolicy": "app/data/cai-risk-policy.json",
+  "compositionalCaiWords": [
+    "才能",
+    "才行",
+    "才分",
+    "才用",
+    "才学",
+    "才思",
+    "才守",
+    "才定",
+    "才悟",
+    "才望",
+    "才识",
+    "才略",
+    "才语",
+    "才会",
+    "才干",
+    "才料"
+  ]
+}

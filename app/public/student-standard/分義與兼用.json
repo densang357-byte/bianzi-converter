@@ -1,0 +1,238 @@
+{
+  "semanticFamilies": [
+    {
+      "id": "cai",
+      "forms": "才纔",
+      "policy": "才表才能、人才；纔表僅、方纔。才條亦認可方、剛才等時間義通纔。",
+      "heads": [
+        "才",
+        "纔"
+      ],
+      "status": "transcription-checked"
+    },
+    {
+      "id": "chi",
+      "forms": "喫吃",
+      "policy": "喫表食、受入；吃表言語艱難，如口吃。吃條亦認可通喫。",
+      "heads": [
+        "喫",
+        "吃"
+      ],
+      "status": "transcription-checked"
+    },
+    {
+      "id": "kao",
+      "forms": "考攷",
+      "policy": "壽考、已故父親之考用考；考察、稽核本可作攷，此義考、攷通用。",
+      "heads": [
+        "考",
+        "攷"
+      ],
+      "status": "transcription-checked"
+    },
+    {
+      "id": "xian",
+      "forms": "閑閒間",
+      "policy": "閑有闌隔、防閑、馬閑等義，也可通安閒。閒兼管閒暇、中閒、空隙、離閒、閒諜等；間列附錄，原書稱閒暇以外俗通作間。",
+      "heads": [
+        "閑",
+        "閒",
+        "間"
+      ],
+      "status": "transcription-checked"
+    },
+    {
+      "id": "yu",
+      "forms": "於于",
+      "policy": "保留於、于。于有往義，如于歸，並記古經傳的助詞用法；普通語辭原書以於爲通行寫法，於另有姓、地名及歎詞讀法。",
+      "heads": [
+        "於",
+        "于"
+      ],
+      "status": "transcription-checked"
+    },
+    {
+      "id": "yue",
+      "forms": "岳嶽",
+      "policy": "姓氏及岳丈用岳；高山、五嶽可用嶽。原書嶽條亦認可作岳。",
+      "heads": [
+        "岳",
+        "嶽"
+      ],
+      "status": "transcription-checked"
+    },
+    {
+      "id": "shi",
+      "forms": "尸屍",
+      "policy": "屍爲死人軀體；尸另有祭祀神象、主事、尸位等義，也收未葬死體義，與屍有重疊。",
+      "heads": [
+        "尸",
+        "屍"
+      ],
+      "status": "transcription-checked"
+    },
+    {
+      "id": "xiong",
+      "forms": "凶兇",
+      "policy": "凶兼指惡、傷人、不吉、年饑；兇有驚擾恐懼義，亦通凶徒、凶犯。保留二字及其通用範圍。",
+      "heads": [
+        "凶",
+        "兇"
+      ],
+      "status": "transcription-checked"
+    },
+    {
+      "id": "di",
+      "forms": "牴抵",
+      "policy": "牴爲相觸，與抵通；抵另有抵抗、抵押、抵達等義。牴的對應範圍是相觸義。",
+      "heads": [
+        "牴",
+        "抵"
+      ],
+      "status": "transcription-checked"
+    },
+    {
+      "id": "nai",
+      "forms": "嬭奶",
+      "policy": "嬭條主釋乳母；奶條認可嬭今通作奶，兼收婦人尊稱與乳汁義。文章另列嬭對妳，該對照待核。",
+      "heads": [
+        "嬭",
+        "奶"
+      ],
+      "status": "transcription-checked-with-pending-pair"
+    },
+    {
+      "id": "niang",
+      "forms": "孃娘",
+      "policy": "娘有少女、母親、婦人尊稱等義；孃條釋與娘同並舉耶孃。保留二形與其通用範圍。",
+      "heads": [
+        "孃",
+        "娘"
+      ],
+      "status": "transcription-checked"
+    },
+    {
+      "id": "fang",
+      "forms": "倣仿髣髴彷彿",
+      "policy": "倣主要釋依傍、仿效，通作仿；髣髴、彷彿、仿佛另有見不審貌。仿條容納兩路用法；髴字頭在舊轉錄缺失，完整字形待核。",
+      "heads": [
+        "倣",
+        "仿",
+        "髣",
+        "髴",
+        "彷",
+        "彿"
+      ],
+      "status": "transcription-checked-with-missing-head"
+    },
+    {
+      "id": "bing",
+      "forms": "併並并",
+      "policy": "並有相齊、皆等義；併條提示合并、兼并不當作併。舊轉錄同時出現主條併與附錄併，存在字形合碼疑點，整組先保留，待書影確認并、倂等原字。",
+      "heads": [
+        "併",
+        "並",
+        "并",
+        "倂"
+      ],
+      "status": "needs-facsimile"
+    },
+    {
+      "id": "qi",
+      "forms": "祇祗只衹隻",
+      "policy": "祇有地神義，另有適、但義；祗爲敬；只可作語助，轉錄亦記俗用作惟、止。衹與祇的文章對照及原字形需另核，不合併神祇、祗敬、限制副詞與量詞隻。",
+      "heads": [
+        "祇",
+        "祗",
+        "只",
+        "衹",
+        "隻"
+      ],
+      "status": "needs-facsimile"
+    },
+    {
+      "id": "dou",
+      "forms": "鬭鬥",
+      "policy": "文章列鬭、鬥並存；轉錄鬥條引用的另一字已成黑方塊，現階段不補造排他性的兩字分工。",
+      "heads": [
+        "鬭",
+        "鬥"
+      ],
+      "status": "needs-facsimile"
+    }
+  ],
+  "sharedUsage": [
+    {
+      "forms": "弔吊",
+      "preferred": "弔",
+      "policy": "弔兼管弔喪、上弔、提取檔案等義；吊列俗字。",
+      "heads": [
+        "弔",
+        "吊"
+      ]
+    },
+    {
+      "forms": "咽嚥",
+      "preferred": "咽",
+      "policy": "咽兼管咽喉、吞咽與哽咽等不同讀音；嚥列附錄同咽。",
+      "heads": [
+        "咽",
+        "嚥"
+      ]
+    },
+    {
+      "forms": "嘗嚐",
+      "preferred": "嘗",
+      "policy": "嘗同時收辨味、試與曾經等義，文章亦以嘗對嚐、嘗。",
+      "heads": [
+        "嘗",
+        "嚐"
+      ]
+    },
+    {
+      "forms": "表錶",
+      "preferred": "表",
+      "policy": "表作一般表字；附錄錶被釋爲鐘表之表的俗寫。",
+      "heads": [
+        "表",
+        "錶"
+      ]
+    },
+    {
+      "forms": "黏粘",
+      "preferred": "黏",
+      "policy": "黏兼管黏性與黏貼；粘列俗字。",
+      "heads": [
+        "黏",
+        "粘"
+      ]
+    },
+    {
+      "forms": "分份",
+      "preferred": "分",
+      "policy": "分兼管分開、位分、分量；份列附錄並說借作成分之分。",
+      "heads": [
+        "分",
+        "份"
+      ]
+    },
+    {
+      "forms": "杯盃",
+      "preferred": "杯",
+      "policy": "飲器用杯；盃列附錄同杯。",
+      "heads": [
+        "杯",
+        "盃"
+      ]
+    },
+    {
+      "forms": "著着",
+      "preferred": "著",
+      "policy": "著條兼收著名、著書、著衣、著落等讀法；入聲俗字的轉錄已缺字。文章左側用著。",
+      "heads": [
+        "著",
+        "着"
+      ]
+    }
+  ]
+}

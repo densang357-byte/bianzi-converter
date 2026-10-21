@@ -1,0 +1,5600 @@
+{
+  "version": 3,
+  "entries": [
+    {
+      "source": "了",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "常用義項或本專案明確要求須區分；詞性需結合詞界、詞義。",
+      "rank": 1,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "了",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "瞭",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "台",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "臺／檯／颱／台按詞例和專名處理，避免整組視作異體。",
+      "rank": 2,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "臺",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "檯",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "颱",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "台",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "出",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "常用義項或本專案明確要求須區分；詞性需結合詞界、詞義。",
+      "rank": 3,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "出",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "齣",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "后",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "時間、方位用後；皇后、王后等稱謂用后。姓名另核；防止帝后、王后跨分詞誤匹配。",
+      "rank": 4,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "後",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "后",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "发",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "常用義項或本專案明確要求須區分；詞性需結合詞界、詞義。",
+      "rank": 5,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "發",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "髮",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "表",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "常用義項或本專案明確要求須區分；詞性需結合詞界、詞義。",
+      "rank": 6,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "表",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "錶",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "只",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "只作副詞、隻作量詞須分；祇另作古籍／詞例核對。",
+      "rank": 7,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "只",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "隻",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "祇",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "于",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "獨立介詞于（p）用於，如「他於昨日出發」；姓氏于常見人名標註（nh），無法裁決的衝突仍優先于。",
+      "rank": 8,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "於",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "于",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "面",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "面貌與麪食區分；本版 OpenCC 候選為麪，不另加入麵。",
+      "rank": 9,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "面",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "麪",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "才",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "本專案副詞／條件用纔，才能、人才用才；須檢查天才、人才的跨詞邊界。",
+      "rank": 10,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "才",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "纔",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "并",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "並列與合併按詞義區分；幷是可選字形。",
+      "rank": 11,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "並",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "併",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "幷",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "种",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "常用義項或本專案明確要求須區分；詞性需結合詞界、詞義。",
+      "rank": 12,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "種",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "种",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "制",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "常用義項或本專案明確要求須區分；詞性需結合詞界、詞義。",
+      "rank": 13,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "制",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "製",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "系",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "系統、關係、繫綁按義區分；繫為動詞仍須排除判斷詞等用法。",
+      "rank": 14,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "系",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "係",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "繫",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "别",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "常用義項或本專案明確要求須區分；詞性需結合詞界、詞義。",
+      "rank": 15,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "別",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "彆",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "吃",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "默認標準：喫是喫飯之喫；吃是口吃之吃。依局部詞義區分。",
+      "rank": 16,
+      "subcategories": [
+        "必要分義"
+      ],
+      "branches": [
+        {
+          "target": "喫",
+          "subcategory": "必要分義"
+        },
+        {
+          "target": "吃",
+          "subcategory": "必要分義"
+        }
+      ]
+    },
+    {
+      "source": "几",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "常用義項或本專案明確要求須區分；詞性需結合詞界、詞義。",
+      "rank": 17,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "幾",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "几",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "团",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "常用義項或本專案明確要求須區分；詞性需結合詞界、詞義。",
+      "rank": 18,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "團",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "糰",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "游",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "常用義項或本專案明確要求須區分；詞性需結合詞界、詞義。",
+      "rank": 19,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "遊",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "游",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "布",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "常用義項或本專案明確要求須區分；詞性需結合詞界、詞義。",
+      "rank": 20,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "布",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "佈",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "干",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "幹事、乾燥、干涉須分；榦另屬現行可選項。",
+      "rank": 21,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "幹",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "乾",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "干",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "榦",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "准",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "常用義項或本專案明確要求須區分；詞性需結合詞界、詞義。",
+      "rank": 22,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "準",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "准",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "复",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "復／複按詞義分；現行限制不從复產生覆。復查／複查須看既定詞例，不能單憑「再」。",
+      "rank": 23,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "復",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "複",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "覆",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "注",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "常用義項或本專案明確要求須區分；詞性需結合詞界、詞義。",
+      "rank": 24,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "注",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "註",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "术",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "藝術與白朮等藥名區分；低頻不代表可以取消。",
+      "rank": 25,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "術",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "朮",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "获",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "常用義項或本專案明確要求須區分；詞性需結合詞界、詞義。",
+      "rank": 26,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "獲",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "穫",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "致",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "常用義項或本專案明確要求須區分；詞性需結合詞界、詞義。",
+      "rank": 27,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "致",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "緻",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "里",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "裏（內部）、里（里程／里鄰）、哩（特定詞例）分層；不引入裡。",
+      "rank": 28,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "裏",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "里",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "哩",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "药",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "常用義項或本專案明確要求須區分；詞性需結合詞界、詞義。",
+      "rank": 29,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "藥",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "葯",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "历",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "常用義項或本專案明確要求須區分；詞性需結合詞界、詞義。",
+      "rank": 30,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "歷",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "曆",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "愿",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "常用義項或本專案明確要求須區分；詞性需結合詞界、詞義。",
+      "rank": 31,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "願",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "愿",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "采",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "常用義項或本專案明確要求須區分；詞性需結合詞界、詞義。",
+      "rank": 32,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "採",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "采",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "寀",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "须",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "常用義項或本專案明確要求須區分；詞性需結合詞界、詞義。",
+      "rank": 33,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "須",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "鬚",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "尽",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "常用義項或本專案明確要求須區分；詞性需結合詞界、詞義。",
+      "rank": 34,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "盡",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "儘",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "冲",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "常用義項或本專案明確要求須區分；詞性需結合詞界、詞義。",
+      "rank": 35,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "衝",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "沖",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "志",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "常用義項或本專案明確要求須區分；詞性需結合詞界、詞義。",
+      "rank": 36,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "志",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "誌",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "恶",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "常用義項或本專案明確要求須區分；詞性需結合詞界、詞義。",
+      "rank": 37,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "惡",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "噁",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "征",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "出征／徵求按語境分；無法裁決的衝突才優先征。",
+      "rank": 38,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "徵",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "征",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "钟",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "鐘（計時、樂器）、鍾（鍾愛、部分姓名）；鈡另核，不由頻率決定姓名。",
+      "rank": 39,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "鍾",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "鐘",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "鈡",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "范",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "姓范與示範、範圍區分。",
+      "rank": 40,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "範",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "范",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "云",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "常用義項或本專案明確要求須區分；詞性需結合詞界、詞義。",
+      "rank": 41,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "雲",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "云",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "签",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "獨立動詞签（v）表示簽字用簽；名詞可指簽名或抽籤，不單靠 n 決定。",
+      "rank": 42,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "籤",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "簽",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "赞",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "常用義項或本專案明確要求須區分；詞性需結合詞界、詞義。",
+      "rank": 43,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "贊",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "讚",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "借",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "常用義項或本專案明確要求須區分；詞性需結合詞界、詞義。",
+      "rank": 44,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "借",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "藉",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "松",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "獨立形容詞松（a）表示鬆弛時用鬆；松樹等植物名詞用松。完整詞組優先。",
+      "rank": 45,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "松",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "鬆",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "托",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "常用義項或本專案明確要求須區分；詞性需結合詞界、詞義。",
+      "rank": 46,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "托",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "託",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "占",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "詞網局部語義關係優先：占卜、觀兆、口占關係選占；一般據有義用佔。缺乏有效關聯而仍無法裁決時默認佔，並列待核風險；不以共現或字頻裁決。",
+      "rank": 47,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "佔",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "占",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "余",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "完整代詞余（r）通常是文言自稱，姓氏余常見人名標註（nh）；數量後的餘常標數詞（m），但模型曾把自稱誤標為 m，須兼看前面的數字。名詞 n 也不能單獨判斷。",
+      "rank": 48,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "餘",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "余",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "划",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "常用義項或本專案明確要求須區分；詞性需結合詞界、詞義。",
+      "rank": 49,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "劃",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "划",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "斗",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "獨立容量量詞斗（q）用斗；表示爭鬥的動詞用鬥。完整詞組優先。",
+      "rank": 50,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "鬥",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "斗",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "愈",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "常用義項或本專案明確要求須區分；詞性需結合詞界、詞義。",
+      "rank": 51,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "愈",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "癒",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "谷",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "常用義項或本專案明確要求須區分；詞性需結合詞界、詞義。",
+      "rank": 52,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "谷",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "穀",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "吁",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "呼籲與長吁、吁氣區分；不能僅靠動詞標籤。",
+      "rank": 53,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "籲",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "吁",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "汇",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "匯集、匯款與詞彙區分；滙另作字形選項核對。",
+      "rank": 54,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "匯",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "彙",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "滙",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "舍",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "常用義項或本專案明確要求須區分；詞性需結合詞界、詞義。",
+      "rank": 55,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "舍",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "捨",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "卷",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "常用義項或本專案明確要求須區分；詞性需結合詞界、詞義。",
+      "rank": 56,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "卷",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "捲",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "脏",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "獨立名詞脏（n）指臟器時用臟；形容詞脏（a）指不潔用髒。完整詞組優先。",
+      "rank": 57,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "髒",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "臟",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "胡",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "胡姓、胡說與鬍鬚須分；衚衕另屬現行可選項。",
+      "rank": 58,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "胡",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "鬍",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "衚",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "闲",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "常用義項或本專案明確要求須區分；詞性需結合詞界、詞義。",
+      "rank": 59,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "閒",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "閑",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "坛",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "常用義項或本專案明確要求須區分；詞性需結合詞界、詞義。",
+      "rank": 60,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "壇",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "罈",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "丑",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "常用義項或本專案明確要求須區分；詞性需結合詞界、詞義。",
+      "rank": 61,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "醜",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "丑",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "咨",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "商議詢問用諮；咨文、咨嗟等保留咨。不能逐字一律替換。",
+      "rank": 62,
+      "subcategories": [
+        "必要分義"
+      ],
+      "branches": [
+        {
+          "target": "諮",
+          "subcategory": "必要分義"
+        },
+        {
+          "target": "咨",
+          "subcategory": "必要分義"
+        }
+      ]
+    },
+    {
+      "source": "郁",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "郁姓與憂鬱區分；姓名須依證據。",
+      "rank": 63,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "鬱",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "郁",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "蒙",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "常用義項或本專案明確要求須區分；詞性需結合詞界、詞義。",
+      "rank": 64,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "蒙",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "矇",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "濛",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "懞",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "喂",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "常用義項或本專案明確要求須區分；詞性需結合詞界、詞義。",
+      "rank": 65,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "喂",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "餵",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "炼",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "常用義項或本專案明確要求須區分；詞性需結合詞界、詞義。",
+      "rank": 66,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "煉",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "鍊",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "沈",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "常用義項或本專案明確要求須區分；詞性需結合詞界、詞義。",
+      "rank": 67,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "沈",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "瀋",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "御",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "常用義項或本專案明確要求須區分；詞性需結合詞界、詞義。",
+      "rank": 68,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "御",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "禦",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "卜",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "常用義項或本專案明確要求須區分；詞性需結合詞界、詞義。",
+      "rank": 69,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "卜",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "蔔",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "扎",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "常用義項或本專案明確要求須區分；詞性需結合詞界、詞義。",
+      "rank": 70,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "扎",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "紮",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "涂",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "常用義項或本專案明確要求須區分；詞性需結合詞界、詞義。",
+      "rank": 71,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "塗",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "涂",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "岳",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "姓名岳與山嶽等詞例分；無明確判斷的衝突優先岳。",
+      "rank": 72,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "嶽",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "岳",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "刮",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "常用義項或本專案明確要求須區分；詞性需結合詞界、詞義。",
+      "rank": 73,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "刮",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "颳",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "姜",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "常用義項或本專案明確要求須區分；詞性需結合詞界、詞義。",
+      "rank": 74,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "姜",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "薑",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "纤",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "常用義項或本專案明確要求須區分；詞性需結合詞界、詞義。",
+      "rank": 75,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "纖",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "縴",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "朴",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "朴姓、朴樹與樸實區分。",
+      "rank": 76,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "樸",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "朴",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "辟",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "開闢、辟邪等按詞例區分，兩者都可作動詞。",
+      "rank": 77,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "闢",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "辟",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "奸",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "常用義項或本專案明確要求須區分；詞性需結合詞界、詞義。",
+      "rank": 78,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "奸",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "姦",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "卤",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "常用義項或本專案明確要求須區分；詞性需結合詞界、詞義。",
+      "rank": 79,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "滷",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "鹵",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "佣",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "常用義項或本專案明確要求須區分；詞性需結合詞界、詞義。",
+      "rank": 80,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "傭",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "佣",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "仆",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "常用義項或本專案明確要求須區分；詞性需結合詞界、詞義。",
+      "rank": 81,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "僕",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "仆",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "饥",
+      "priority": 1,
+      "priorityLabel": "必要區分",
+      "reason": "常用義項或本專案明確要求須區分；詞性需結合詞界、詞義。",
+      "rank": 82,
+      "subcategories": [
+        "必要區分"
+      ],
+      "branches": [
+        {
+          "target": "飢",
+          "subcategory": "必要區分"
+        },
+        {
+          "target": "饑",
+          "subcategory": "必要區分"
+        }
+      ]
+    },
+    {
+      "source": "家",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 83,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "家",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "傢",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "党",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 84,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "黨",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "党",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "合",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 85,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "合",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "閤",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "万",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 86,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "萬",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "万",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "象",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 87,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "象",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "像",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "局",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 88,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "局",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "侷",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "价",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 89,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "價",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "价",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "向",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 90,
+      "subcategories": [
+        "專名與專業語境",
+        "指定可選異體"
+      ],
+      "branches": [
+        {
+          "target": "向",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "嚮",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "曏",
+          "subcategory": "指定可選異體"
+        }
+      ]
+    },
+    {
+      "source": "周",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 91,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "周",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "週",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "賙",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "据",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 92,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "據",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "据",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "修",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 93,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "修",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "脩",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "克",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 94,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "克",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "剋",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "升",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 95,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "升",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "昇",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "具",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 96,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "具",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "俱",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "厂",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 97,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "廠",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "厂",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "坐",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 98,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "坐",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "座",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "适",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 99,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "適",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "适",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "念",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 100,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "念",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "唸",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "核",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 101,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "核",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "覈",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "录",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 102,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "錄",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "彔",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "胜",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 103,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "勝",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "胜",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "私",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 105,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "私",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "俬",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "背",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 106,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "背",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "揹",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "症",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 107,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "症",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "癥",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "苏",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 108,
+      "subcategories": [
+        "專名與專業語境",
+        "指定可選異體"
+      ],
+      "branches": [
+        {
+          "target": "蘇",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "甦",
+          "subcategory": "指定可選異體"
+        },
+        {
+          "target": "囌",
+          "subcategory": "指定可選異體"
+        }
+      ]
+    },
+    {
+      "source": "累",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 109,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "累",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "纍",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "折",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 110,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "折",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "摺",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "曲",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 111,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "曲",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "麴",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "叶",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 112,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "葉",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "叶",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "彩",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 113,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "彩",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "綵",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "荐",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 114,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "薦",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "荐",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "丰",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 115,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "豐",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "丰",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "朱",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 116,
+      "subcategories": [
+        "專名與專業語境",
+        "指定可選異體"
+      ],
+      "branches": [
+        {
+          "target": "朱",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "硃",
+          "subcategory": "指定可選異體"
+        }
+      ]
+    },
+    {
+      "source": "扣",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 117,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "扣",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "釦",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "烟",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 118,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "煙",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "菸",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "杰",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "候選含專名或專門義項；不能把整組當成可互換字形。",
+      "rank": 119,
+      "subcategories": [
+        "專名／專門義"
+      ],
+      "branches": [
+        {
+          "target": "傑",
+          "subcategory": "專名／專門義"
+        },
+        {
+          "target": "杰",
+          "subcategory": "專名／專門義"
+        }
+      ]
+    },
+    {
+      "source": "搜",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 120,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "搜",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "蒐",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "筑",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 121,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "築",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "筑",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "抵",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 122,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "抵",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "牴",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "欲",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 123,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "欲",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "慾",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "柜",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 124,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "櫃",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "柜",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "宁",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 125,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "寧",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "甯",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "凌",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 126,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "凌",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "淩",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "伙",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 127,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "夥",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "伙",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "虫",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 128,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "蟲",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "虫",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "夸",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "候選含專名或專門義項；不能把整組當成可互換字形。",
+      "rank": 129,
+      "subcategories": [
+        "專名／專門義"
+      ],
+      "branches": [
+        {
+          "target": "誇",
+          "subcategory": "專名／專門義"
+        },
+        {
+          "target": "夸",
+          "subcategory": "專名／專門義"
+        }
+      ]
+    },
+    {
+      "source": "栗",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 130,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "栗",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "慄",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "夹",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 131,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "夾",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "袷",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "仇",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 132,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "仇",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "讎",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "吊",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 133,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "吊",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "弔",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "苹",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 134,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "蘋",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "苹",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "尸",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 135,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "屍",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "尸",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "泛",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 136,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "泛",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "氾",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "汎",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "杆",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 137,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "杆",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "桿",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "荡",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 138,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "蕩",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "盪",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "糊",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 139,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "糊",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "餬",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "涌",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 140,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "湧",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "涌",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "扇",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 141,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "扇",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "搧",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "昆",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 142,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "昆",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "崑",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "岩",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 143,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "巖",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "岩",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "咸",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 144,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "鹹",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "咸",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "杠",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 145,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "槓",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "杠",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "熏",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 146,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "燻",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "熏",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "薰",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "仑",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 147,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "侖",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "崙",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "蜡",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 148,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "蠟",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "蜡",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "挽",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 149,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "挽",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "輓",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "淀",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 150,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "澱",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "淀",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "芸",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 151,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "芸",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "蕓",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "挨",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 152,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "挨",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "捱",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "腊",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 153,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "臘",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "腊",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "哄",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 154,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "哄",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "鬨",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "拐",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 155,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "拐",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "柺",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "札",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 156,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "札",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "劄",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "蝎",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 157,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "蠍",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "蝎",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "璇",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "候選含專名或專門義項；不能把整組當成可互換字形。",
+      "rank": 158,
+      "subcategories": [
+        "專名／專門義"
+      ],
+      "branches": [
+        {
+          "target": "璇",
+          "subcategory": "專名／專門義"
+        },
+        {
+          "target": "璿",
+          "subcategory": "專名／專門義"
+        }
+      ]
+    },
+    {
+      "source": "筱",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "候選含專名或專門義項；不能把整組當成可互換字形。",
+      "rank": 159,
+      "subcategories": [
+        "專名／專門義"
+      ],
+      "branches": [
+        {
+          "target": "筱",
+          "subcategory": "專名／專門義"
+        },
+        {
+          "target": "篠",
+          "subcategory": "專名／專門義"
+        }
+      ]
+    },
+    {
+      "source": "腌",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 160,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "醃",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "腌",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "苔",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 161,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "苔",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "薹",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "荫",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 162,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "蔭",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "廕",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "硷",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 163,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "硷",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "礆",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "鹼",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "蔑",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 164,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "蔑",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "衊",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "冢",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "候選含專名或專門義項；不能把整組當成可互換字形。",
+      "rank": 165,
+      "subcategories": [
+        "專名／專門義"
+      ],
+      "branches": [
+        {
+          "target": "冢",
+          "subcategory": "專名／專門義"
+        },
+        {
+          "target": "塚",
+          "subcategory": "專名／專門義"
+        }
+      ]
+    },
+    {
+      "source": "棱",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 166,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "棱",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "稜",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "镰",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "候選含專名或專門義項；不能把整組當成可互換字形。",
+      "rank": 167,
+      "subcategories": [
+        "專名／專門義"
+      ],
+      "branches": [
+        {
+          "target": "鐮",
+          "subcategory": "專名／專門義"
+        },
+        {
+          "target": "鎌",
+          "subcategory": "專名／專門義"
+        }
+      ]
+    },
+    {
+      "source": "漓",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "候選含專名或專門義項；不能把整組當成可互換字形。",
+      "rank": 168,
+      "subcategories": [
+        "專名／專門義"
+      ],
+      "branches": [
+        {
+          "target": "漓",
+          "subcategory": "專名／專門義"
+        },
+        {
+          "target": "灕",
+          "subcategory": "專名／專門義"
+        }
+      ]
+    },
+    {
+      "source": "蚝",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 169,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "蠔",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "蚝",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "膻",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 170,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "羶",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "膻",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "坯",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 171,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "坯",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "坏",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "胄",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 172,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "胄",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "冑",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "檗",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 173,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "檗",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "蘗",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "跖",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "候選含專名或專門義項；不能把整組當成可互換字形。",
+      "rank": 174,
+      "subcategories": [
+        "專名／專門義"
+      ],
+      "branches": [
+        {
+          "target": "蹠",
+          "subcategory": "專名／專門義"
+        },
+        {
+          "target": "跖",
+          "subcategory": "專名／專門義"
+        }
+      ]
+    },
+    {
+      "source": "钫",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 175,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "鈁",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "鍅",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "镎",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 176,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "鎿",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "錼",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "锫",
+      "priority": 2,
+      "priorityLabel": "專名與專業語境",
+      "reason": "涉及姓名、地名、術語或較少見義項；遇到相應語境仍須準確區分。",
+      "rank": 177,
+      "subcategories": [
+        "專名與專業語境"
+      ],
+      "branches": [
+        {
+          "target": "錇",
+          "subcategory": "專名與專業語境"
+        },
+        {
+          "target": "鉳",
+          "subcategory": "專名與專業語境"
+        }
+      ]
+    },
+    {
+      "source": "极",
+      "priority": 3,
+      "priorityLabel": "低頻待核",
+      "reason": "尚缺足夠逐義證據，暫列待核；不表示可以取消分化。",
+      "rank": 178,
+      "subcategories": [
+        "低頻待核"
+      ],
+      "branches": [
+        {
+          "target": "極",
+          "subcategory": "低頻待核"
+        },
+        {
+          "target": "极",
+          "subcategory": "低頻待核"
+        }
+      ]
+    },
+    {
+      "source": "㐹",
+      "priority": 3,
+      "priorityLabel": "低頻待核",
+      "reason": "尚缺足夠逐義證據，暫列待核；不表示可以取消分化。",
+      "rank": 179,
+      "subcategories": [
+        "低頻待核"
+      ],
+      "branches": [
+        {
+          "target": "㑶",
+          "subcategory": "低頻待核"
+        },
+        {
+          "target": "㐹",
+          "subcategory": "低頻待核"
+        }
+      ]
+    },
+    {
+      "source": "个",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形偏好：默認採較接近簡體字形且有當代用例的「個」；其他候選供查閱。",
+      "rank": 180,
+      "subcategories": [
+        "字形偏好／異體"
+      ],
+      "branches": [
+        {
+          "target": "個",
+          "subcategory": "字形偏好／異體"
+        },
+        {
+          "target": "箇",
+          "subcategory": "字形偏好／異體"
+        }
+      ]
+    },
+    {
+      "source": "当",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形或用字風格選擇；是否提供開關仍以現行設定為準。",
+      "rank": 181,
+      "subcategories": [
+        "低頻分支／待逐義核對"
+      ],
+      "branches": [
+        {
+          "target": "當",
+          "subcategory": "低頻分支／待逐義核對"
+        },
+        {
+          "target": "噹",
+          "subcategory": "低頻分支／待逐義核對"
+        }
+      ]
+    },
+    {
+      "source": "同",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形或用字風格選擇；是否提供開關仍以現行設定為準。",
+      "rank": 182,
+      "subcategories": [
+        "低頻分支／待逐義核對"
+      ],
+      "branches": [
+        {
+          "target": "同",
+          "subcategory": "低頻分支／待逐義核對"
+        },
+        {
+          "target": "衕",
+          "subcategory": "低頻分支／待逐義核對"
+        }
+      ]
+    },
+    {
+      "source": "果",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形或用字風格選擇；是否提供開關仍以現行設定為準。",
+      "rank": 183,
+      "subcategories": [
+        "低頻分支／待逐義核對"
+      ],
+      "branches": [
+        {
+          "target": "果",
+          "subcategory": "低頻分支／待逐義核對"
+        },
+        {
+          "target": "菓",
+          "subcategory": "低頻分支／待逐義核對"
+        }
+      ]
+    },
+    {
+      "source": "回",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "本專案迴可選，預設不新產生；不影響原文已有迴。",
+      "rank": 184,
+      "subcategories": [
+        "詞義分化（可選習慣）"
+      ],
+      "branches": [
+        {
+          "target": "回",
+          "subcategory": "詞義分化（可選習慣）"
+        },
+        {
+          "target": "迴",
+          "subcategory": "詞義分化（可選習慣）"
+        }
+      ]
+    },
+    {
+      "source": "参",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形或用字風格選擇；是否提供開關仍以現行設定為準。",
+      "rank": 185,
+      "subcategories": [
+        "詞義分化（可選習慣）"
+      ],
+      "branches": [
+        {
+          "target": "參",
+          "subcategory": "詞義分化（可選習慣）"
+        },
+        {
+          "target": "蔘",
+          "subcategory": "詞義分化（可選習慣）"
+        }
+      ]
+    },
+    {
+      "source": "确",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形或用字風格選擇；是否提供開關仍以現行設定為準。",
+      "rank": 186,
+      "subcategories": [
+        "衝突預設／保留特殊義項"
+      ],
+      "branches": [
+        {
+          "target": "確",
+          "subcategory": "衝突預設／保留特殊義項"
+        },
+        {
+          "target": "确",
+          "subcategory": "衝突預設／保留特殊義項"
+        }
+      ]
+    },
+    {
+      "source": "拿",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形偏好：原字「拿」本可作繁體，默認保留原字；其他候選供查閱。",
+      "rank": 187,
+      "subcategories": [
+        "字形偏好／異體"
+      ],
+      "branches": [
+        {
+          "target": "拿",
+          "subcategory": "字形偏好／異體"
+        },
+        {
+          "target": "拏",
+          "subcategory": "字形偏好／異體"
+        }
+      ]
+    },
+    {
+      "source": "证",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形偏好：近形「証」在提供的當代字頻表中極少見，默認採「證」；其他候選供查閱。",
+      "rank": 188,
+      "subcategories": [
+        "字形偏好／異體"
+      ],
+      "branches": [
+        {
+          "target": "證",
+          "subcategory": "字形偏好／異體"
+        },
+        {
+          "target": "証",
+          "subcategory": "字形偏好／異體"
+        }
+      ]
+    },
+    {
+      "source": "板",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "本專案闆可選，預設不新產生；不影響原文已有闆。",
+      "rank": 189,
+      "subcategories": [
+        "詞義分化（可選習慣）"
+      ],
+      "branches": [
+        {
+          "target": "板",
+          "subcategory": "詞義分化（可選習慣）"
+        },
+        {
+          "target": "闆",
+          "subcategory": "詞義分化（可選習慣）"
+        }
+      ]
+    },
+    {
+      "source": "玩",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形偏好：原字「玩」本可作繁體，默認保留原字；其他候選供查閱。",
+      "rank": 190,
+      "subcategories": [
+        "字形偏好／異體"
+      ],
+      "branches": [
+        {
+          "target": "玩",
+          "subcategory": "字形偏好／異體"
+        },
+        {
+          "target": "翫",
+          "subcategory": "字形偏好／異體"
+        }
+      ]
+    },
+    {
+      "source": "呆",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形或用字風格選擇；是否提供開關仍以現行設定為準。",
+      "rank": 191,
+      "subcategories": [
+        "低頻分支／待逐義核對"
+      ],
+      "branches": [
+        {
+          "target": "呆",
+          "subcategory": "低頻分支／待逐義核對"
+        },
+        {
+          "target": "待",
+          "subcategory": "低頻分支／待逐義核對"
+        }
+      ]
+    },
+    {
+      "source": "千",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形或用字風格選擇；是否提供開關仍以現行設定為準。",
+      "rank": 192,
+      "subcategories": [
+        "詞義分化（可選習慣）"
+      ],
+      "branches": [
+        {
+          "target": "千",
+          "subcategory": "詞義分化（可選習慣）"
+        },
+        {
+          "target": "韆",
+          "subcategory": "詞義分化（可選習慣）"
+        }
+      ]
+    },
+    {
+      "source": "席",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形或用字風格選擇；是否提供開關仍以現行設定為準。",
+      "rank": 193,
+      "subcategories": [
+        "低頻分支／待逐義核對"
+      ],
+      "branches": [
+        {
+          "target": "席",
+          "subcategory": "低頻分支／待逐義核對"
+        },
+        {
+          "target": "蓆",
+          "subcategory": "低頻分支／待逐義核對"
+        }
+      ]
+    },
+    {
+      "source": "针",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形偏好：默認採較接近簡體字形且有當代用例的「針」；其他候選供查閱。",
+      "rank": 194,
+      "subcategories": [
+        "字形偏好／異體"
+      ],
+      "branches": [
+        {
+          "target": "針",
+          "subcategory": "字形偏好／異體"
+        },
+        {
+          "target": "鍼",
+          "subcategory": "字形偏好／異體"
+        }
+      ]
+    },
+    {
+      "source": "它",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形或用字風格選擇；是否提供開關仍以現行設定為準。",
+      "rank": 195,
+      "subcategories": [
+        "詞義分化（可選習慣）"
+      ],
+      "branches": [
+        {
+          "target": "它",
+          "subcategory": "詞義分化（可選習慣）"
+        },
+        {
+          "target": "牠",
+          "subcategory": "詞義分化（可選習慣）"
+        }
+      ]
+    },
+    {
+      "source": "巨",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形偏好：原字「巨」本可作繁體，默認保留原字；其他候選供查閱。",
+      "rank": 196,
+      "subcategories": [
+        "字形偏好／異體"
+      ],
+      "branches": [
+        {
+          "target": "巨",
+          "subcategory": "字形偏好／異體"
+        },
+        {
+          "target": "鉅",
+          "subcategory": "字形偏好／異體"
+        }
+      ]
+    },
+    {
+      "source": "夫",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形或用字風格選擇；是否提供開關仍以現行設定為準。",
+      "rank": 197,
+      "subcategories": [
+        "詞義分化（可選習慣）"
+      ],
+      "branches": [
+        {
+          "target": "夫",
+          "subcategory": "詞義分化（可選習慣）"
+        },
+        {
+          "target": "伕",
+          "subcategory": "詞義分化（可選習慣）"
+        }
+      ]
+    },
+    {
+      "source": "困",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形或用字風格選擇；是否提供開關仍以現行設定為準。",
+      "rank": 198,
+      "subcategories": [
+        "詞義分化（可選習慣）"
+      ],
+      "branches": [
+        {
+          "target": "困",
+          "subcategory": "詞義分化（可選習慣）"
+        },
+        {
+          "target": "睏",
+          "subcategory": "詞義分化（可選習慣）"
+        }
+      ]
+    },
+    {
+      "source": "枪",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "「鎗」屬可選異體；異體開關關閉時採「槍」，開啟後可由詞組選用。",
+      "rank": 199,
+      "subcategories": [
+        "字形偏好／異體"
+      ],
+      "branches": [
+        {
+          "target": "槍",
+          "subcategory": "字形偏好／異體"
+        },
+        {
+          "target": "鎗",
+          "subcategory": "字形偏好／異體"
+        }
+      ]
+    },
+    {
+      "source": "幸",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形或用字風格選擇；是否提供開關仍以現行設定為準。",
+      "rank": 200,
+      "subcategories": [
+        "詞義分化（可選習慣）"
+      ],
+      "branches": [
+        {
+          "target": "幸",
+          "subcategory": "詞義分化（可選習慣）"
+        },
+        {
+          "target": "倖",
+          "subcategory": "詞義分化（可選習慣）"
+        }
+      ]
+    },
+    {
+      "source": "佛",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形或用字風格選擇；是否提供開關仍以現行設定為準。",
+      "rank": 201,
+      "subcategories": [
+        "詞義分化（可選習慣）"
+      ],
+      "branches": [
+        {
+          "target": "佛",
+          "subcategory": "詞義分化（可選習慣）"
+        },
+        {
+          "target": "彿",
+          "subcategory": "詞義分化（可選習慣）"
+        }
+      ]
+    },
+    {
+      "source": "酸",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形或用字風格選擇；是否提供開關仍以現行設定為準。",
+      "rank": 202,
+      "subcategories": [
+        "詞義分化（可選習慣）"
+      ],
+      "branches": [
+        {
+          "target": "酸",
+          "subcategory": "詞義分化（可選習慣）"
+        },
+        {
+          "target": "痠",
+          "subcategory": "詞義分化（可選習慣）"
+        }
+      ]
+    },
+    {
+      "source": "杯",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形或用字風格選擇；是否提供開關仍以現行設定為準。",
+      "rank": 203,
+      "subcategories": [
+        "詞義分化（可選習慣）"
+      ],
+      "branches": [
+        {
+          "target": "杯",
+          "subcategory": "詞義分化（可選習慣）"
+        },
+        {
+          "target": "盃",
+          "subcategory": "詞義分化（可選習慣）"
+        }
+      ]
+    },
+    {
+      "source": "挂",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形偏好：近形「挂」在提供的當代字頻表中極少見，默認採「掛」；其他候選供查閱。",
+      "rank": 204,
+      "subcategories": [
+        "字形偏好／異體"
+      ],
+      "branches": [
+        {
+          "target": "掛",
+          "subcategory": "字形偏好／異體"
+        },
+        {
+          "target": "挂",
+          "subcategory": "字形偏好／異體"
+        }
+      ]
+    },
+    {
+      "source": "链",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形或用字風格選擇；是否提供開關仍以現行設定為準。",
+      "rank": 205,
+      "subcategories": [
+        "詞義分化（可選習慣）"
+      ],
+      "branches": [
+        {
+          "target": "鏈",
+          "subcategory": "詞義分化（可選習慣）"
+        },
+        {
+          "target": "鍊",
+          "subcategory": "詞義分化（可選習慣）"
+        }
+      ]
+    },
+    {
+      "source": "摆",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形或用字風格選擇；是否提供開關仍以現行設定為準。",
+      "rank": 206,
+      "subcategories": [
+        "詞義分化（可選習慣）"
+      ],
+      "branches": [
+        {
+          "target": "擺",
+          "subcategory": "詞義分化（可選習慣）"
+        },
+        {
+          "target": "襬",
+          "subcategory": "詞義分化（可選習慣）"
+        }
+      ]
+    },
+    {
+      "source": "豆",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形偏好：原字「豆」本可作繁體，默認保留原字；其他候選供查閱。",
+      "rank": 207,
+      "subcategories": [
+        "字形偏好／異體"
+      ],
+      "branches": [
+        {
+          "target": "豆",
+          "subcategory": "字形偏好／異體"
+        },
+        {
+          "target": "荳",
+          "subcategory": "字形偏好／異體"
+        }
+      ]
+    },
+    {
+      "source": "迹",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形或用字風格選擇；是否提供開關仍以現行設定為準。",
+      "rank": 208,
+      "subcategories": [
+        "詞義分化（可選習慣）"
+      ],
+      "branches": [
+        {
+          "target": "跡",
+          "subcategory": "詞義分化（可選習慣）"
+        },
+        {
+          "target": "蹟",
+          "subcategory": "詞義分化（可選習慣）"
+        }
+      ]
+    },
+    {
+      "source": "暗",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形或用字風格選擇；是否提供開關仍以現行設定為準。",
+      "rank": 209,
+      "subcategories": [
+        "低頻分支／待逐義核對"
+      ],
+      "branches": [
+        {
+          "target": "暗",
+          "subcategory": "低頻分支／待逐義核對"
+        },
+        {
+          "target": "闇",
+          "subcategory": "低頻分支／待逐義核對"
+        }
+      ]
+    },
+    {
+      "source": "溪",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形或用字風格選擇；是否提供開關仍以現行設定為準。",
+      "rank": 210,
+      "subcategories": [
+        "低頻分支／待逐義核對"
+      ],
+      "branches": [
+        {
+          "target": "溪",
+          "subcategory": "低頻分支／待逐義核對"
+        },
+        {
+          "target": "谿",
+          "subcategory": "低頻分支／待逐義核對"
+        }
+      ]
+    },
+    {
+      "source": "秋",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形或用字風格選擇；是否提供開關仍以現行設定為準。",
+      "rank": 211,
+      "subcategories": [
+        "詞義分化（可選習慣）"
+      ],
+      "branches": [
+        {
+          "target": "秋",
+          "subcategory": "詞義分化（可選習慣）"
+        },
+        {
+          "target": "鞦",
+          "subcategory": "詞義分化（可選習慣）"
+        }
+      ]
+    },
+    {
+      "source": "梁",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形或用字風格選擇；是否提供開關仍以現行設定為準。",
+      "rank": 212,
+      "subcategories": [
+        "詞義分化（可選習慣）"
+      ],
+      "branches": [
+        {
+          "target": "梁",
+          "subcategory": "詞義分化（可選習慣）"
+        },
+        {
+          "target": "樑",
+          "subcategory": "詞義分化（可選習慣）"
+        }
+      ]
+    },
+    {
+      "source": "俊",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形偏好：原字「俊」本可作繁體，默認保留原字；其他候選供查閱。",
+      "rank": 213,
+      "subcategories": [
+        "字形偏好／異體"
+      ],
+      "branches": [
+        {
+          "target": "俊",
+          "subcategory": "字形偏好／異體"
+        },
+        {
+          "target": "儁",
+          "subcategory": "字形偏好／異體"
+        }
+      ]
+    },
+    {
+      "source": "尝",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形或用字風格選擇；是否提供開關仍以現行設定為準。",
+      "rank": 214,
+      "subcategories": [
+        "詞義分化（可選習慣）"
+      ],
+      "branches": [
+        {
+          "target": "嘗",
+          "subcategory": "詞義分化（可選習慣）"
+        },
+        {
+          "target": "嚐",
+          "subcategory": "詞義分化（可選習慣）"
+        }
+      ]
+    },
+    {
+      "source": "冬",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形或用字風格選擇；是否提供開關仍以現行設定為準。",
+      "rank": 215,
+      "subcategories": [
+        "低頻分支／待逐義核對"
+      ],
+      "branches": [
+        {
+          "target": "冬",
+          "subcategory": "低頻分支／待逐義核對"
+        },
+        {
+          "target": "鼕",
+          "subcategory": "低頻分支／待逐義核對"
+        }
+      ]
+    },
+    {
+      "source": "毁",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形或用字風格選擇；是否提供開關仍以現行設定為準。",
+      "rank": 216,
+      "subcategories": [
+        "詞義分化（可選習慣）"
+      ],
+      "branches": [
+        {
+          "target": "毀",
+          "subcategory": "詞義分化（可選習慣）"
+        },
+        {
+          "target": "燬",
+          "subcategory": "詞義分化（可選習慣）"
+        },
+        {
+          "target": "譭",
+          "subcategory": "詞義分化（可選習慣）"
+        }
+      ]
+    },
+    {
+      "source": "娘",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形或用字風格選擇；是否提供開關仍以現行設定為準。",
+      "rank": 217,
+      "subcategories": [
+        "低頻分支／待逐義核對"
+      ],
+      "branches": [
+        {
+          "target": "娘",
+          "subcategory": "低頻分支／待逐義核對"
+        },
+        {
+          "target": "孃",
+          "subcategory": "低頻分支／待逐義核對"
+        }
+      ]
+    },
+    {
+      "source": "斤",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形或用字風格選擇；是否提供開關仍以現行設定為準。",
+      "rank": 218,
+      "subcategories": [
+        "低頻分支／待逐義核對"
+      ],
+      "branches": [
+        {
+          "target": "斤",
+          "subcategory": "低頻分支／待逐義核對"
+        },
+        {
+          "target": "觔",
+          "subcategory": "低頻分支／待逐義核對"
+        }
+      ]
+    },
+    {
+      "source": "鉴",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形偏好：默認採較接近簡體字形且有當代用例的「鑒」；其他候選供查閱。",
+      "rank": 219,
+      "subcategories": [
+        "字形偏好／異體"
+      ],
+      "branches": [
+        {
+          "target": "鑑",
+          "subcategory": "字形偏好／異體"
+        },
+        {
+          "target": "鑒",
+          "subcategory": "字形偏好／異體"
+        }
+      ]
+    },
+    {
+      "source": "径",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形或用字風格選擇；是否提供開關仍以現行設定為準。",
+      "rank": 220,
+      "subcategories": [
+        "低頻分支／待逐義核對"
+      ],
+      "branches": [
+        {
+          "target": "徑",
+          "subcategory": "低頻分支／待逐義核對"
+        },
+        {
+          "target": "逕",
+          "subcategory": "低頻分支／待逐義核對"
+        }
+      ]
+    },
+    {
+      "source": "凶",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形或用字風格選擇；是否提供開關仍以現行設定為準。",
+      "rank": 221,
+      "subcategories": [
+        "低頻分支／待逐義核對"
+      ],
+      "branches": [
+        {
+          "target": "兇",
+          "subcategory": "低頻分支／待逐義核對"
+        },
+        {
+          "target": "凶",
+          "subcategory": "低頻分支／待逐義核對"
+        }
+      ]
+    },
+    {
+      "source": "钻",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形或用字風格選擇；是否提供開關仍以現行設定為準。",
+      "rank": 222,
+      "subcategories": [
+        "低頻分支／待逐義核對"
+      ],
+      "branches": [
+        {
+          "target": "鑽",
+          "subcategory": "低頻分支／待逐義核對"
+        },
+        {
+          "target": "鉆",
+          "subcategory": "低頻分支／待逐義核對"
+        }
+      ]
+    },
+    {
+      "source": "仿",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形或用字風格選擇；是否提供開關仍以現行設定為準。",
+      "rank": 223,
+      "subcategories": [
+        "詞義分化（可選習慣）"
+      ],
+      "branches": [
+        {
+          "target": "仿",
+          "subcategory": "詞義分化（可選習慣）"
+        },
+        {
+          "target": "彷",
+          "subcategory": "詞義分化（可選習慣）"
+        }
+      ]
+    },
+    {
+      "source": "雇",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形或用字風格選擇；是否提供開關仍以現行設定為準。",
+      "rank": 224,
+      "subcategories": [
+        "低頻分支／待逐義核對"
+      ],
+      "branches": [
+        {
+          "target": "僱",
+          "subcategory": "低頻分支／待逐義核對"
+        },
+        {
+          "target": "雇",
+          "subcategory": "低頻分支／待逐義核對"
+        }
+      ]
+    },
+    {
+      "source": "旋",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形或用字風格選擇；是否提供開關仍以現行設定為準。",
+      "rank": 225,
+      "subcategories": [
+        "低頻分支／待逐義核對"
+      ],
+      "branches": [
+        {
+          "target": "旋",
+          "subcategory": "低頻分支／待逐義核對"
+        },
+        {
+          "target": "鏇",
+          "subcategory": "低頻分支／待逐義核對"
+        }
+      ]
+    },
+    {
+      "source": "厘",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形或用字風格選擇；是否提供開關仍以現行設定為準。",
+      "rank": 226,
+      "subcategories": [
+        "低頻分支／待逐義核對"
+      ],
+      "branches": [
+        {
+          "target": "釐",
+          "subcategory": "低頻分支／待逐義核對"
+        },
+        {
+          "target": "厘",
+          "subcategory": "低頻分支／待逐義核對"
+        }
+      ]
+    },
+    {
+      "source": "叹",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形偏好：默認採較接近簡體字形且有當代用例的「嘆」；其他候選供查閱。",
+      "rank": 227,
+      "subcategories": [
+        "字形偏好／異體"
+      ],
+      "branches": [
+        {
+          "target": "嘆",
+          "subcategory": "字形偏好／異體"
+        },
+        {
+          "target": "歎",
+          "subcategory": "字形偏好／異體"
+        }
+      ]
+    },
+    {
+      "source": "澄",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形或用字風格選擇；是否提供開關仍以現行設定為準。",
+      "rank": 228,
+      "subcategories": [
+        "低頻分支／待逐義核對"
+      ],
+      "branches": [
+        {
+          "target": "澄",
+          "subcategory": "低頻分支／待逐義核對"
+        },
+        {
+          "target": "澂",
+          "subcategory": "低頻分支／待逐義核對"
+        }
+      ]
+    },
+    {
+      "source": "弥",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形或用字風格選擇；是否提供開關仍以現行設定為準。",
+      "rank": 229,
+      "subcategories": [
+        "詞義分化（可選習慣）"
+      ],
+      "branches": [
+        {
+          "target": "彌",
+          "subcategory": "詞義分化（可選習慣）"
+        },
+        {
+          "target": "瀰",
+          "subcategory": "詞義分化（可選習慣）"
+        }
+      ]
+    },
+    {
+      "source": "藤",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形或用字風格選擇；是否提供開關仍以現行設定為準。",
+      "rank": 230,
+      "subcategories": [
+        "低頻分支／待逐義核對"
+      ],
+      "branches": [
+        {
+          "target": "藤",
+          "subcategory": "低頻分支／待逐義核對"
+        },
+        {
+          "target": "籐",
+          "subcategory": "低頻分支／待逐義核對"
+        }
+      ]
+    },
+    {
+      "source": "雕",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形或用字風格選擇；是否提供開關仍以現行設定為準。",
+      "rank": 231,
+      "subcategories": [
+        "詞義分化（可選習慣）"
+      ],
+      "branches": [
+        {
+          "target": "雕",
+          "subcategory": "詞義分化（可選習慣）"
+        },
+        {
+          "target": "鵰",
+          "subcategory": "詞義分化（可選習慣）"
+        }
+      ]
+    },
+    {
+      "source": "唇",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形偏好：原字「唇」本可作繁體，默認保留原字；其他候選供查閱。",
+      "rank": 232,
+      "subcategories": [
+        "字形偏好／異體"
+      ],
+      "branches": [
+        {
+          "target": "脣",
+          "subcategory": "字形偏好／異體"
+        },
+        {
+          "target": "唇",
+          "subcategory": "字形偏好／異體"
+        }
+      ]
+    },
+    {
+      "source": "勋",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形偏好：默認採較接近簡體字形且有當代用例的「勛」；其他候選供查閱。",
+      "rank": 233,
+      "subcategories": [
+        "字形偏好／異體"
+      ],
+      "branches": [
+        {
+          "target": "勳",
+          "subcategory": "字形偏好／異體"
+        },
+        {
+          "target": "勛",
+          "subcategory": "字形偏好／異體"
+        }
+      ]
+    },
+    {
+      "source": "噪",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形或用字風格選擇；是否提供開關仍以現行設定為準。",
+      "rank": 234,
+      "subcategories": [
+        "詞義分化（可選習慣）"
+      ],
+      "branches": [
+        {
+          "target": "噪",
+          "subcategory": "詞義分化（可選習慣）"
+        },
+        {
+          "target": "譟",
+          "subcategory": "詞義分化（可選習慣）"
+        }
+      ]
+    },
+    {
+      "source": "沾",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形或用字風格選擇；是否提供開關仍以現行設定為準。",
+      "rank": 235,
+      "subcategories": [
+        "低頻分支／待逐義核對"
+      ],
+      "branches": [
+        {
+          "target": "沾",
+          "subcategory": "低頻分支／待逐義核對"
+        },
+        {
+          "target": "霑",
+          "subcategory": "低頻分支／待逐義核對"
+        }
+      ]
+    },
+    {
+      "source": "捍",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形或用字風格選擇；是否提供開關仍以現行設定為準。",
+      "rank": 236,
+      "subcategories": [
+        "低頻分支／待逐義核對"
+      ],
+      "branches": [
+        {
+          "target": "捍",
+          "subcategory": "低頻分支／待逐義核對"
+        },
+        {
+          "target": "扞",
+          "subcategory": "低頻分支／待逐義核對"
+        }
+      ]
+    },
+    {
+      "source": "艳",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形偏好：默認採較接近簡體字形且有當代用例的「艷」；其他候選供查閱。",
+      "rank": 237,
+      "subcategories": [
+        "字形偏好／異體"
+      ],
+      "branches": [
+        {
+          "target": "豔",
+          "subcategory": "字形偏好／異體"
+        },
+        {
+          "target": "艷",
+          "subcategory": "字形偏好／異體"
+        }
+      ]
+    },
+    {
+      "source": "戚",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形或用字風格選擇；是否提供開關仍以現行設定為準。",
+      "rank": 238,
+      "subcategories": [
+        "低頻分支／待逐義核對"
+      ],
+      "branches": [
+        {
+          "target": "戚",
+          "subcategory": "低頻分支／待逐義核對"
+        },
+        {
+          "target": "慼",
+          "subcategory": "低頻分支／待逐義核對"
+        },
+        {
+          "target": "鏚",
+          "subcategory": "低頻分支／待逐義核對"
+        }
+      ]
+    },
+    {
+      "source": "僵",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形或用字風格選擇；是否提供開關仍以現行設定為準。",
+      "rank": 239,
+      "subcategories": [
+        "詞義分化（可選習慣）"
+      ],
+      "branches": [
+        {
+          "target": "僵",
+          "subcategory": "詞義分化（可選習慣）"
+        },
+        {
+          "target": "殭",
+          "subcategory": "詞義分化（可選習慣）"
+        }
+      ]
+    },
+    {
+      "source": "堤",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形偏好：原字「堤」本可作繁體，默認保留原字；其他候選供查閱。",
+      "rank": 240,
+      "subcategories": [
+        "字形偏好／異體"
+      ],
+      "branches": [
+        {
+          "target": "堤",
+          "subcategory": "字形偏好／異體"
+        },
+        {
+          "target": "隄",
+          "subcategory": "字形偏好／異體"
+        }
+      ]
+    },
+    {
+      "source": "钥",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形或用字風格選擇；是否提供開關仍以現行設定為準。",
+      "rank": 241,
+      "subcategories": [
+        "低頻分支／待逐義核對"
+      ],
+      "branches": [
+        {
+          "target": "鑰",
+          "subcategory": "低頻分支／待逐義核對"
+        },
+        {
+          "target": "鈅",
+          "subcategory": "低頻分支／待逐義核對"
+        }
+      ]
+    },
+    {
+      "source": "咽",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形或用字風格選擇；是否提供開關仍以現行設定為準。",
+      "rank": 242,
+      "subcategories": [
+        "詞義分化（可選習慣）"
+      ],
+      "branches": [
+        {
+          "target": "咽",
+          "subcategory": "詞義分化（可選習慣）"
+        },
+        {
+          "target": "嚥",
+          "subcategory": "詞義分化（可選習慣）"
+        }
+      ]
+    },
+    {
+      "source": "绷",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形偏好：近形「綳」在提供的當代字頻表中極少見，默認採「繃」；其他候選供查閱。",
+      "rank": 243,
+      "subcategories": [
+        "字形偏好／異體"
+      ],
+      "branches": [
+        {
+          "target": "繃",
+          "subcategory": "字形偏好／異體"
+        },
+        {
+          "target": "綳",
+          "subcategory": "字形偏好／異體"
+        }
+      ]
+    },
+    {
+      "source": "狸",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形偏好：原字「狸」本可作繁體，默認保留原字；其他候選供查閱。",
+      "rank": 244,
+      "subcategories": [
+        "字形偏好／異體"
+      ],
+      "branches": [
+        {
+          "target": "狸",
+          "subcategory": "字形偏好／異體"
+        },
+        {
+          "target": "貍",
+          "subcategory": "字形偏好／異體"
+        }
+      ]
+    },
+    {
+      "source": "弦",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "現行專案固定使用弦；絃仍列在官方原始候選欄。",
+      "rank": 245,
+      "subcategories": [
+        "固定字形"
+      ],
+      "branches": [
+        {
+          "target": "弦",
+          "subcategory": "固定字形"
+        },
+        {
+          "target": "絃",
+          "subcategory": "固定字形"
+        }
+      ]
+    },
+    {
+      "source": "焰",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形偏好：原字「焰」本可作繁體，默認保留原字；其他候選供查閱。",
+      "rank": 246,
+      "subcategories": [
+        "字形偏好／異體"
+      ],
+      "branches": [
+        {
+          "target": "焰",
+          "subcategory": "字形偏好／異體"
+        },
+        {
+          "target": "燄",
+          "subcategory": "字形偏好／異體"
+        }
+      ]
+    },
+    {
+      "source": "矩",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形偏好：原字「矩」本可作繁體，默認保留原字；其他候選供查閱。",
+      "rank": 247,
+      "subcategories": [
+        "字形偏好／異體"
+      ],
+      "branches": [
+        {
+          "target": "矩",
+          "subcategory": "字形偏好／異體"
+        },
+        {
+          "target": "榘",
+          "subcategory": "字形偏好／異體"
+        }
+      ]
+    },
+    {
+      "source": "穗",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形或用字風格選擇；是否提供開關仍以現行設定為準。",
+      "rank": 248,
+      "subcategories": [
+        "低頻分支／待逐義核對"
+      ],
+      "branches": [
+        {
+          "target": "穗",
+          "subcategory": "低頻分支／待逐義核對"
+        },
+        {
+          "target": "繐",
+          "subcategory": "低頻分支／待逐義核對"
+        }
+      ]
+    },
+    {
+      "source": "帘",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "衝突優先簾；帘的既定詞例另保留。",
+      "rank": 249,
+      "subcategories": [
+        "低頻分支／待逐義核對"
+      ],
+      "branches": [
+        {
+          "target": "簾",
+          "subcategory": "低頻分支／待逐義核對"
+        },
+        {
+          "target": "帘",
+          "subcategory": "低頻分支／待逐義核對"
+        }
+      ]
+    },
+    {
+      "source": "皂",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形偏好：原字「皂」本可作繁體，默認保留原字；其他候選供查閱。",
+      "rank": 250,
+      "subcategories": [
+        "字形偏好／異體"
+      ],
+      "branches": [
+        {
+          "target": "皁",
+          "subcategory": "字形偏好／異體"
+        },
+        {
+          "target": "皂",
+          "subcategory": "字形偏好／異體"
+        }
+      ]
+    },
+    {
+      "source": "恤",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形或用字風格選擇；是否提供開關仍以現行設定為準。",
+      "rank": 251,
+      "subcategories": [
+        "詞義分化（可選習慣）"
+      ],
+      "branches": [
+        {
+          "target": "恤",
+          "subcategory": "詞義分化（可選習慣）"
+        },
+        {
+          "target": "卹",
+          "subcategory": "詞義分化（可選習慣）"
+        }
+      ]
+    },
+    {
+      "source": "哗",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形或用字風格選擇；是否提供開關仍以現行設定為準。",
+      "rank": 252,
+      "subcategories": [
+        "詞義分化（可選習慣）"
+      ],
+      "branches": [
+        {
+          "target": "譁",
+          "subcategory": "詞義分化（可選習慣）"
+        },
+        {
+          "target": "嘩",
+          "subcategory": "詞義分化（可選習慣）"
+        }
+      ]
+    },
+    {
+      "source": "铲",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形或用字風格選擇；是否提供開關仍以現行設定為準。",
+      "rank": 253,
+      "subcategories": [
+        "詞義分化（可選習慣）"
+      ],
+      "branches": [
+        {
+          "target": "鏟",
+          "subcategory": "詞義分化（可選習慣）"
+        },
+        {
+          "target": "剷",
+          "subcategory": "詞義分化（可選習慣）"
+        }
+      ]
+    },
+    {
+      "source": "坝",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形偏好：近形「垻」在提供的當代字頻表中極少見，默認採「壩」；其他候選供查閱。",
+      "rank": 254,
+      "subcategories": [
+        "字形偏好／異體"
+      ],
+      "branches": [
+        {
+          "target": "壩",
+          "subcategory": "字形偏好／異體"
+        },
+        {
+          "target": "垻",
+          "subcategory": "字形偏好／異體"
+        }
+      ]
+    },
+    {
+      "source": "琅",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形或用字風格選擇；是否提供開關仍以現行設定為準。",
+      "rank": 255,
+      "subcategories": [
+        "低頻分支／待逐義核對"
+      ],
+      "branches": [
+        {
+          "target": "琅",
+          "subcategory": "低頻分支／待逐義核對"
+        },
+        {
+          "target": "瑯",
+          "subcategory": "低頻分支／待逐義核對"
+        }
+      ]
+    },
+    {
+      "source": "捆",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形或用字風格選擇；是否提供開關仍以現行設定為準。",
+      "rank": 256,
+      "subcategories": [
+        "低頻分支／待逐義核對"
+      ],
+      "branches": [
+        {
+          "target": "捆",
+          "subcategory": "低頻分支／待逐義核對"
+        },
+        {
+          "target": "綑",
+          "subcategory": "低頻分支／待逐義核對"
+        }
+      ]
+    },
+    {
+      "source": "浚",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形或用字風格選擇；是否提供開關仍以現行設定為準。",
+      "rank": 257,
+      "subcategories": [
+        "低頻分支／待逐義核對"
+      ],
+      "branches": [
+        {
+          "target": "浚",
+          "subcategory": "低頻分支／待逐義核對"
+        },
+        {
+          "target": "濬",
+          "subcategory": "低頻分支／待逐義核對"
+        }
+      ]
+    },
+    {
+      "source": "凄",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "衝突優先淒，保留悽候選；不是強制替換所有悽。",
+      "rank": 258,
+      "subcategories": [
+        "低頻分支／待逐義核對"
+      ],
+      "branches": [
+        {
+          "target": "悽",
+          "subcategory": "低頻分支／待逐義核對"
+        },
+        {
+          "target": "淒",
+          "subcategory": "低頻分支／待逐義核對"
+        }
+      ]
+    },
+    {
+      "source": "娴",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形偏好：默認採較接近簡體字形且有當代用例的「嫻」；其他候選供查閱。",
+      "rank": 259,
+      "subcategories": [
+        "字形偏好／異體"
+      ],
+      "branches": [
+        {
+          "target": "嫺",
+          "subcategory": "字形偏好／異體"
+        },
+        {
+          "target": "嫻",
+          "subcategory": "字形偏好／異體"
+        }
+      ]
+    },
+    {
+      "source": "庵",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形偏好：原字「庵」本可作繁體，默認保留原字；其他候選供查閱。",
+      "rank": 260,
+      "subcategories": [
+        "字形偏好／異體"
+      ],
+      "branches": [
+        {
+          "target": "庵",
+          "subcategory": "字形偏好／異體"
+        },
+        {
+          "target": "菴",
+          "subcategory": "字形偏好／異體"
+        }
+      ]
+    },
+    {
+      "source": "亘",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形或用字風格選擇；是否提供開關仍以現行設定為準。",
+      "rank": 261,
+      "subcategories": [
+        "低頻分支／待逐義核對"
+      ],
+      "branches": [
+        {
+          "target": "亙",
+          "subcategory": "低頻分支／待逐義核對"
+        },
+        {
+          "target": "亘",
+          "subcategory": "低頻分支／待逐義核對"
+        }
+      ]
+    },
+    {
+      "source": "锄",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形偏好：近形「耡」在提供的當代字頻表中極少見，默認採「鋤」；其他候選供查閱。",
+      "rank": 262,
+      "subcategories": [
+        "字形偏好／異體"
+      ],
+      "branches": [
+        {
+          "target": "鋤",
+          "subcategory": "字形偏好／異體"
+        },
+        {
+          "target": "耡",
+          "subcategory": "字形偏好／異體"
+        }
+      ]
+    },
+    {
+      "source": "袅",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形偏好：默認採較接近簡體字形且有當代用例的「裊」；其他候選供查閱。",
+      "rank": 263,
+      "subcategories": [
+        "字形偏好／異體"
+      ],
+      "branches": [
+        {
+          "target": "嫋",
+          "subcategory": "字形偏好／異體"
+        },
+        {
+          "target": "裊",
+          "subcategory": "字形偏好／異體"
+        }
+      ]
+    },
+    {
+      "source": "埙",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形偏好：近形「塤」在提供的當代字頻表中極少見，默認採「壎」；其他候選供查閱。",
+      "rank": 264,
+      "subcategories": [
+        "字形偏好／異體"
+      ],
+      "branches": [
+        {
+          "target": "壎",
+          "subcategory": "字形偏好／異體"
+        },
+        {
+          "target": "塤",
+          "subcategory": "字形偏好／異體"
+        }
+      ]
+    },
+    {
+      "source": "斫",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形或用字風格選擇；是否提供開關仍以現行設定為準。",
+      "rank": 265,
+      "subcategories": [
+        "低頻分支／待逐義核對"
+      ],
+      "branches": [
+        {
+          "target": "斫",
+          "subcategory": "低頻分支／待逐義核對"
+        },
+        {
+          "target": "斲",
+          "subcategory": "低頻分支／待逐義核對"
+        }
+      ]
+    },
+    {
+      "source": "啮",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "衝突時優先「嚙」；已由詞組或詞性判明者保留其用字。",
+      "rank": 266,
+      "subcategories": [
+        "字形偏好／異體"
+      ],
+      "branches": [
+        {
+          "target": "齧",
+          "subcategory": "字形偏好／異體"
+        },
+        {
+          "target": "嚙",
+          "subcategory": "字形偏好／異體"
+        }
+      ]
+    },
+    {
+      "source": "谥",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形偏好：近形「謚」在提供的當代字頻表中極少見，默認採「諡」；其他候選供查閱。",
+      "rank": 267,
+      "subcategories": [
+        "字形偏好／異體"
+      ],
+      "branches": [
+        {
+          "target": "諡",
+          "subcategory": "字形偏好／異體"
+        },
+        {
+          "target": "謚",
+          "subcategory": "字形偏好／異體"
+        }
+      ]
+    },
+    {
+      "source": "赝",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形偏好：默認採較接近簡體字形且有當代用例的「贗」；其他候選供查閱。",
+      "rank": 268,
+      "subcategories": [
+        "字形偏好／異體"
+      ],
+      "branches": [
+        {
+          "target": "贗",
+          "subcategory": "字形偏好／異體"
+        },
+        {
+          "target": "贋",
+          "subcategory": "字形偏好／異體"
+        }
+      ]
+    },
+    {
+      "source": "鹇",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形偏好：默認採較接近簡體字形且有當代用例的「鷴」；其他候選供查閱。",
+      "rank": 269,
+      "subcategories": [
+        "字形偏好／異體"
+      ],
+      "branches": [
+        {
+          "target": "鷳",
+          "subcategory": "字形偏好／異體"
+        },
+        {
+          "target": "鷴",
+          "subcategory": "字形偏好／異體"
+        }
+      ]
+    },
+    {
+      "source": "滟",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形偏好：近形「灧」在提供的當代字頻表中極少見，默認採「灩」；其他候選供查閱。",
+      "rank": 270,
+      "subcategories": [
+        "字形偏好／異體"
+      ],
+      "branches": [
+        {
+          "target": "灩",
+          "subcategory": "字形偏好／異體"
+        },
+        {
+          "target": "灧",
+          "subcategory": "字形偏好／異體"
+        }
+      ]
+    },
+    {
+      "source": "吣",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形或用字風格選擇；是否提供開關仍以現行設定為準。",
+      "rank": 271,
+      "subcategories": [
+        "低頻分支／待逐義核對"
+      ],
+      "branches": [
+        {
+          "target": "吣",
+          "subcategory": "低頻分支／待逐義核對"
+        },
+        {
+          "target": "唚",
+          "subcategory": "低頻分支／待逐義核對"
+        }
+      ]
+    },
+    {
+      "source": "耇",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形或用字風格選擇；是否提供開關仍以現行設定為準。",
+      "rank": 272,
+      "subcategories": [
+        "低頻分支／待逐義核對"
+      ],
+      "branches": [
+        {
+          "target": "耇",
+          "subcategory": "低頻分支／待逐義核對"
+        },
+        {
+          "target": "耈",
+          "subcategory": "低頻分支／待逐義核對"
+        }
+      ]
+    },
+    {
+      "source": "镢",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形或用字風格選擇；是否提供開關仍以現行設定為準。",
+      "rank": 273,
+      "subcategories": [
+        "低頻分支／待逐義核對"
+      ],
+      "branches": [
+        {
+          "target": "钁",
+          "subcategory": "低頻分支／待逐義核對"
+        },
+        {
+          "target": "鐝",
+          "subcategory": "低頻分支／待逐義核對"
+        }
+      ]
+    },
+    {
+      "source": "绱",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形或用字風格選擇；是否提供開關仍以現行設定為準。",
+      "rank": 274,
+      "subcategories": [
+        "低頻分支／待逐義核對"
+      ],
+      "branches": [
+        {
+          "target": "鞝",
+          "subcategory": "低頻分支／待逐義核對"
+        },
+        {
+          "target": "緔",
+          "subcategory": "低頻分支／待逐義核對"
+        }
+      ]
+    },
+    {
+      "source": "裥",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形或用字風格選擇；是否提供開關仍以現行設定為準。",
+      "rank": 275,
+      "subcategories": [
+        "低頻分支／待逐義核對"
+      ],
+      "branches": [
+        {
+          "target": "襉",
+          "subcategory": "低頻分支／待逐義核對"
+        },
+        {
+          "target": "襇",
+          "subcategory": "低頻分支／待逐義核對"
+        }
+      ]
+    },
+    {
+      "source": "镋",
+      "priority": 4,
+      "priorityLabel": "字形與可選分化",
+      "reason": "字形或用字風格選擇；是否提供開關仍以現行設定為準。",
+      "rank": 276,
+      "subcategories": [
+        "低頻分支／待逐義核對"
+      ],
+      "branches": [
+        {
+          "target": "钂",
+          "subcategory": "低頻分支／待逐義核對"
+        },
+        {
+          "target": "鎲",
+          "subcategory": "低頻分支／待逐義核對"
+        }
+      ]
+    }
+  ]
+}

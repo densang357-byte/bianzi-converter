@@ -1,0 +1,207 @@
+{
+  "schema": 1,
+  "version": "2026-10-17-classical-v5-four-character-clauses",
+  "policy": "原始修訂先作字形與結構檢查，來源問題另列。辨義須區分異體通用與實際詞義；不把脩身等通用字形一律算為分義。來源快照與既有語料不回寫，不新增全域人名或POS金標。",
+  "sources": [
+    {
+      "id": "daxue",
+      "title": "大學",
+      "root": "禮記/大學",
+      "mode": "single",
+      "group": "四書"
+    },
+    {
+      "id": "zhongyong",
+      "title": "中庸",
+      "root": "禮記/中庸",
+      "mode": "single",
+      "group": "四書"
+    },
+    {
+      "id": "lunyu",
+      "title": "論語",
+      "root": "論語",
+      "mode": "children",
+      "group": "四書",
+      "exclude": "序說|全覽|知道"
+    },
+    {
+      "id": "mengzi",
+      "title": "孟子",
+      "root": "孟子",
+      "mode": "children",
+      "group": "四書",
+      "exclude": "全覽"
+    },
+    {
+      "id": "shijing",
+      "title": "詩經",
+      "root": "詩經",
+      "mode": "children",
+      "group": "五經",
+      "exclude": "序$|全覽"
+    },
+    {
+      "id": "shangshu",
+      "title": "尚書",
+      "root": "尚書",
+      "mode": "children",
+      "group": "五經",
+      "catalogueEnd": "== 清華簡 ==",
+      "exclude": "書序|尹誥|傅說之命|世俘|周武王有疾"
+    },
+    {
+      "id": "liji",
+      "title": "禮記",
+      "root": "禮記",
+      "mode": "children",
+      "group": "五經",
+      "exclude": "全覽|證釋|大學$|中庸$"
+    },
+    {
+      "id": "zhouyi",
+      "title": "周易",
+      "root": "周易",
+      "mode": "children",
+      "group": "五經",
+      "exclude": "全覽",
+      "note": "卦爻辭及十翼皆屬所選傳世經文層；不收後人解說。"
+    },
+    {
+      "id": "chunqiu",
+      "title": "春秋",
+      "root": "春秋經",
+      "mode": "children",
+      "group": "五經",
+      "note": "只取春秋經，不混入左傳、公羊傳、穀梁傳。"
+    },
+    {
+      "id": "laozi",
+      "title": "老子",
+      "root": "道德經 (王弼本)",
+      "mode": "single",
+      "group": "諸子",
+      "note": "王弼本白文；剔除以註釋模板標示的王弼注。不同版本不合併補字。"
+    },
+    {
+      "id": "zhuangzi",
+      "title": "莊子",
+      "root": "莊子",
+      "mode": "children",
+      "group": "諸子"
+    },
+    {
+      "id": "xunzi",
+      "title": "荀子",
+      "root": "荀子",
+      "mode": "children",
+      "group": "諸子",
+      "exclude": "序|全覽"
+    },
+    {
+      "id": "mozi",
+      "title": "墨子",
+      "root": "墨子",
+      "mode": "children",
+      "group": "諸子",
+      "exclude": "全覽"
+    },
+    {
+      "id": "hanfeizi",
+      "title": "韓非子",
+      "root": "韓非子",
+      "mode": "children",
+      "group": "諸子",
+      "exclude": "/\\d+$|全覽"
+    },
+    {
+      "id": "sunzi",
+      "title": "孫子兵法",
+      "root": "孫子兵法",
+      "mode": "single",
+      "group": "諸子"
+    },
+    {
+      "id": "liezi",
+      "title": "列子",
+      "root": "列子",
+      "mode": "children",
+      "group": "諸子"
+    },
+    {
+      "id": "guanzi",
+      "title": "管子",
+      "root": "管子",
+      "mode": "children",
+      "group": "諸子",
+      "exclude": "全覽"
+    },
+    {
+      "id": "lvshi",
+      "title": "呂氏春秋",
+      "root": "呂氏春秋",
+      "mode": "children",
+      "group": "諸子"
+    },
+    {
+      "id": "huainanzi",
+      "title": "淮南子",
+      "root": "淮南子",
+      "mode": "children",
+      "group": "諸子",
+      "exclude": "敘目|全覽"
+    },
+    {
+      "id": "tang300",
+      "title": "唐詩三百首",
+      "root": "唐詩三百首",
+      "mode": "linked-poems",
+      "group": "詩詞"
+    },
+    {
+      "id": "song300",
+      "title": "宋詞三百首",
+      "root": "宋詞三百首",
+      "mode": "single",
+      "group": "詩詞"
+    }
+  ],
+  "recommendations": [
+    {
+      "title": "楚辭",
+      "priority": 1,
+      "reason": "屈宋名句與古代名物，補充詩經以外的早期韻文。"
+    },
+    {
+      "title": "古文觀止",
+      "priority": 1,
+      "reason": "常見散文引文集中，先收白文，隔離評注。"
+    },
+    {
+      "title": "左傳、國語、戰國策",
+      "priority": 1,
+      "reason": "歷史敘事與典故出處，必須保留篇章及說話者語境。"
+    },
+    {
+      "title": "史記",
+      "priority": 2,
+      "reason": "高頻人物故事、成句與用典；本紀、世家、列傳分批建立。"
+    },
+    {
+      "title": "文選、樂府詩集、古詩十九首",
+      "priority": 2,
+      "reason": "補充漢魏六朝常見引文，版本異文另列。"
+    },
+    {
+      "title": "孝經、爾雅、說苑、新序、韓詩外傳",
+      "priority": 2,
+      "reason": "補充經學名句、名物與故事來源；訓詁字頭不得當成自動轉換詞。"
+    },
+    {
+      "title": "全唐詩、全宋詞、元曲選",
+      "priority": 3,
+      "reason": "在兩種三百首及語境誤命中核驗穩定後再擴充，避免先堆大庫。"
+    }
+  ],
+  "inclusionPolicy": "四字以上、非跨語境常見套語的分句獨立成條；不足四字或容易在其他語境出現的，僅補最少必要相鄰語境。分號兩側不拼接；家國因果排比每組保留前後兩半。剝離引述套語，來源原句與擷取位置另存，不設逐條核准。"
+}

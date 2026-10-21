@@ -1,0 +1,3753 @@
+{
+  "schema": 1,
+  "title": "學生字典用字標準草案",
+  "version": "2026-10-18-draft-1",
+  "status": "standalone-draft",
+  "policy": {
+    "active": false,
+    "websiteIntegrated": false,
+    "converterIntegrated": false,
+    "fullyHumanReviewed": false,
+    "primaryGlyphs": "文章左側字形是整理底稿；原字典的辨析、正俗說明及不同義項優先於單純字頭收錄。",
+    "transcriptionLayer": "原始轉錄保留；敎／教、靑／青、冊／册等碼位與字體調整另列，不混入詞義分化。",
+    "autoReplacementEnabled": false
+  },
+  "sources": {
+    "retrievedAt": "2026-10-18T16:37:44.899201+00:00",
+    "dictionaryCommit": "75c5d9c28f7ad236888e3d767da6464db7061666",
+    "files": [
+      {
+        "file": "xszd.txt",
+        "url": "https://raw.githubusercontent.com/cjkvi/cjkvi-dict/75c5d9c28f7ad236888e3d767da6464db7061666/xszd.txt",
+        "sha256": "c3eaa8798ba4de74d9edb48ec0323dcaa8afbf2c1bed9d8fdfd2b97013fbd11c",
+        "bytes": 1214354
+      },
+      {
+        "file": "漢字資料庫來源說明.html",
+        "url": "https://kanji-database.sourceforge.net/dict/xszd/index.html",
+        "sha256": "f3408d27ad8d5bc0b563b34a5e144c2e934d47fef3488911c1d9230485b12d92",
+        "bytes": 3363
+      },
+      {
+        "file": "WFG學生字典說明.html",
+        "url": "https://fgwang.blogspot.com/2021/07/blog-post_13.html",
+        "sha256": "e335cd227a72d1d5e3adb79a5604859819842ac6f0f7a6031ace87651ba132b2",
+        "bytes": 109330
+      },
+      {
+        "file": "GitHub檔案修訂.json",
+        "url": "https://api.github.com/repos/cjkvi/cjkvi-dict/commits?path=xszd.txt&per_page=1",
+        "sha256": "b0fbb1f154db17dba07d4d5cf8a95ffdd495162763325bc4765172f8be0107b3",
+        "bytes": 2993
+      },
+      {
+        "file": "cjkvi-README.md",
+        "url": "https://raw.githubusercontent.com/cjkvi/cjkvi-dict/master/README.md",
+        "sha256": "7149a8b21a6cee00f221b1f3e7b27c31dbec11103b96e543861a8a2ec6f190e6",
+        "bytes": 639,
+        "declaredLicense": "GPLv2"
+      }
+    ],
+    "rights": {
+      "cjkvi": "資料庫 README 標明 GPLv2；原始轉錄及摘錄保留來源與版本。",
+      "wfg": "本輪只保存公開說明頁供校對來源，不再分發其 MDict 或 PDF 校訂檔。",
+      "article": "使用者提供本文；逐組比較照錄，無法由知乎頁面直接擷取。"
+    }
+  },
+  "articleSnapshotSha256": "9cfb400b9dd5dd1687fcf90a625dfd963cbfc017c059842e71b2728178370d98",
+  "stats": {
+    "comparisonRows": 350,
+    "comparisonRowsBySource": {
+      "辭源第三版": 4,
+      "古籍字表": 46,
+      "通用規範漢字表繁體對照": 190,
+      "臺灣常用國字": 110
+    },
+    "uniqueComparisonPairs": 257,
+    "preferredCharacterGroups": 221,
+    "semanticFamilies": 15,
+    "sharedUsageGroups": 8,
+    "explicitCorrections": 4,
+    "pendingIssues": 13,
+    "sourceEmptyTokens": 1,
+    "transcriptionMainRecords": 7494,
+    "transcriptionAppendixRecords": 1025,
+    "transcriptionPlaceholderHeads": 605,
+    "transcriptionBlackSquares": 1781
+  },
+  "preferredCharacterGroups": [
+    {
+      "preferred": "卮",
+      "comparisonForms": [
+        "巵"
+      ],
+      "referenceIds": [
+        "article-0001",
+        "article-0026"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "稿",
+      "comparisonForms": [
+        "稾"
+      ],
+      "referenceIds": [
+        "article-0002"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "簡",
+      "comparisonForms": [
+        "𥳑"
+      ],
+      "referenceIds": [
+        "article-0003"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "粵",
+      "comparisonForms": [
+        "粤"
+      ],
+      "referenceIds": [
+        "article-0004",
+        "article-0027",
+        "article-0098"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "呪",
+      "comparisonForms": [
+        "咒"
+      ],
+      "referenceIds": [
+        "article-0005",
+        "article-0106",
+        "article-0258"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "峯",
+      "comparisonForms": [
+        "峰"
+      ],
+      "referenceIds": [
+        "article-0006",
+        "article-0136",
+        "article-0268"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "廈",
+      "comparisonForms": [
+        "厦"
+      ],
+      "referenceIds": [
+        "article-0007",
+        "article-0195"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "慙",
+      "comparisonForms": [
+        "慚"
+      ],
+      "referenceIds": [
+        "article-0008",
+        "article-0152",
+        "article-0271"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "恥",
+      "comparisonForms": [
+        "耻"
+      ],
+      "referenceIds": [
+        "article-0009",
+        "article-0132"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "椶",
+      "comparisonForms": [
+        "棕"
+      ],
+      "referenceIds": [
+        "article-0010",
+        "article-0159",
+        "article-0281"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "況",
+      "comparisonForms": [
+        "况"
+      ],
+      "referenceIds": [
+        "article-0011",
+        "article-0198"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "眾",
+      "comparisonForms": [
+        "衆"
+      ],
+      "referenceIds": [
+        "article-0012",
+        "article-0084"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "糉",
+      "comparisonForms": [
+        "粽"
+      ],
+      "referenceIds": [
+        "article-0013",
+        "article-0294"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "罵",
+      "comparisonForms": [
+        "駡"
+      ],
+      "referenceIds": [
+        "article-0014",
+        "article-0121"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "羣",
+      "comparisonForms": [
+        "群"
+      ],
+      "referenceIds": [
+        "article-0015",
+        "article-0181",
+        "article-0298"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "脈",
+      "comparisonForms": [
+        "脉"
+      ],
+      "referenceIds": [
+        "article-0016",
+        "article-0125"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "襃",
+      "comparisonForms": [
+        "褒"
+      ],
+      "referenceIds": [
+        "article-0017"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "詠",
+      "comparisonForms": [
+        "咏"
+      ],
+      "referenceIds": [
+        "article-0018",
+        "article-0107"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "貓",
+      "comparisonForms": [
+        "猫"
+      ],
+      "referenceIds": [
+        "article-0019",
+        "article-0150"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "豔",
+      "comparisonForms": [
+        "艶",
+        "艷"
+      ],
+      "referenceIds": [
+        "article-0021",
+        "article-0076",
+        "article-0128"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "灩",
+      "comparisonForms": [
+        "灔"
+      ],
+      "referenceIds": [
+        "article-0022",
+        "article-0077"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "蝨",
+      "comparisonForms": [
+        "虱"
+      ],
+      "referenceIds": [
+        "article-0023",
+        "article-0078",
+        "article-0344"
+      ],
+      "kinds": [
+        "字形取捨候選",
+        "兼用或合併對照"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "諡",
+      "comparisonForms": [
+        "謚"
+      ],
+      "referenceIds": [
+        "article-0024"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "衞",
+      "comparisonForms": [
+        "衛"
+      ],
+      "referenceIds": [
+        "article-0025",
+        "article-0073",
+        "article-0304"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "宂",
+      "comparisonForms": [
+        "冗"
+      ],
+      "referenceIds": [
+        "article-0028",
+        "article-0075",
+        "article-0254"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "枏",
+      "comparisonForms": [
+        "楠"
+      ],
+      "referenceIds": [
+        "article-0029",
+        "article-0282"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "釬",
+      "comparisonForms": [
+        "焊"
+      ],
+      "referenceIds": [
+        "article-0030",
+        "article-0151",
+        "article-0287"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "犂",
+      "comparisonForms": [
+        "犁"
+      ],
+      "referenceIds": [
+        "article-0031",
+        "article-0224",
+        "article-0288"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "脃",
+      "comparisonForms": [
+        "脆"
+      ],
+      "referenceIds": [
+        "article-0032",
+        "article-0300"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "顋",
+      "comparisonForms": [
+        "腮"
+      ],
+      "referenceIds": [
+        "article-0033",
+        "article-0177",
+        "article-0301"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "掽",
+      "comparisonForms": [
+        "踫"
+      ],
+      "referenceIds": [
+        "article-0034",
+        "article-0309"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "辢",
+      "comparisonForms": [
+        "辣"
+      ],
+      "referenceIds": [
+        "article-0035",
+        "article-0187",
+        "article-0310"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "廻",
+      "comparisonForms": [
+        "迴"
+      ],
+      "referenceIds": [
+        "article-0036",
+        "article-0083",
+        "article-0311"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "鞾",
+      "comparisonForms": [
+        "靴"
+      ],
+      "referenceIds": [
+        "article-0037",
+        "article-0172",
+        "article-0315"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "鬉",
+      "comparisonForms": [
+        "鬃"
+      ],
+      "referenceIds": [
+        "article-0038",
+        "article-0316"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "鱓",
+      "comparisonForms": [
+        "鱔"
+      ],
+      "referenceIds": [
+        "article-0039",
+        "article-0320"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "麫",
+      "comparisonForms": [
+        "麵"
+      ],
+      "referenceIds": [
+        "article-0040",
+        "article-0321"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "匳",
+      "comparisonForms": [
+        "奩"
+      ],
+      "referenceIds": [
+        "article-0041",
+        "article-0260"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "嫺",
+      "comparisonForms": [
+        "嫻"
+      ],
+      "referenceIds": [
+        "article-0042",
+        "article-0264"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "嬾",
+      "comparisonForms": [
+        "懶"
+      ],
+      "referenceIds": [
+        "article-0043"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "孼",
+      "comparisonForms": [
+        "孽"
+      ],
+      "referenceIds": [
+        "article-0044",
+        "article-0232",
+        "article-0265"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "尲",
+      "comparisonForms": [
+        "尷"
+      ],
+      "referenceIds": [
+        "article-0045",
+        "article-0175",
+        "article-0267"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "柹",
+      "comparisonForms": [
+        "柿"
+      ],
+      "referenceIds": [
+        "article-0046",
+        "article-0116",
+        "article-0278"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "汙",
+      "comparisonForms": [
+        "污"
+      ],
+      "referenceIds": [
+        "article-0047",
+        "article-0085"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "㵎",
+      "comparisonForms": [
+        "澗"
+      ],
+      "referenceIds": [
+        "article-0048",
+        "article-0142",
+        "article-0284"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "甎",
+      "comparisonForms": [
+        "磚"
+      ],
+      "referenceIds": [
+        "article-0049",
+        "article-0117",
+        "article-0292"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "窯",
+      "comparisonForms": [
+        "窑"
+      ],
+      "referenceIds": [
+        "article-0050",
+        "article-0153"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "箇",
+      "comparisonForms": [
+        "個"
+      ],
+      "referenceIds": [
+        "article-0072",
+        "article-0252"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "札",
+      "comparisonForms": [
+        "扎"
+      ],
+      "referenceIds": [
+        "article-0074",
+        "article-0331"
+      ],
+      "kinds": [
+        "字形取捨候選",
+        "兼用或合併對照"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "悤",
+      "comparisonForms": [
+        "匆"
+      ],
+      "referenceIds": [
+        "article-0079",
+        "article-0257"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "麴",
+      "comparisonForms": [
+        "麯"
+      ],
+      "referenceIds": [
+        "article-0080"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "弔",
+      "comparisonForms": [
+        "吊"
+      ],
+      "referenceIds": [
+        "article-0081",
+        "article-0327"
+      ],
+      "kinds": [
+        "字形取捨候選",
+        "兼用或合併對照"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "衹",
+      "comparisonForms": [
+        "祇"
+      ],
+      "referenceIds": [
+        "article-0082"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "翦",
+      "comparisonForms": [
+        "剪"
+      ],
+      "referenceIds": [
+        "article-0086",
+        "article-0325"
+      ],
+      "kinds": [
+        "兼用或合併對照"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "異",
+      "comparisonForms": [
+        "异"
+      ],
+      "referenceIds": [
+        "article-0087"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "壜",
+      "comparisonForms": [
+        "罎",
+        "罈"
+      ],
+      "referenceIds": [
+        "article-0088",
+        "article-0297"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "壩",
+      "comparisonForms": [
+        "垻"
+      ],
+      "referenceIds": [
+        "article-0089"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "徧",
+      "comparisonForms": [
+        "遍"
+      ],
+      "referenceIds": [
+        "article-0090",
+        "article-0262"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "拋",
+      "comparisonForms": [
+        "抛"
+      ],
+      "referenceIds": [
+        "article-0091"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "殼",
+      "comparisonForms": [
+        "殻"
+      ],
+      "referenceIds": [
+        "article-0092"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "卻",
+      "comparisonForms": [
+        "却"
+      ],
+      "referenceIds": [
+        "article-0093"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "鍼",
+      "comparisonForms": [
+        "針"
+      ],
+      "referenceIds": [
+        "article-0094",
+        "article-0312"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "皁",
+      "comparisonForms": [
+        "皂"
+      ],
+      "referenceIds": [
+        "article-0095"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "牀",
+      "comparisonForms": [
+        "床"
+      ],
+      "referenceIds": [
+        "article-0096",
+        "article-0269"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "棄",
+      "comparisonForms": [
+        "弃"
+      ],
+      "referenceIds": [
+        "article-0097"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "獃",
+      "comparisonForms": [
+        "呆"
+      ],
+      "referenceIds": [
+        "article-0099",
+        "article-0277"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "洶",
+      "comparisonForms": [
+        "汹"
+      ],
+      "referenceIds": [
+        "article-0100"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "災",
+      "comparisonForms": [
+        "灾"
+      ],
+      "referenceIds": [
+        "article-0101"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "雞",
+      "comparisonForms": [
+        "鷄"
+      ],
+      "referenceIds": [
+        "article-0102"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "坏",
+      "comparisonForms": [
+        "坯"
+      ],
+      "referenceIds": [
+        "article-0103"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "傑",
+      "comparisonForms": [
+        "杰"
+      ],
+      "referenceIds": [
+        "article-0104",
+        "article-0335"
+      ],
+      "kinds": [
+        "字形取捨候選",
+        "兼用或合併對照"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "臥",
+      "comparisonForms": [
+        "卧"
+      ],
+      "referenceIds": [
+        "article-0105"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "稈",
+      "comparisonForms": [
+        "秆"
+      ],
+      "referenceIds": [
+        "article-0108"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "姪",
+      "comparisonForms": [
+        "侄"
+      ],
+      "referenceIds": [
+        "article-0109"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "淚",
+      "comparisonForms": [
+        "泪"
+      ],
+      "referenceIds": [
+        "article-0110"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "屜",
+      "comparisonForms": [
+        "屉"
+      ],
+      "referenceIds": [
+        "article-0111"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "屆",
+      "comparisonForms": [
+        "届"
+      ],
+      "referenceIds": [
+        "article-0112"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "線",
+      "comparisonForms": [
+        "綫"
+      ],
+      "referenceIds": [
+        "article-0113"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "掛",
+      "comparisonForms": [
+        "挂"
+      ],
+      "referenceIds": [
+        "article-0114"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "曳",
+      "comparisonForms": [
+        "拽"
+      ],
+      "referenceIds": [
+        "article-0115",
+        "article-0332"
+      ],
+      "kinds": [
+        "字形取捨候選",
+        "兼用或合併對照"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "釐",
+      "comparisonForms": [
+        "厘"
+      ],
+      "referenceIds": [
+        "article-0118"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "麪",
+      "comparisonForms": [
+        "麵"
+      ],
+      "referenceIds": [
+        "article-0119"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "豎",
+      "comparisonForms": [
+        "竪"
+      ],
+      "referenceIds": [
+        "article-0120"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "勳",
+      "comparisonForms": [
+        "勛"
+      ],
+      "referenceIds": [
+        "article-0122",
+        "article-0256"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "鉤",
+      "comparisonForms": [
+        "鈎"
+      ],
+      "referenceIds": [
+        "article-0123"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "敍",
+      "comparisonForms": [
+        "叙",
+        "敘"
+      ],
+      "referenceIds": [
+        "article-0124",
+        "article-0273"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "獎",
+      "comparisonForms": [
+        "奬"
+      ],
+      "referenceIds": [
+        "article-0126"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "恆",
+      "comparisonForms": [
+        "恒"
+      ],
+      "referenceIds": [
+        "article-0127"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "赶",
+      "comparisonForms": [
+        "趕"
+      ],
+      "referenceIds": [
+        "article-0129",
+        "article-0349"
+      ],
+      "kinds": [
+        "字形取捨候選",
+        "兼用或合併對照"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "檢",
+      "comparisonForms": [
+        "撿"
+      ],
+      "referenceIds": [
+        "article-0130"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "擣",
+      "comparisonForms": [
+        "搗"
+      ],
+      "referenceIds": [
+        "article-0131"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "晉",
+      "comparisonForms": [
+        "晋"
+      ],
+      "referenceIds": [
+        "article-0133"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "輭",
+      "comparisonForms": [
+        "軟"
+      ],
+      "referenceIds": [
+        "article-0134",
+        "article-0274"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "脣",
+      "comparisonForms": [
+        "唇"
+      ],
+      "referenceIds": [
+        "article-0135"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "贓",
+      "comparisonForms": [
+        "贜"
+      ],
+      "referenceIds": [
+        "article-0137"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "祕",
+      "comparisonForms": [
+        "秘"
+      ],
+      "referenceIds": [
+        "article-0138"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "筍",
+      "comparisonForms": [
+        "笋"
+      ],
+      "referenceIds": [
+        "article-0139"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "拏",
+      "comparisonForms": [
+        "拿"
+      ],
+      "referenceIds": [
+        "article-0140",
+        "article-0333"
+      ],
+      "kinds": [
+        "字形取捨候選",
+        "兼用或合併對照"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "煙",
+      "comparisonForms": [
+        "烟"
+      ],
+      "referenceIds": [
+        "article-0141"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "繡",
+      "comparisonForms": [
+        "綉",
+        "銹"
+      ],
+      "referenceIds": [
+        "article-0143",
+        "article-0160"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "黃",
+      "comparisonForms": [
+        "黄"
+      ],
+      "referenceIds": [
+        "article-0144"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "醞",
+      "comparisonForms": [
+        "醖"
+      ],
+      "referenceIds": [
+        "article-0145"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "瞇",
+      "comparisonForms": [
+        "眯"
+      ],
+      "referenceIds": [
+        "article-0146"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "柁",
+      "comparisonForms": [
+        "舵"
+      ],
+      "referenceIds": [
+        "article-0147"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "腳",
+      "comparisonForms": [
+        "脚"
+      ],
+      "referenceIds": [
+        "article-0148"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "豬",
+      "comparisonForms": [
+        "猪"
+      ],
+      "referenceIds": [
+        "article-0149"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "緜",
+      "comparisonForms": [
+        "綿"
+      ],
+      "referenceIds": [
+        "article-0154",
+        "article-0295"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "繃",
+      "comparisonForms": [
+        "綳"
+      ],
+      "referenceIds": [
+        "article-0155"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "隄",
+      "comparisonForms": [
+        "堤"
+      ],
+      "referenceIds": [
+        "article-0156"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "蔕",
+      "comparisonForms": [
+        "蒂"
+      ],
+      "referenceIds": [
+        "article-0157"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "稜",
+      "comparisonForms": [
+        "棱"
+      ],
+      "referenceIds": [
+        "article-0158"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "箏",
+      "comparisonForms": [
+        "筝"
+      ],
+      "referenceIds": [
+        "article-0161"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "奧",
+      "comparisonForms": [
+        "奥"
+      ],
+      "referenceIds": [
+        "article-0162"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "蝟",
+      "comparisonForms": [
+        "猬"
+      ],
+      "referenceIds": [
+        "article-0163"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "羨",
+      "comparisonForms": [
+        "羡"
+      ],
+      "referenceIds": [
+        "article-0164"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "溫",
+      "comparisonForms": [
+        "温"
+      ],
+      "referenceIds": [
+        "article-0165"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "僱",
+      "comparisonForms": [
+        "雇"
+      ],
+      "referenceIds": [
+        "article-0166"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "絝",
+      "comparisonForms": [
+        "褲"
+      ],
+      "referenceIds": [
+        "article-0167"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "祿",
+      "comparisonForms": [
+        "禄"
+      ],
+      "referenceIds": [
+        "article-0168"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "強",
+      "comparisonForms": [
+        "强"
+      ],
+      "referenceIds": [
+        "article-0169"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "壻",
+      "comparisonForms": [
+        "婿"
+      ],
+      "referenceIds": [
+        "article-0170",
+        "article-0263"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "攜",
+      "comparisonForms": [
+        "携"
+      ],
+      "referenceIds": [
+        "article-0171"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "懵",
+      "comparisonForms": [
+        "懞"
+      ],
+      "referenceIds": [
+        "article-0173"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "盌",
+      "comparisonForms": [
+        "碗"
+      ],
+      "referenceIds": [
+        "article-0174",
+        "article-0291"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "鑑",
+      "comparisonForms": [
+        "鑒"
+      ],
+      "referenceIds": [
+        "article-0176",
+        "article-0313"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "稟",
+      "comparisonForms": [
+        "禀"
+      ],
+      "referenceIds": [
+        "article-0178"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "癡",
+      "comparisonForms": [
+        "痴"
+      ],
+      "referenceIds": [
+        "article-0179",
+        "article-0289"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "韻",
+      "comparisonForms": [
+        "韵"
+      ],
+      "referenceIds": [
+        "article-0180"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "疊",
+      "comparisonForms": [
+        "叠"
+      ],
+      "referenceIds": [
+        "article-0182"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "勦",
+      "comparisonForms": [
+        "剿"
+      ],
+      "referenceIds": [
+        "article-0183",
+        "article-0255"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "牆",
+      "comparisonForms": [
+        "墻"
+      ],
+      "referenceIds": [
+        "article-0184"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "鹼",
+      "comparisonForms": [
+        "碱"
+      ],
+      "referenceIds": [
+        "article-0185"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "踊",
+      "comparisonForms": [
+        "踴"
+      ],
+      "referenceIds": [
+        "article-0186",
+        "article-0345"
+      ],
+      "kinds": [
+        "字形取捨候選",
+        "兼用或合併對照"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "鎔",
+      "comparisonForms": [
+        "熔"
+      ],
+      "referenceIds": [
+        "article-0188",
+        "article-0337"
+      ],
+      "kinds": [
+        "字形取捨候選",
+        "兼用或合併對照"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "撐",
+      "comparisonForms": [
+        "撑"
+      ],
+      "referenceIds": [
+        "article-0189"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "蘊",
+      "comparisonForms": [
+        "藴"
+      ],
+      "referenceIds": [
+        "article-0190"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "橫",
+      "comparisonForms": [
+        "横"
+      ],
+      "referenceIds": [
+        "article-0191"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "蹤",
+      "comparisonForms": [
+        "踪"
+      ],
+      "referenceIds": [
+        "article-0192"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "廁",
+      "comparisonForms": [
+        "厠"
+      ],
+      "referenceIds": [
+        "article-0193"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "廚",
+      "comparisonForms": [
+        "厨"
+      ],
+      "referenceIds": [
+        "article-0194"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "廂",
+      "comparisonForms": [
+        "厢"
+      ],
+      "referenceIds": [
+        "article-0196"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "淨",
+      "comparisonForms": [
+        "净"
+      ],
+      "referenceIds": [
+        "article-0197"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "淒",
+      "comparisonForms": [
+        "凄"
+      ],
+      "referenceIds": [
+        "article-0199"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "涼",
+      "comparisonForms": [
+        "凉"
+      ],
+      "referenceIds": [
+        "article-0200"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "決",
+      "comparisonForms": [
+        "决"
+      ],
+      "referenceIds": [
+        "article-0201"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "湊",
+      "comparisonForms": [
+        "凑"
+      ],
+      "referenceIds": [
+        "article-0202"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "沖",
+      "comparisonForms": [
+        "冲"
+      ],
+      "referenceIds": [
+        "article-0203"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "減",
+      "comparisonForms": [
+        "减"
+      ],
+      "referenceIds": [
+        "article-0204"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "盜",
+      "comparisonForms": [
+        "盗"
+      ],
+      "referenceIds": [
+        "article-0205"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "睜",
+      "comparisonForms": [
+        "睁"
+      ],
+      "referenceIds": [
+        "article-0206"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "錄",
+      "comparisonForms": [
+        "録"
+      ],
+      "referenceIds": [
+        "article-0207"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "剝",
+      "comparisonForms": [
+        "剥"
+      ],
+      "referenceIds": [
+        "article-0208"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "綠",
+      "comparisonForms": [
+        "緑"
+      ],
+      "referenceIds": [
+        "article-0209"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "爭",
+      "comparisonForms": [
+        "争"
+      ],
+      "referenceIds": [
+        "article-0210"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "掙",
+      "comparisonForms": [
+        "挣"
+      ],
+      "referenceIds": [
+        "article-0211"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "靜",
+      "comparisonForms": [
+        "静"
+      ],
+      "referenceIds": [
+        "article-0212"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "煥",
+      "comparisonForms": [
+        "焕"
+      ],
+      "referenceIds": [
+        "article-0213"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "猙",
+      "comparisonForms": [
+        "狰"
+      ],
+      "referenceIds": [
+        "article-0214"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "瘓",
+      "comparisonForms": [
+        "痪"
+      ],
+      "referenceIds": [
+        "article-0215"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "呂",
+      "comparisonForms": [
+        "吕"
+      ],
+      "referenceIds": [
+        "article-0216"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "侶",
+      "comparisonForms": [
+        "侣"
+      ],
+      "referenceIds": [
+        "article-0217"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "宮",
+      "comparisonForms": [
+        "宫"
+      ],
+      "referenceIds": [
+        "article-0218"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "吳",
+      "comparisonForms": [
+        "吴"
+      ],
+      "referenceIds": [
+        "article-0219"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "娛",
+      "comparisonForms": [
+        "娱"
+      ],
+      "referenceIds": [
+        "article-0220"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "渙",
+      "comparisonForms": [
+        "涣"
+      ],
+      "referenceIds": [
+        "article-0221"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "換",
+      "comparisonForms": [
+        "换"
+      ],
+      "referenceIds": [
+        "article-0222"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "棃",
+      "comparisonForms": [
+        "梨"
+      ],
+      "referenceIds": [
+        "article-0223",
+        "article-0280"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "褎",
+      "comparisonForms": [
+        "褒"
+      ],
+      "referenceIds": [
+        "article-0225",
+        "article-0307"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "凜",
+      "comparisonForms": [
+        "凛"
+      ],
+      "referenceIds": [
+        "article-0226"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "潛",
+      "comparisonForms": [
+        "潜"
+      ],
+      "referenceIds": [
+        "article-0227"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "櫥",
+      "comparisonForms": [
+        "橱"
+      ],
+      "referenceIds": [
+        "article-0228"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "籬",
+      "comparisonForms": [
+        "篱"
+      ],
+      "referenceIds": [
+        "article-0229"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "踏",
+      "comparisonForms": [
+        "蹋"
+      ],
+      "referenceIds": [
+        "article-0230",
+        "article-0346"
+      ],
+      "kinds": [
+        "字形取捨候選",
+        "兼用或合併對照"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "鱷",
+      "comparisonForms": [
+        "鰐"
+      ],
+      "referenceIds": [
+        "article-0231"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "鼈",
+      "comparisonForms": [
+        "鱉"
+      ],
+      "referenceIds": [
+        "article-0233",
+        "article-0319"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "摔",
+      "comparisonForms": [
+        "甩"
+      ],
+      "referenceIds": [
+        "article-0234",
+        "article-0343"
+      ],
+      "kinds": [
+        "兼用或合併對照"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "分",
+      "comparisonForms": [
+        "份"
+      ],
+      "referenceIds": [
+        "article-0235",
+        "article-0323"
+      ],
+      "kinds": [
+        "兼用或合併對照"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "三",
+      "comparisonForms": [
+        "叁"
+      ],
+      "referenceIds": [
+        "article-0236"
+      ],
+      "kinds": [
+        "兼用或合併對照"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "沈",
+      "comparisonForms": [
+        "沉"
+      ],
+      "referenceIds": [
+        "article-0237",
+        "article-0336"
+      ],
+      "kinds": [
+        "兼用或合併對照"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "表",
+      "comparisonForms": [
+        "錶"
+      ],
+      "referenceIds": [
+        "article-0238",
+        "article-0347"
+      ],
+      "kinds": [
+        "兼用或合併對照"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "著",
+      "comparisonForms": [
+        "着"
+      ],
+      "referenceIds": [
+        "article-0239"
+      ],
+      "kinds": [
+        "兼用或合併對照"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "黏",
+      "comparisonForms": [
+        "粘"
+      ],
+      "referenceIds": [
+        "article-0240"
+      ],
+      "kinds": [
+        "兼用或合併對照"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "幺",
+      "comparisonForms": [
+        "么"
+      ],
+      "referenceIds": [
+        "article-0251"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "僞",
+      "comparisonForms": [
+        "偽"
+      ],
+      "referenceIds": [
+        "article-0253"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "够",
+      "comparisonForms": [
+        "夠"
+      ],
+      "referenceIds": [
+        "article-0259"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "嬭",
+      "comparisonForms": [
+        "妳"
+      ],
+      "referenceIds": [
+        "article-0261"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "礮",
+      "comparisonForms": [
+        "砲"
+      ],
+      "referenceIds": [
+        "article-0266"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "慂",
+      "comparisonForms": [
+        "恿"
+      ],
+      "referenceIds": [
+        "article-0270"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "啓",
+      "comparisonForms": [
+        "啟"
+      ],
+      "referenceIds": [
+        "article-0272"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "曬",
+      "comparisonForms": [
+        "晒"
+      ],
+      "referenceIds": [
+        "article-0275"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "勖",
+      "comparisonForms": [
+        "勗"
+      ],
+      "referenceIds": [
+        "article-0276"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "柺",
+      "comparisonForms": [
+        "枴"
+      ],
+      "referenceIds": [
+        "article-0279"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "椁",
+      "comparisonForms": [
+        "槨"
+      ],
+      "referenceIds": [
+        "article-0283"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "竈",
+      "comparisonForms": [
+        "灶"
+      ],
+      "referenceIds": [
+        "article-0285"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "爲",
+      "comparisonForms": [
+        "為"
+      ],
+      "referenceIds": [
+        "article-0286"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "杯",
+      "comparisonForms": [
+        "盃"
+      ],
+      "referenceIds": [
+        "article-0290"
+      ],
+      "kinds": [
+        "兼用或合併對照"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "秔",
+      "comparisonForms": [
+        "粳"
+      ],
+      "referenceIds": [
+        "article-0293"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "鉢",
+      "comparisonForms": [
+        "缽"
+      ],
+      "referenceIds": [
+        "article-0296"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "翶",
+      "comparisonForms": [
+        "翱"
+      ],
+      "referenceIds": [
+        "article-0299"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "席",
+      "comparisonForms": [
+        "蓆"
+      ],
+      "referenceIds": [
+        "article-0302"
+      ],
+      "kinds": [
+        "兼用或合併對照"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "涖",
+      "comparisonForms": [
+        "蒞"
+      ],
+      "referenceIds": [
+        "article-0303"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "衮",
+      "comparisonForms": [
+        "袞"
+      ],
+      "referenceIds": [
+        "article-0305"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "裏",
+      "comparisonForms": [
+        "裡"
+      ],
+      "referenceIds": [
+        "article-0306"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "袴",
+      "comparisonForms": [
+        "褲"
+      ],
+      "referenceIds": [
+        "article-0308"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "繮",
+      "comparisonForms": [
+        "韁"
+      ],
+      "referenceIds": [
+        "article-0314"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "鰇",
+      "comparisonForms": [
+        "魷"
+      ],
+      "referenceIds": [
+        "article-0317"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "鰌",
+      "comparisonForms": [
+        "鰍"
+      ],
+      "referenceIds": [
+        "article-0318"
+      ],
+      "kinds": [
+        "字形取捨候選"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "夫",
+      "comparisonForms": [
+        "伕"
+      ],
+      "referenceIds": [
+        "article-0322"
+      ],
+      "kinds": [
+        "兼用或合併對照"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "百",
+      "comparisonForms": [
+        "佰"
+      ],
+      "referenceIds": [
+        "article-0324"
+      ],
+      "kinds": [
+        "兼用或合併對照"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "千",
+      "comparisonForms": [
+        "仟"
+      ],
+      "referenceIds": [
+        "article-0326"
+      ],
+      "kinds": [
+        "兼用或合併對照"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "嘗",
+      "comparisonForms": [
+        "嚐"
+      ],
+      "referenceIds": [
+        "article-0328"
+      ],
+      "kinds": [
+        "兼用或合併對照"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "咽",
+      "comparisonForms": [
+        "嚥"
+      ],
+      "referenceIds": [
+        "article-0329"
+      ],
+      "kinds": [
+        "兼用或合併對照"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "嫋",
+      "comparisonForms": [
+        "嬝"
+      ],
+      "referenceIds": [
+        "article-0330"
+      ],
+      "kinds": [
+        "兼用或合併對照"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "藤",
+      "comparisonForms": [
+        "籐"
+      ],
+      "referenceIds": [
+        "article-0334"
+      ],
+      "kinds": [
+        "兼用或合併對照"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "佩",
+      "comparisonForms": [
+        "珮"
+      ],
+      "referenceIds": [
+        "article-0338"
+      ],
+      "kinds": [
+        "兼用或合併對照"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "琅",
+      "comparisonForms": [
+        "瑯"
+      ],
+      "referenceIds": [
+        "article-0339"
+      ],
+      "kinds": [
+        "兼用或合併對照"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "尊",
+      "comparisonForms": [
+        "樽"
+      ],
+      "referenceIds": [
+        "article-0340"
+      ],
+      "kinds": [
+        "兼用或合併對照"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "迤",
+      "comparisonForms": [
+        "迆"
+      ],
+      "referenceIds": [
+        "article-0341"
+      ],
+      "kinds": [
+        "兼用或合併對照"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "乃",
+      "comparisonForms": [
+        "迺"
+      ],
+      "referenceIds": [
+        "article-0342"
+      ],
+      "kinds": [
+        "兼用或合併對照"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "熏",
+      "comparisonForms": [
+        "燻"
+      ],
+      "referenceIds": [
+        "article-0348"
+      ],
+      "kinds": [
+        "兼用或合併對照"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    },
+    {
+      "preferred": "它",
+      "comparisonForms": [
+        "牠"
+      ],
+      "referenceIds": [
+        "article-0350"
+      ],
+      "kinds": [
+        "兼用或合併對照"
+      ],
+      "status": "article-proposed",
+      "automatic": false
+    }
+  ],
+  "semanticFamilies": [
+    {
+      "id": "cai",
+      "forms": "才纔",
+      "policy": "才表才能、人才；纔表僅、方纔。才條亦認可方、剛才等時間義通纔。",
+      "heads": [
+        "才",
+        "纔"
+      ],
+      "status": "transcription-checked"
+    },
+    {
+      "id": "chi",
+      "forms": "喫吃",
+      "policy": "喫表食、受入；吃表言語艱難，如口吃。吃條亦認可通喫。",
+      "heads": [
+        "喫",
+        "吃"
+      ],
+      "status": "transcription-checked"
+    },
+    {
+      "id": "kao",
+      "forms": "考攷",
+      "policy": "壽考、已故父親之考用考；考察、稽核本可作攷，此義考、攷通用。",
+      "heads": [
+        "考",
+        "攷"
+      ],
+      "status": "transcription-checked"
+    },
+    {
+      "id": "xian",
+      "forms": "閑閒間",
+      "policy": "閑有闌隔、防閑、馬閑等義，也可通安閒。閒兼管閒暇、中閒、空隙、離閒、閒諜等；間列附錄，原書稱閒暇以外俗通作間。",
+      "heads": [
+        "閑",
+        "閒",
+        "間"
+      ],
+      "status": "transcription-checked"
+    },
+    {
+      "id": "yu",
+      "forms": "於于",
+      "policy": "保留於、于。于有往義，如于歸，並記古經傳的助詞用法；普通語辭原書以於爲通行寫法，於另有姓、地名及歎詞讀法。",
+      "heads": [
+        "於",
+        "于"
+      ],
+      "status": "transcription-checked"
+    },
+    {
+      "id": "yue",
+      "forms": "岳嶽",
+      "policy": "姓氏及岳丈用岳；高山、五嶽可用嶽。原書嶽條亦認可作岳。",
+      "heads": [
+        "岳",
+        "嶽"
+      ],
+      "status": "transcription-checked"
+    },
+    {
+      "id": "shi",
+      "forms": "尸屍",
+      "policy": "屍爲死人軀體；尸另有祭祀神象、主事、尸位等義，也收未葬死體義，與屍有重疊。",
+      "heads": [
+        "尸",
+        "屍"
+      ],
+      "status": "transcription-checked"
+    },
+    {
+      "id": "xiong",
+      "forms": "凶兇",
+      "policy": "凶兼指惡、傷人、不吉、年饑；兇有驚擾恐懼義，亦通凶徒、凶犯。保留二字及其通用範圍。",
+      "heads": [
+        "凶",
+        "兇"
+      ],
+      "status": "transcription-checked"
+    },
+    {
+      "id": "di",
+      "forms": "牴抵",
+      "policy": "牴爲相觸，與抵通；抵另有抵抗、抵押、抵達等義。牴的對應範圍是相觸義。",
+      "heads": [
+        "牴",
+        "抵"
+      ],
+      "status": "transcription-checked"
+    },
+    {
+      "id": "nai",
+      "forms": "嬭奶",
+      "policy": "嬭條主釋乳母；奶條認可嬭今通作奶，兼收婦人尊稱與乳汁義。文章另列嬭對妳，該對照待核。",
+      "heads": [
+        "嬭",
+        "奶"
+      ],
+      "status": "transcription-checked-with-pending-pair"
+    },
+    {
+      "id": "niang",
+      "forms": "孃娘",
+      "policy": "娘有少女、母親、婦人尊稱等義；孃條釋與娘同並舉耶孃。保留二形與其通用範圍。",
+      "heads": [
+        "孃",
+        "娘"
+      ],
+      "status": "transcription-checked"
+    },
+    {
+      "id": "fang",
+      "forms": "倣仿髣髴彷彿",
+      "policy": "倣主要釋依傍、仿效，通作仿；髣髴、彷彿、仿佛另有見不審貌。仿條容納兩路用法；髴字頭在舊轉錄缺失，完整字形待核。",
+      "heads": [
+        "倣",
+        "仿",
+        "髣",
+        "髴",
+        "彷",
+        "彿"
+      ],
+      "status": "transcription-checked-with-missing-head"
+    },
+    {
+      "id": "bing",
+      "forms": "併並并",
+      "policy": "並有相齊、皆等義；併條提示合并、兼并不當作併。舊轉錄同時出現主條併與附錄併，存在字形合碼疑點，整組先保留，待書影確認并、倂等原字。",
+      "heads": [
+        "併",
+        "並",
+        "并",
+        "倂"
+      ],
+      "status": "needs-facsimile"
+    },
+    {
+      "id": "qi",
+      "forms": "祇祗只衹隻",
+      "policy": "祇有地神義，另有適、但義；祗爲敬；只可作語助，轉錄亦記俗用作惟、止。衹與祇的文章對照及原字形需另核，不合併神祇、祗敬、限制副詞與量詞隻。",
+      "heads": [
+        "祇",
+        "祗",
+        "只",
+        "衹",
+        "隻"
+      ],
+      "status": "needs-facsimile"
+    },
+    {
+      "id": "dou",
+      "forms": "鬭鬥",
+      "policy": "文章列鬭、鬥並存；轉錄鬥條引用的另一字已成黑方塊，現階段不補造排他性的兩字分工。",
+      "heads": [
+        "鬭",
+        "鬥"
+      ],
+      "status": "needs-facsimile"
+    }
+  ],
+  "sharedUsage": [
+    {
+      "forms": "弔吊",
+      "preferred": "弔",
+      "policy": "弔兼管弔喪、上弔、提取檔案等義；吊列俗字。",
+      "heads": [
+        "弔",
+        "吊"
+      ]
+    },
+    {
+      "forms": "咽嚥",
+      "preferred": "咽",
+      "policy": "咽兼管咽喉、吞咽與哽咽等不同讀音；嚥列附錄同咽。",
+      "heads": [
+        "咽",
+        "嚥"
+      ]
+    },
+    {
+      "forms": "嘗嚐",
+      "preferred": "嘗",
+      "policy": "嘗同時收辨味、試與曾經等義，文章亦以嘗對嚐、嘗。",
+      "heads": [
+        "嘗",
+        "嚐"
+      ]
+    },
+    {
+      "forms": "表錶",
+      "preferred": "表",
+      "policy": "表作一般表字；附錄錶被釋爲鐘表之表的俗寫。",
+      "heads": [
+        "表",
+        "錶"
+      ]
+    },
+    {
+      "forms": "黏粘",
+      "preferred": "黏",
+      "policy": "黏兼管黏性與黏貼；粘列俗字。",
+      "heads": [
+        "黏",
+        "粘"
+      ]
+    },
+    {
+      "forms": "分份",
+      "preferred": "分",
+      "policy": "分兼管分開、位分、分量；份列附錄並說借作成分之分。",
+      "heads": [
+        "分",
+        "份"
+      ]
+    },
+    {
+      "forms": "杯盃",
+      "preferred": "杯",
+      "policy": "飲器用杯；盃列附錄同杯。",
+      "heads": [
+        "杯",
+        "盃"
+      ]
+    },
+    {
+      "forms": "著着",
+      "preferred": "著",
+      "policy": "著條兼收著名、著書、著衣、著落等讀法；入聲俗字的轉錄已缺字。文章左側用著。",
+      "heads": [
+        "著",
+        "着"
+      ]
+    }
+  ],
+  "explicitCorrections": [
+    {
+      "source": "効",
+      "preferred": "效",
+      "scope": "正俗取捨",
+      "heads": [
+        "効",
+        "效"
+      ],
+      "basis": "効主條明言俗效字。"
+    },
+    {
+      "source": "勅",
+      "preferred": "敕",
+      "scope": "正俗取捨",
+      "heads": [
+        "勅",
+        "敕"
+      ],
+      "basis": "勅主條明言俗敕字。"
+    },
+    {
+      "source": "遍",
+      "preferred": "徧",
+      "scope": "周遍之義",
+      "heads": [
+        "徧",
+        "遍"
+      ],
+      "basis": "徧條標俗作遍；遍條保留而非刪除，並有自身釋文。"
+    },
+    {
+      "source": "軟",
+      "preferred": "輭",
+      "scope": "柔軟之義，文章及附註所指",
+      "heads": [
+        "軟",
+        "輭"
+      ],
+      "basis": "文章主張輭；軟條本作的字在舊轉錄成黑方塊，碼位待書影核對。",
+      "status": "needs-facsimile"
+    }
+  ],
+  "pending": [
+    {
+      "id": "mian",
+      "forms": "麫麪麵",
+      "reason": "文章對古籍及臺灣表列麫，對通用規範對照列麪。轉錄主頭已成黑方塊；正文提示右旁應作丏。麫、麪的確切碼位與字體形態須核原書，暫不自行二選一。",
+      "heads": [
+        "麫",
+        "麪",
+        "麵"
+      ],
+      "severity": "字形碼位衝突"
+    },
+    {
+      "id": "bao",
+      "forms": "襃褎褒",
+      "reason": "文章先列襃對褒，後列褎對褒；轉錄褎條兼有衣袂及衣服盛貌，附錄褒的說明亦可能已合碼。不可把褎的袖義全部改成襃。",
+      "heads": [
+        "襃",
+        "褎",
+        "褒"
+      ],
+      "severity": "字形與義項衝突"
+    },
+    {
+      "id": "ku",
+      "forms": "絝袴褲",
+      "reason": "文章對通用規範繁體對照列絝對褲，對臺灣表列袴對褲。同一現代字對應兩個學生字形，須核各自釋義、書影及適用範圍，暫不指定唯一正字。",
+      "heads": [
+        "絝",
+        "袴",
+        "褲"
+      ],
+      "severity": "候選分工待核"
+    },
+    {
+      "id": "xiu",
+      "forms": "繡綉銹鏽",
+      "reason": "原表同時有繡對綉、繡對銹。轉錄另有獨立鏽條釋金屬氧化物，繡條釋絲繡；繡對銹先列原表疑點，不據此混合刺繡與鏽蝕。",
+      "heads": [
+        "繡",
+        "銹",
+        "鏽"
+      ],
+      "severity": "原表疑點"
+    },
+    {
+      "id": "zhi-qi",
+      "forms": "衹祇祗只隻",
+      "reason": "衹對祇的比較與文章限制副詞用祇的附註須分別核義；不能生成衹、祇、祗、只、隻全組互換。",
+      "heads": [
+        "衹",
+        "祇",
+        "祗",
+        "只",
+        "隻"
+      ],
+      "severity": "字義與字音"
+    },
+    {
+      "id": "nai-ni",
+      "forms": "嬭妳",
+      "reason": "文章單列嬭對妳，現有嬭、奶釋文主要涉及乳母與乳汁，尚未支持第二人稱的用字規則。",
+      "heads": [
+        "嬭",
+        "妳",
+        "奶"
+      ],
+      "severity": "義項未明"
+    },
+    {
+      "id": "jian",
+      "forms": "檢撿",
+      "reason": "附錄撿釋同檢，主條檢可核到書署、檢制、查驗；現代撿拾等用途須另核，不把相反方向或所有檢字當作可互換。",
+      "heads": [
+        "檢",
+        "撿"
+      ],
+      "severity": "適用義項待拆"
+    },
+    {
+      "id": "zha",
+      "forms": "札扎",
+      "reason": "文章既列札對扎，又列札對札、扎。這是比較表層次的多對應，不直接推出駐扎、札記等所有詞同規則。",
+      "heads": [
+        "札",
+        "扎"
+      ],
+      "severity": "適用義項待拆"
+    },
+    {
+      "id": "ye",
+      "forms": "曳拽",
+      "reason": "原文既列曳對拽，又列曳對拽、曳，須按讀音與動詞義項核對。",
+      "heads": [
+        "曳",
+        "拽"
+      ],
+      "severity": "適用義項待拆"
+    },
+    {
+      "id": "shou",
+      "forms": "摔甩",
+      "reason": "文章以摔對甩、摔；須拆甩出、摔倒等實際義項，不能按並列字形生成單字替換。",
+      "heads": [
+        "摔",
+        "甩"
+      ],
+      "severity": "適用義項待拆"
+    },
+    {
+      "id": "bing-codepoints",
+      "forms": "併倂並并",
+      "reason": "轉錄出現主條併及附錄併，而附錄又釋俗倂字，顯示原碼位可能已被合併。",
+      "heads": [
+        "併",
+        "倂",
+        "並",
+        "并"
+      ],
+      "severity": "轉錄合碼疑點"
+    },
+    {
+      "id": "missing-heads",
+      "forms": "■與缺字構形",
+      "reason": "公開舊轉錄仍有黑方塊、構形描述與缺失的字頭。僅在完整字頭查不到某字，不等於原書未收。",
+      "heads": [],
+      "severity": "資料完整度"
+    },
+    {
+      "id": "article-normalization",
+      "forms": "敎教靑青冊册簡𥳑",
+      "reason": "文章自述做過古籍規範字形調整；與字典原用字應分層。當前轉錄可見敎、青、冊、簡，不能把各層全部當作原書實物碼位。",
+      "heads": [
+        "敎",
+        "教",
+        "靑",
+        "青",
+        "冊",
+        "册",
+        "簡",
+        "𥳑"
+      ],
+      "severity": "字形整理層次"
+    }
+  ],
+  "projectOverlay": {
+    "preserveSource": [
+      "象",
+      "像",
+      "哩",
+      "覆",
+      "榦",
+      "澂"
+    ],
+    "preserveZheByDefault": true,
+    "retainNativeAnnotations": true,
+    "futureModes": {
+      "fast": "HanLP，實際分詞、詞性及句法分析",
+      "slow": "LTP，實際分詞、詞性及句法分析"
+    },
+    "note": "這是專案接入條件，獨立於學生字典本身的歷史用字；本輪未接入，未執行簡繁轉換。"
+  },
+  "comparisonConflicts": [
+    {
+      "referenceForm": "褒",
+      "studentCandidates": [
+        "褎",
+        "襃"
+      ],
+      "status": "needs-review"
+    },
+    {
+      "referenceForm": "麵",
+      "studentCandidates": [
+        "麪",
+        "麫"
+      ],
+      "status": "needs-review"
+    },
+    {
+      "referenceForm": "褲",
+      "studentCandidates": [
+        "絝",
+        "袴"
+      ],
+      "status": "needs-review"
+    }
+  ],
+  "note": "比較表是編訂證據，非可直接執行的字對替換表；字頭命中只證明轉錄收錄，不自動等於正字裁決。"
+}

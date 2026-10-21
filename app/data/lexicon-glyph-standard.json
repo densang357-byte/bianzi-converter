@@ -1,0 +1,18 @@
+{
+  "format_version": 1,
+  "scope": "lexicon_and_bottom_candidates_only",
+  "default_profile": "modern",
+  "mapping": {
+    "滙": "匯",
+    "幷": "并",
+    "枱": "檯",
+    "裏": "裡",
+    "線": "綫",
+    "衛": "衞",
+    "鈡": "鐘",
+    "麵": "麪",
+    "麯": "麴",
+    "籖": "籤",
+    "鬭": "鬥"
+  }
+}

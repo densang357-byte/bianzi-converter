@@ -1,0 +1,862 @@
+{
+  "version": "zhan-policy-20261018-v4",
+  "default": "佔",
+  "unresolved": "佔",
+  "unresolvedIsRisk": true,
+  "selectionPolicy": "已明確的詞義及專名保留；歧義字位先核對局部語義詞網，符合占義關係時用占，缺乏有效關聯時默認佔並列待核風險。",
+  "occupationObjects": [
+    "便宜",
+    "地",
+    "土地",
+    "領土",
+    "领土",
+    "地方",
+    "地盤",
+    "地盘",
+    "座位",
+    "席位",
+    "位置",
+    "房間",
+    "房间",
+    "肉身",
+    "軀體",
+    "躯体",
+    "上風",
+    "上风",
+    "下風",
+    "下风",
+    "優勢",
+    "优势",
+    "空間",
+    "空间",
+    "資源",
+    "资源",
+    "市場",
+    "市场",
+    "比例",
+    "份額",
+    "份额",
+    "面積",
+    "面积",
+    "總數",
+    "总数",
+    "股份",
+    "人數",
+    "人数",
+    "天下",
+    "首位",
+    "仙城",
+    "神位",
+    "名分",
+    "方位",
+    "要點",
+    "要点",
+    "先機",
+    "先机",
+    "城池",
+    "城",
+    "場館",
+    "场馆",
+    "主動",
+    "主动",
+    "地利",
+    "人和",
+    "紙",
+    "纸",
+    "桌子",
+    "桌",
+    "紙張",
+    "纸张",
+    "床位",
+    "床"
+  ],
+  "scope": "modern s2t only; original verbatim notes excluded at document layer",
+  "lexemes": [
+    {
+      "source": "窃占罪",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "竊占罪",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "占強",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "占强",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "狗占馬坑",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "狗占马坑",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "鼇头独占",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "侵占",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "侵占罪",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "霸占",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "搶占",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "抢占",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "攻占",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "強占",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "强占",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "獨占",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "独占",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "圈占",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "擠占",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "挤占",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "進占",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "进占",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "竊占",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "窃占",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "影占",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "陰占",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "阴占",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "隱占",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "隐占",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "包占",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "寡占",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "占據",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "占据",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "占有",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "占領",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "占领",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "占用",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "占位",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "占座",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "占先",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "占比",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "占線",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "占线",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "占耕",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "占道",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "占便宜",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "占上風",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "占上风",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "占下風",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "占下风",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "占優",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "占优",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "市占",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "市占率",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "占有率",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "占有權",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "占有权",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "占有欲",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "占領軍",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "占领军",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "占領區",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "占领区",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "占領地",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "占领地",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "占領者",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "占领者",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "鳩占鵲巢",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "鸠占鹊巢",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "獨占鰲頭",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "独占鳌头",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "鰲頭獨占",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "鳌头独占",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "鼇頭獨占",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "鹊巢鸠占",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "鵲巢鳩占",
+      "target": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "source": "鳥占",
+      "target": "占",
+      "relation": "zhan-divination"
+    },
+    {
+      "source": "鸟占",
+      "target": "占",
+      "relation": "zhan-divination"
+    },
+    {
+      "source": "占卜",
+      "target": "占",
+      "relation": "zhan-divination"
+    },
+    {
+      "source": "占卜師",
+      "target": "占",
+      "relation": "zhan-divination"
+    },
+    {
+      "source": "占卜师",
+      "target": "占",
+      "relation": "zhan-divination"
+    },
+    {
+      "source": "占卜術",
+      "target": "占",
+      "relation": "zhan-divination"
+    },
+    {
+      "source": "占卜术",
+      "target": "占",
+      "relation": "zhan-divination"
+    },
+    {
+      "source": "占筮",
+      "target": "占",
+      "relation": "zhan-divination"
+    },
+    {
+      "source": "占卦",
+      "target": "占",
+      "relation": "zhan-divination"
+    },
+    {
+      "source": "占星",
+      "target": "占",
+      "relation": "zhan-divination"
+    },
+    {
+      "source": "占星學",
+      "target": "占",
+      "relation": "zhan-divination"
+    },
+    {
+      "source": "占星学",
+      "target": "占",
+      "relation": "zhan-divination"
+    },
+    {
+      "source": "占星家",
+      "target": "占",
+      "relation": "zhan-divination"
+    },
+    {
+      "source": "占星師",
+      "target": "占",
+      "relation": "zhan-divination"
+    },
+    {
+      "source": "占星师",
+      "target": "占",
+      "relation": "zhan-divination"
+    },
+    {
+      "source": "占星術",
+      "target": "占",
+      "relation": "zhan-divination"
+    },
+    {
+      "source": "占星术",
+      "target": "占",
+      "relation": "zhan-divination"
+    },
+    {
+      "source": "星占",
+      "target": "占",
+      "relation": "zhan-divination"
+    },
+    {
+      "source": "星占學",
+      "target": "占",
+      "relation": "zhan-divination"
+    },
+    {
+      "source": "星占学",
+      "target": "占",
+      "relation": "zhan-divination"
+    },
+    {
+      "source": "占夢",
+      "target": "占",
+      "relation": "zhan-divination"
+    },
+    {
+      "source": "占梦",
+      "target": "占",
+      "relation": "zhan-divination"
+    },
+    {
+      "source": "占候",
+      "target": "占",
+      "relation": "zhan-divination"
+    },
+    {
+      "source": "占驗",
+      "target": "占",
+      "relation": "zhan-divination"
+    },
+    {
+      "source": "占验",
+      "target": "占",
+      "relation": "zhan-divination"
+    },
+    {
+      "source": "占斷",
+      "target": "占",
+      "relation": "zhan-divination"
+    },
+    {
+      "source": "占断",
+      "target": "占",
+      "relation": "zhan-divination"
+    },
+    {
+      "source": "占課",
+      "target": "占",
+      "relation": "zhan-divination"
+    },
+    {
+      "source": "占课",
+      "target": "占",
+      "relation": "zhan-divination"
+    },
+    {
+      "source": "占算",
+      "target": "占",
+      "relation": "zhan-divination"
+    },
+    {
+      "source": "占測",
+      "target": "占",
+      "relation": "zhan-divination"
+    },
+    {
+      "source": "占测",
+      "target": "占",
+      "relation": "zhan-divination"
+    },
+    {
+      "source": "占問",
+      "target": "占",
+      "relation": "zhan-divination"
+    },
+    {
+      "source": "占问",
+      "target": "占",
+      "relation": "zhan-divination"
+    },
+    {
+      "source": "占兆",
+      "target": "占",
+      "relation": "zhan-divination"
+    },
+    {
+      "source": "占察",
+      "target": "占",
+      "relation": "zhan-divination"
+    },
+    {
+      "source": "占術",
+      "target": "占",
+      "relation": "zhan-divination"
+    },
+    {
+      "source": "占术",
+      "target": "占",
+      "relation": "zhan-divination"
+    },
+    {
+      "source": "口占",
+      "target": "占",
+      "relation": "zhan-oral"
+    }
+  ],
+  "protectedForms": [
+    "拜占庭",
+    "拜占庭帝國",
+    "拜占庭帝国",
+    "拜占庭文化",
+    "占婆",
+    "于占元",
+    "劉占吉",
+    "刘占吉",
+    "林占梅",
+    "馬占山",
+    "马占山"
+  ],
+  "divinationHeads": [
+    "師",
+    "师",
+    "士",
+    "者",
+    "術",
+    "术",
+    "學",
+    "学",
+    "家",
+    "塔",
+    "高塔",
+    "石",
+    "盤",
+    "盘",
+    "圖",
+    "图",
+    "儀",
+    "仪",
+    "臺",
+    "台"
+  ],
+  "divinationObjects": [
+    "卦",
+    "卦象",
+    "吉凶",
+    "凶吉",
+    "休咎",
+    "禍福",
+    "祸福",
+    "運勢",
+    "运势"
+  ],
+  "divinationTools": [
+    "蓍草",
+    "蓍",
+    "筮草",
+    "龜甲",
+    "龟甲"
+  ],
+  "oralObjects": [
+    "詩",
+    "诗",
+    "詞",
+    "词",
+    "絕句",
+    "绝句",
+    "古風",
+    "古风",
+    "律詩",
+    "律诗"
+  ],
+  "occupationPrefixes": [
+    "窃占罪",
+    "竊占罪",
+    "占強",
+    "占强",
+    "狗占馬坑",
+    "狗占马坑",
+    "鼇头独占",
+    "侵占",
+    "侵占罪",
+    "霸占",
+    "搶占",
+    "抢占",
+    "攻占",
+    "強占",
+    "强占",
+    "獨占",
+    "独占",
+    "圈占",
+    "擠占",
+    "挤占",
+    "進占",
+    "进占",
+    "竊占",
+    "窃占",
+    "影占",
+    "陰占",
+    "阴占",
+    "隱占",
+    "隐占",
+    "包占",
+    "寡占",
+    "占據",
+    "占据",
+    "占有",
+    "占領",
+    "占领",
+    "占用",
+    "占位",
+    "占座",
+    "占先",
+    "占比",
+    "占線",
+    "占线",
+    "占耕",
+    "占道",
+    "占便宜",
+    "占上風",
+    "占上风",
+    "占下風",
+    "占下风",
+    "占優",
+    "占优",
+    "市占",
+    "市占率",
+    "占有率",
+    "占有權",
+    "占有权",
+    "占有欲",
+    "占領軍",
+    "占领军",
+    "占領區",
+    "占领区",
+    "占領地",
+    "占领地",
+    "占領者",
+    "占领者",
+    "鳩占鵲巢",
+    "鸠占鹊巢",
+    "獨占鰲頭",
+    "独占鳌头",
+    "鰲頭獨占",
+    "鳌头独占",
+    "鼇頭獨占",
+    "鹊巢鸠占",
+    "鵲巢鳩占"
+  ],
+  "reasons": {
+    "zhan-default": "使用者默認字形佔；選字先核對有效局部語義詞網，無法裁決則用佔並列風險。",
+    "zhan-unresolved": "已核對局部語義詞網而仍無法裁決時依使用者要求默認佔，必須列爲待核風險；不是已確認義項。",
+    "zhan-occupation": "佔有、佔據或比例的完整詞；按實際詞界用佔。",
+    "zhan-divination": "占卜完整詞、直接卦象／吉凶受事或筮卜工具關係用占；附近共現不足。",
+    "zhan-oral": "口授成詩文義用占；須爲完整口占或直接口授修飾與詩文成果，不跨門口／占詞界。",
+    "zhan-proper": "可核的專名或明確地名構式保留占；不套據有義。",
+    "zhan-proper-pending": "疑似專名另核並暫留來源字形；未改原生標註、未當作人工金標，不能單憑nh/ns套一般義兜底。"
+  },
+  "authorities": [
+    {
+      "title": "教育部異體字字典：占",
+      "url": "https://dict.variants.moe.edu.tw/dictView.jsp?educode=A00446",
+      "scope": "占卜、觀候及口授；非規定本專案佔字偏好"
+    },
+    {
+      "title": "教育部國語辭典簡編本：口占",
+      "url": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=46050&la=0&powerMode=0",
+      "scope": "隨口作成詩文"
+    },
+    {
+      "title": "教育部重編國語辭典：佔",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=7819&la=1&powerMode=0",
+      "scope": "據有義；本專案取佔爲使用者偏好"
+    }
+  ],
+  "controls": [
+    {
+      "text": "他占了一卦。",
+      "expected": "占",
+      "relation": "zhan-divination"
+    },
+    {
+      "text": "他占吉凶。",
+      "expected": "占",
+      "relation": "zhan-divination"
+    },
+    {
+      "text": "他用蓍草占之。",
+      "expected": "占",
+      "relation": "zhan-divination"
+    },
+    {
+      "text": "他看了卦象，却占住座位。",
+      "expected": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "text": "他占了放卦签的桌子。",
+      "expected": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "text": "他口占一首诗。",
+      "expected": "占",
+      "relation": "zhan-oral"
+    },
+    {
+      "text": "他在门口占了一张桌子。",
+      "expected": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "text": "这首诗占了半页。",
+      "expected": "佔",
+      "relation": "zhan-occupation"
+    },
+    {
+      "text": "他抢占了占卜师的座位。",
+      "expected": "佔占",
+      "relation": "zhan-occupation"
+    }
+  ],
+  "limitations": "古語自占（自報數目）、占護等罕義不能只憑同句提示判定；另列風險。專名標註不是金標。"
+}

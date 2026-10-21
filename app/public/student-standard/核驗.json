@@ -1,0 +1,50 @@
+{
+  "status": "passed",
+  "checks": [
+    "比較原項逐組保留",
+    "碼位未正規化或轉換",
+    "原文空項位置保留",
+    "原表疑點未擅改",
+    "麵與褒的多候選衝突檢出",
+    "來源SHA-256一致",
+    "未啟用任何自動替換或接入"
+  ],
+  "stats": {
+    "comparisonRows": 350,
+    "comparisonRowsBySource": {
+      "辭源第三版": 4,
+      "古籍字表": 46,
+      "通用規範漢字表繁體對照": 190,
+      "臺灣常用國字": 110
+    },
+    "uniqueComparisonPairs": 257,
+    "preferredCharacterGroups": 221,
+    "semanticFamilies": 15,
+    "sharedUsageGroups": 8,
+    "explicitCorrections": 4,
+    "pendingIssues": 13,
+    "sourceEmptyTokens": 1,
+    "transcriptionMainRecords": 7494,
+    "transcriptionAppendixRecords": 1025,
+    "transcriptionPlaceholderHeads": 605,
+    "transcriptionBlackSquares": 1781
+  },
+  "fullyHumanReviewed": false,
+  "nativeTextConverted": false,
+  "modelsInvoked": [],
+  "websiteChanged": false,
+  "activeProfilesChanged": false,
+  "scope": "原文錄入及資料結構核驗；重點轉錄對讀，非書影全量校勘。",
+  "files": {
+    "整理.py": "a69489e71276aa9e18afa75465c4449427f36d629b9c74be99320511df1c29db",
+    "學生字典用字標準.md": "38c34c82f28c2da5b99c72eb4d616f9b373dfa60a0c6e3263dca8533b25b35a3",
+    "編訂資料.json": "cbe7b62c0937aa3d49ed64dc21df6ab1cb2998a5f0d4e0b031558a0fc0621e43",
+    "待核清單.json": "ca9b7a534615627a91fb5281e706d9d35b0ed42c65646272145d927e80edd40e",
+    "完整比較.tsv": "ead841a61f97496919dba6e221151da90174b39de3c8142f30e438a0a7af0d1d",
+    "分義與兼用.json": "f075aedebe5e126ef01180a84742526d0ecbb2b094c12e37319843997888852e",
+    "完整比較.json": "6de813e297fd0d3b744e0eec47f8e6b748c461a93a1ea90fa088aff3f46f9dc5",
+    "字形取捨.tsv": "9279a80c6880f47e91bc0c500f158bbae61ddec1eae6602f6844804660f90ddb",
+    "學生字典用字標準.html": "e262b4c47d7ac98cd7dbfdf636df328a260332bf2ee2e377abd1a7e57ac9adf1",
+    "學生字典標準.json": "8cc1628932e92159b259a13d3eb97ec31588cc617f94cfa43cf89c41084d8ebc"
+  }
+}

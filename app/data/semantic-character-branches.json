@@ -1,0 +1,1764 @@
+{
+  "format_version": 1,
+  "name": "詞性詞庫底層字形分化",
+  "retrieved": "2026-10-12",
+  "timezone": "America/Toronto",
+  "reference_url": "https://ytenx.org/byohlyuk/KienxPyan",
+  "reference_group_count": 169,
+  "user_supplement_count": 2,
+  "policy": {
+    "preserve_distinctions": true,
+    "merge_candidates": false,
+    "automatic_conversion_enabled": false,
+    "default_profile": "modern",
+    "normalization": "保留分義分支；只按 lexicon-glyph-standard.json 統一已證實純異體。麯→麴採使用者明示修訂，韻典原字另存。",
+    "direction": "辨義原組保留；實際簡體字頭及候選以 lexicon-direction-policy.json 修訂，不能直接把同組視為互轉。"
+  },
+  "entries": [
+    {
+      "source": "划",
+      "targets": [
+        "劃",
+        "畫",
+        "划"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 5
+    },
+    {
+      "source": "卤",
+      "targets": [
+        "滷",
+        "鹵"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 6
+    },
+    {
+      "source": "历",
+      "targets": [
+        "歷",
+        "曆"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 7
+    },
+    {
+      "source": "发",
+      "targets": [
+        "發",
+        "髮"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 8
+    },
+    {
+      "source": "只",
+      "targets": [
+        "只",
+        "隻"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 9
+    },
+    {
+      "source": "台",
+      "targets": [
+        "臺",
+        "檯",
+        "颱",
+        "台"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 10
+    },
+    {
+      "source": "后",
+      "targets": [
+        "後",
+        "后"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 11
+    },
+    {
+      "source": "坛",
+      "targets": [
+        "壇",
+        "罈"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 12
+    },
+    {
+      "source": "复",
+      "targets": [
+        "復",
+        "複"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 13
+    },
+    {
+      "source": "尽",
+      "targets": [
+        "盡",
+        "儘"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 14
+    },
+    {
+      "source": "干",
+      "targets": [
+        "幹",
+        "乾",
+        "干"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 15
+    },
+    {
+      "source": "并",
+      "targets": [
+        "並",
+        "併",
+        "并"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 16
+    },
+    {
+      "source": "当",
+      "targets": [
+        "當",
+        "噹"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 17
+    },
+    {
+      "source": "志",
+      "targets": [
+        "志",
+        "誌"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 18
+    },
+    {
+      "source": "汇",
+      "targets": [
+        "匯",
+        "彙"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 19
+    },
+    {
+      "source": "系",
+      "targets": [
+        "係",
+        "系",
+        "繫"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 20
+    },
+    {
+      "source": "脏",
+      "targets": [
+        "髒",
+        "臟"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 21
+    },
+    {
+      "source": "荡",
+      "targets": [
+        "蕩",
+        "盪"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 22
+    },
+    {
+      "source": "获",
+      "targets": [
+        "獲",
+        "穫"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 23
+    },
+    {
+      "source": "采",
+      "targets": [
+        "採",
+        "采"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 24
+    },
+    {
+      "source": "里",
+      "targets": [
+        "里",
+        "裏"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 25
+    },
+    {
+      "source": "钟",
+      "targets": [
+        "鍾",
+        "鐘"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 26
+    },
+    {
+      "source": "饥",
+      "targets": [
+        "飢",
+        "饑"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 27
+    },
+    {
+      "source": "丰",
+      "targets": [
+        "豐",
+        "丰"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 28
+    },
+    {
+      "source": "丑",
+      "targets": [
+        "醜",
+        "丑"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 29
+    },
+    {
+      "source": "了",
+      "targets": [
+        "了",
+        "瞭"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 30
+    },
+    {
+      "source": "借",
+      "targets": [
+        "借",
+        "藉"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 31
+    },
+    {
+      "source": "克",
+      "targets": [
+        "克",
+        "剋"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 32
+    },
+    {
+      "source": "准",
+      "targets": [
+        "準",
+        "准"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 33
+    },
+    {
+      "source": "刮",
+      "targets": [
+        "刮",
+        "颳"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 34
+    },
+    {
+      "source": "制",
+      "targets": [
+        "制",
+        "製"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 35
+    },
+    {
+      "source": "吁",
+      "targets": [
+        "籲",
+        "吁"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 36
+    },
+    {
+      "source": "吊",
+      "targets": [
+        "吊",
+        "弔"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 37
+    },
+    {
+      "source": "团",
+      "targets": [
+        "團",
+        "糰"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 38
+    },
+    {
+      "source": "困",
+      "targets": [
+        "困",
+        "睏"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 39
+    },
+    {
+      "source": "布",
+      "targets": [
+        "佈",
+        "布"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 40
+    },
+    {
+      "source": "御",
+      "targets": [
+        "御",
+        "禦"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 41
+    },
+    {
+      "source": "斗",
+      "targets": [
+        "鬥",
+        "斗"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 42,
+      "reference_targets_original": [
+        "鬭",
+        "斗"
+      ],
+      "glyph_standard_override": "user_explicit_籤_鬥"
+    },
+    {
+      "source": "曲",
+      "targets": [
+        "曲",
+        "麴"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 43,
+      "reference_targets_original": [
+        "曲",
+        "麯"
+      ],
+      "glyph_standard_override": {
+        "from": "麯",
+        "to": "麴",
+        "basis": "user_explicit_2026-10-12",
+        "semantic_merge": false
+      }
+    },
+    {
+      "source": "松",
+      "targets": [
+        "鬆",
+        "松"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 44
+    },
+    {
+      "source": "淀",
+      "targets": [
+        "澱",
+        "淀"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 45
+    },
+    {
+      "source": "纤",
+      "targets": [
+        "纖",
+        "縴"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 46
+    },
+    {
+      "source": "致",
+      "targets": [
+        "致",
+        "緻"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 47
+    },
+    {
+      "source": "蔑",
+      "targets": [
+        "蔑",
+        "衊"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 48
+    },
+    {
+      "source": "仇",
+      "targets": [
+        "仇",
+        "讎"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 49
+    },
+    {
+      "source": "冬",
+      "targets": [
+        "冬",
+        "鼕"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 50
+    },
+    {
+      "source": "咸",
+      "targets": [
+        "咸",
+        "鹹"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 51
+    },
+    {
+      "source": "云",
+      "targets": [
+        "雲",
+        "云"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 52
+    },
+    {
+      "source": "仆",
+      "targets": [
+        "僕",
+        "仆"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 53
+    },
+    {
+      "source": "舍",
+      "targets": [
+        "舍",
+        "捨"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 54
+    },
+    {
+      "source": "签",
+      "targets": [
+        "籤",
+        "簽"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 55,
+      "reference_targets_original": [
+        "籖",
+        "簽"
+      ],
+      "glyph_standard_override": "user_explicit_籤_鬥"
+    },
+    {
+      "source": "折",
+      "targets": [
+        "折",
+        "摺"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 56
+    },
+    {
+      "source": "谷",
+      "targets": [
+        "谷",
+        "穀"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 57
+    },
+    {
+      "source": "几",
+      "targets": [
+        "幾",
+        "几"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 58
+    },
+    {
+      "source": "辟",
+      "targets": [
+        "闢",
+        "辟"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 59
+    },
+    {
+      "source": "奸",
+      "targets": [
+        "奸",
+        "姦"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 60
+    },
+    {
+      "source": "游",
+      "targets": [
+        "遊",
+        "游"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 61
+    },
+    {
+      "source": "佣",
+      "targets": [
+        "傭",
+        "佣"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 62
+    },
+    {
+      "source": "苏",
+      "targets": [
+        "蘇",
+        "囌",
+        "甦"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 63
+    },
+    {
+      "source": "回",
+      "targets": [
+        "回",
+        "迴"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 64
+    },
+    {
+      "source": "面",
+      "targets": [
+        "面",
+        "麪"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 65
+    },
+    {
+      "source": "向",
+      "targets": [
+        "向",
+        "嚮",
+        "曏"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 66
+    },
+    {
+      "source": "伙",
+      "targets": [
+        "夥",
+        "伙"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 67
+    },
+    {
+      "source": "郁",
+      "targets": [
+        "鬱",
+        "郁"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 68
+    },
+    {
+      "source": "朴",
+      "targets": [
+        "樸",
+        "朴"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 69
+    },
+    {
+      "source": "才",
+      "targets": [
+        "才",
+        "纔"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 70
+    },
+    {
+      "source": "朱",
+      "targets": [
+        "朱",
+        "硃"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 71
+    },
+    {
+      "source": "别",
+      "targets": [
+        "別",
+        "彆"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 72
+    },
+    {
+      "source": "卷",
+      "targets": [
+        "捲",
+        "卷"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 73
+    },
+    {
+      "source": "蒙",
+      "targets": [
+        "蒙",
+        "矇",
+        "濛",
+        "懞"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 74
+    },
+    {
+      "source": "征",
+      "targets": [
+        "徵",
+        "征"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 75
+    },
+    {
+      "source": "症",
+      "targets": [
+        "症",
+        "癥"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 76
+    },
+    {
+      "source": "恶",
+      "targets": [
+        "惡",
+        "噁"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 77
+    },
+    {
+      "source": "注",
+      "targets": [
+        "注",
+        "註"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 78
+    },
+    {
+      "source": "哄",
+      "targets": [
+        "哄",
+        "鬨"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 79
+    },
+    {
+      "source": "参",
+      "targets": [
+        "參",
+        "蔘"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 80
+    },
+    {
+      "source": "腌",
+      "targets": [
+        "醃",
+        "腌"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 81
+    },
+    {
+      "source": "彩",
+      "targets": [
+        "彩",
+        "綵"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 82
+    },
+    {
+      "source": "占",
+      "targets": [
+        "佔",
+        "占"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 83
+    },
+    {
+      "source": "欲",
+      "targets": [
+        "欲",
+        "慾"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 84
+    },
+    {
+      "source": "扎",
+      "targets": [
+        "扎",
+        "紮"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 85
+    },
+    {
+      "source": "熏",
+      "targets": [
+        "熏",
+        "燻"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 86
+    },
+    {
+      "source": "赞",
+      "targets": [
+        "贊",
+        "讚"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 87
+    },
+    {
+      "source": "尝",
+      "targets": [
+        "嘗",
+        "嚐"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 88
+    },
+    {
+      "source": "烟",
+      "targets": [
+        "煙",
+        "菸"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 89
+    },
+    {
+      "source": "周",
+      "targets": [
+        "周",
+        "週",
+        "賙"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 90
+    },
+    {
+      "source": "柜",
+      "targets": [
+        "櫃",
+        "柜"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 91
+    },
+    {
+      "source": "喂",
+      "targets": [
+        "餵",
+        "喂"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 92
+    },
+    {
+      "source": "幸",
+      "targets": [
+        "幸",
+        "倖"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 93
+    },
+    {
+      "source": "凶",
+      "targets": [
+        "兇",
+        "凶"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 94
+    },
+    {
+      "source": "杰",
+      "targets": [
+        "傑",
+        "杰"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 95
+    },
+    {
+      "source": "针",
+      "targets": [
+        "針",
+        "鍼"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 96
+    },
+    {
+      "source": "戚",
+      "targets": [
+        "戚",
+        "慼",
+        "鏚"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 97
+    },
+    {
+      "source": "托",
+      "targets": [
+        "托",
+        "託"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 98
+    },
+    {
+      "source": "挨",
+      "targets": [
+        "挨",
+        "捱"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 99
+    },
+    {
+      "source": "挽",
+      "targets": [
+        "挽",
+        "輓"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 100
+    },
+    {
+      "source": "栗",
+      "targets": [
+        "慄",
+        "栗"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 101
+    },
+    {
+      "source": "炼",
+      "targets": [
+        "煉",
+        "鍊"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 102
+    },
+    {
+      "source": "链",
+      "targets": [
+        "鏈",
+        "鍊"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 103
+    },
+    {
+      "source": "穗",
+      "targets": [
+        "穗",
+        "繐"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 104
+    },
+    {
+      "source": "雕",
+      "targets": [
+        "雕",
+        "鵰"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 105
+    },
+    {
+      "source": "梁",
+      "targets": [
+        "樑",
+        "梁"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 106
+    },
+    {
+      "source": "升",
+      "targets": [
+        "升",
+        "昇"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 107
+    },
+    {
+      "source": "摆",
+      "targets": [
+        "擺",
+        "襬"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 108
+    },
+    {
+      "source": "岩",
+      "targets": [
+        "巖",
+        "岩"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 109
+    },
+    {
+      "source": "娘",
+      "targets": [
+        "娘",
+        "孃"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 110
+    },
+    {
+      "source": "僵",
+      "targets": [
+        "僵",
+        "殭"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 111
+    },
+    {
+      "source": "药",
+      "targets": [
+        "藥",
+        "葯"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 112
+    },
+    {
+      "source": "余",
+      "targets": [
+        "餘",
+        "余"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 113
+    },
+    {
+      "source": "蜡",
+      "targets": [
+        "蠟",
+        "蜡"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 114
+    },
+    {
+      "source": "出",
+      "targets": [
+        "出",
+        "齣"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 115
+    },
+    {
+      "source": "卜",
+      "targets": [
+        "卜",
+        "蔔"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 116
+    },
+    {
+      "source": "同",
+      "targets": [
+        "同",
+        "衕"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 117
+    },
+    {
+      "source": "板",
+      "targets": [
+        "板",
+        "闆"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 118
+    },
+    {
+      "source": "漓",
+      "targets": [
+        "漓",
+        "灕"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 119
+    },
+    {
+      "source": "术",
+      "targets": [
+        "術",
+        "朮"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 120
+    },
+    {
+      "source": "仑",
+      "targets": [
+        "侖",
+        "崙"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 121
+    },
+    {
+      "source": "秋",
+      "targets": [
+        "秋",
+        "鞦"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 122
+    },
+    {
+      "source": "千",
+      "targets": [
+        "千",
+        "韆"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 123
+    },
+    {
+      "source": "帘",
+      "targets": [
+        "簾",
+        "帘"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 124
+    },
+    {
+      "source": "庵",
+      "targets": [
+        "庵",
+        "菴"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 125
+    },
+    {
+      "source": "尸",
+      "targets": [
+        "屍",
+        "尸"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 126
+    },
+    {
+      "source": "胡",
+      "targets": [
+        "胡",
+        "衚",
+        "鬍"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 127
+    },
+    {
+      "source": "须",
+      "targets": [
+        "須",
+        "鬚"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 128
+    },
+    {
+      "source": "据",
+      "targets": [
+        "據",
+        "据"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 129
+    },
+    {
+      "source": "筑",
+      "targets": [
+        "築",
+        "筑"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 130
+    },
+    {
+      "source": "夸",
+      "targets": [
+        "誇",
+        "夸"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 131
+    },
+    {
+      "source": "苹",
+      "targets": [
+        "蘋",
+        "苹"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 132
+    },
+    {
+      "source": "袅",
+      "targets": [
+        "裊",
+        "嫋"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 133
+    },
+    {
+      "source": "暗",
+      "targets": [
+        "暗",
+        "闇"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 134
+    },
+    {
+      "source": "冲",
+      "targets": [
+        "衝",
+        "沖",
+        "冲"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 135
+    },
+    {
+      "source": "表",
+      "targets": [
+        "表",
+        "錶"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 136
+    },
+    {
+      "source": "杆",
+      "targets": [
+        "杆",
+        "桿"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 137
+    },
+    {
+      "source": "鉴",
+      "targets": [
+        "鑒",
+        "鑑"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 138
+    },
+    {
+      "source": "搜",
+      "targets": [
+        "搜",
+        "蒐"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 139
+    },
+    {
+      "source": "杯",
+      "targets": [
+        "杯",
+        "盃"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 140
+    },
+    {
+      "source": "铲",
+      "targets": [
+        "剷",
+        "鏟"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 141
+    },
+    {
+      "source": "扣",
+      "targets": [
+        "扣",
+        "釦"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 142
+    },
+    {
+      "source": "念",
+      "targets": [
+        "念",
+        "唸"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 143
+    },
+    {
+      "source": "杠",
+      "targets": [
+        "杠",
+        "槓"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 144
+    },
+    {
+      "source": "泛",
+      "targets": [
+        "泛",
+        "氾"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 145
+    },
+    {
+      "source": "核",
+      "targets": [
+        "核",
+        "覈"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 146
+    },
+    {
+      "source": "巨",
+      "targets": [
+        "巨",
+        "鉅"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 147
+    },
+    {
+      "source": "叹",
+      "targets": [
+        "嘆",
+        "歎"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 148
+    },
+    {
+      "source": "价",
+      "targets": [
+        "價",
+        "价"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 149
+    },
+    {
+      "source": "私",
+      "targets": [
+        "私",
+        "俬"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 150
+    },
+    {
+      "source": "局",
+      "targets": [
+        "局",
+        "侷"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 151
+    },
+    {
+      "source": "拐",
+      "targets": [
+        "拐",
+        "柺"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 152
+    },
+    {
+      "source": "弦",
+      "targets": [
+        "弦",
+        "絃"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 153
+    },
+    {
+      "source": "哗",
+      "targets": [
+        "譁",
+        "嘩"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 154
+    },
+    {
+      "source": "凄",
+      "targets": [
+        "悽",
+        "淒"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 155
+    },
+    {
+      "source": "家",
+      "targets": [
+        "家",
+        "傢"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 156
+    },
+    {
+      "source": "席",
+      "targets": [
+        "席",
+        "蓆"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 157
+    },
+    {
+      "source": "酸",
+      "targets": [
+        "酸",
+        "痠"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 158
+    },
+    {
+      "source": "噪",
+      "targets": [
+        "噪",
+        "譟"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 159
+    },
+    {
+      "source": "咽",
+      "targets": [
+        "咽",
+        "嚥"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 160
+    },
+    {
+      "source": "愈",
+      "targets": [
+        "愈",
+        "癒"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 161
+    },
+    {
+      "source": "凌",
+      "targets": [
+        "凌",
+        "淩"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 162
+    },
+    {
+      "source": "毁",
+      "targets": [
+        "毀",
+        "譭",
+        "燬"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 163
+    },
+    {
+      "source": "苔",
+      "targets": [
+        "苔",
+        "薹"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 164
+    },
+    {
+      "source": "糊",
+      "targets": [
+        "糊",
+        "餬"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 165
+    },
+    {
+      "source": "抵",
+      "targets": [
+        "抵",
+        "牴"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 166
+    },
+    {
+      "source": "恤",
+      "targets": [
+        "恤",
+        "卹"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 167
+    },
+    {
+      "source": "荫",
+      "targets": [
+        "蔭",
+        "廕"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 168
+    },
+    {
+      "source": "皂",
+      "targets": [
+        "皁",
+        "皂"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 169
+    },
+    {
+      "source": "芸",
+      "targets": [
+        "芸",
+        "蕓"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 170
+    },
+    {
+      "source": "背",
+      "targets": [
+        "背",
+        "揹"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 171
+    },
+    {
+      "source": "夫",
+      "targets": [
+        "夫",
+        "伕"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 172
+    },
+    {
+      "source": "迹",
+      "targets": [
+        "蹟",
+        "跡"
+      ],
+      "origin": "ytenx",
+      "source_url": "https://ytenx.org/byohlyuk/KienxPyan",
+      "source_line": 173
+    },
+    {
+      "source": "着",
+      "targets": [
+        "着",
+        "著"
+      ],
+      "origin": "user_instruction",
+      "source_url": null,
+      "note": "使用者明確要求恢復此組區分；保持原字及讀音／義項證據，不按首選候選替換。"
+    },
+    {
+      "source": "考",
+      "targets": [
+        "考",
+        "攷"
+      ],
+      "origin": "user_instruction",
+      "source_url": null,
+      "note": "使用者明確要求恢復此組區分；考試／先考與攷究／參攷須分義，不能將所有動詞考替換。"
+    }
+  ]
+}

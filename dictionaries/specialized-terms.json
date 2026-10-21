@@ -1,0 +1,45 @@
+{
+  "version": "2026-10-14-r16",
+  "enabled_by_default": true,
+  "scope": "默認方案簡轉繁的已確認典故、古詩文固定語；不以本表偽造原詞性。",
+  "entries": [
+    {
+      "source": "击筑",
+      "target": "擊筑",
+      "category": "典故／器樂",
+      "word_boundaries": true,
+      "note": "使用者指定擊筑保留樂器筑；本書原標击/v、筑/v，專門語覆寫錯誤詞性選字，不改原標註。"
+    },
+    {
+      "source": "大盈若冲",
+      "target": "大盈若沖",
+      "category": "古文固定語",
+      "note": "使用者指定大盈若沖；不推廣成所有冲/v一律沖。"
+    },
+    {
+      "source": "大成若缺",
+      "target": "大成若缺",
+      "category": "古文固定語",
+      "note": "與大盈若沖並列的已給定引文。"
+    },
+    {
+      "source": "飘风不终朝",
+      "target": "飄風不終朝",
+      "category": "古文固定語",
+      "note": "沿用原書給定引文的固定語用字。"
+    },
+    {
+      "source": "骤雨不终日",
+      "target": "驟雨不終日",
+      "category": "古文固定語",
+      "note": "沿用原書給定引文的固定語用字。"
+    },
+    {
+      "source": "算只长江",
+      "target": "算只長江",
+      "category": "古詩文固定語",
+      "word_boundaries": true,
+      "note": "使用者指定固定引文算只長江；只表示只有，覆寫模型只/q→隻，保留實際q記錄。"
+    }
+  ]
+}

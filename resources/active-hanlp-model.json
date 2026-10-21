@@ -1,0 +1,5 @@
+{
+  "model": "HanLP multitask ELECTRA-small",
+  "pos_task": "pos/863",
+  "path": ".cache/hanlp/mtl/close_tok_pos_ner_srl_dep_sdp_con_electra_small_20210111_124159"
+}

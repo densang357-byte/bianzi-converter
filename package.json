@@ -1,0 +1,45 @@
+{
+  "name": "bianzi-converter",
+  "title": "辨字",
+  "version": "1.0.0",
+  "description": "結合詞界、詞性、句法與局部語義的一簡多繁轉換工具",
+  "keywords": [
+    "chinese-converter",
+    "chinese-simplified",
+    "chinese-traditional",
+    "simplified-chinese",
+    "traditional-chinese",
+    "traditional-chinese-conversion"
+  ],
+  "author": "Bianzi Contributors",
+  "contributors": [
+    "kanasimi / vimunci (upstream CeCC)"
+  ],
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/densang357-byte/bianzi-converter/issues"
+  },
+  "homepage": "https://github.com/densang357-byte/bianzi-converter",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/densang357-byte/bianzi-converter.git"
+  },
+  "type": "commonjs",
+  "main": "Chinese_converter.js",
+  "scripts": {
+    "start": "node app/server.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "engines": {
+    "node": ">=20.17"
+  },
+  "dependencies": {
+    "cejs": "latest",
+    "diff": "9.0.0",
+    "fflate": "0.8.3",
+    "opencc": "1.4.2"
+  },
+  "devDependencies": {
+    "@xmldom/xmldom": "0.9.12"
+  }
+}
