@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "openccVersion": "1.4.2",
+  "runtimeRules": {
+    "app/converter.js": "6575637700ecc52f56d558dbe520ebb218500be61b709eaf1025771ac2f16bfa",
+    "app/profiles.js": "7829cf9e6a7a26377f34a71954259e7795bd9bc4df239bea63f330a36bc9d274",
+    "app/standard.js": "b3c5757bd4436151d81de4dd665c5095fd73d4868d548c08c03208c6852c7b6b",
+    "app/profile-rules.js": "d61bbf09796a4f4b285b7a68b88241526958f93d9315362b1d74c98e3570400b",
+    "app/source-letter-policy.js": "2d9cc978a092c3e5d9a1b498b6ebb1a50ce120acd4853b46236a583e5ef62d8a",
+    "app/lexicon-resolution.js": "ea6829053cb06ab5b724cb4b5f97b2efbcc82450114a12fd99fc578992c2d724",
+    "app/student-standard.js": "b3d450d81c27987a4877e9a9ec5eeeb56b291a785b5b00665b0b1f375720290b",
+    "app/data/historical-profiles.json": "7c22e8e8a163d507c7cf86688ca31476e503e04102de7c4a70aece0f6d1f320d",
+    "app/data/excluded-conversion-characters.json": "639d15ed8d41e2398ac0e028596ae16d2e409cc1784c9256631432ccee228a86",
+    "app/data/lexicon-direction-policy.json": "0fe6becc25334a4725e5e7bf7aa6013e16b0d5ca31d16fba124f4e5a10fb6c13",
+    "dictionaries/pos-lexicon/resolution_policy.json": "be3f441f313a25542c14078cf4435e68970a07b7e09b61fce16bc1b5168a54fc",
+    "dictionaries/student-standard/policy.json": "ffc5339dcb7037553f5fa0aaa273572385c7b1dd3930f6e2509c3dd5bf53d060"
+  },
+  "profiles": [
+    "modern",
+    "opencc",
+    "taiwan",
+    "hongkong",
+    "hongkong-old",
+    "taiwan-old",
+    "guji",
+    "harmonized",
+    "student"
+  ],
+  "inputCharacters": 4140,
+  "differingIsolatedOutputs": 292,
+  "settings": {
+    "direction": "s2t",
+    "mode": "dictionary",
+    "variants": [],
+    "preserveZhe": true
+  },
+  "files": {
+    "README.md": "673776620010e2ec45b73ca3952530348a931df6b0c3d5cfc627e7a5a2ff1231",
+    "comparison.md": "992c0aad3d27964684c3d30fc3cce572f03c9f03c3f12637f1a6b6e4134b60cf",
+    "differences.tsv": "61b292913474e3ecf4070108d2e8e82a0be101e66652198ddf20253ed8cea420",
+    "guji.json": "43a152014e0b542f0d2eb2407884d73381fa1a826dc665aaeb19fc9aa1f17e3a",
+    "guji.tsv": "401402d7a87706a1bfb9a442568dc4ec7099c56969c17e254234f990c2c37992",
+    "harmonized.json": "725fbd8329267c1c37bae5ededfc011e8b005af3c2c198f83f764fbce85dc4d3",
+    "harmonized.tsv": "4c939c558f423aff3ab440275731e60fe9adec1f1451651ecf9e4d279ba62937",
+    "hongkong-old.json": "78b97eae537765712bb1e31820b21cf77cb2bbeb3ea8010336fd25a21e2fbaac",
+    "hongkong-old.tsv": "b2867b63639f26a168d3086b2b66022076c0ad24e489a7a12171e12f445a942c",
+    "hongkong.json": "52e4719ba5f0c763e98b8e721522af99e7b47a0245e0eaede4da1c6fa4105aa9",
+    "hongkong.tsv": "71cf0e2ccafea5978123d71bc796ebad934c5df718905971c92da05e6f4559bc",
+    "modern.json": "4d93d032bc30ac613f5601a59991b3220c4c4202c27ac814e66db65203938feb",
+    "modern.tsv": "da9c096d8382d299f2e70ed91998e7594c5a48071672525b796951805024c74b",
+    "opencc.json": "98d9da5184ebe60859efde064656b7137baaae2408749572c2f18a33e0ac673c",
+    "opencc.tsv": "a59824162c178dd75bbc938cc7b14ccc965f8e317c91752c65805d4d11baea3e",
+    "student.json": "d4d567f218498aacc96e98083142b22c8dac393b84cfd4684da2687b3faf88d4",
+    "student.tsv": "013b22425a42a2c71f51d7ba65c5e1b790ac5990b634a7b2afe4051f62898172",
+    "taiwan-old.json": "45d9aa58f03d3ed97d36e4a5d8454a1fb16e7fa7315634676e3ba86b17ec611c",
+    "taiwan-old.tsv": "cfb56bac82e9c99218ae42aba4b99902e48d6bbee5af5b49636e4ce6ba045949",
+    "taiwan.json": "de067b791e30e71b03f4e6f460f7078179e0c162c2ace5c8895105c8207fabde",
+    "taiwan.tsv": "2b86b122688fad1cc269edd32a364da3816202262032ddca7c50cd91131c39c9"
+  }
+}

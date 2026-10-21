@@ -2,9 +2,9 @@
   "schema": "epub-vertical-template/v1",
   "id": "zh-hant-vertical-default",
   "name": "中文 EPUB 默認豎排模版",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "stylesheet": "default.css",
-  "stylesheetSHA256": "fc5c80bd710ea8c53fd63dd4dece1ee6cdb8345435547f8ac2171477e0b64103",
+  "stylesheetSHA256": "03dbad15ef512c8c81a1631f45dc10b42d75836ab0650241ff901a73cdf396b3",
   "approvedDate": "2026-10-18",
   "layout": {
     "epubVersion": "3.0",

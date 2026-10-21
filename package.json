@@ -28,7 +28,8 @@
   "main": "Chinese_converter.js",
   "scripts": {
     "start": "node app/server.js",
-    "test": "node --test tests/*.test.js"
+    "test": "node --test tests/*.test.js",
+    "export:standards": "node resources/export_standard_glyphs.js"
   },
   "engines": {
     "node": ">=20.17"

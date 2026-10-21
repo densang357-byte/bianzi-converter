@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* Proportions adapted from the user's 中國民間故事全集 EPUB. */
+/* Default proportions for Chinese vertical EPUB layout. */
 html,body{writing-mode:vertical-rl;-webkit-writing-mode:vertical-rl;-epub-writing-mode:vertical-rl;}
 html{line-break:strict;-epub-line-break:strict;}
 /* Let writing-mode choose vertical alternates; do not force them on rotated Latin. */
